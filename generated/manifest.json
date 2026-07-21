@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-21T13:57:13.874Z",
+  "generatedAt": "2026-07-21T17:00:17.427Z",
   "sourceRevision": 531,
   "sourceDigest": "65a5e1cc7077ff4d1ee3fc508b6db364fa629dd38261558468329815080e184f",
   "noteCounts": {
@@ -8,25 +8,25 @@
     "memory": 9
   },
   "groupCounts": {
-    "mistakes": 8,
-    "memory": 4
+    "mistakes": 7,
+    "memory": 5
   },
   "ai": {
     "used": false,
     "providerId": null,
     "modelId": null,
-    "fallbackReason": "AI 密钥、地址或模型未完整配置；AI 密钥、地址或模型未完整配置"
+    "fallbackReason": "由 ChatGPT 自动化整理，仓库内 AI 已关闭；由 ChatGPT 自动化整理，仓库内 AI 已关闭"
   },
   "files": {
     "mistakes": {
       "path": "generated/错题综合整理.pdf",
-      "bytes": 5196149,
-      "sha256": "0807e558c0e924632ee80453ae09939125182cd5dcde190121f164411684ee34"
+      "bytes": 5019827,
+      "sha256": "e6e42c94c25ccd70b8d7af39cfff6351fce058623ecc846e29c2681245a547ea"
     },
     "memory": {
       "path": "generated/背诵综合整理.pdf",
-      "bytes": 2885414,
-      "sha256": "7678358891be5db7eb71f1dd301288fe4d8a7bc6fa7decdeef465e778f153d9b"
+      "bytes": 2835457,
+      "sha256": "a4b410929fcffd46e4fedaf331e41b36b51932053efc49a2f091dbf759c8f3d2"
     }
   }
 }
