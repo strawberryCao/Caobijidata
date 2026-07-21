@@ -1,0 +1,113 @@
+name: Generate review PDFs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/index.json'
+      - 'data/assets/**'
+      - 'scripts/generate_review_pdfs.py'
+      - '.github/workflows/generate-review-pdfs.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: review-pdf-generation
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install deterministic dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install 'Pillow==10.4.0' 'reportlab==4.2.2' 'pypdf==4.3.1'
+
+      - name: Pass 1 - validate source integrity
+        run: |
+          python - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          root = Path('.')
+          data = json.loads((root/'data/index.json').read_text(encoding='utf-8'))
+          errors=[]
+          selected=[]
+          for n in data.get('notes',[]):
+              if n.get('organizationStatus')!='confirmed' or n.get('kind') not in {'mistake','memory'}:
+                  continue
+              selected.append(n)
+              rel=n.get('imagePath')
+              if not rel:
+                  errors.append(f"{n.get('id')}: missing imagePath")
+                  continue
+              p=root/rel
+              if not p.exists():
+                  errors.append(f"{n.get('id')}: missing image {rel}")
+                  continue
+              expected=(n.get('imageSha256') or '').lower()
+              actual=hashlib.sha256(p.read_bytes()).hexdigest()
+              if expected and expected!=actual:
+                  errors.append(f"{n.get('id')}: sha mismatch {rel}")
+          if not selected:
+              errors.append('no confirmed mistake or memory records')
+          kinds={n.get('kind') for n in selected}
+          if not {'mistake','memory'} <= kinds:
+              errors.append('both confirmed mistake and memory records are required')
+          if errors:
+              raise SystemExit('\n'.join(errors))
+          print(f'validated {len(selected)} confirmed records')
+          PY
+
+      - name: Pass 2 - generate conservative PDFs
+        run: python scripts/generate_review_pdfs.py
+
+      - name: Pass 3 - independent PDF and manifest audit
+        run: |
+          python - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          from pypdf import PdfReader
+          root=Path('.')
+          manifest=json.loads((root/'generated/manifest.json').read_text(encoding='utf-8'))
+          assert manifest.get('generationPolicy')=='confirmed-original-images-only-no-invented-content'
+          expected={x['path']:x['sha256'] for x in manifest['files']}
+          required=['generated/错题综合整理.pdf','generated/背诵综合整理.pdf']
+          for rel in required:
+              p=root/rel
+              assert p.exists() and p.stat().st_size>10_000, f'invalid or too small: {rel}'
+              actual=hashlib.sha256(p.read_bytes()).hexdigest()
+              assert expected.get(rel)==actual, f'manifest hash mismatch: {rel}'
+              reader=PdfReader(str(p))
+              assert len(reader.pages)>0, f'empty PDF: {rel}'
+              for i,page in enumerate(reader.pages):
+                  box=page.mediabox
+                  assert float(box.width)>0 and float(box.height)>0, f'invalid page {i+1}: {rel}'
+          print('independent audit passed')
+          PY
+
+      - name: Commit generated PDFs only after all audits pass
+        run: |
+          if git diff --quiet -- generated; then
+            echo 'No generated changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add generated/错题综合整理.pdf generated/背诵综合整理.pdf generated/manifest.json
+          git commit -m 'chore: update validated review PDFs'
+          git push
