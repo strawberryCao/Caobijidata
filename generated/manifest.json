@@ -1,32 +1,32 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-21T12:58:29.685Z",
-  "sourceRevision": 0,
-  "sourceDigest": "1f9ec0377f97860072aa7801cc80e7aa0a4de994be4c316286c43ac8bb1bd845",
+  "generatedAt": "2026-07-21T13:33:39.854Z",
+  "sourceRevision": 525,
+  "sourceDigest": "aa4f38e3062e47d75b81cb9dfeaf79a3a961e9acd62a55ba991f8f69522a6de9",
   "noteCounts": {
-    "mistakes": 0,
-    "memory": 0
+    "mistakes": 13,
+    "memory": 9
   },
   "groupCounts": {
-    "mistakes": 0,
-    "memory": 0
+    "mistakes": 8,
+    "memory": 4
   },
   "ai": {
     "used": false,
     "providerId": null,
     "modelId": null,
-    "fallbackReason": "没有可整理内容；没有可整理内容"
+    "fallbackReason": "AI 密钥、地址或模型未完整配置；AI 密钥、地址或模型未完整配置"
   },
   "files": {
     "mistakes": {
       "path": "generated/错题综合整理.pdf",
-      "bytes": 210265,
-      "sha256": "cf5d9b65ffafd797692d359e293cb56d61e5c7b63a64811a826bfee85d762fa1"
+      "bytes": 5161638,
+      "sha256": "a35fb9610a2fe4442a3848791043d334f762f7c42d112c4d421ece588d0fbdff"
     },
     "memory": {
       "path": "generated/背诵综合整理.pdf",
-      "bytes": 208622,
-      "sha256": "321e79401a12b08ab69dde8231dffe2fcdaf522baf9de246376ac71a6b06bf38"
+      "bytes": 3090460,
+      "sha256": "d4b36e6cb0c43efdd30a25ec2a3d73ff36cd89fb771e7509f601264872b5a365"
     }
   }
 }
