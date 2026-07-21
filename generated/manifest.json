@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "generatedAt": null,
+  "sourceRevision": 0,
+  "sourceDigest": null,
+  "ai": {
+    "used": false,
+    "providerId": null,
+    "modelId": null,
+    "fallbackReason": "尚未生成"
+  },
+  "files": {}
+}
