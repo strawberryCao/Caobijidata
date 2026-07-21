@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "schedule": {
+    "timeZone": "Asia/Shanghai",
+    "dayOfWeek": 0,
+    "hour": 21
+  },
+  "ai": {
+    "enabled": true,
+    "providerId": "",
+    "modelId": "",
+    "baseUrl": "",
+    "temperature": 0.1,
+    "maxTokens": 2600,
+    "timeoutMs": 90000,
+    "includeImages": true,
+    "maxImageBytesPerNote": 1572864,
+    "maxNotesPerBatch": 24
+  },
+  "rules": {
+    "strictNoExpansion": true,
+    "mergeSameQuestion": true,
+    "groupSimilarTopics": true,
+    "maxGroupSize": 8,
+    "maxGroupTitleChars": 24,
+    "includeOriginalImages": true,
+    "includeRemarks": true,
+    "includeWrongReasons": true
+  },
+  "output": {
+    "mistakesFile": "错题综合整理.pdf",
+    "memoryFile": "背诵综合整理.pdf"
+  }
+}
