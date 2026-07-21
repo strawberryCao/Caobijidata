@@ -62,12 +62,12 @@ jobs:
         if: github.event_name == 'schedule'
         run: npm run generate:scheduled
 
-      - name: Generate PDFs now
-        if: github.event_name == 'workflow_dispatch'
+      - name: Generate PDFs after data changes or manual request
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
         run: npm run generate
 
       - name: Commit latest PDFs
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        if: github.event_name == 'push' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           if git diff --quiet -- generated; then
             echo "No generated PDF changes to commit."
