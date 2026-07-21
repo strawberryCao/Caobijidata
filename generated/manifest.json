@@ -1,13 +1,32 @@
 {
   "version": 1,
-  "generatedAt": null,
+  "generatedAt": "2026-07-21T12:58:29.685Z",
   "sourceRevision": 0,
-  "sourceDigest": null,
+  "sourceDigest": "1f9ec0377f97860072aa7801cc80e7aa0a4de994be4c316286c43ac8bb1bd845",
+  "noteCounts": {
+    "mistakes": 0,
+    "memory": 0
+  },
+  "groupCounts": {
+    "mistakes": 0,
+    "memory": 0
+  },
   "ai": {
     "used": false,
     "providerId": null,
     "modelId": null,
-    "fallbackReason": "尚未生成"
+    "fallbackReason": "没有可整理内容；没有可整理内容"
   },
-  "files": {}
+  "files": {
+    "mistakes": {
+      "path": "generated/错题综合整理.pdf",
+      "bytes": 210265,
+      "sha256": "cf5d9b65ffafd797692d359e293cb56d61e5c7b63a64811a826bfee85d762fa1"
+    },
+    "memory": {
+      "path": "generated/背诵综合整理.pdf",
+      "bytes": 208622,
+      "sha256": "321e79401a12b08ab69dde8231dffe2fcdaf522baf9de246376ac71a6b06bf38"
+    }
+  }
 }
