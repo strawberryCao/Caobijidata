@@ -1,0 +1,81 @@
+name: Weekly review PDFs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "config/**"
+      - "data/**"
+      - "package.json"
+      - ".github/workflows/weekly-review.yml"
+  pull_request:
+    paths:
+      - "scripts/**"
+      - "config/**"
+      - "data/**"
+      - "package.json"
+      - ".github/workflows/weekly-review.yml"
+  schedule:
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-review-pdf-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate-and-generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      REVIEW_AI_API_KEY: ${{ secrets.REVIEW_AI_API_KEY }}
+      REVIEW_AI_BASE_URL: ${{ vars.REVIEW_AI_BASE_URL }}
+      REVIEW_AI_MODEL: ${{ vars.REVIEW_AI_MODEL }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Install Chromium and Chinese fonts
+        run: |
+          npx playwright install --with-deps chromium
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk
+
+      - name: Validate exported data
+        run: npm run validate
+
+      - name: Generate scheduled PDFs
+        if: github.event_name == 'schedule'
+        run: npm run generate:scheduled
+
+      - name: Generate PDFs now
+        if: github.event_name == 'workflow_dispatch'
+        run: npm run generate
+
+      - name: Commit latest PDFs
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          if git diff --quiet -- generated; then
+            echo "No generated PDF changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add generated
+          git commit -m "docs: refresh consolidated review PDFs"
+          git push
