@@ -1,8 +1,31 @@
 {
   "version": 1,
-  "exportedAt": "2026-07-21T13:35:25.191Z",
-  "sourceRevision": 525,
+  "exportedAt": "2026-07-21T13:52:13.343Z",
+  "sourceRevision": 531,
   "notes": [
+    {
+      "id": "01bf5c17-55ab-4072-bd2c-c3f92ce71625",
+      "kind": "mistake",
+      "title": "数列n^(1/n)最大项求解",
+      "subject": "高等数学",
+      "knowledgePath": [
+        "高等数学"
+      ],
+      "tags": [
+        "错题"
+      ],
+      "remark": "错题 5.10",
+      "wrongReason": "",
+      "questionType": "",
+      "capturedDate": "2026-07-21",
+      "createdAt": "2026-07-21T13:49:55.709Z",
+      "updatedAt": "2026-07-21T13:50:27.866Z",
+      "organizationStatus": "confirmed",
+      "imagePath": "data/assets/01bf5c17-55ab-4072-bd2c-c3f92ce71625.png",
+      "imageSha256": "de66316c1f8678e3737876f44df64cffe629a5360b37371e231182ac2a6bff18",
+      "sourceFileName": "高等数学_数列{√n}最大项求解_20260721_214955.png",
+      "items": []
+    },
     {
       "id": "09e738f4-d40a-4114-90b5-fc1f28156824",
       "kind": "mistake",

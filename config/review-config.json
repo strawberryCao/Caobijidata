@@ -2,7 +2,7 @@
   "version": 1,
   "schedule": {
     "timeZone": "Asia/Shanghai",
-    "dayOfWeek": 0,
+    "dayOfWeek": 6,
     "hour": 21
   },
   "ai": {
