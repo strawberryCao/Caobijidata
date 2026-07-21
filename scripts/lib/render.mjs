@@ -8,7 +8,7 @@ function escapeHtml(value) {
     .replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 }
 function rich(value) { return escapeHtml(cleanText(value, 12000)).replace(/\n/g, '<br>'); }
-function dateOf(note) { return note.capturedDate || note.updatedAt.slice(0, 10) || note.createdAt.slice(0, 10) || '日期未记录'; }
+function dateOf(note) { return note.capturedDate || note.updatedAt.slice(0, 10) || note.createdAt.slice(0, 10) || ''; }
 function imageData(root, note) {
   if (!note.imagePath) return '';
   const full = resolveRepoPath(root, note.imagePath);
@@ -18,59 +18,38 @@ function imageData(root, note) {
 
 export function buildHtml(root, kind, notes, groups, config, generatedAt) {
   const title = kind === 'mistake' ? '错题综合整理' : '背诵综合整理';
-  const accent = kind === 'mistake' ? '#a34b3f' : '#315f72';
-  const soft = kind === 'mistake' ? '#f7ece8' : '#eaf2f4';
+  const accent = kind === 'mistake' ? '#8f4b43' : '#315f72';
+  const soft = kind === 'mistake' ? '#f7efec' : '#edf4f6';
   const map = new Map(notes.map((note) => [note.id, note]));
-  const outline = new Map();
-  for (const group of groups) {
-    const first = map.get(group.sourceIds[0]);
-    const subject = first?.subject || '未分类';
-    const knowledge = primaryKnowledge(first);
-    const section = outline.get(subject) || new Map();
-    section.set(knowledge, [...(section.get(knowledge) || []), group]);
-    outline.set(subject, section);
-  }
-  const showToc = groups.length >= 5;
-  const toc = [...outline.entries()].map(([subject, section]) => `
-    <div class="toc-row"><strong>${escapeHtml(subject)}</strong><span>${[...section.values()].reduce((n, x) => n + x.length, 0)} 组</span></div>
-    <div class="toc-tags">${[...section.keys()].map((x) => `<i>${escapeHtml(x)}</i>`).join('')}</div>`).join('');
+  const showToc = groups.length >= 6;
+  const toc = groups.map((group, i) => `<div class="toc-row"><b>${String(i + 1).padStart(2, '0')}</b><span>${escapeHtml(group.title)}</span><em>${group.sourceIds.length} 项</em></div>`).join('');
   let index = 0;
-  const content = [...outline.entries()].map(([subject, section]) => `
-    <section class="subject">
-      <header class="subject-head"><h1>${escapeHtml(subject)}</h1></header>
-      ${[...section.entries()].map(([knowledge, entries]) => `
-        <section class="knowledge"><h2>${escapeHtml(knowledge)}</h2>
-          ${entries.map((group) => {
-            index += 1;
-            const sourceNotes = group.sourceIds.map((id) => map.get(id)).filter(Boolean);
-            const label = group.groupType === 'same_question' ? '同题合并' : group.groupType === 'same_topic' ? '同类专题' : '独立条目';
-            return `<article class="group">
-              <header class="group-head"><b>${String(index).padStart(2, '0')}</b><div><h3>${escapeHtml(group.title)}</h3><span class="group-kind">${label} · ${sourceNotes.length} 条</span></div></header>
-              ${sourceNotes.map((note) => {
-                const image = config.rules.includeOriginalImages ? imageData(root, note) : '';
-                const tags = note.tags.slice(0, 8).map((tag) => `<i>${escapeHtml(tag)}</i>`).join('');
-                const wrong = kind === 'mistake' && config.rules.includeWrongReasons && note.wrongReason
-                  ? `<div class="block important"><h5>已记录错因</h5><p>${rich(note.wrongReason)}</p></div>` : '';
-                const remark = config.rules.includeRemarks && note.remark
-                  ? `<div class="block"><h5>原备注</h5><p>${rich(note.remark)}</p></div>` : '';
-                return `<section class="source">
-                  <div class="source-title"><h4>${escapeHtml(note.title)}</h4><time>${escapeHtml(dateOf(note))}</time></div>
-                  ${tags ? `<div class="tags">${tags}</div>` : ''}
-                  ${image ? `<figure><img src="${image}" alt="${escapeHtml(note.title)}"></figure>` : ''}
-                  ${wrong}${remark}
-                </section>`;
-              }).join('')}
-            </article>`;
-          }).join('')}
-        </section>`).join('')}
-    </section>`).join('');
-  const coverClass = notes.length ? 'cover' : 'cover is-empty';
-  const empty = notes.length ? '' : `<div class="empty"><h2>暂无已确认的${kind === 'mistake' ? '错题' : '背诵'}内容</h2><p>在主应用中确认分类后，内容会在下次同步时进入这里。</p></div>`;
+  const content = groups.map((group) => {
+    index += 1;
+    const sourceNotes = group.sourceIds.map((id) => map.get(id)).filter(Boolean);
+    return `<section class="group">
+      <header class="group-head"><b>${String(index).padStart(2, '0')}</b><h2>${escapeHtml(group.title)}</h2></header>
+      ${sourceNotes.map((note) => {
+        const image = config.rules.includeOriginalImages ? imageData(root, note) : '';
+        const wrong = kind === 'mistake' && config.rules.includeWrongReasons && note.wrongReason
+          ? `<div class="block important"><strong>错因：</strong>${rich(note.wrongReason)}</div>` : '';
+        const remark = config.rules.includeRemarks && note.remark
+          ? `<div class="block"><strong>原备注：</strong>${rich(note.remark)}</div>` : '';
+        const summary = note.items?.find((item) => item.summary)?.summary
+          ? `<div class="block"><strong>内容定位：</strong>${rich(note.items.find((item) => item.summary).summary)}</div>` : '';
+        return `<article class="source">
+          <div class="source-title"><h3>${escapeHtml(note.title)}</h3><time>${escapeHtml(dateOf(note))}</time></div>
+          ${image ? `<figure><img src="${image}" alt="${escapeHtml(note.title)}"></figure>` : ''}
+          ${wrong}${remark}${summary}
+        </article>`;
+      }).join('')}
+    </section>`;
+  }).join('');
   return `<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><title>${title}</title><style>
-@page{size:A4;margin:12mm 12mm 14mm}*{box-sizing:border-box}html{-webkit-print-color-adjust:exact;print-color-adjust:exact}body{margin:0;color:#25231f;font:10.5pt/1.5 "Noto Sans CJK SC","Microsoft YaHei","PingFang SC",sans-serif}.cover{min-height:257mm;display:flex;flex-direction:column;justify-content:space-between;break-after:page;padding:8mm 3mm 2mm}.cover.is-empty{break-after:auto}.mark{width:20mm;height:4px;border-radius:99px;background:${accent}}.cover h1{margin:19mm 0 3mm;font:32pt/1.15 "Noto Serif CJK SC","STSong",serif;letter-spacing:.06em}.subtitle{color:#635f58;font-size:12pt}.summary{margin-top:16mm;padding:7mm;border-radius:4mm;background:${soft};border:1px solid ${accent}33;display:grid;grid-template-columns:repeat(3,1fr);gap:4mm}.summary div{display:flex;flex-direction:column;gap:1mm}.summary span{color:#6f685f;font-size:9.5pt}.summary strong{font-size:15pt}.toc{break-after:page}.toc h1{font:22pt "Noto Serif CJK SC",serif;margin:0 0 6mm}.toc-row{padding:3mm 0 1.5mm;display:flex;justify-content:space-between;border-bottom:1px solid #ddd7ce}.toc-row strong{font-size:13pt}.toc-row span{font-size:10pt;color:#736d64}.toc-tags,.tags{display:flex;flex-wrap:wrap;gap:1.5mm;padding:2mm 0 3mm}.toc-tags i,.tags i{font-style:normal;padding:.7mm 2.1mm;border-radius:99px;background:${soft};color:${accent};font-size:9pt}.subject+.subject{break-before:page}.subject-head{border-bottom:2px solid ${accent};padding-bottom:2mm;margin-bottom:5mm}.subject-head h1{margin:0;font:22pt/1.1 "Noto Serif CJK SC",serif}.knowledge>h2{margin:6mm 0 3mm;padding-left:2.5mm;border-left:4px solid ${accent};font-size:15pt;break-after:avoid}.group{border:1px solid #ded8cf;border-radius:3mm;margin:0 0 4.5mm;overflow:hidden}.group-head{display:flex;gap:3mm;align-items:center;padding:3mm 4mm;background:linear-gradient(120deg,${soft},#fff);border-bottom:1px solid #e3ddd4;break-after:avoid}.group-head>b{width:9mm;height:9mm;flex:0 0 9mm;border-radius:50%;color:#fff;background:${accent};display:grid;place-items:center;font-size:9pt}.group-head h3{margin:0;font-size:14pt;line-height:1.28}.group-kind{display:block;margin-top:.7mm;color:#736b62;font-size:9pt}.source{padding:3.5mm 4mm;border-top:1px dashed #ded8cf;break-inside:avoid-page}.source:first-of-type{border-top:0}.source-title{display:flex;align-items:flex-start;justify-content:space-between;gap:4mm}.source h4{margin:0;font-size:12pt;line-height:1.35}.source time{flex:0 0 auto;color:#777066;font-size:9pt;line-height:1.35}figure{margin:2.5mm 0;text-align:center}figure img{display:block;max-width:100%;max-height:148mm;margin:0 auto;object-fit:contain;border-radius:2mm;border:1px solid #d8d2c9;background:#faf9f6}.block{margin-top:2.2mm;padding:2.7mm 3.2mm;background:#f8f7f4;border-radius:2mm;border-left:3px solid #b8afa3}.block.important{background:${soft};border-left-color:${accent}}.block h5{margin:0 0 .8mm;color:#514c45;font-size:9.5pt}.block p{margin:0;overflow-wrap:anywhere}.empty{margin-top:20mm;padding:12mm;background:${soft};border-radius:4mm}.empty h2{margin:0 0 2mm;font-size:17pt}.empty p{margin:0;color:#686259;font-size:10.5pt}
+@page{size:A4;margin:10mm 11mm 13mm}*{box-sizing:border-box}html{-webkit-print-color-adjust:exact;print-color-adjust:exact}body{margin:0;color:#242a2d;font:10.2pt/1.46 "Noto Sans CJK SC","Microsoft YaHei","PingFang SC",sans-serif}.cover{min-height:264mm;display:flex;flex-direction:column;justify-content:center;break-after:page;padding:8mm}.mark{width:24mm;height:4px;border-radius:99px;background:${accent};margin-bottom:12mm}.cover h1{margin:0 0 4mm;font:30pt/1.15 "Noto Serif CJK SC","STSong",serif;color:#17324d}.subtitle{color:#68747a;font-size:11pt}.summary{margin-top:14mm;padding:5mm 6mm;border-radius:3mm;background:${soft};display:grid;grid-template-columns:repeat(3,1fr);gap:3mm}.summary span{display:block;color:#707b80;font-size:9pt}.summary strong{display:block;margin-top:1mm;font-size:15pt;color:#203b4a}.toc{break-after:page}.toc h1{margin:0 0 5mm;font:21pt "Noto Serif CJK SC",serif;color:#17324d}.toc-row{display:grid;grid-template-columns:12mm 1fr 18mm;gap:2mm;align-items:center;padding:3mm 1mm;border-bottom:1px solid #d9e1e4}.toc-row b{color:${accent}}.toc-row span{font-size:12pt}.toc-row em{font-style:normal;text-align:right;color:#78848a;font-size:9pt}.group{margin:0 0 5mm;break-inside:avoid-page;border:1px solid #cad7dc;border-radius:2.5mm;overflow:hidden}.group-head{display:flex;align-items:center;gap:3mm;padding:2.8mm 3.5mm;background:${soft};border-bottom:1px solid #cad7dc}.group-head>b{width:8mm;height:8mm;border-radius:50%;display:grid;place-items:center;background:${accent};color:white;font-size:8.5pt}.group-head h2{margin:0;font-size:15pt;color:#173b50}.source{padding:3mm 3.5mm;border-top:1px dashed #d6dee1;break-inside:avoid-page}.source:first-of-type{border-top:0}.source-title{display:flex;justify-content:space-between;gap:4mm;align-items:flex-start}.source h3{margin:0;font-size:12pt;line-height:1.35;color:#274f63}.source time{white-space:nowrap;color:#7b868b;font-size:8.8pt}figure{margin:2mm 0;text-align:center}figure img{display:block;max-width:100%;max-height:128mm;margin:0 auto;object-fit:contain;border:1px solid #d7dfe2;border-radius:1.5mm;background:#fff}.block{margin-top:1.8mm;padding:2.2mm 2.7mm;border-radius:1.5mm;background:#f7f8f8;overflow-wrap:anywhere}.block.important{background:${soft};border-left:3px solid ${accent}}.block strong{color:#3b515c}.empty{padding:10mm;background:${soft};border-radius:3mm}
 </style></head><body>
-<section class="${coverClass}"><div><div class="mark"></div><h1>${title}</h1><div class="subtitle">只整理已确认内容，不扩写、不补充</div><div class="summary"><div><span>有效来源</span><strong>${notes.length} 条</strong></div><div><span>整理题组</span><strong>${groups.length} 组</strong></div><div><span>生成日期</span><strong>${generatedAt.slice(0,10)}</strong></div></div>${empty}</div></section>
-${showToc ? `<section class="toc"><h1>内容目录</h1>${toc}</section>` : ''}${content}</body></html>`;
+<section class="cover"><div class="mark"></div><h1>${title}</h1><div class="subtitle">综合当前全部已确认内容；只整理，不扩写</div><div class="summary"><div><span>有效资料</span><strong>${notes.length} 条</strong></div><div><span>专题</span><strong>${groups.length} 组</strong></div><div><span>生成日期</span><strong>${generatedAt.slice(0,10)}</strong></div></div></section>
+${showToc ? `<section class="toc"><h1>专题目录</h1>${toc}</section>` : ''}${content}</body></html>`;
 }
 
 export async function renderPdf(html, outputPath, dryRun = false) {
