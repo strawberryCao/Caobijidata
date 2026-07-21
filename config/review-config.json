@@ -7,9 +7,9 @@
   },
   "ai": {
     "enabled": true,
-    "providerId": "",
-    "modelId": "",
-    "baseUrl": "",
+    "providerId": "qwen",
+    "modelId": "qwen-vl-plus",
+    "baseUrl": "https://ws-wz2m9ithvttiwqm6.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions",
     "temperature": 0.1,
     "maxTokens": 2600,
     "timeoutMs": 90000,

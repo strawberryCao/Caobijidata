@@ -1,6 +1,835 @@
 {
   "version": 1,
-  "exportedAt": null,
-  "sourceRevision": 0,
-  "notes": []
+  "exportedAt": "2026-07-21T13:32:41.614Z",
+  "sourceRevision": 525,
+  "notes": [
+    {
+      "id": "09e738f4-d40a-4114-90b5-fc1f28156824",
+      "kind": "mistake",
+      "title": "例4.3 函数复合导数计算错题",
+      "subject": "高等数学",
+      "knowledgePath": [
+        "高等数学"
+      ],
+      "tags": [
+        "错题",
+        "复合函数",
+        "分段函数",
+        "导数计算",
+        "链式法则",
+        "题型:计算题",
+        "好题",
+        "错因:粗心导致对x范围判断错误,未正确识别复合函数中各部分的适用区间。"
+      ],
+      "remark": "错题 粗心 不专注 开小差 判断错x的范围",
+      "wrongReason": "粗心导致对x范围判断错误,未正确识别复合函数中各部分的适用区间。",
+      "questionType": "计算题",
+      "capturedDate": "2026-07-19",
+      "createdAt": "2026-07-19T06:24:36.637Z",
+      "updatedAt": "2026-07-20T10:17:01.521Z",
+      "organizationStatus": "confirmed",
+      "imagePath": "data/assets/09e738f4-d40a-4114-90b5-fc1f28156824.png",
+      "imageSha256": "a2fe43ab552934c32ba47f5c75758123d5060d36f4a28176ebada8a484303c02",
+      "sourceFileName": "高等数学_函数复合导数计算错题_20260719_142436.png",
+      "items": [
+        {
+          "title": "例4.3 函数复合导数计算",
+          "knowledgePoint": "复合函数求导",
+          "questionType": "计算题",
+          "summary": "给定分段函数f(x),计算复合函数y=f[f(x)]在x=e处的导数dy/dx。",
+          "tags": [
+            "复合函数",
+            "分段函数",
+            "导数计算"
+          ],
+          "wrongReason": "错因在于对x范围判断失误,未能准确确定复合函数中各部分的适用区间。",
+          "intent": {
+            "isQuestion": true,
+            "isMistake": true,
+            "isGood": true,
+            "shouldMemorize": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "09fb2d77-9d90-4094-9085-b5a9141459eb",
+      "kind": "mistake",
+      "title": "反函数求导例题解析",
+      "subject": "高等数学",
+      "knowledgePath": [
+        "高等数学"
+      ],
+      "tags": [
+        "错题",
+        "反函数",
+        "导数计算",
+        "易错点",
+        "题型:计算题",
+        "好题",
+        "错因:概念不清晰,误将反函数的输入y当作自变量x直接代入,未先通过原函数求出对应"
+      ],
+      "remark": "错题 反函数求导 概念不清晰\n注意反函数的输入是y而自变量是x的时候 要用原函数算出x的值再带入",
+      "wrongReason": "概念不清晰,误将反函数的输入y当作自变量x直接代入,未先通过原函数求出对应的x值。",
+      "questionType": "计算题",
+      "capturedDate": "2026-07-19",
+      "createdAt": "2026-07-19T07:55:01.275Z",
+      "updatedAt": "2026-07-20T10:15:20.239Z",
+      "organizationStatus": "confirmed",
+      "imagePath": "data/assets/09fb2d77-9d90-4094-9085-b5a9141459eb.png",
+      "imageSha256": "2822b34ee4e0962b48cb958083df4bbcc85aefa5207ffd96c24a77dbc7993544",
+      "sourceFileName": "高等数学_反函数求导例题解析_20260719_155501.png",
+      "items": [
+        {
+          "title": "反函数求导计算",
+          "knowledgePoint": "反函数求导",
+          "questionType": "计算题",
+          "summary": "已知函数f(x)=3x^2+e^x,求其反函数在y=3+e处的二阶导数值。解题关键:先由y=3+e反解x=1,再利用反函数求导公式φ''(y)=-f''(x)/[f'(x)]^3计算结果为-(6+e)/(6+e)^3。",
+          "tags": [
+            "反函数",
+            "导数",
+            "计算"
+          ],
+          "wrongReason": "混淆了反函数的自变量与原函数的自变量,错误地直接将y=3+e代入反函数表达式,而未先求出对应的x值。",
+          "intent": {
+            "isQuestion": true,
+            "isMistake": true,
+            "isGood": true,
+            "shouldMemorize": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "117e0611-bd52-403b-a9fd-104af40182c5",
+      "kind": "memory",
+      "title": "x乘e^x的n阶导数公式",
+      "subject": "高等数学",
+      "knowledgePath": [
+        "高等数学"
+      ],
+      "tags": [
+        "背诵",
+        "高阶导数",
+        "指数函数",
+        "记忆公式",
+        "题型:公式推导",
+        "公式记忆",
+        "好题",
+        "题型:公式记忆"
+      ],
+      "remark": "记 x*e^x的高阶导数 \n和前面的常用高阶导数放到一起",
+      "wrongReason": "",
+      "questionType": "公式记忆",
+      "capturedDate": "2026-07-20",
+      "createdAt": "2026-07-20T08:14:59.852Z",
+      "updatedAt": "2026-07-20T11:07:12.738Z",
+      "organizationStatus": "confirmed",
+      "imagePath": "data/assets/117e0611-bd52-403b-a9fd-104af40182c5.png",
+      "imageSha256": "049933eb912038a23a33eaa9af9426884ee6be5f21f174c4f5c5fcd5c1a226e9",
+      "sourceFileName": "高等数学_x乘e^x的高阶导数公式_20260720_161459.png",
+      "items": [
+        {
+          "title": "x乘e^x的n阶导数公式",
+          "knowledgePoint": "函数的高阶导数",
+          "questionType": "公式记忆",
+          "summary": "函数f(x)=xe^x的n阶导数为f^(n)(x)=(x+n)e^x。",
+          "tags": [
+            "背诵",
+            "公式记忆"
+          ],
+          "wrongReason": "",
+          "intent": {
+            "isQuestion": true,
+            "isMistake": false,
+            "isGood": true,
+            "shouldMemorize": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "21507d85-ce1d-4767-a108-e95f5cb0bcf9",
+      "kind": "memory",
+      "title": "三角函数与对数函数的高阶导数公式",
+      "subject": "高等数学",
+      "knowledgePath": [
+        "高等数学"
+      ],
+      "tags": [
+        "高阶导数",
+        "三角函数",
+        "对数函数",
+        "分式函数",
+        "好题",
+        "背诵"
+      ],
+      "remark": "",
+      "wrongReason": "",
+      "questionType": "",
+      "capturedDate": "2026-07-20",
+      "createdAt": "2026-07-20T07:50:29.947Z",
+      "updatedAt": "2026-07-20T10:58:10.415Z",
+      "organizationStatus": "confirmed",
+      "imagePath": "data/assets/21507d85-ce1d-4767-a108-e95f5cb0bcf9.png",
+      "imageSha256": "1acf9c9a598ba9ace3f6359b4fb613ec808de301f7c99f593e09bf5b2b32fd5f",
+      "sourceFileName": "高等数学_三角函数与对数函数的高阶导数公式_20260720_155029.png",
+      "items": []
+    },
+    {
+      "id": "288098dd-1ba1-4b28-bdb2-5267bcc56e33",
+      "kind": "mistake",
+      "title": "导数定义式应用与切线方程求解",
+      "subject": "高等数学",
+      "knowledgePath": [
+        "高等数学",
+        "导数与极限"
+      ],
+      "tags": [
+        "错题",
+        "导数",
+        "极限",
+        "切线方程",
+        "题型:选择题",
+        "导数定义",
+        "好题",
+        "错因:对导数定义式理解不熟,误将增量符号x-1写成x,导致计算错误。"
+      ],
+      "remark": "真题1000 p8 8 错题 知识不熟 导数定义式不够熟练",
+      "wrongReason": "对导数定义式理解不熟,误将增量符号x-1写成x,导致计算错误。",
+      "questionType": "选择题",
+      "capturedDate": "2026-07-18",
+      "createdAt": "2026-07-18T12:55:27.326Z",
+      "updatedAt": "2026-07-20T10:14:10.673Z",
+      "organizationStatus": "confirmed",
+      "imagePath": "data/assets/288098dd-1ba1-4b28-bdb2-5267bcc56e33.png",
+      "imageSha256": "c97802393939b072bc13c40541c9e781359e9d1c4eddb0ea0d7b8145b0983609",
+      "sourceFileName": "高等数学_导数定义式错题解析_20260718_205527.png",
+      "items": [
+        {
+          "title": "题目解析",
+          "knowledgePoint": "导数定义与极限计算",
+          "questionType": "选择题",
+          "summary": "函数f(x)在x=1处的导数通过极限定义计算,结合给定条件求出导数值,进而得到切线方程。",
+          "tags": [
+            "导数定义",
+            "极限计算"
+          ],
+          "wrongReason": "对导数定义式中增量符号的理解错误,误用x-1而非x。",
+          "intent": {
+            "isQuestion": true,
+            "isMistake": true,
+            "isGood": true,
+            "shouldMemorize": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "5780ccbf-7260-49ea-b32f-95b190b63210",
+      "kind": "mistake",
+      "title": "导数同号条件与平方单调性错题",
+      "subject": "高等数学",
+      "knowledgePath": [
+        "高等数学"
+      ],
+      "tags": [
+        "错题"
+      ],
+      "remark": "p143 5.1 错题 不会  能力不足\n1.对条件的变化能力不足",
+      "wrongReason": "",
+      "questionType": "",
+      "capturedDate": "2026-07-21",
+      "createdAt": "2026-07-21T04:09:12.060Z",
+      "updatedAt": "2026-07-21T04:09:41.393Z",
+      "organizationStatus": "confirmed",
+      "imagePath": "data/assets/5780ccbf-7260-49ea-b32f-95b190b63210.png",
+      "imageSha256": "7d284e83eba3994f48f9613e1aaaa7458b923bec85264af03d702f3063185993",
+      "sourceFileName": "高等数学_导数同号条件与平方单调性错题_20260721_120912.png",
+      "items": []
+    },
+    {
+      "id": "626d6e0a-b61b-4291-b647-0ac72033e4ec",
+      "kind": "memory",
+      "title": "反函数二阶导数公式推导",
+      "subject": "高等数学",
+      "knowledgePath": [
+        "高等数学"
+      ],
+      "tags": [
+        "背诵",
+        "公式",
+        "推导",
+        "二阶导数",
+        "反函数",
+        "好题"
+      ],
+      "remark": "背 记 反函数的二阶导",
+      "wrongReason": "",
+      "questionType": "",
+      "capturedDate": "2026-07-19",
+      "createdAt": "2026-07-19T07:33:36.643Z",
+      "updatedAt": "2026-07-20T10:56:05.911Z",
+      "organizationStatus": "confirmed",
+      "imagePath": "data/assets/626d6e0a-b61b-4291-b647-0ac72033e4ec.png",
+      "imageSha256": "8eabd82de68712db09fa8c0134a192e02688380d3f2641e98f2ee37ec3a7a3e5",
+      "sourceFileName": "高等数学_反函数二阶导公式推导_20260719_153336.png",
+      "items": [
+        {
+          "title": "反函数二阶导数公式",
+          "knowledgePoint": "反函数的二阶导数公式",
+          "questionType": "",
+          "summary": "展示了反函数的二阶导数公式:$ y_{xx}'' = -\\frac{x_{yy}''}{(x_y')^3} $ 和 $ x_{yy}'' = -\\frac{y_{xx}''}{(y_x')^3} $,强调其重要性。",
+          "tags": [
+            "公式",
+            "反函数",
+            "二阶导数"
+          ],
+          "wrongReason": "",
+          "intent": {
+            "isQuestion": true,
+            "isMistake": false,
+            "isGood": true,
+            "shouldMemorize": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "700a954b-072d-40b9-8fe8-d825ef452f5f",
+      "kind": "memory",
+      "title": "常用高阶导数公式总结",
+      "subject": "高等数学",
+      "knowledgePath": [
+        "高等数学"
+      ],
+      "tags": [
+        "背诵",
+        "高阶导数",
+        "公式记忆",
+        "微积分",
+        "好题"
+      ],
+      "remark": "背 常用的高阶导数",
+      "wrongReason": "",
+      "questionType": "",
+      "capturedDate": "2026-07-20",
+      "createdAt": "2026-07-20T07:40:48.742Z",
+      "updatedAt": "2026-07-20T10:55:17.947Z",
+      "organizationStatus": "confirmed",
+      "imagePath": "data/assets/700a954b-072d-40b9-8fe8-d825ef452f5f.png",
+      "imageSha256": "3d362a419dc9eca841b2a515d63ebcd2c822dce6b44b209d318b4de242ded5a3",
+      "sourceFileName": "高等数学_常用高阶导数公式总结_20260720_154048.png",
+      "items": []
+    },
+    {
+      "id": "74c12731-5d76-461e-832c-871014e34397",
+      "kind": "memory",
+      "title": "凹凸函数定义与几何意义",
+      "subject": "高等数学",
+      "knowledgePath": [
+        "高等数学"
+      ],
+      "tags": [
+        "背诵"
+      ],
+      "remark": "记住  凹凸的定义2\n",
+      "wrongReason": "",
+      "questionType": "",
+      "capturedDate": "2026-07-21",
+      "createdAt": "2026-07-21T06:14:04.353Z",
+      "updatedAt": "2026-07-21T06:14:09.442Z",
+      "organizationStatus": "confirmed",
+      "imagePath": "data/assets/74c12731-5d76-461e-832c-871014e34397.png",
+      "imageSha256": "944265528b2be07e123b253b33a785ecc161b3e9f1cf408e29db31d8fe8e970e",
+      "sourceFileName": "高等数学_凹凸函数定义与几何意义_20260721_141404.png",
+      "items": []
+    },
+    {
+      "id": "79781536-d390-43f4-890e-fcfe7a4732a9",
+      "kind": "memory",
+      "title": "极值点与拐点的重要结论",
+      "subject": "高等数学",
+      "knowledgePath": [
+        "高等数学"
+      ],
+      "tags": [
+        "背诵"
+      ],
+      "remark": "背 选填好手",
+      "wrongReason": "",
+      "questionType": "",
+      "capturedDate": "2026-07-21",
+      "createdAt": "2026-07-21T06:56:43.053Z",
+      "updatedAt": "2026-07-21T07:06:01.329Z",
+      "organizationStatus": "confirmed",
+      "imagePath": "data/assets/79781536-d390-43f4-890e-fcfe7a4732a9.png",
+      "imageSha256": "f3ac641119cc0d22fd6f7bf31bdff0080c80affccaaf27c8ff4eb4c2b2db0ac1",
+      "sourceFileName": "高等数学_极值点与拐点的重要结论_20260721_145643.png",
+      "items": []
+    },
+    {
+      "id": "8fe9fee6-244d-4ac6-9452-78e730dee9bf",
+      "kind": "mistake",
+      "title": "极大值二阶导数陷阱",
+      "subject": "高等数学",
+      "knowledgePath": [
+        "高等数学"
+      ],
+      "tags": [
+        "错题"
+      ],
+      "remark": "5.2 错题 坑 细节\n极限判断的第二充分 反过来并不是必要；\n极限在某点取得极大值 一阶导数一定是0 但是二阶导数不一定\n比如-x^4在0点的二阶导数为0 所以是小于等于 不一定要严格小于；\n由第三充分可知道 他是再某一偶阶的导数会小于0 但是不一定是二阶",
+      "wrongReason": "",
+      "questionType": "",
+      "capturedDate": "2026-07-21",
+      "createdAt": "2026-07-21T05:15:55.788Z",
+      "updatedAt": "2026-07-21T05:22:03.912Z",
+      "organizationStatus": "confirmed",
+      "imagePath": "data/assets/8fe9fee6-244d-4ac6-9452-78e730dee9bf.png",
+      "imageSha256": "484b6c4fc023b45c3f0055a7ad0f88737504f9545115e3d974760d8c80d5bfd7",
+      "sourceFileName": "高等数学_极大值二阶导数符号陷阱_20260721_131555.png",
+      "items": []
+    },
+    {
+      "id": "a230954a-f9c6-493f-a043-783b4637d89d",
+      "kind": "memory",
+      "title": "常用泰勒展开公式总结",
+      "subject": "高等数学",
+      "knowledgePath": [
+        "高等数学"
+      ],
+      "tags": [
+        "背诵",
+        "泰勒展开",
+        "重要公式",
+        "公式",
+        "记忆",
+        "好题"
+      ],
+      "remark": "背 非常重要 常用泰勒展开",
+      "wrongReason": "",
+      "questionType": "",
+      "capturedDate": "2026-07-20",
+      "createdAt": "2026-07-20T08:18:41.194Z",
+      "updatedAt": "2026-07-20T10:11:47.852Z",
+      "organizationStatus": "confirmed",
+      "imagePath": "data/assets/a230954a-f9c6-493f-a043-783b4637d89d.jpg",
+      "imageSha256": "7fb0fbea1e0c950615d63f4eb79e5108ae93ae2dadcb89b63b3acea54637dea0",
+      "sourceFileName": "高等数学_常用泰勒展开公式总结_20260720_161841.jpg",
+      "items": []
+    },
+    {
+      "id": "a69dfb00-def6-415e-a9c3-d4a63e78d6d6",
+      "kind": "memory",
+      "title": "常用求导公式整理",
+      "subject": "高等数学",
+      "knowledgePath": [
+        "高等数学",
+        "导数与微分"
+      ],
+      "tags": [
+        "背诵",
+        "好题"
+      ],
+      "remark": "背\n常用求导公式 ",
+      "wrongReason": "",
+      "questionType": "",
+      "capturedDate": "2026-07-18",
+      "createdAt": "2026-07-18T13:07:15.622Z",
+      "updatedAt": "2026-07-20T10:11:34.577Z",
+      "organizationStatus": "confirmed",
+      "imagePath": "data/assets/a69dfb00-def6-415e-a9c3-d4a63e78d6d6.png",
+      "imageSha256": "6d59b6d307b542661cc23a44d6b6a6a1e9992e975d23680d9d96bea4b6935138",
+      "sourceFileName": "高等数学_常用求导公式整理_20260718_210715.png",
+      "items": []
+    },
+    {
+      "id": "bc3c59cf-d535-4dc0-a721-7bdf7d5befcb",
+      "kind": "mistake",
+      "title": "极值点拐点判定题",
+      "subject": "高等数学",
+      "knowledgePath": [
+        "高等数学"
+      ],
+      "tags": [
+        "错题",
+        "好题"
+      ],
+      "remark": "错题 不会 难 \n需要用极值点和拐点地重要结论",
+      "wrongReason": "",
+      "questionType": "",
+      "capturedDate": "2026-07-21",
+      "createdAt": "2026-07-21T07:53:47.975Z",
+      "updatedAt": "2026-07-21T08:12:47.755Z",
+      "organizationStatus": "confirmed",
+      "imagePath": "data/assets/bc3c59cf-d535-4dc0-a721-7bdf7d5befcb.png",
+      "imageSha256": "d0e18698e019433dbb0d1a8727842df413114103a39b4a944bbf2eace2be703f",
+      "sourceFileName": "高等数学_极值点拐点判定题_20260721_155347.png",
+      "items": []
+    },
+    {
+      "id": "bd1c244c-5913-4b04-b6e1-9e2ca8a3656a",
+      "kind": "mistake",
+      "title": "导数与极限的综合应用",
+      "subject": "高等数学",
+      "knowledgePath": [
+        "高等数学",
+        "导数与极限"
+      ],
+      "tags": [
+        "错题",
+        "导数",
+        "极限",
+        "奇函数",
+        "题型:证明题",
+        "典型方法",
+        "好题",
+        "题型:计算题",
+        "错因:拼凑意识弱,未能正确运用导数定义和极限性质进行推导。"
+      ],
+      "remark": "真题 1000 p8 错题 不会 \n拼凑意识弱",
+      "wrongReason": "拼凑意识弱,未能正确运用导数定义和极限性质进行推导。",
+      "questionType": "计算题",
+      "capturedDate": "2026-07-18",
+      "createdAt": "2026-07-18T12:54:56.746Z",
+      "updatedAt": "2026-07-20T10:15:34.646Z",
+      "organizationStatus": "confirmed",
+      "imagePath": "data/assets/bd1c244c-5913-4b04-b6e1-9e2ca8a3656a.png",
+      "imageSha256": "c36f23a15de0465848fb26a952f9dcbed0e1a088c73ebdba017d9b05f4c99119",
+      "sourceFileName": "高等数学_高等数学错题解析：极限与导数_20260718_205456.png",
+      "items": [
+        {
+          "title": "题目解析",
+          "knowledgePoint": "导数定义与极限运算",
+          "questionType": "计算题",
+          "summary": "题目要求计算特定形式的极限,关键在于利用奇函数性质和导数定义,将原式转化为导数表达式进行求解。",
+          "tags": [
+            "导数定义",
+            "极限运算"
+          ],
+          "wrongReason": "未能正确识别并应用导数定义,导致推导过程错误.",
+          "intent": {
+            "isQuestion": true,
+            "isMistake": true,
+            "isGood": true,
+            "shouldMemorize": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "c337824f-79b5-48ef-9cf0-8fb4bb1eca8a",
+      "kind": "mistake",
+      "title": "奇函数导数极限问题",
+      "subject": "高等数学",
+      "knowledgePath": [
+        "高等数学",
+        "导数与极限"
+      ],
+      "tags": [
+        "错题",
+        "导数",
+        "极限",
+        "奇函数",
+        "题型:证明题",
+        "典型题",
+        "记忆点",
+        "好题",
+        "错因:拼凑意识弱,未能正确应用导数定义和奇函数性质进行极限计算。"
+      ],
+      "remark": "真题 1000 p8 错题 不会 \n拼凑意识弱",
+      "wrongReason": "拼凑意识弱,未能正确应用导数定义和奇函数性质进行极限计算。",
+      "questionType": "证明题",
+      "capturedDate": "2026-07-18",
+      "createdAt": "2026-07-18T12:55:48.500Z",
+      "updatedAt": "2026-07-20T10:56:25.423Z",
+      "organizationStatus": "confirmed",
+      "imagePath": "data/assets/c337824f-79b5-48ef-9cf0-8fb4bb1eca8a.png",
+      "imageSha256": "c36f23a15de0465848fb26a952f9dcbed0e1a088c73ebdba017d9b05f4c99119",
+      "sourceFileName": "高等数学_高等数学错题解析：极限与导数_20260718_205548.png",
+      "items": [
+        {
+          "title": "题目解析",
+          "knowledgePoint": "导数定义与奇函数性质",
+          "questionType": "极限计算",
+          "summary": "题目要求计算一个包含奇函数f(x)及其导数的极限表达式。关键在于理解导数的定义形式以及奇函数在x=0处的特殊性质(f(0)=0且f'(0)存在)。",
+          "tags": [
+            "导数定义",
+            "奇函数性质"
+          ],
+          "wrongReason": "未能有效利用导数定义将原极限转化为导数表达式,导致计算错误.",
+          "intent": {
+            "isQuestion": true,
+            "isMistake": true,
+            "isGood": true,
+            "shouldMemorize": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "d4203e69-a9aa-4da7-97b0-5ec46284239b",
+      "kind": "mistake",
+      "title": "泰勒展开求高阶导数例题",
+      "subject": "高等数学",
+      "knowledgePath": [
+        "高等数学"
+      ],
+      "tags": [
+        "错题",
+        "经典",
+        "高阶导数",
+        "泰勒级数",
+        "好题",
+        "题型:计算题",
+        "错因:用户表示未听懂跳过,后期重点看,说明当时对方法理解不透彻。"
+      ],
+      "remark": "p134 4.18 好题 错题 不懂 没听懂跳过了 后期重点看\n可以用莱布尼茨直接算出高阶导数 也可以用泰勒展开利用唯一性确定系数；\n后者更快",
+      "wrongReason": "用户表示未听懂跳过,后期重点看,说明当时对方法理解不透彻。",
+      "questionType": "计算题",
+      "capturedDate": "2026-07-20",
+      "createdAt": "2026-07-20T08:41:24.851Z",
+      "updatedAt": "2026-07-21T00:37:59.872Z",
+      "organizationStatus": "confirmed",
+      "imagePath": "data/assets/d4203e69-a9aa-4da7-97b0-5ec46284239b.png",
+      "imageSha256": "69a222bb8b94731543790e83a6b0d6b44e9d88988c6bc66b44b6feca2bfeaa1f",
+      "sourceFileName": "高等数学_泰勒展开求高阶导数例题_20260720_164124.png",
+      "items": [
+        {
+          "title": "例4.18 泰勒展开求高阶导数",
+          "knowledgePoint": "泰勒展开",
+          "questionType": "计算题",
+          "summary": "设f(x)=x^2ln(1-x),当n≥3时,求f^(n)(0)。通过将函数展开为泰勒级数,并利用级数的唯一性确定系数,得到结果为-(n-2)!/n。",
+          "tags": [
+            "泰勒展开",
+            "高阶导数",
+            "级数唯一性"
+          ],
+          "wrongReason": "用户表示未听懂跳过,后期重点看,说明当时对方法理解不透彻。",
+          "intent": {
+            "isQuestion": true,
+            "isMistake": true,
+            "isGood": true,
+            "shouldMemorize": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "e871cb56-4b83-4d23-a926-ba38c6dbc7bf",
+      "kind": "memory",
+      "title": "莱布尼兹公式高阶导数",
+      "subject": "高等数学",
+      "knowledgePath": [
+        "高等数学"
+      ],
+      "tags": [
+        "背诵",
+        "高阶导数",
+        "乘积法则",
+        "组合数",
+        "公式记忆",
+        "数学分析",
+        "好题"
+      ],
+      "remark": "背 莱布尼兹高阶求导公式",
+      "wrongReason": "",
+      "questionType": "",
+      "capturedDate": "2026-07-20",
+      "createdAt": "2026-07-20T08:07:03.028Z",
+      "updatedAt": "2026-07-20T10:56:55.628Z",
+      "organizationStatus": "confirmed",
+      "imagePath": "data/assets/e871cb56-4b83-4d23-a926-ba38c6dbc7bf.png",
+      "imageSha256": "9fe51d3039c2ff3905efccff07ec1543e5460857878db6bfb6b5eec2ae2c0092",
+      "sourceFileName": "高等数学_莱布尼兹公式高阶导数_20260720_160703.png",
+      "items": []
+    },
+    {
+      "id": "e9f702d6-3989-4c3f-8250-a5e8c987e19d",
+      "kind": "mistake",
+      "title": "隐函数二阶导数错题分析",
+      "subject": "高等数学",
+      "knowledgePath": [
+        "高等数学"
+      ],
+      "tags": [
+        "错题"
+      ],
+      "remark": "错题 隐函数二阶导数不熟练 脑子一热 直接对着一阶导数的分式洛必达求二阶导数了 ",
+      "wrongReason": "",
+      "questionType": "",
+      "capturedDate": "2026-07-21",
+      "createdAt": "2026-07-21T05:51:08.419Z",
+      "updatedAt": "2026-07-21T05:51:12.818Z",
+      "organizationStatus": "confirmed",
+      "imagePath": "data/assets/e9f702d6-3989-4c3f-8250-a5e8c987e19d.jpg",
+      "imageSha256": "d28ef616e0ccb630cfe94ae693f9708f0307846823bee3755abd4ce85072fce1",
+      "sourceFileName": "高等数学_隐函数二阶导数错题分析_20260721_135108.jpg",
+      "items": []
+    },
+    {
+      "id": "ed252eff-c038-402c-9877-c5d08e23120d",
+      "kind": "mistake",
+      "title": "导数定义式应用与切线方程求解",
+      "subject": "高等数学",
+      "knowledgePath": [
+        "高等数学",
+        "导数与极限"
+      ],
+      "tags": [
+        "错题",
+        "导数定义",
+        "极限计算",
+        "切线方程",
+        "题型:选择题",
+        "好题",
+        "错因:对导数定义式理解不熟,误将增量符号x-1写成x,导致计算错误。"
+      ],
+      "remark": "真题1000 p8 8 错题 知识不熟 导数定义式不够熟练",
+      "wrongReason": "对导数定义式理解不熟,误将增量符号x-1写成x,导致计算错误。",
+      "questionType": "选择题",
+      "capturedDate": "2026-07-18",
+      "createdAt": "2026-07-18T12:42:00.213Z",
+      "updatedAt": "2026-07-20T10:55:49.114Z",
+      "organizationStatus": "confirmed",
+      "imagePath": "data/assets/ed252eff-c038-402c-9877-c5d08e23120d.png",
+      "imageSha256": "c97802393939b072bc13c40541c9e781359e9d1c4eddb0ea0d7b8145b0983609",
+      "sourceFileName": "高等数学_导数定义式错题解析_20260718_204200.png",
+      "items": [
+        {
+          "title": "导数定义式应用",
+          "knowledgePoint": "导数定义",
+          "questionType": "计算",
+          "summary": "利用导数定义式lim(x→1)[f(x)-f(1)]/[lnx] = 2,求得f'(1)=2,进而得到切线斜率为2。",
+          "tags": [
+            "导数定义",
+            "极限计算"
+          ],
+          "wrongReason": "对导数定义式中的增量符号理解错误,误以为是x-1而非x-1。",
+          "intent": {
+            "isQuestion": true,
+            "isMistake": true,
+            "isGood": true,
+            "shouldMemorize": false
+          }
+        },
+        {
+          "title": "切线方程求解",
+          "knowledgePoint": "切线方程",
+          "questionType": "计算",
+          "summary": "已知切线斜率为2,且曲线过点(1, f(1)),利用点斜式求得切线方程为y=2x-1。",
+          "tags": [
+            "切线方程",
+            "点斜式"
+          ],
+          "wrongReason": "",
+          "intent": {
+            "isQuestion": true,
+            "isMistake": false,
+            "isGood": true,
+            "shouldMemorize": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa9d76b9-c793-402c-9064-985db3189dbf",
+      "kind": "mistake",
+      "title": "高等数学错题解析:隐函数求导",
+      "subject": "高等数学",
+      "knowledgePath": [
+        "高等数学"
+      ],
+      "tags": [
+        "错题",
+        "隐函数",
+        "二阶导数",
+        "计算题",
+        "隐函数求导",
+        "高等数学",
+        "好题",
+        "错因:1. 审题不够仔细,看错要求的东西;2. 化简不彻底,二阶导数中的一阶部分"
+      ],
+      "remark": "p128 4.2 错题 \n1.审题不够仔细 看错要求的东西\n2.化简不化间到底 二阶导数里面的一阶部分可以代换的 这个没有注意到",
+      "wrongReason": "1. 审题不够仔细,看错要求的东西;2. 化简不彻底,二阶导数中的一阶部分可以代换但未注意到。",
+      "questionType": "",
+      "capturedDate": "2026-07-20",
+      "createdAt": "2026-07-20T07:12:26.148Z",
+      "updatedAt": "2026-07-20T10:16:14.890Z",
+      "organizationStatus": "confirmed",
+      "imagePath": "data/assets/fa9d76b9-c793-402c-9064-985db3189dbf.png",
+      "imageSha256": "69cf4d082fb5ba94f0b80ec896008a3d59d0ce3b46ce12dd0630934049d7dc7d",
+      "sourceFileName": "高等数学_高等数学错题解析：隐函数求导_20260720_151226.png",
+      "items": [
+        {
+          "title": "例4.11 隐函数求导",
+          "knowledgePoint": "隐函数求导",
+          "questionType": "计算题",
+          "summary": "设函数y=y(x)由方程x e^{f(y)} = c imes ext{ln}2确定,其中f具有二阶导数,且f'≠1,求 rac{d^2 y}{dx^2}。",
+          "tags": [
+            "隐函数求导",
+            "高等数学",
+            "二阶导数"
+          ],
+          "wrongReason": "1. 审题不够仔细,看错要求的东西;2. 化简不彻底,二阶导数中的一阶部分可以代换但未注意到。",
+          "intent": {
+            "isQuestion": true,
+            "isMistake": true,
+            "isGood": true,
+            "shouldMemorize": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "legacy-54c396f918148f297a79bc14",
+      "kind": "mistake",
+      "title": "例3.8_曲线切线交点极限",
+      "subject": "高等数学",
+      "knowledgePath": [
+        "高等数学"
+      ],
+      "tags": [
+        "错题",
+        "导数应用",
+        "切线方程",
+        "极限计算",
+        "好题",
+        "题型:计算题",
+        "错因:审题不仔细,未察觉题目涉及的是数列形式的函数族,导致解题思路错误。"
+      ],
+      "remark": "p110 3.8 错题 不专注\n这题审题出错了 根本就没有察觉到这个是个数列 只要发现是数列 找找规律就知道怎么做了 函数族：由n导出的函数族 f_n(x) = x^n - 1, n=1,2,3,...\n切线交点极限：\n1. 先求出切线方程，\n2. 再求出切线交点，\n3. 最后求极限。",
+      "wrongReason": "审题不仔细,未察觉题目涉及的是数列形式的函数族,导致解题思路错误。",
+      "questionType": "计算题",
+      "capturedDate": "2026-07-17",
+      "createdAt": "2026-07-17T08:45:52.518Z",
+      "updatedAt": "2026-07-20T11:07:02.609Z",
+      "organizationStatus": "confirmed",
+      "imagePath": "data/assets/legacy-54c396f918148f297a79bc14.png",
+      "imageSha256": "66ddbafeee1d98d42c2de2eb4febccb86bb257af9791b018cf5004c21edfa1f0",
+      "sourceFileName": "高等数学_例3.8_数列切线交点极限_20260717_164552.png",
+      "items": [
+        {
+          "title": "例3.8_曲线切线交点极限",
+          "knowledgePoint": "导数与切线方程",
+          "questionType": "计算题",
+          "summary": "设曲线y = f(x) = x^n - 1在点(1,1)处的切线与x轴的交点为(ξ_n, 0),求当n→∞时f(ξ_n)的极限值。",
+          "tags": [
+            "错题",
+            "导数应用",
+            "切线方程",
+            "极限计算"
+          ],
+          "wrongReason": "审题不仔细,未察觉题目涉及的是数列形式的函数族,导致解题思路错误。",
+          "intent": {
+            "isQuestion": true,
+            "isMistake": true,
+            "isGood": true,
+            "shouldMemorize": false
+          }
+        }
+      ]
+    }
+  ]
 }
