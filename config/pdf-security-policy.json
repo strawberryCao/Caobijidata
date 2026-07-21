@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 2,
+  "officialMode": "source-faithful",
+  "failClosed": true,
+  "ai": {
+    "allowedInOfficialBuild": false,
+    "candidateOnly": true,
+    "confidenceIsEvidence": false,
+    "minimumIndependentReviews": 2,
+    "conflictAction": "quarantine",
+    "thirdOpinionMayOverrideConflict": false
+  },
+  "input": {
+    "requireConfirmedStatus": true,
+    "allowedKinds": ["mistake", "memory"],
+    "requireImage": true,
+    "requireImageSha256": true,
+    "rejectAbsolutePaths": true,
+    "rejectParentTraversal": true,
+    "rejectSymlinks": true,
+    "verifyMagicBytes": true,
+    "verifyDecode": true,
+    "maxImageBytes": 26214400,
+    "maxImageWidth": 16000,
+    "maxImageHeight": 16000,
+    "maxImagePixels": 80000000,
+    "duplicateIdAction": "block",
+    "sourceChangeDuringRunAction": "invalidate"
+  },
+  "content": {
+    "allowedOfficialFields": [
+      "id",
+      "kind",
+      "title",
+      "subject",
+      "knowledgePath",
+      "remark",
+      "wrongReason",
+      "capturedDate",
+      "imagePath",
+      "imageSha256"
+    ],
+    "forbiddenOfficialFields": [
+      "items.summary",
+      "aiAnswer",
+      "aiSolution",
+      "aiFormula",
+      "aiMnemonic",
+      "aiConfidence"
+    ],
+    "rewriteSourceText": false,
+    "generateEducationalClaims": false,
+    "preserveOriginalImages": true
+  },
+  "pipeline": {
+    "stateOrder": [
+      "SNAPSHOT",
+      "BUILD",
+      "AUDIT_A",
+      "AUDIT_B",
+      "APPROVED",
+      "RELEASED"
+    ],
+    "immutableSnapshot": true,
+    "independentAuditImplementations": true,
+    "manualApprovalRequired": true,
+    "directPushToMain": false,
+    "releaseAsSingleCommit": true,
+    "retainPreviousRelease": true,
+    "minimumSuccessfulTrialRunsBeforeAutoReleaseEvaluation": 3
+  },
+  "supplyChain": {
+    "defaultWorkflowPermissions": "contents:read",
+    "releaseWritePermissionOnly": true,
+    "pinActionsToFullCommitSha": true,
+    "requireDependencyLockAndHashes": true,
+    "allowRuntimeDependencyUpgrade": false,
+    "officialBuildUsesAiSecret": false,
+    "redactSecretsAndExternalResponses": true,
+    "generateSbomBeforePublicDistribution": true
+  }
+}
