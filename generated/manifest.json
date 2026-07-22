@@ -1,329 +1,364 @@
 {
-  "schemaVersion": 3,
-  "generationPolicy": "confirmed-source-fields-plus-generic-study-actions",
-  "contentVersion": "study-first-v3-no-standalone-toc",
+  "schemaVersion": 4,
+  "generationPolicy": "confirmed-source-metadata-relation-grouping-no-generic-study-boxes",
+  "contentVersion": "study-first-v4-related-groups",
   "sourceIndexSha256": "3284debeaa5e05ec84bfc020d93fae89c496ba2629c5a99e7ba6ca7e1673f9d5",
   "sourceRevision": 531,
-  "counts": {
+  "sourceCounts": {
     "mistake": 14,
     "memory": 9
   },
+  "renderedCounts": {
+    "mistake": 12,
+    "memory": 9
+  },
+  "duplicateGroups": [
+    {
+      "imageSha256": "c97802393939b072bc13c40541c9e781359e9d1c4eddb0ea0d7b8145b0983609",
+      "keptNoteId": "288098dd-1ba1-4b28-bdb2-5267bcc56e33",
+      "mergedNoteIds": [
+        "ed252eff-c038-402c-9877-c5d08e23120d"
+      ]
+    },
+    {
+      "imageSha256": "c36f23a15de0465848fb26a952f9dcbed0e1a088c73ebdba017d9b05f4c99119",
+      "keptNoteId": "c337824f-79b5-48ef-9cf0-8fb4bb1eca8a",
+      "mergedNoteIds": [
+        "bd1c244c-5913-4b04-b6e1-9e2ca8a3656a"
+      ]
+    }
+  ],
   "contentRules": {
     "sourceFieldsUsed": [
       "title",
       "subject",
       "knowledgePath",
+      "tags",
       "remark",
       "wrongReason",
-      "imagePath"
+      "imagePath",
+      "imageSha256"
     ],
     "ignoredFields": [
       "items"
     ],
+    "removedModules": [
+      "generic active-recall box",
+      "generic second-pass checklist box"
+    ],
     "allowedGenerated": [
-      "generic active-recall action",
-      "generic second-pass checklist"
+      "deterministic topic label",
+      "source-derived relationship line",
+      "source-derived comparison overview"
     ],
     "forbiddenGenerated": [
       "new answer",
       "new solution",
       "new formula",
       "new theorem",
-      "new factual explanation",
-      "exam prediction",
-      "unsupported extension"
+      "unsupported factual explanation",
+      "exam prediction"
     ],
     "uncertainContentPolicy": "omit rather than infer",
     "standaloneTableOfContents": false
   },
+  "groups": {
+    "mistake": {
+      "数列与离散最值": [
+        "01bf5c17-55ab-4072-bd2c-c3f92ce71625"
+      ],
+      "复合与分段函数求导": [
+        "09e738f4-d40a-4114-90b5-fc1f28156824"
+      ],
+      "反函数求导": [
+        "09fb2d77-9d90-4094-9085-b5a9141459eb"
+      ],
+      "导数定义与极限": [
+        "288098dd-1ba1-4b28-bdb2-5267bcc56e33",
+        "c337824f-79b5-48ef-9cf0-8fb4bb1eca8a"
+      ],
+      "极值、拐点与单调性": [
+        "5780ccbf-7260-49ea-b32f-95b190b63210",
+        "8fe9fee6-244d-4ac6-9452-78e730dee9bf",
+        "bc3c59cf-d535-4dc0-a721-7bdf7d5befcb"
+      ],
+      "高阶导数与泰勒": [
+        "d4203e69-a9aa-4da7-97b0-5ec46284239b"
+      ],
+      "隐函数二阶导数": [
+        "e9f702d6-3989-4c3f-8250-a5e8c987e19d",
+        "fa9d76b9-c793-402c-9064-985db3189dbf"
+      ],
+      "切线交点与极限": [
+        "legacy-54c396f918148f297a79bc14"
+      ]
+    },
+    "memory": {
+      "高阶导数公式组": [
+        "117e0611-bd52-403b-a9fd-104af40182c5",
+        "21507d85-ce1d-4767-a108-e95f5cb0bcf9",
+        "700a954b-072d-40b9-8fe8-d825ef452f5f",
+        "a230954a-f9c6-493f-a043-783b4637d89d",
+        "e871cb56-4b83-4d23-a926-ba38c6dbc7bf"
+      ],
+      "反函数求导组": [
+        "626d6e0a-b61b-4291-b647-0ac72033e4ec"
+      ],
+      "函数图像判定组": [
+        "74c12731-5d76-461e-832c-871014e34397",
+        "79781536-d390-43f4-890e-fcfe7a4732a9"
+      ],
+      "基础求导公式组": [
+        "a69dfb00-def6-415e-a9c3-d4a63e78d6d6"
+      ]
+    }
+  },
   "provenance": [
     {
-      "noteId": "legacy-54c396f918148f297a79bc14",
-      "field": "activeRecall",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "legacy-54c396f918148f297a79bc14",
-      "field": "secondPassChecklist",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "09e738f4-d40a-4114-90b5-fc1f28156824",
-      "field": "activeRecall",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "09e738f4-d40a-4114-90b5-fc1f28156824",
-      "field": "secondPassChecklist",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "09fb2d77-9d90-4094-9085-b5a9141459eb",
-      "field": "activeRecall",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "09fb2d77-9d90-4094-9085-b5a9141459eb",
-      "field": "secondPassChecklist",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "5780ccbf-7260-49ea-b32f-95b190b63210",
-      "field": "activeRecall",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "5780ccbf-7260-49ea-b32f-95b190b63210",
-      "field": "secondPassChecklist",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "01bf5c17-55ab-4072-bd2c-c3f92ce71625",
-      "field": "activeRecall",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "01bf5c17-55ab-4072-bd2c-c3f92ce71625",
-      "field": "secondPassChecklist",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "bc3c59cf-d535-4dc0-a721-7bdf7d5befcb",
-      "field": "activeRecall",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "bc3c59cf-d535-4dc0-a721-7bdf7d5befcb",
-      "field": "secondPassChecklist",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "8fe9fee6-244d-4ac6-9452-78e730dee9bf",
-      "field": "activeRecall",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "8fe9fee6-244d-4ac6-9452-78e730dee9bf",
-      "field": "secondPassChecklist",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "d4203e69-a9aa-4da7-97b0-5ec46284239b",
-      "field": "activeRecall",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "d4203e69-a9aa-4da7-97b0-5ec46284239b",
-      "field": "secondPassChecklist",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "e9f702d6-3989-4c3f-8250-a5e8c987e19d",
-      "field": "activeRecall",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "e9f702d6-3989-4c3f-8250-a5e8c987e19d",
-      "field": "secondPassChecklist",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "fa9d76b9-c793-402c-9064-985db3189dbf",
-      "field": "activeRecall",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "fa9d76b9-c793-402c-9064-985db3189dbf",
-      "field": "secondPassChecklist",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
       "noteId": "c337824f-79b5-48ef-9cf0-8fb4bb1eca8a",
-      "field": "activeRecall",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "c337824f-79b5-48ef-9cf0-8fb4bb1eca8a",
-      "field": "secondPassChecklist",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "bd1c244c-5913-4b04-b6e1-9e2ca8a3656a",
-      "field": "activeRecall",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "bd1c244c-5913-4b04-b6e1-9e2ca8a3656a",
-      "field": "secondPassChecklist",
-      "type": "generic-study-action",
+      "field": "relationshipPlacement",
+      "type": "deterministic-source-metadata",
+      "topic": "导数定义与极限",
+      "relatedMistakeIds": [
+        "288098dd-1ba1-4b28-bdb2-5267bcc56e33"
+      ],
+      "relatedMemoryIds": [],
       "containsNewFact": false
     },
     {
       "noteId": "288098dd-1ba1-4b28-bdb2-5267bcc56e33",
-      "field": "activeRecall",
-      "type": "generic-study-action",
+      "field": "relationshipPlacement",
+      "type": "deterministic-source-metadata",
+      "topic": "导数定义与极限",
+      "relatedMistakeIds": [
+        "c337824f-79b5-48ef-9cf0-8fb4bb1eca8a"
+      ],
+      "relatedMemoryIds": [],
       "containsNewFact": false
     },
     {
-      "noteId": "288098dd-1ba1-4b28-bdb2-5267bcc56e33",
-      "field": "secondPassChecklist",
-      "type": "generic-study-action",
+      "noteId": "09e738f4-d40a-4114-90b5-fc1f28156824",
+      "field": "relationshipPlacement",
+      "type": "deterministic-source-metadata",
+      "topic": "复合与分段函数求导",
+      "relatedMistakeIds": [],
+      "relatedMemoryIds": [],
       "containsNewFact": false
     },
     {
-      "noteId": "ed252eff-c038-402c-9877-c5d08e23120d",
-      "field": "activeRecall",
-      "type": "generic-study-action",
+      "noteId": "09fb2d77-9d90-4094-9085-b5a9141459eb",
+      "field": "relationshipPlacement",
+      "type": "deterministic-source-metadata",
+      "topic": "反函数求导",
+      "relatedMistakeIds": [],
+      "relatedMemoryIds": [
+        "626d6e0a-b61b-4291-b647-0ac72033e4ec"
+      ],
       "containsNewFact": false
     },
     {
-      "noteId": "ed252eff-c038-402c-9877-c5d08e23120d",
-      "field": "secondPassChecklist",
-      "type": "generic-study-action",
+      "noteId": "e9f702d6-3989-4c3f-8250-a5e8c987e19d",
+      "field": "relationshipPlacement",
+      "type": "deterministic-source-metadata",
+      "topic": "隐函数二阶导数",
+      "relatedMistakeIds": [
+        "fa9d76b9-c793-402c-9064-985db3189dbf"
+      ],
+      "relatedMemoryIds": [],
+      "containsNewFact": false
+    },
+    {
+      "noteId": "fa9d76b9-c793-402c-9064-985db3189dbf",
+      "field": "relationshipPlacement",
+      "type": "deterministic-source-metadata",
+      "topic": "隐函数二阶导数",
+      "relatedMistakeIds": [
+        "e9f702d6-3989-4c3f-8250-a5e8c987e19d"
+      ],
+      "relatedMemoryIds": [],
+      "containsNewFact": false
+    },
+    {
+      "noteId": "d4203e69-a9aa-4da7-97b0-5ec46284239b",
+      "field": "relationshipPlacement",
+      "type": "deterministic-source-metadata",
+      "topic": "高阶导数与泰勒",
+      "relatedMistakeIds": [],
+      "relatedMemoryIds": [
+        "117e0611-bd52-403b-a9fd-104af40182c5",
+        "21507d85-ce1d-4767-a108-e95f5cb0bcf9",
+        "a230954a-f9c6-493f-a043-783b4637d89d",
+        "700a954b-072d-40b9-8fe8-d825ef452f5f",
+        "e871cb56-4b83-4d23-a926-ba38c6dbc7bf"
+      ],
+      "containsNewFact": false
+    },
+    {
+      "noteId": "5780ccbf-7260-49ea-b32f-95b190b63210",
+      "field": "relationshipPlacement",
+      "type": "deterministic-source-metadata",
+      "topic": "极值、拐点与单调性",
+      "relatedMistakeIds": [
+        "bc3c59cf-d535-4dc0-a721-7bdf7d5befcb",
+        "8fe9fee6-244d-4ac6-9452-78e730dee9bf"
+      ],
+      "relatedMemoryIds": [
+        "74c12731-5d76-461e-832c-871014e34397",
+        "79781536-d390-43f4-890e-fcfe7a4732a9"
+      ],
+      "containsNewFact": false
+    },
+    {
+      "noteId": "bc3c59cf-d535-4dc0-a721-7bdf7d5befcb",
+      "field": "relationshipPlacement",
+      "type": "deterministic-source-metadata",
+      "topic": "极值、拐点与单调性",
+      "relatedMistakeIds": [
+        "5780ccbf-7260-49ea-b32f-95b190b63210",
+        "8fe9fee6-244d-4ac6-9452-78e730dee9bf"
+      ],
+      "relatedMemoryIds": [
+        "74c12731-5d76-461e-832c-871014e34397",
+        "79781536-d390-43f4-890e-fcfe7a4732a9"
+      ],
+      "containsNewFact": false
+    },
+    {
+      "noteId": "8fe9fee6-244d-4ac6-9452-78e730dee9bf",
+      "field": "relationshipPlacement",
+      "type": "deterministic-source-metadata",
+      "topic": "极值、拐点与单调性",
+      "relatedMistakeIds": [
+        "5780ccbf-7260-49ea-b32f-95b190b63210",
+        "bc3c59cf-d535-4dc0-a721-7bdf7d5befcb"
+      ],
+      "relatedMemoryIds": [
+        "74c12731-5d76-461e-832c-871014e34397",
+        "79781536-d390-43f4-890e-fcfe7a4732a9"
+      ],
+      "containsNewFact": false
+    },
+    {
+      "noteId": "01bf5c17-55ab-4072-bd2c-c3f92ce71625",
+      "field": "relationshipPlacement",
+      "type": "deterministic-source-metadata",
+      "topic": "数列与离散最值",
+      "relatedMistakeIds": [],
+      "relatedMemoryIds": [],
+      "containsNewFact": false
+    },
+    {
+      "noteId": "legacy-54c396f918148f297a79bc14",
+      "field": "relationshipPlacement",
+      "type": "deterministic-source-metadata",
+      "topic": "切线交点与极限",
+      "relatedMistakeIds": [],
+      "relatedMemoryIds": [],
       "containsNewFact": false
     },
     {
       "noteId": "117e0611-bd52-403b-a9fd-104af40182c5",
-      "field": "activeRecall",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "117e0611-bd52-403b-a9fd-104af40182c5",
-      "field": "verificationChecklist",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "21507d85-ce1d-4767-a108-e95f5cb0bcf9",
-      "field": "activeRecall",
-      "type": "generic-study-action",
+      "field": "relationshipPlacement",
+      "type": "deterministic-source-metadata",
+      "topic": "高阶导数公式组",
+      "relatedMistakeIds": [
+        "d4203e69-a9aa-4da7-97b0-5ec46284239b"
+      ],
       "containsNewFact": false
     },
     {
       "noteId": "21507d85-ce1d-4767-a108-e95f5cb0bcf9",
-      "field": "verificationChecklist",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "74c12731-5d76-461e-832c-871014e34397",
-      "field": "activeRecall",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "74c12731-5d76-461e-832c-871014e34397",
-      "field": "verificationChecklist",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "626d6e0a-b61b-4291-b647-0ac72033e4ec",
-      "field": "activeRecall",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "626d6e0a-b61b-4291-b647-0ac72033e4ec",
-      "field": "verificationChecklist",
-      "type": "generic-study-action",
+      "field": "relationshipPlacement",
+      "type": "deterministic-source-metadata",
+      "topic": "高阶导数公式组",
+      "relatedMistakeIds": [
+        "d4203e69-a9aa-4da7-97b0-5ec46284239b"
+      ],
       "containsNewFact": false
     },
     {
       "noteId": "a230954a-f9c6-493f-a043-783b4637d89d",
-      "field": "activeRecall",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "a230954a-f9c6-493f-a043-783b4637d89d",
-      "field": "verificationChecklist",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "700a954b-072d-40b9-8fe8-d825ef452f5f",
-      "field": "activeRecall",
-      "type": "generic-study-action",
+      "field": "relationshipPlacement",
+      "type": "deterministic-source-metadata",
+      "topic": "高阶导数公式组",
+      "relatedMistakeIds": [
+        "d4203e69-a9aa-4da7-97b0-5ec46284239b"
+      ],
       "containsNewFact": false
     },
     {
       "noteId": "700a954b-072d-40b9-8fe8-d825ef452f5f",
-      "field": "verificationChecklist",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "79781536-d390-43f4-890e-fcfe7a4732a9",
-      "field": "activeRecall",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "79781536-d390-43f4-890e-fcfe7a4732a9",
-      "field": "verificationChecklist",
-      "type": "generic-study-action",
+      "field": "relationshipPlacement",
+      "type": "deterministic-source-metadata",
+      "topic": "高阶导数公式组",
+      "relatedMistakeIds": [
+        "d4203e69-a9aa-4da7-97b0-5ec46284239b"
+      ],
       "containsNewFact": false
     },
     {
       "noteId": "e871cb56-4b83-4d23-a926-ba38c6dbc7bf",
-      "field": "activeRecall",
-      "type": "generic-study-action",
+      "field": "relationshipPlacement",
+      "type": "deterministic-source-metadata",
+      "topic": "高阶导数公式组",
+      "relatedMistakeIds": [
+        "d4203e69-a9aa-4da7-97b0-5ec46284239b"
+      ],
       "containsNewFact": false
     },
     {
-      "noteId": "e871cb56-4b83-4d23-a926-ba38c6dbc7bf",
-      "field": "verificationChecklist",
-      "type": "generic-study-action",
+      "noteId": "626d6e0a-b61b-4291-b647-0ac72033e4ec",
+      "field": "relationshipPlacement",
+      "type": "deterministic-source-metadata",
+      "topic": "反函数求导组",
+      "relatedMistakeIds": [
+        "09fb2d77-9d90-4094-9085-b5a9141459eb"
+      ],
+      "containsNewFact": false
+    },
+    {
+      "noteId": "74c12731-5d76-461e-832c-871014e34397",
+      "field": "relationshipPlacement",
+      "type": "deterministic-source-metadata",
+      "topic": "函数图像判定组",
+      "relatedMistakeIds": [
+        "5780ccbf-7260-49ea-b32f-95b190b63210",
+        "bc3c59cf-d535-4dc0-a721-7bdf7d5befcb",
+        "8fe9fee6-244d-4ac6-9452-78e730dee9bf"
+      ],
+      "containsNewFact": false
+    },
+    {
+      "noteId": "79781536-d390-43f4-890e-fcfe7a4732a9",
+      "field": "relationshipPlacement",
+      "type": "deterministic-source-metadata",
+      "topic": "函数图像判定组",
+      "relatedMistakeIds": [
+        "5780ccbf-7260-49ea-b32f-95b190b63210",
+        "bc3c59cf-d535-4dc0-a721-7bdf7d5befcb",
+        "8fe9fee6-244d-4ac6-9452-78e730dee9bf"
+      ],
       "containsNewFact": false
     },
     {
       "noteId": "a69dfb00-def6-415e-a9c3-d4a63e78d6d6",
-      "field": "activeRecall",
-      "type": "generic-study-action",
-      "containsNewFact": false
-    },
-    {
-      "noteId": "a69dfb00-def6-415e-a9c3-d4a63e78d6d6",
-      "field": "verificationChecklist",
-      "type": "generic-study-action",
+      "field": "relationshipPlacement",
+      "type": "deterministic-source-metadata",
+      "topic": "基础求导公式组",
+      "relatedMistakeIds": [],
       "containsNewFact": false
     }
   ],
   "files": [
     {
       "path": "generated/错题综合整理.pdf",
-      "bytes": 6094924,
-      "sha256": "043b117da2a9c44c975865befef5f4cdc3e2976edb4b8f03b13b1e9162a1d936"
+      "bytes": 6087996,
+      "sha256": "e5c387d04329c6dc63592c018037342230ff03d21af7ad919ed9f25715ad56fe"
     },
     {
       "path": "generated/背诵综合整理.pdf",
-      "bytes": 4610243,
-      "sha256": "18eb9fa2a1b98304d8452230a269518fd059638cea6c5fc29588ad59f68052b7"
+      "bytes": 4608758,
+      "sha256": "1eec8edb04b3e46b66354072cdb7cea37939f79efbbfcf0bb8b334dfe6aae105"
     }
   ]
 }
