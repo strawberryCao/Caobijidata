@@ -8,6 +8,7 @@ on:
       - 'data/assets/**'
       - 'scripts/generate_review_pdfs.py'
       - 'scripts/generate_review_pdfs_v4.py'
+      - 'scripts/generate_review_pdfs_v4_1.py'
       - '.github/workflows/generate-review-pdfs.yml'
   pull_request:
     branches: [main]
@@ -16,6 +17,7 @@ on:
       - 'data/assets/**'
       - 'scripts/generate_review_pdfs.py'
       - 'scripts/generate_review_pdfs_v4.py'
+      - 'scripts/generate_review_pdfs_v4_1.py'
       - '.github/workflows/generate-review-pdfs.yml'
   workflow_dispatch:
 
@@ -91,8 +93,8 @@ jobs:
           print(f'validated {len(selected)} confirmed records')
           PY
 
-      - name: Pass 2 - generate relation-grouped study PDFs
-        run: python scripts/generate_review_pdfs_v4.py
+      - name: Pass 2 - generate compact relation-grouped study PDFs
+        run: python scripts/generate_review_pdfs_v4_1.py
 
       - name: Pass 3 - deterministic PDF structure audit
         run: |
@@ -118,7 +120,7 @@ jobs:
           assert len(groups.get('极值、拐点与单调性',[])) >= 2
           assert len(groups.get('导数定义与极限',[])) >= 2
           required=[
-              ('generated/错题综合整理.pdf',rendered['mistake'],rendered['mistake']+8),
+              ('generated/错题综合整理.pdf',rendered['mistake'],rendered['mistake']),
               ('generated/背诵综合整理.pdf',1,rendered['memory']),
           ]
           for rel,min_pages,max_pages in required:
@@ -152,6 +154,6 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add generated/错题综合整理.pdf generated/背诵综合整理.pdf generated/manifest.json
-          git commit -m 'chore: publish relation-grouped review PDFs v4'
+          git commit -m 'chore: publish compact relation-grouped review PDFs v4'
           TARGET_BRANCH='${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}'
           git push origin HEAD:"${TARGET_BRANCH}"
