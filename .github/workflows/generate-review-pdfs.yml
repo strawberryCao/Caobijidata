@@ -7,6 +7,7 @@ on:
       - 'data/index.json'
       - 'data/assets/**'
       - 'scripts/generate_review_pdfs.py'
+      - 'scripts/generate_review_pdfs_v4.py'
       - '.github/workflows/generate-review-pdfs.yml'
   pull_request:
     branches: [main]
@@ -14,6 +15,7 @@ on:
       - 'data/index.json'
       - 'data/assets/**'
       - 'scripts/generate_review_pdfs.py'
+      - 'scripts/generate_review_pdfs_v4.py'
       - '.github/workflows/generate-review-pdfs.yml'
   workflow_dispatch:
 
@@ -89,8 +91,8 @@ jobs:
           print(f'validated {len(selected)} confirmed records')
           PY
 
-      - name: Pass 2 - generate compact study PDFs
-        run: python scripts/generate_review_pdfs.py
+      - name: Pass 2 - generate relation-grouped study PDFs
+        run: python scripts/generate_review_pdfs_v4.py
 
       - name: Pass 3 - deterministic PDF structure audit
         run: |
@@ -101,15 +103,23 @@ jobs:
 
           root=Path('.')
           manifest=json.loads((root/'generated/manifest.json').read_text(encoding='utf-8'))
-          assert manifest.get('schemaVersion')==3
-          assert manifest.get('generationPolicy')=='confirmed-source-fields-plus-generic-study-actions'
-          assert manifest.get('contentVersion')=='study-first-v3-no-standalone-toc'
-          assert manifest.get('contentRules',{}).get('standaloneTableOfContents') is False
+          assert manifest.get('schemaVersion')==4
+          assert manifest.get('generationPolicy')=='confirmed-source-metadata-relation-grouping-no-generic-study-boxes'
+          assert manifest.get('contentVersion')=='study-first-v4-related-groups'
+          rules=manifest.get('contentRules',{})
+          assert 'generic active-recall box' in rules.get('removedModules',[])
+          assert 'generic second-pass checklist box' in rules.get('removedModules',[])
           expected={x['path']:x['sha256'] for x in manifest['files']}
-          counts=manifest['counts']
+          rendered=manifest['renderedCounts']
+          assert rendered['mistake'] < manifest['sourceCounts']['mistake'], 'duplicate mistake images were not merged'
+          assert manifest.get('duplicateGroups'), 'expected duplicate records were not detected'
+          groups=manifest.get('groups',{}).get('mistake',{})
+          assert len(groups.get('隐函数二阶导数',[])) >= 2
+          assert len(groups.get('极值、拐点与单调性',[])) >= 2
+          assert len(groups.get('导数定义与极限',[])) >= 2
           required=[
-              ('generated/错题综合整理.pdf',counts['mistake'],counts['mistake']),
-              ('generated/背诵综合整理.pdf',1,counts['memory']),
+              ('generated/错题综合整理.pdf',rendered['mistake'],rendered['mistake']+8),
+              ('generated/背诵综合整理.pdf',1,rendered['memory']),
           ]
           for rel,min_pages,max_pages in required:
               p=root/rel
@@ -119,7 +129,7 @@ jobs:
               assert min_pages <= len(reader.pages) <= max_pages, f'unexpected page count: {rel}'
               for i,page in enumerate(reader.pages):
                   assert float(page.mediabox.width)>0 and float(page.mediabox.height)>0, f'invalid page {i+1}: {rel}'
-          print('deterministic PDF structure audit passed')
+          print('relation grouping and PDF structure audit passed')
           PY
 
       - name: Upload generated PDFs for visual review
@@ -142,6 +152,6 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add generated/错题综合整理.pdf generated/背诵综合整理.pdf generated/manifest.json
-          git commit -m 'chore: replace unusable review PDFs with verified v3'
+          git commit -m 'chore: publish relation-grouped review PDFs v4'
           TARGET_BRANCH='${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}'
           git push origin HEAD:"${TARGET_BRANCH}"
