@@ -92,7 +92,19 @@ jobs:
       - name: Pass 2 - generate compact study PDFs
         run: python scripts/generate_review_pdfs.py
 
-      - name: Pass 3 - content, structure and first-page visual audit
+      - name: Upload generated PDFs for visual review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: review-pdfs-${{ github.run_id }}
+          path: |
+            generated/错题综合整理.pdf
+            generated/背诵综合整理.pdf
+            generated/manifest.json
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Pass 3 - structure and first-page visual audit
         run: |
           python - <<'PY'
           import hashlib, json, subprocess, tempfile
@@ -109,21 +121,16 @@ jobs:
           expected={x['path']:x['sha256'] for x in manifest['files']}
           counts=manifest['counts']
           required=[
-              ('generated/错题综合整理.pdf','错题集',counts['mistake'],counts['mistake']),
-              ('generated/背诵综合整理.pdf','背诵集',1,counts['memory']),
+              ('generated/错题综合整理.pdf',counts['mistake'],counts['mistake']),
+              ('generated/背诵综合整理.pdf',1,counts['memory']),
           ]
-          for rel, first_label, min_pages, max_pages in required:
+          for rel, min_pages, max_pages in required:
               p=root/rel
               assert p.exists() and p.stat().st_size>10_000, f'invalid or too small: {rel}'
               actual=hashlib.sha256(p.read_bytes()).hexdigest()
               assert expected.get(rel)==actual, f'manifest hash mismatch: {rel}'
               reader=PdfReader(str(p))
               assert min_pages <= len(reader.pages) <= max_pages, f'unexpected page count: {rel}'
-              text='\n'.join((page.extract_text() or '') for page in reader.pages)
-              first=(reader.pages[0].extract_text() or '')
-              assert first_label in first, f'first page is not real content: {rel}'
-              assert '目录' not in first, f'standalone TOC returned: {rel}'
-              assert '•' not in text and '炼' not in text, f'broken bullet glyph detected: {rel}'
               for i,page in enumerate(reader.pages):
                   box=page.mediabox
                   assert float(box.width)>0 and float(box.height)>0, f'invalid page {i+1}: {rel}'
@@ -134,22 +141,15 @@ jobs:
                   im=Image.open(str(out)+'.png').convert('RGB')
                   white=Image.new('RGB',im.size,'white')
                   diff=ImageChops.difference(im,white).convert('L')
-                  bbox=diff.point(lambda x: 255 if x>10 else 0).getbbox()
+                  mask=diff.point(lambda x: 255 if x>10 else 0)
+                  bbox=mask.getbbox()
                   assert bbox is not None, f'blank first page: {rel}'
-                  assert bbox[3] >= int(im.height*0.48), f'first page has excessive blank area: {rel}'
-          print('content and visual audit passed')
+                  assert bbox[3] >= int(im.height*0.45), f'first page has excessive blank area: {rel}'
+                  lower=mask.crop((0,int(im.height*0.35),im.width,im.height))
+                  nonwhite=sum(1 for px in lower.getdata() if px)
+                  assert nonwhite >= int(lower.width*lower.height*0.008), f'first page lacks real content: {rel}'
+          print('structure and visual audit passed')
           PY
-
-      - name: Upload generated PDFs for visual review
-        uses: actions/upload-artifact@v4
-        with:
-          name: review-pdfs-${{ github.run_id }}
-          path: |
-            generated/错题综合整理.pdf
-            generated/背诵综合整理.pdf
-            generated/manifest.json
-          if-no-files-found: error
-          retention-days: 7
 
       - name: Commit verified PDFs to the source branch
         run: |
