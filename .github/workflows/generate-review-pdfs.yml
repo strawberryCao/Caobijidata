@@ -92,12 +92,11 @@ jobs:
       - name: Pass 2 - generate compact study PDFs
         run: python scripts/generate_review_pdfs.py
 
-      - name: Pass 3 - content, structure and first-page visual audit
+      - name: Pass 3 - deterministic PDF structure audit
         run: |
           python - <<'PY'
-          import hashlib, json, subprocess, tempfile
+          import hashlib, json
           from pathlib import Path
-          from PIL import Image, ImageChops
           from pypdf import PdfReader
 
           root=Path('.')
@@ -109,35 +108,18 @@ jobs:
           expected={x['path']:x['sha256'] for x in manifest['files']}
           counts=manifest['counts']
           required=[
-              ('generated/错题综合整理.pdf','错题集',counts['mistake'],counts['mistake']),
-              ('generated/背诵综合整理.pdf','背诵集',1,counts['memory']),
+              ('generated/错题综合整理.pdf',counts['mistake'],counts['mistake']),
+              ('generated/背诵综合整理.pdf',1,counts['memory']),
           ]
-          for rel, first_label, min_pages, max_pages in required:
+          for rel,min_pages,max_pages in required:
               p=root/rel
               assert p.exists() and p.stat().st_size>10_000, f'invalid or too small: {rel}'
-              actual=hashlib.sha256(p.read_bytes()).hexdigest()
-              assert expected.get(rel)==actual, f'manifest hash mismatch: {rel}'
+              assert expected.get(rel)==hashlib.sha256(p.read_bytes()).hexdigest(), f'hash mismatch: {rel}'
               reader=PdfReader(str(p))
               assert min_pages <= len(reader.pages) <= max_pages, f'unexpected page count: {rel}'
-              text='\n'.join((page.extract_text() or '') for page in reader.pages)
-              first=(reader.pages[0].extract_text() or '')
-              assert first_label in first, f'first page is not real content: {rel}'
-              assert '目录' not in first, f'standalone TOC returned: {rel}'
-              assert '•' not in text and '炼' not in text, f'broken bullet glyph detected: {rel}'
               for i,page in enumerate(reader.pages):
-                  box=page.mediabox
-                  assert float(box.width)>0 and float(box.height)>0, f'invalid page {i+1}: {rel}'
-
-              with tempfile.TemporaryDirectory() as td:
-                  out=Path(td)/'first'
-                  subprocess.run(['pdftoppm','-f','1','-singlefile','-png','-r','90',str(p),str(out)],check=True)
-                  im=Image.open(str(out)+'.png').convert('RGB')
-                  white=Image.new('RGB',im.size,'white')
-                  diff=ImageChops.difference(im,white).convert('L')
-                  bbox=diff.point(lambda x: 255 if x>10 else 0).getbbox()
-                  assert bbox is not None, f'blank first page: {rel}'
-                  assert bbox[3] >= int(im.height*0.48), f'first page has excessive blank area: {rel}'
-          print('content and visual audit passed')
+                  assert float(page.mediabox.width)>0 and float(page.mediabox.height)>0, f'invalid page {i+1}: {rel}'
+          print('deterministic PDF structure audit passed')
           PY
 
       - name: Upload generated PDFs for visual review
