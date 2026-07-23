@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 14,
-  "updatedAt": "2026-07-23T13:23:40.606Z",
+  "revision": 15,
+  "updatedAt": "2026-07-23T13:35:10.111Z",
   "days": {
     "2026-07-21": {
       "manual": {
@@ -4219,42 +4219,6 @@
           "cardIds": []
         },
         {
-          "noteUid": "e2188699-1e2f-4437-ab8f-98d61ede1414",
-          "capturedDate": "2026-07-23",
-          "title": "图片笔记",
-          "subject": "默认文件夹",
-          "remark": "",
-          "createdAt": "2026-07-23T12:15:03.876Z",
-          "updatedAt": "2026-07-23T12:15:03.876Z",
-          "firstSyncedAt": "2026-07-23T12:15:03.876Z",
-          "filePath": "github://data/assets/e2188699-1e2f-4437-ab8f-98d61ede1414.jpg",
-          "pageRefs": [],
-          "tags": [],
-          "knowledgePath": [
-            "默认文件夹"
-          ],
-          "noteType": "note",
-          "questionType": "",
-          "wrongReason": "",
-          "wrongReasonSource": "",
-          "wrongReasonConfidence": null,
-          "organizationStatus": "pending",
-          "classificationSource": "local",
-          "reviewStatus": "pending",
-          "decisionRevision": 0,
-          "lastReviewOperationId": "",
-          "lastReviewAction": "",
-          "proposalId": "",
-          "reviewedAt": "",
-          "manualCreated": false,
-          "userEditedFields": [],
-          "goodQuestion": null,
-          "items": [],
-          "studyNotes": [],
-          "confidence": null,
-          "cardIds": []
-        },
-        {
           "noteUid": "9909126c-93ed-4f31-bdb3-083128ef6466",
           "capturedDate": "2026-07-23",
           "title": "罗尔定理逆运算与辅助函数构造",
@@ -5587,6 +5551,46 @@
         "userEditedFields": [
           "title"
         ],
+        "goodQuestion": null,
+        "items": [],
+        "studyNotes": [],
+        "confidence": null,
+        "cardIds": []
+      },
+      "cards": []
+    },
+    "e2188699-1e2f-4437-ab8f-98d61ede1414": {
+      "deletedAt": "2026-07-23T13:35:10.111Z",
+      "note": {
+        "noteUid": "e2188699-1e2f-4437-ab8f-98d61ede1414",
+        "capturedDate": "2026-07-23",
+        "title": "图片笔记",
+        "subject": "默认文件夹",
+        "remark": "",
+        "createdAt": "2026-07-23T12:15:03.876Z",
+        "updatedAt": "2026-07-23T13:35:10.111Z",
+        "firstSyncedAt": "2026-07-23T12:15:03.876Z",
+        "filePath": "github://data/assets/e2188699-1e2f-4437-ab8f-98d61ede1414.jpg",
+        "pageRefs": [],
+        "tags": [],
+        "knowledgePath": [
+          "默认文件夹"
+        ],
+        "noteType": "note",
+        "questionType": "",
+        "wrongReason": "",
+        "wrongReasonSource": "",
+        "wrongReasonConfidence": null,
+        "organizationStatus": "pending",
+        "classificationSource": "local",
+        "reviewStatus": "pending",
+        "decisionRevision": 0,
+        "lastReviewOperationId": "",
+        "lastReviewAction": "",
+        "proposalId": "",
+        "reviewedAt": "",
+        "manualCreated": false,
+        "userEditedFields": [],
         "goodQuestion": null,
         "items": [],
         "studyNotes": [],
