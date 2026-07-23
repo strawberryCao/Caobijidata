@@ -1,0 +1,186 @@
+{
+  "id": "操作系统_短作业优先调度算法_20260708_162507",
+  "kind": "single",
+  "remark": "",
+  "createdAt": "2026-07-08T08:25:07.863Z",
+  "fileName": "操作系统_短作业优先调度算法_20260708_162507.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\操作系统\\操作系统_短作业优先调度算法_20260708_162507.png",
+  "mime": "image/png",
+  "subject": "操作系统",
+  "title": "短作业优先调度算法计算",
+  "updatedAt": "2026-07-08T09:03:22.707Z",
+  "classifier": {
+    "status": "auto_classified",
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "baseUrl": "https://ws-wz2m9ithvttiwqm6.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "source": "file",
+    "reason": "笔记内容涉及进程调度算法，属于操作系统科目。",
+    "autoClassifiedAt": "2026-07-08T09:03:22.707Z"
+  },
+  "schemaVersion": 2,
+  "noteUid": "dd1504d0-757a-4327-a28a-180c4598934e",
+  "captureDate": "2026-07-08",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "organizer": {
+    "version": 1,
+    "inputHash": "a3cf17cd2405fd85b6fbdf92efb5e6e892583cdf2eadeec437b6c0d0336a4667",
+    "analyzerVersion": "note-ai-analyzer-v3",
+    "status": "organized",
+    "processedAt": "2026-07-20T10:07:32.755Z",
+    "confidence": 0.95,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容为一道明确的操作系统进程调度计算题,属于 SJF 算法的应用场景,符合‘操作系统’科目下的‘页面置换算法’知识点分类。题目类型为计算题,意图清晰,无记忆或错题标记,判断可靠。",
+    "summary": "一道关于短作业优先(SJF)非抢占调度算法的计算题,要求根据给定的三个进程运行时间,计算其调度顺序、各进程周转时间及平均周转时间。",
+    "questionType": "计算题",
+    "wrongReason": null,
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": true,
+      "isMistake": false,
+      "isGood": true,
+      "shouldMemorize": false
+    },
+    "items": [
+      {
+        "title": "短作业优先调度算法计算",
+        "knowledgePoint": "页面置换算法",
+        "questionType": "计算题",
+        "summary": "有三个进程 P1、P2、P3,运行时间分别为 8、4、2。采用短作业优先(SJF)非抢占调度算法,求调度顺序、各进程周转时间及平均周转时间。",
+        "tags": [
+          "进程调度",
+          "SJF",
+          "周转时间"
+        ],
+        "wrongReason": null,
+        "intent": {
+          "isQuestion": true,
+          "isMistake": false,
+          "isGood": true,
+          "shouldMemorize": false
+        }
+      }
+    ],
+    "subjectPolicy": {
+      "requested": "操作系统",
+      "resolved": "操作系统",
+      "reason": "direct"
+    },
+    "proposed": null,
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-20T10:07:32.778Z"
+  },
+  "learning": {
+    "noteUid": "dd1504d0-757a-4327-a28a-180c4598934e",
+    "capturedDate": "2026-07-08",
+    "title": "短作业优先调度算法计算",
+    "subject": "操作系统",
+    "pageRefs": [],
+    "tags": [
+      "调度算法",
+      "周转时间",
+      "平均周转时间",
+      "题型:计算题",
+      "进程调度",
+      "SJF",
+      "好题"
+    ],
+    "knowledgePath": [
+      "操作系统",
+      "页面置换算法"
+    ],
+    "noteType": "question",
+    "questionType": "计算题",
+    "wrongReason": null,
+    "intent": {
+      "isQuestion": true,
+      "isMistake": false,
+      "isGood": true,
+      "shouldMemorize": false
+    },
+    "items": [
+      {
+        "title": "短作业优先调度算法计算",
+        "knowledgePoint": "页面置换算法",
+        "questionType": "计算题",
+        "summary": "有三个进程 P1、P2、P3,运行时间分别为 8、4、2。采用短作业优先(SJF)非抢占调度算法,求调度顺序、各进程周转时间及平均周转时间。",
+        "tags": [
+          "进程调度",
+          "SJF",
+          "周转时间"
+        ],
+        "wrongReason": null,
+        "intent": {
+          "isQuestion": true,
+          "isMistake": false,
+          "isGood": true,
+          "shouldMemorize": false
+        }
+      }
+    ],
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "pendingAiOrganization": false,
+    "confidence": 0.95,
+    "enrichedAt": "2026-07-20T10:07:32.756Z"
+  },
+  "questionType": "计算题",
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "调度算法",
+      "周转时间",
+      "平均周转时间",
+      "题型:计算题",
+      "进程调度",
+      "SJF",
+      "好题"
+    ]
+  },
+  "items": [
+    {
+      "title": "短作业优先调度算法计算",
+      "knowledgePoint": "页面置换算法",
+      "questionType": "计算题",
+      "summary": "有三个进程 P1、P2、P3,运行时间分别为 8、4、2。采用短作业优先(SJF)非抢占调度算法,求调度顺序、各进程周转时间及平均周转时间。",
+      "tags": [
+        "进程调度",
+        "SJF",
+        "周转时间"
+      ],
+      "wrongReason": null,
+      "intent": {
+        "isQuestion": true,
+        "isMistake": false,
+        "isGood": true,
+        "shouldMemorize": false
+      }
+    }
+  ],
+  "classification": {
+    "subjectId": "subject_fad96936-6340-4e35-b31c-64bf130ac560",
+    "subjectName": "操作系统",
+    "knowledgePointId": "kp_03b29d98-6056-4ce1-bc65-a487f24fbfcb",
+    "knowledgePointName": "页面置换算法"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "e9f702d6-3989-4c3f-8250-a5e8c987e19d",
+  "id": "高等数学_隐函数二阶导数错题分析_20260721_135108",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "隐函数二阶导数错题分析",
+  "remark": "错题 隐函数二阶导数不熟练 脑子一热 直接对着一阶导数的分式洛必达求二阶导数了 ",
+  "createdAt": "2026-07-21T05:51:08.419Z",
+  "captureDate": "2026-07-21",
+  "fileName": "高等数学_隐函数二阶导数错题分析_20260721_135108.jpg",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_隐函数二阶导数错题分析_20260721_135108.jpg",
+  "mime": "image/jpeg",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [
+      "错题"
+    ],
+    "flags": {
+      "isMistake": true,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "e9f702d6-3989-4c3f-8250-a5e8c987e19d",
+    "capturedDate": "2026-07-21",
+    "title": "隐函数二阶导数错题分析",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [
+      "错题"
+    ],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "mistake",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": true,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [
+      {
+        "sourceKey": "remark-mistake:0",
+        "kind": "mistake",
+        "front": "重做：错题_隐函数二阶导数不熟练_脑子一热_直接对着一阶导数的分式洛必达求二阶导数了",
+        "back": "错题 隐函数二阶导数不熟练 脑子一热 直接对着一阶导数的分式洛必达求二阶导数了",
+        "status": "active",
+        "knowledgePath": [
+          "高等数学"
+        ],
+        "tags": [
+          "错题"
+        ],
+        "pageRefs": []
+      }
+    ],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": true,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "图片核心内容为隐函数求导（含一阶、二阶导数推导与错误反思），属高等数学典型考点；用户备注明确提及‘隐函数二阶导数不熟练’及具体错误方法。",
+    "error": null,
+    "requestedAt": "2026-07-21T05:51:08.419Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-21T05:51:12.796Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-21T05:51:12.796Z"
+}

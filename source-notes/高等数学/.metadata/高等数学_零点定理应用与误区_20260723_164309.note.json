@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "ba984465-f319-4aac-93db-3227ed9b07c9",
+  "id": "高等数学_零点定理应用与误区_20260723_164309",
+  "kind": "canvas",
+  "canvasProjectId": "document_1784789490727_9f57e840179a5",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "零点定理应用与误区",
+  "remark": "错题 6.1 零点定理概念不熟",
+  "createdAt": "2026-07-23T08:43:09.541Z",
+  "captureDate": "2026-07-23",
+  "fileName": "高等数学_零点定理应用与误区_20260723_164309.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_零点定理应用与误区_20260723_164309.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [
+      "6.1"
+    ],
+    "questionRefs": [
+      {
+        "raw": "题 6.1",
+        "number": "6.1"
+      }
+    ],
+    "explicitTags": [],
+    "inferredTags": [
+      "错题"
+    ],
+    "flags": {
+      "isMistake": true,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "ba984465-f319-4aac-93db-3227ed9b07c9",
+    "capturedDate": "2026-07-23",
+    "title": "零点定理应用与误区",
+    "subject": "高等数学",
+    "pageRefs": [
+      {
+        "raw": "题 6.1",
+        "question": "6.1"
+      }
+    ],
+    "questions": [
+      "6.1"
+    ],
+    "tags": [
+      "错题"
+    ],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "mistake",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": true,
+      "isMistake": true,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": true,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "图片含例6.2证明题，核心为零点定理的使用条件与常见错误（如开区间误写为(0,1)），用户备注明确提及‘零点定理概念不熟’",
+    "error": null,
+    "requestedAt": "2026-07-23T08:43:09.541Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-23T08:43:13.350Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-23T08:43:13.350Z"
+}

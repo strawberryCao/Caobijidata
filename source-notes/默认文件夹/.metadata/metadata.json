@@ -1,0 +1,4854 @@
+[
+  {
+    "id": "默认文件夹_测试_20260708_145034",
+    "kind": "canvas",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "脂肪最怕的食物",
+    "remark": "测试",
+    "createdAt": "2026-07-08T06:50:34.841Z",
+    "fileName": "默认文件夹_测试_20260708_145034.png",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_测试_20260708_145034.png",
+    "mime": "image/png",
+    "naming": {
+      "provider": "qwen",
+      "model": null,
+      "reason": "fallback",
+      "error": "QWEN_API_KEY or DASHSCOPE_API_KEY is not set"
+    },
+    "classifier": {
+      "status": "fallback_named",
+      "provider": "qwen",
+      "scheduledAt": "24:00"
+    },
+    "noteUid": "legacy-bfe8f8e74b1210a9cbd63bde",
+    "captureDate": "2026-07-08",
+    "learning": {
+      "noteUid": "legacy-bfe8f8e74b1210a9cbd63bde",
+      "capturedDate": "2026-07-08",
+      "title": "脂肪最怕的食物",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "tags": [
+        "健康",
+        "饮食",
+        "减肥"
+      ],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "questionType": null,
+      "wrongReason": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "items": [],
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "pendingAiOrganization": false,
+      "confidence": 0.1,
+      "enrichedAt": "2026-07-20T11:01:14.470Z"
+    },
+    "schemaVersion": 2,
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "organizer": {
+      "version": 1,
+      "inputHash": "421955908cc7e477bae6233940d78a06970167867a138235a4bf75dfcd0c27f0",
+      "analyzerVersion": "note-ai-analyzer-v3",
+      "status": "needs_review",
+      "processedAt": "2026-07-20T11:01:14.470Z",
+      "confidence": 0.1,
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容与408科目无关,属于健康或饮食相关知识,无法可靠归类到数据结构、计算机组成、操作系统或计算机网络。备注仅为‘测试’,无明确学习意图或记忆价值。",
+      "summary": "图片展示了一组玉米,并标注为‘脂肪最怕的食物’,备注中提到‘测试’。",
+      "questionType": null,
+      "wrongReason": null,
+      "memoryCard": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "items": [],
+      "subjectPolicy": {
+        "requested": "默认文件夹",
+        "resolved": "默认文件夹",
+        "reason": "unknown"
+      },
+      "proposed": {
+        "subject": "默认文件夹",
+        "knowledgePoint": null
+      },
+      "learningSyncStatus": "synced",
+      "learningSyncedAt": "2026-07-20T11:01:14.488Z"
+    },
+    "questionType": null,
+    "tags": {
+      "manual": [],
+      "explicit": [],
+      "inferred": [
+        "健康",
+        "饮食",
+        "减肥"
+      ]
+    },
+    "items": [],
+    "classification": {
+      "subjectId": "subject_4fb7dd54-d7a8-430e-90b6-accca807f506",
+      "subjectName": "默认文件夹",
+      "knowledgePointId": null,
+      "knowledgePointName": null
+    }
+  },
+  {
+    "id": "默认文件夹_货车载玻璃板材_20260715_094448",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "货车载玻璃板材",
+    "remark": "",
+    "createdAt": "2026-07-15T01:44:48.240Z",
+    "fileName": "默认文件夹_货车载玻璃板材_20260715_094448.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_货车载玻璃板材_20260715_094448.jpg",
+    "mime": "image/jpeg",
+    "naming": {
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "baseUrl": "https://ws-wz2m9ithvttiwqm6.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions",
+      "source": "file",
+      "reason": "图片主要内容为一辆货车装载玻璃板材停在住宅区街道旁，与考研科目无关。",
+      "error": null
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "24:00"
+    },
+    "noteUid": "legacy-4c9397ad70242b0785cb9126",
+    "captureDate": "2026-07-15",
+    "learning": {
+      "noteUid": "legacy-4c9397ad70242b0785cb9126",
+      "capturedDate": "2026-07-15",
+      "title": "货车载玻璃板材",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "questionType": null,
+      "wrongReason": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "items": [],
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "pendingAiOrganization": false,
+      "confidence": 0.1,
+      "enrichedAt": "2026-07-20T11:01:24.066Z"
+    },
+    "schemaVersion": 2,
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "organizer": {
+      "version": 1,
+      "inputHash": "7b6bc61da344ac5497274da34bbdcaeaff9d428590d3faa53f6c944bf6601874",
+      "analyzerVersion": "note-ai-analyzer-v3",
+      "status": "needs_review",
+      "processedAt": "2026-07-20T11:01:24.066Z",
+      "confidence": 0.1,
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为一辆货车装载玻璃板材的场景,与408科目无关,属于日常记录,无学习内容或记忆价值。",
+      "summary": "一辆白色货车停在住宅区路边,车厢内装载着多块玻璃板材。",
+      "questionType": null,
+      "wrongReason": null,
+      "memoryCard": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "items": [],
+      "subjectPolicy": {
+        "requested": "默认文件夹",
+        "resolved": "默认文件夹",
+        "reason": "unknown"
+      },
+      "proposed": {
+        "subject": "默认文件夹",
+        "knowledgePoint": null
+      },
+      "learningSyncStatus": "synced",
+      "learningSyncedAt": "2026-07-20T11:01:24.083Z"
+    },
+    "questionType": null,
+    "tags": {
+      "manual": [],
+      "explicit": [],
+      "inferred": []
+    },
+    "items": [],
+    "classification": {
+      "subjectId": "subject_4fb7dd54-d7a8-430e-90b6-accca807f506",
+      "subjectName": "默认文件夹",
+      "knowledgePointId": null,
+      "knowledgePointName": null
+    }
+  },
+  {
+    "id": "默认文件夹_外卖订单详情截图_20260715_125459",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "外卖订单详情截图",
+    "remark": "",
+    "createdAt": "2026-07-15T04:54:59.951Z",
+    "fileName": "默认文件夹_外卖订单详情截图_20260715_125459.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_外卖订单详情截图_20260715_125459.jpg",
+    "mime": "image/jpeg",
+    "naming": {
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "baseUrl": "https://ws-wz2m9ithvttiwqm6.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions",
+      "source": "file",
+      "reason": "图片内容为外卖订单的详细信息，不属于任何考研科目，故归类为默认文件夹。",
+      "error": null
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "24:00"
+    },
+    "noteUid": "legacy-7dd84e517b5d58b4c2438260",
+    "captureDate": "2026-07-15",
+    "learning": {
+      "noteUid": "legacy-7dd84e517b5d58b4c2438260",
+      "capturedDate": "2026-07-15",
+      "title": "外卖订单详情截图",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "tags": [
+        "外卖订单",
+        "配送信息",
+        "订单详情",
+        "生活记录",
+        "订单信息"
+      ],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "questionType": null,
+      "wrongReason": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "items": [],
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "pendingAiOrganization": false,
+      "confidence": 0.1,
+      "enrichedAt": "2026-07-20T11:07:45.745Z"
+    },
+    "schemaVersion": 2,
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "organizer": {
+      "version": 1,
+      "inputHash": "34bc2a0894762426e4dbadf0b06311f3688ae4f0c2e6a46becdc0fb7eac37647",
+      "analyzerVersion": "note-ai-analyzer-v3",
+      "status": "needs_review",
+      "processedAt": "2026-07-20T11:07:45.745Z",
+      "confidence": 0.1,
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为外卖订单详情截图,属于生活记录类信息,与408考研科目无关,无法可靠归入任何一级科目,故分类为“默认文件夹”。",
+      "summary": "一张外卖订单的详细信息截图,包含预计送达时间、商家接单状态、配送地图、订单地址及商品费用等。",
+      "questionType": null,
+      "wrongReason": null,
+      "memoryCard": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "items": [],
+      "subjectPolicy": {
+        "requested": "默认文件夹",
+        "resolved": "默认文件夹",
+        "reason": "unknown"
+      },
+      "proposed": {
+        "subject": "默认文件夹",
+        "knowledgePoint": null
+      },
+      "learningSyncStatus": "synced",
+      "learningSyncedAt": "2026-07-20T11:07:45.778Z"
+    },
+    "questionType": null,
+    "tags": {
+      "manual": [],
+      "explicit": [],
+      "inferred": [
+        "外卖订单",
+        "配送信息",
+        "订单详情",
+        "生活记录",
+        "订单信息"
+      ]
+    },
+    "items": [],
+    "classification": {
+      "subjectId": "subject_4fb7dd54-d7a8-430e-90b6-accca807f506",
+      "subjectName": "默认文件夹",
+      "knowledgePointId": null,
+      "knowledgePointName": null
+    }
+  },
+  {
+    "id": "默认文件夹_办公桌与烤箱食物对比_20260715_164016",
+    "kind": "canvas",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "办公桌与烤箱食物对比",
+    "remark": "和不合理合理",
+    "createdAt": "2026-07-15T08:40:16.280Z",
+    "fileName": "默认文件夹_办公桌与烤箱食物对比_20260715_164016.png",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_办公桌与烤箱食物对比_20260715_164016.png",
+    "mime": "image/png",
+    "naming": {
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "baseUrl": "https://ws-wz2m9ithvttiwqm6.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions",
+      "source": "file",
+      "reason": "图片内容为办公环境与食物的并列展示，无特定学科关联。",
+      "error": null
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "24:00"
+    },
+    "noteUid": "legacy-25079a44fe187d6ab627107a",
+    "captureDate": "2026-07-15",
+    "learning": {
+      "noteUid": "legacy-25079a44fe187d6ab627107a",
+      "capturedDate": "2026-07-15",
+      "title": "办公桌与烤箱食物对比",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "tags": [
+        "生活场景",
+        "日常记录"
+      ],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "questionType": null,
+      "wrongReason": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "items": [],
+      "cards": [],
+      "confidence": 0.3,
+      "enrichedAt": "2026-07-20T11:07:28.279Z",
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "pendingAiOrganization": false
+    },
+    "schemaVersion": 2,
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "questionType": null,
+    "tags": {
+      "manual": [],
+      "explicit": [],
+      "inferred": [
+        "生活场景",
+        "日常记录"
+      ]
+    },
+    "items": [],
+    "classification": {
+      "subjectId": "subject_4fb7dd54-d7a8-430e-90b6-accca807f506",
+      "subjectName": "默认文件夹",
+      "knowledgePointId": null,
+      "knowledgePointName": null
+    },
+    "organizer": {
+      "version": 1,
+      "inputHash": "ea3eee3afd7facfb35c4571099e184675eb075dc382001a6dfbed749a51465e1",
+      "analyzerVersion": "note-ai-analyzer-v3",
+      "status": "needs_review",
+      "processedAt": "2026-07-20T11:07:28.278Z",
+      "confidence": 0.3,
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为生活场景,与考研408科目无关,无法可靠归类到任何一级科目,故归为“默认文件夹”。",
+      "summary": "图片展示了办公桌环境与烤箱内食物的对比,左侧为烤箱内的食物(疑似面包和谷物),右侧为办公桌上的笔记本电脑及其他物品。",
+      "questionType": null,
+      "wrongReason": null,
+      "memoryCard": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "items": [],
+      "subjectPolicy": {
+        "requested": "默认文件夹",
+        "resolved": "默认文件夹",
+        "reason": "unknown"
+      },
+      "proposed": {
+        "subject": "默认文件夹",
+        "knowledgePoint": null
+      },
+      "learningSyncStatus": "synced",
+      "learningSyncedAt": "2026-07-20T11:07:28.311Z"
+    }
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "a09b0088-740b-4544-a614-1eca4e143368",
+    "id": "默认文件夹_动物图像噪声分析图示_20260717_212725",
+    "kind": "canvas",
+    "canvasProjectId": "document_31d62ee2-fdc0-40ff-9905-30df7aad8fee",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "动物图像噪声分析",
+    "remark": "测试",
+    "createdAt": "2026-07-17T13:27:25.954Z",
+    "captureDate": "2026-07-17",
+    "fileName": "默认文件夹_动物图像噪声分析图示_20260717_212725.png",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_动物图像噪声分析图示_20260717_212725.png",
+    "mime": "image/png",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "a09b0088-740b-4544-a614-1eca4e143368",
+      "capturedDate": "2026-07-17",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [
+        "图像噪声",
+        "图像合成",
+        "计算机视觉",
+        "图像处理",
+        "噪声合成",
+        "噪声分析",
+        "好题"
+      ],
+      "knowledgePath": [
+        "默认文件夹",
+        "图像噪声与合成"
+      ],
+      "noteType": "note",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false,
+      "title": "动物图像噪声分析",
+      "subject": "默认文件夹",
+      "questionType": null,
+      "wrongReason": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": true,
+        "shouldMemorize": false
+      },
+      "items": [],
+      "cards": [],
+      "organizationStatus": "confirmed",
+      "classificationSource": "manual",
+      "confidence": 0.95,
+      "enrichedAt": "2026-07-20T11:01:19.161Z"
+    },
+    "naming": {
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为动物图像与噪声的对比分析，不属于特定考研科目，归类为通用图示。",
+      "error": null
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "organizer": {
+      "version": 1,
+      "inputHash": "30f209010ac755028151ae82d51f988b8f5cf3fc4af24439450a470eaac08e23",
+      "analyzerVersion": "note-ai-analyzer-v3",
+      "status": "organized",
+      "processedAt": "2026-07-20T11:01:19.161Z",
+      "confidence": 0.95,
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为图像噪声分析,属于图像处理领域,归类于‘默认文件夹’下的‘图像噪声与合成’知识点。备注中无明确记忆或错题意图,但记录了典型图像噪声叠加过程,具有参考价值。",
+      "summary": "展示了一张未受噪声影响的动物图像(C-1),一张添加了噪声的图像(B-1),以及通过噪声叠加得到的最终图像(A-1)。解释指出B的噪声加上C得到A。",
+      "questionType": null,
+      "wrongReason": null,
+      "memoryCard": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": true,
+        "shouldMemorize": false
+      },
+      "items": [],
+      "subjectPolicy": {
+        "requested": "默认文件夹",
+        "resolved": "默认文件夹",
+        "reason": "manual"
+      },
+      "proposed": null,
+      "learningSyncStatus": "synced",
+      "learningSyncedAt": "2026-07-20T11:01:19.176Z"
+    },
+    "questionType": null,
+    "tags": {
+      "manual": [],
+      "explicit": [],
+      "inferred": [
+        "图像噪声",
+        "图像合成",
+        "计算机视觉",
+        "图像处理",
+        "噪声合成",
+        "噪声分析",
+        "好题"
+      ]
+    },
+    "items": [],
+    "classification": {
+      "subjectId": "subject_4fb7dd54-d7a8-430e-90b6-accca807f506",
+      "subjectName": "默认文件夹",
+      "knowledgePointId": "kp_41728adb-c3df-48de-b355-a8341553fec5",
+      "knowledgePointName": "图像噪声与合成",
+      "correctedBy": "user",
+      "correctedAt": "2026-07-19T07:28:18.229Z"
+    },
+    "updatedAt": "2026-07-19T07:28:18.229Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "49357e66-2685-43af-a913-2abe371cddcb",
+    "id": "默认文件夹_B站视频推荐页面截图_20260720_153222",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "B站视频推荐页面截图",
+    "remark": "你猜猜这是什么",
+    "createdAt": "2026-07-20T07:32:22.088Z",
+    "captureDate": "2026-07-20",
+    "fileName": "默认文件夹_B站视频推荐页面截图_20260720_153222.png",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_B站视频推荐页面截图_20260720_153222.png",
+    "mime": "image/png",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "49357e66-2685-43af-a913-2abe371cddcb",
+      "capturedDate": "2026-07-20",
+      "title": "B站视频推荐页面截图",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [
+        "视频平台",
+        "内容推荐",
+        "社交媒体"
+      ],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false,
+      "questionType": null,
+      "items": [],
+      "confidence": 0.95,
+      "enrichedAt": "2026-07-20T11:11:20.879Z"
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为B站视频推荐页面，无明确学习科目内容。",
+      "error": null,
+      "requestedAt": "2026-07-20T07:32:22.088Z",
+      "completedAt": "2026-07-20T07:32:26.491Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-20T07:32:26.491Z",
+    "organizer": {
+      "version": 1,
+      "inputHash": "69673fcb6e0aa71f29c24336407595fac25d0d7027e0ebc043c0451e37158656",
+      "analyzerVersion": "note-ai-analyzer-v3",
+      "status": "needs_review",
+      "processedAt": "2026-07-20T11:11:20.879Z",
+      "confidence": 0.95,
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片为B站视频推荐页面截图,无学习内容或考研科目相关知识,属于通用信息展示,归类为‘默认文件夹’。备注中‘你猜猜这是什么’仅为趣味性描述,无记忆或错题意图。",
+      "summary": "一张Bilibili(B站)视频推荐页面的截图,展示了多个热门视频的缩略图、标题、播放量、评论数及发布时间等信息。",
+      "questionType": null,
+      "wrongReason": null,
+      "memoryCard": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "items": [],
+      "subjectPolicy": {
+        "requested": "默认文件夹",
+        "resolved": "默认文件夹",
+        "reason": "unknown"
+      },
+      "proposed": {
+        "subject": "默认文件夹",
+        "knowledgePoint": null
+      },
+      "learningSyncStatus": "synced",
+      "learningSyncedAt": "2026-07-20T11:11:20.921Z"
+    },
+    "questionType": null,
+    "tags": {
+      "manual": [],
+      "explicit": [],
+      "inferred": [
+        "视频平台",
+        "内容推荐",
+        "社交媒体"
+      ]
+    },
+    "items": [],
+    "classification": {
+      "subjectId": "subject_4fb7dd54-d7a8-430e-90b6-accca807f506",
+      "subjectName": "默认文件夹",
+      "knowledgePointId": null,
+      "knowledgePointName": null
+    }
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "137473aa-e2dc-4fcd-8cda-2dbcc15b6151",
+    "id": "默认文件夹_采购订单与库存管理表格_20260720_170715",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "采购订单与库存管理表格",
+    "remark": "",
+    "createdAt": "2026-07-20T09:07:15.446Z",
+    "captureDate": "2026-07-20",
+    "fileName": "默认文件夹_采购订单与库存管理表格_20260720_170715.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_采购订单与库存管理表格_20260720_170715.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "137473aa-e2dc-4fcd-8cda-2dbcc15b6151",
+      "capturedDate": "2026-07-20",
+      "title": "采购订单与库存管理表格",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [
+        "表格分析",
+        "财务管理",
+        "库存管理"
+      ],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false,
+      "questionType": null,
+      "items": [],
+      "confidence": 0.7,
+      "enrichedAt": "2026-07-20T10:04:56.897Z"
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为采购订单和库存管理的表格数据，未体现具体学科内容。",
+      "error": null,
+      "requestedAt": "2026-07-20T09:07:15.446Z",
+      "completedAt": "2026-07-20T09:07:17.901Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-20T09:07:17.901Z",
+    "questionType": null,
+    "tags": {
+      "manual": [],
+      "explicit": [],
+      "inferred": [
+        "表格分析",
+        "财务管理",
+        "库存管理"
+      ]
+    },
+    "items": [],
+    "classification": {
+      "subjectId": "subject_4fb7dd54-d7a8-430e-90b6-accca807f506",
+      "subjectName": "默认文件夹",
+      "knowledgePointId": null,
+      "knowledgePointName": null
+    },
+    "organizer": {
+      "version": 1,
+      "inputHash": "e15f5d4e368fd20cf8879436b5c5b3c7f11b5a3a3edc0aaa7e5a2687023d3869",
+      "analyzerVersion": "note-ai-analyzer-v2",
+      "status": "needs_review",
+      "processedAt": "2026-07-20T10:04:56.897Z",
+      "confidence": 0.7,
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为一张采购订单与库存管理的表格,不属于408科目中的任何一级主题,因此归类为“默认文件夹”。表格中包含具体的数据和信息,但未表现出明显的错题或记忆意图,故不生成卡片。",
+      "summary": "一张包含采购订单、库存管理及相关财务信息的表格,记录了不同物料的采购数量、单价、金额以及库存状态等数据。",
+      "questionType": null,
+      "wrongReason": null,
+      "memoryCard": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "shouldMemorize": false
+      },
+      "items": [],
+      "subjectPolicy": {
+        "requested": "默认文件夹",
+        "resolved": "默认文件夹",
+        "reason": "unknown"
+      },
+      "proposed": {
+        "subject": "默认文件夹",
+        "knowledgePoint": null
+      },
+      "learningSyncStatus": "synced",
+      "learningSyncedAt": "2026-07-20T10:04:56.918Z"
+    }
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "2ba5cb1d-1b18-450b-9cb9-6d1f8e1717ba",
+    "id": "默认文件夹_采购订单与库存明细表_20260720_170735",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "采购订单与库存明细表",
+    "remark": "",
+    "createdAt": "2026-07-20T09:07:35.825Z",
+    "captureDate": "2026-07-20",
+    "fileName": "默认文件夹_采购订单与库存明细表_20260720_170735.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_采购订单与库存明细表_20260720_170735.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "2ba5cb1d-1b18-450b-9cb9-6d1f8e1717ba",
+      "capturedDate": "2026-07-20",
+      "title": "采购订单与库存明细表",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [
+        "表格数据",
+        "库存管理",
+        "采购记录"
+      ],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false,
+      "questionType": null,
+      "items": [],
+      "confidence": 0.7,
+      "enrichedAt": "2026-07-20T10:04:59.956Z"
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为采购订单和库存明细表格，无明确学科属性。",
+      "error": null,
+      "requestedAt": "2026-07-20T09:07:35.825Z",
+      "completedAt": "2026-07-20T09:07:37.468Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-20T09:07:37.468Z",
+    "questionType": null,
+    "tags": {
+      "manual": [],
+      "explicit": [],
+      "inferred": [
+        "表格数据",
+        "库存管理",
+        "采购记录"
+      ]
+    },
+    "items": [],
+    "classification": {
+      "subjectId": "subject_4fb7dd54-d7a8-430e-90b6-accca807f506",
+      "subjectName": "默认文件夹",
+      "knowledgePointId": null,
+      "knowledgePointName": null
+    },
+    "organizer": {
+      "version": 1,
+      "inputHash": "3e976e5d7ee9940add330d4b866f2a69fda9d0682e7e1f05dc69c8d77abc2e2f",
+      "analyzerVersion": "note-ai-analyzer-v2",
+      "status": "needs_review",
+      "processedAt": "2026-07-20T10:04:59.956Z",
+      "confidence": 0.7,
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为一张表格,不属于408科目中的任何一级主题,因此归类为“默认文件夹”。表格内容涉及采购和库存管理,但无明显的学习知识点或记忆意图,故不生成卡片。",
+      "summary": "这是一张包含采购订单和库存明细的表格,记录了不同物料的规格、颜色编码、数量、单价、总价等信息,用于库存管理和采购跟踪。",
+      "questionType": null,
+      "wrongReason": null,
+      "memoryCard": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "shouldMemorize": false
+      },
+      "items": [],
+      "subjectPolicy": {
+        "requested": "默认文件夹",
+        "resolved": "默认文件夹",
+        "reason": "unknown"
+      },
+      "proposed": {
+        "subject": "默认文件夹",
+        "knowledgePoint": null
+      },
+      "learningSyncStatus": "synced",
+      "learningSyncedAt": "2026-07-20T10:04:59.978Z"
+    }
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "23bb1178-6995-46d3-9041-564ade6187ad",
+    "id": "默认文件夹_精度纺织信息联络单_20260720_170828",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "精度纺织信息联络单",
+    "remark": "",
+    "createdAt": "2026-07-20T09:08:28.230Z",
+    "captureDate": "2026-07-20",
+    "fileName": "默认文件夹_精度纺织信息联络单_20260720_170828.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_精度纺织信息联络单_20260720_170828.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "23bb1178-6995-46d3-9041-564ade6187ad",
+      "capturedDate": "2026-07-20",
+      "title": "精度纺织信息联络单",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false,
+      "questionType": null,
+      "items": [],
+      "confidence": 0.85,
+      "enrichedAt": "2026-07-20T10:05:20.730Z"
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为纺织行业的联络单，不属于指定的学科范围。",
+      "error": null,
+      "requestedAt": "2026-07-20T09:08:28.230Z",
+      "completedAt": "2026-07-20T09:08:29.803Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-20T09:08:29.803Z",
+    "questionType": null,
+    "tags": {
+      "manual": [],
+      "explicit": [],
+      "inferred": []
+    },
+    "items": [],
+    "classification": {
+      "subjectId": "subject_4fb7dd54-d7a8-430e-90b6-accca807f506",
+      "subjectName": "默认文件夹",
+      "knowledgePointId": null,
+      "knowledgePointName": null
+    },
+    "organizer": {
+      "version": 1,
+      "inputHash": "25794bb457e9d739072658139e0532bbab40c2507b0a4768e0ddc32adea613c9",
+      "analyzerVersion": "note-ai-analyzer-v2",
+      "status": "needs_review",
+      "processedAt": "2026-07-20T10:05:20.730Z",
+      "confidence": 0.85,
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为一份纺织品生产的信息联络单,不属于408科目范畴,因此归类为“默认文件夹”。无明显学习内容或记忆意图。",
+      "summary": "一份关于纺织品生产的信息联络单,包含客户要求、布料规格、生产单号等详细信息。",
+      "questionType": null,
+      "wrongReason": null,
+      "memoryCard": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "shouldMemorize": false
+      },
+      "items": [],
+      "subjectPolicy": {
+        "requested": "默认文件夹",
+        "resolved": "默认文件夹",
+        "reason": "unknown"
+      },
+      "proposed": {
+        "subject": "默认文件夹",
+        "knowledgePoint": null
+      },
+      "learningSyncStatus": "synced",
+      "learningSyncedAt": "2026-07-20T10:05:20.748Z"
+    }
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "58c3e348-682e-4633-b853-5caf887bdf65",
+    "id": "默认文件夹_精度纺织信息联络单_20260720_170853",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "精度纺织信息联络单",
+    "remark": "按缸号命名",
+    "createdAt": "2026-07-20T09:08:53.198Z",
+    "captureDate": "2026-07-20",
+    "fileName": "默认文件夹_精度纺织信息联络单_20260720_170853.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_精度纺织信息联络单_20260720_170853.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "58c3e348-682e-4633-b853-5caf887bdf65",
+      "capturedDate": "2026-07-20",
+      "title": "精度纺织信息联络单",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为纺织行业的联络单，与指定科目均无关。",
+      "error": null,
+      "requestedAt": "2026-07-20T09:08:53.198Z",
+      "completedAt": "2026-07-20T09:08:54.786Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-20T09:08:54.786Z",
+    "organizer": {
+      "version": 1,
+      "inputHash": "2c1fb7f20f18ef5d94827107057189d8e4b786c0d71da516c3952f0043a0a8f1",
+      "analyzerVersion": "note-ai-analyzer-v2",
+      "status": "failed",
+      "attemptedAt": "2026-07-20T10:05:37.021Z",
+      "error": "所有可用 AI 均调用失败"
+    }
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "64d1a932-46f1-47f8-aa3b-f34fd52a49b4",
+    "id": "默认文件夹_精度纺织信息联络单_20260720_171004",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "精度纺织信息联络单",
+    "remark": "按缸号自动命名",
+    "createdAt": "2026-07-20T09:10:04.966Z",
+    "captureDate": "2026-07-20",
+    "fileName": "默认文件夹_精度纺织信息联络单_20260720_171004.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_精度纺织信息联络单_20260720_171004.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "64d1a932-46f1-47f8-aa3b-f34fd52a49b4",
+      "capturedDate": "2026-07-20",
+      "title": "精度纺织信息联络单",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为纺织行业的联络单，与指定科目无关。",
+      "error": null,
+      "requestedAt": "2026-07-20T09:10:04.966Z",
+      "completedAt": "2026-07-20T09:10:06.435Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-20T09:10:06.435Z",
+    "organizer": {
+      "version": 1,
+      "inputHash": "0f02ac78719eaba0a4e6e0c73b8dc6b502b2842bae90218c043108e33545f29e",
+      "analyzerVersion": "note-ai-analyzer-v2",
+      "status": "failed",
+      "attemptedAt": "2026-07-20T10:05:49.911Z",
+      "error": "所有可用 AI 均调用失败"
+    }
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "bdaaf1c0-9220-446e-9680-5b2f9ba0a727",
+    "id": "默认文件夹_精度纺织信息联络单_20260720_171050",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "精度纺织信息联络单",
+    "remark": "按图中的缸号信息命名",
+    "createdAt": "2026-07-20T09:10:50.816Z",
+    "captureDate": "2026-07-20",
+    "fileName": "默认文件夹_精度纺织信息联络单_20260720_171050.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_精度纺织信息联络单_20260720_171050.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "bdaaf1c0-9220-446e-9680-5b2f9ba0a727",
+      "capturedDate": "2026-07-20",
+      "title": "精度纺织信息联络单",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为纺织行业的联络单，与指定科目无关。",
+      "error": null,
+      "requestedAt": "2026-07-20T09:10:50.816Z",
+      "completedAt": "2026-07-20T09:10:52.446Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-20T09:10:52.446Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "a39e4f7b-f37a-4722-8165-8edb2efdacb9",
+    "id": "默认文件夹_精度纺织信息联络单_20260720_171323",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "精度纺织信息联络单",
+    "remark": "按缸号命名",
+    "createdAt": "2026-07-20T09:13:23.633Z",
+    "captureDate": "2026-07-20",
+    "fileName": "默认文件夹_精度纺织信息联络单_20260720_171323.png",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_精度纺织信息联络单_20260720_171323.png",
+    "mime": "image/png",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "a39e4f7b-f37a-4722-8165-8edb2efdacb9",
+      "capturedDate": "2026-07-20",
+      "title": "精度纺织信息联络单",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为纺织行业的联络单，无明确学科属性。",
+      "error": null,
+      "requestedAt": "2026-07-20T09:13:23.633Z",
+      "completedAt": "2026-07-20T09:13:26.497Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-20T09:13:26.497Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "2775ff7f-49a6-4be7-9a8e-9a736feef0ee",
+    "id": "默认文件夹_精度纺织信息联络单_20260720_172827",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "精度纺织信息联络单",
+    "remark": "",
+    "createdAt": "2026-07-20T09:28:27.019Z",
+    "captureDate": "2026-07-20",
+    "fileName": "默认文件夹_精度纺织信息联络单_20260720_172827.png",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_精度纺织信息联络单_20260720_172827.png",
+    "mime": "image/png",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "2775ff7f-49a6-4be7-9a8e-9a736feef0ee",
+      "capturedDate": "2026-07-20",
+      "title": "精度纺织信息联络单",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为一份纺织行业的联络单，与考研科目无关。",
+      "error": null,
+      "requestedAt": "2026-07-20T09:28:27.019Z",
+      "completedAt": "2026-07-20T09:28:30.102Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-20T09:28:30.102Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "586508ad-3255-4941-80e3-efb69074c78c",
+    "id": "默认文件夹_缸号250627-075纺织联络单_20260720_175535",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "缸号250627-075纺织联络单",
+    "remark": "按照缸号命名",
+    "createdAt": "2026-07-20T09:55:35.178Z",
+    "captureDate": "2026-07-20",
+    "fileName": "默认文件夹_缸号250627-075纺织联络单_20260720_175535.png",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_缸号250627-075纺织联络单_20260720_175535.png",
+    "mime": "image/png",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "586508ad-3255-4941-80e3-efb69074c78c",
+      "capturedDate": "2026-07-20",
+      "title": "缸号250627-075纺织联络单",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为纺织信息联络单，核心信息为缸号，无学科相关内容。",
+      "error": null,
+      "requestedAt": "2026-07-20T09:55:35.178Z",
+      "completedAt": "2026-07-20T09:55:37.695Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-20T09:55:37.695Z",
+    "organizer": {
+      "version": 1,
+      "inputHash": "42c61f5ceae7b485948088e9425e674bceba35ef86aca4f760feb2fcec76d3de",
+      "analyzerVersion": "note-ai-analyzer-v2",
+      "status": "failed",
+      "attemptedAt": "2026-07-20T10:05:17.764Z",
+      "error": "所有可用 AI 均调用失败"
+    }
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "94eb7bfd-65d9-4faa-8d77-2fbebaeeffd6",
+    "id": "默认文件夹_精度纺织信息联络单_20260720_180734",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "精度纺织信息联络单",
+    "remark": "",
+    "createdAt": "2026-07-20T10:07:34.118Z",
+    "captureDate": "2026-07-20",
+    "fileName": "默认文件夹_精度纺织信息联络单_20260720_180734.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_精度纺织信息联络单_20260720_180734.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "94eb7bfd-65d9-4faa-8d77-2fbebaeeffd6",
+      "capturedDate": "2026-07-20",
+      "title": "精度纺织信息联络单",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为纺织行业的联络单，与考研科目无关。",
+      "error": null,
+      "requestedAt": "2026-07-20T10:07:34.118Z",
+      "completedAt": "2026-07-20T10:07:35.857Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-20T10:07:35.857Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "c5e6875b-65d0-49bc-af43-62a6940d4132",
+    "id": "默认文件夹_精度纺织信息联络单_20260720_180738",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "精度纺织信息联络单",
+    "remark": "",
+    "createdAt": "2026-07-20T10:07:38.474Z",
+    "captureDate": "2026-07-20",
+    "fileName": "默认文件夹_精度纺织信息联络单_20260720_180738.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_精度纺织信息联络单_20260720_180738.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "c5e6875b-65d0-49bc-af43-62a6940d4132",
+      "capturedDate": "2026-07-20",
+      "title": "精度纺织信息联络单",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为纺织行业的联络单，无明确学科内容。",
+      "error": null,
+      "requestedAt": "2026-07-20T10:07:38.474Z",
+      "completedAt": "2026-07-20T10:07:39.538Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-20T10:07:39.538Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "8495c48d-6794-4781-b1f3-afa454adde0b",
+    "id": "默认文件夹_精度纺织信息联络单_20260720_180741",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "精度纺织信息联络单",
+    "remark": "",
+    "createdAt": "2026-07-20T10:07:41.715Z",
+    "captureDate": "2026-07-20",
+    "fileName": "默认文件夹_精度纺织信息联络单_20260720_180741.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_精度纺织信息联络单_20260720_180741.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "8495c48d-6794-4781-b1f3-afa454adde0b",
+      "capturedDate": "2026-07-20",
+      "title": "精度纺织信息联络单",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为纺织行业的联络单，不属于指定的学科范围。",
+      "error": null,
+      "requestedAt": "2026-07-20T10:07:41.715Z",
+      "completedAt": "2026-07-20T10:07:42.660Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-20T10:07:42.660Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "33c6b56a-81c1-40c1-a8ec-9b6eecd32eb1",
+    "id": "默认文件夹_精度纺织信息联络单_20260720_180829",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "精度纺织信息联络单",
+    "remark": "按照缸号分类",
+    "createdAt": "2026-07-20T10:08:29.831Z",
+    "captureDate": "2026-07-20",
+    "fileName": "默认文件夹_精度纺织信息联络单_20260720_180829.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_精度纺织信息联络单_20260720_180829.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "33c6b56a-81c1-40c1-a8ec-9b6eecd32eb1",
+      "capturedDate": "2026-07-20",
+      "title": "精度纺织信息联络单",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false,
+      "questionType": null,
+      "items": [],
+      "confidence": 0.1,
+      "enrichedAt": "2026-07-20T11:01:32.952Z"
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为纺织信息联络单，与考研科目无关。",
+      "error": null,
+      "requestedAt": "2026-07-20T10:08:29.831Z",
+      "completedAt": "2026-07-20T10:08:34.913Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-20T10:08:34.913Z",
+    "questionType": null,
+    "tags": {
+      "manual": [],
+      "explicit": [],
+      "inferred": []
+    },
+    "items": [],
+    "classification": {
+      "subjectId": "subject_4fb7dd54-d7a8-430e-90b6-accca807f506",
+      "subjectName": "默认文件夹",
+      "knowledgePointId": null,
+      "knowledgePointName": null
+    },
+    "organizer": {
+      "version": 1,
+      "inputHash": "0ba4d0437317de001469e65c5f18f1a83f137ff808226778ecca00aabe248abb",
+      "analyzerVersion": "note-ai-analyzer-v3",
+      "status": "needs_review",
+      "processedAt": "2026-07-20T11:01:32.952Z",
+      "confidence": 0.1,
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为一份纺织品订单联络单,不属于408科目范畴,且无明显学习内容或记忆价值,故归类为默认文件夹。",
+      "summary": "一份关于纺织品订单的联络单,包含客户名称、布类、颜色、条数、重量、针寸数、织厂、纱牌、生产单号等详细信息,要求按缸号分类处理。",
+      "questionType": null,
+      "wrongReason": null,
+      "memoryCard": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "items": [],
+      "subjectPolicy": {
+        "requested": "默认文件夹",
+        "resolved": "默认文件夹",
+        "reason": "unknown"
+      },
+      "proposed": {
+        "subject": "默认文件夹",
+        "knowledgePoint": null
+      },
+      "learningSyncStatus": "synced",
+      "learningSyncedAt": "2026-07-20T11:01:32.969Z"
+    }
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "01e8a31b-8cf8-4480-b746-eb89934e78e4",
+    "id": "默认文件夹_精度纺织信息联络单_20260720_180832",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "精度纺织信息联络单",
+    "remark": "按照缸号分类",
+    "createdAt": "2026-07-20T10:08:32.673Z",
+    "captureDate": "2026-07-20",
+    "fileName": "默认文件夹_精度纺织信息联络单_20260720_180832.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_精度纺织信息联络单_20260720_180832.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "01e8a31b-8cf8-4480-b746-eb89934e78e4",
+      "capturedDate": "2026-07-20",
+      "title": "精度纺织信息联络单",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false,
+      "questionType": null,
+      "items": [],
+      "confidence": 0.1,
+      "enrichedAt": "2026-07-20T11:01:46.205Z"
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为纺织行业的联络单，无明确学科属性。",
+      "error": null,
+      "requestedAt": "2026-07-20T10:08:32.673Z",
+      "completedAt": "2026-07-20T10:08:38.670Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-20T10:08:38.670Z",
+    "questionType": null,
+    "tags": {
+      "manual": [],
+      "explicit": [],
+      "inferred": []
+    },
+    "items": [],
+    "classification": {
+      "subjectId": "subject_4fb7dd54-d7a8-430e-90b6-accca807f506",
+      "subjectName": "默认文件夹",
+      "knowledgePointId": null,
+      "knowledgePointName": null
+    },
+    "organizer": {
+      "version": 1,
+      "inputHash": "b88bbb05c92993f1131edea012cb1abc044fc588b274ebd3f929b154f1afb828",
+      "analyzerVersion": "note-ai-analyzer-v3",
+      "status": "needs_review",
+      "processedAt": "2026-07-20T11:01:46.205Z",
+      "confidence": 0.1,
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为一份纺织行业的信息联络单,与408科目(数据结构、计算机组成、操作系统、计算机网络)无关,且无明显的学习知识点或题目,因此归类为“默认文件夹”。",
+      "summary": "一份关于纺织品生产信息的联络单,包含客户名称、布类、颜色、条数、重量、生产单号等详细信息,并记录了处理方法和备注。",
+      "questionType": null,
+      "wrongReason": null,
+      "memoryCard": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "items": [],
+      "subjectPolicy": {
+        "requested": "默认文件夹",
+        "resolved": "默认文件夹",
+        "reason": "unknown"
+      },
+      "proposed": {
+        "subject": "默认文件夹",
+        "knowledgePoint": null
+      },
+      "learningSyncStatus": "synced",
+      "learningSyncedAt": "2026-07-20T11:01:46.222Z"
+    }
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "8bfd266d-0b44-4bd7-982b-5c0d2b7d4a71",
+    "id": "默认文件夹_精度纺织信息联络单_20260720_180835",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "精度纺织信息联络单",
+    "remark": "按照缸号分类",
+    "createdAt": "2026-07-20T10:08:35.524Z",
+    "captureDate": "2026-07-20",
+    "fileName": "默认文件夹_精度纺织信息联络单_20260720_180835.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_精度纺织信息联络单_20260720_180835.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "8bfd266d-0b44-4bd7-982b-5c0d2b7d4a71",
+      "capturedDate": "2026-07-20",
+      "title": "精度纺织信息联络单",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false,
+      "questionType": null,
+      "items": [],
+      "confidence": 0.1,
+      "enrichedAt": "2026-07-20T11:01:50.719Z"
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为纺织行业的联络单，与考研科目无关。",
+      "error": null,
+      "requestedAt": "2026-07-20T10:08:35.524Z",
+      "completedAt": "2026-07-20T10:08:40.746Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-20T10:08:40.746Z",
+    "questionType": null,
+    "tags": {
+      "manual": [],
+      "explicit": [],
+      "inferred": []
+    },
+    "items": [],
+    "classification": {
+      "subjectId": "subject_4fb7dd54-d7a8-430e-90b6-accca807f506",
+      "subjectName": "默认文件夹",
+      "knowledgePointId": null,
+      "knowledgePointName": null
+    },
+    "organizer": {
+      "version": 1,
+      "inputHash": "99192db19c0cc3fb5a24266e6e3fc2b0179c26602333c3899d1a6e359eaa8637",
+      "analyzerVersion": "note-ai-analyzer-v3",
+      "status": "needs_review",
+      "processedAt": "2026-07-20T11:01:50.719Z",
+      "confidence": 0.1,
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为一份纺织品订单联络单,属于业务文档,与408科目无关,且无明确的学习或记忆意图。",
+      "summary": "一份关于纺织品订单的联络单,包含客户信息、布类规格、颜色、针数、重量等详细要求,以及处理方法和备注。",
+      "questionType": null,
+      "wrongReason": null,
+      "memoryCard": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "items": [],
+      "subjectPolicy": {
+        "requested": "默认文件夹",
+        "resolved": "默认文件夹",
+        "reason": "unknown"
+      },
+      "proposed": {
+        "subject": "默认文件夹",
+        "knowledgePoint": null
+      },
+      "learningSyncStatus": "synced",
+      "learningSyncedAt": "2026-07-20T11:01:50.746Z"
+    }
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "90c86715-acfd-45d8-ade4-70ee887e796e",
+    "id": "默认文件夹_精度纺织信息联络单_20260720_180857",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "精度纺织信息联络单",
+    "remark": "",
+    "createdAt": "2026-07-20T10:08:57.478Z",
+    "captureDate": "2026-07-20",
+    "fileName": "默认文件夹_精度纺织信息联络单_20260720_180857.png",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_精度纺织信息联络单_20260720_180857.png",
+    "mime": "image/png",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "90c86715-acfd-45d8-ade4-70ee887e796e",
+      "capturedDate": "2026-07-20",
+      "title": "精度纺织信息联络单",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false,
+      "questionType": null,
+      "items": [],
+      "confidence": 0.85,
+      "enrichedAt": "2026-07-20T11:07:31.865Z"
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为纺织行业的联络单，无明确学习科目内容。",
+      "error": null,
+      "requestedAt": "2026-07-20T10:08:57.478Z",
+      "completedAt": "2026-07-20T10:09:00.100Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-20T10:09:00.100Z",
+    "organizer": {
+      "version": 1,
+      "inputHash": "8f0d7bc7f16fb88a737536e8a7f3ad47c2c3b687c3d8d48ac5fe071035cee5ef",
+      "analyzerVersion": "note-ai-analyzer-v3",
+      "status": "needs_review",
+      "processedAt": "2026-07-20T11:07:31.865Z",
+      "confidence": 0.85,
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为一份纺织行业的联络单,不属于408科目范畴,因此归类为“默认文件夹”。无明显学习知识点或题目,故不生成卡片。",
+      "summary": "一份纺织行业的联络单,记录了客户名称、布类、颜色、重量等生产相关信息,以及处理方法和备注。",
+      "questionType": null,
+      "wrongReason": null,
+      "memoryCard": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "items": [],
+      "subjectPolicy": {
+        "requested": "默认文件夹",
+        "resolved": "默认文件夹",
+        "reason": "unknown"
+      },
+      "proposed": {
+        "subject": "默认文件夹",
+        "knowledgePoint": null
+      },
+      "learningSyncStatus": "synced",
+      "learningSyncedAt": "2026-07-20T11:07:31.894Z"
+    },
+    "questionType": null,
+    "tags": {
+      "manual": [],
+      "explicit": [],
+      "inferred": []
+    },
+    "items": [],
+    "classification": {
+      "subjectId": "subject_4fb7dd54-d7a8-430e-90b6-accca807f506",
+      "subjectName": "默认文件夹",
+      "knowledgePointId": null,
+      "knowledgePointName": null
+    }
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "bcd6cfda-aa5e-48af-832f-ea09c91165d1",
+    "id": "默认文件夹_精度纺织信息联络单-缸号250627-075_20260720_180909",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "精度纺织信息联络单",
+    "remark": "按照缸号分类",
+    "createdAt": "2026-07-20T10:09:09.537Z",
+    "captureDate": "2026-07-20",
+    "fileName": "默认文件夹_精度纺织信息联络单-缸号250627-075_20260720_180909.png",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_精度纺织信息联络单-缸号250627-075_20260720_180909.png",
+    "mime": "image/png",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "bcd6cfda-aa5e-48af-832f-ea09c91165d1",
+      "capturedDate": "2026-07-20",
+      "title": "精度纺织信息联络单",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false,
+      "questionType": null,
+      "items": [],
+      "confidence": 0.8,
+      "enrichedAt": "2026-07-20T11:07:42.106Z"
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为纺织行业联络单，包含缸号等信息，与考研科目无关。",
+      "error": null,
+      "requestedAt": "2026-07-20T10:09:09.537Z",
+      "completedAt": "2026-07-20T10:09:12.292Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-20T10:09:12.292Z",
+    "organizer": {
+      "version": 1,
+      "inputHash": "16f5fbdeb12f6a09dd0834247baf88902bbf63de38672ae1a2737e5fb3d17799",
+      "analyzerVersion": "note-ai-analyzer-v3",
+      "status": "needs_review",
+      "processedAt": "2026-07-20T11:07:42.106Z",
+      "confidence": 0.8,
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为一份纺织行业的联络单,不属于408考研科目的范畴,因此归类为“默认文件夹”。联络单中包含具体的信息如缸号、布类、颜色等,但这些信息与考研知识点无关,故不视为错题或需要记忆的内容。",
+      "summary": "这是一份纺织行业的联络单,记录了织造部与营销部之间的信息传递,包含客户名称、布类、颜色、重量等详细信息,并特别标注了缸号250627-075。",
+      "questionType": null,
+      "wrongReason": null,
+      "memoryCard": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "items": [],
+      "subjectPolicy": {
+        "requested": "默认文件夹",
+        "resolved": "默认文件夹",
+        "reason": "unknown"
+      },
+      "proposed": {
+        "subject": "默认文件夹",
+        "knowledgePoint": null
+      },
+      "learningSyncStatus": "synced",
+      "learningSyncedAt": "2026-07-20T11:07:42.133Z"
+    },
+    "questionType": null,
+    "tags": {
+      "manual": [],
+      "explicit": [],
+      "inferred": []
+    },
+    "items": [],
+    "classification": {
+      "subjectId": "subject_4fb7dd54-d7a8-430e-90b6-accca807f506",
+      "subjectName": "默认文件夹",
+      "knowledgePointId": null,
+      "knowledgePointName": null
+    }
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "ab8470c2-df9f-4e3d-8eda-f87a602dfa0f",
+    "id": "默认文件夹_缸号250627-075纺织信息_20260720_191137",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "缸号250627-075纺织信息",
+    "remark": "按照缸号命名",
+    "createdAt": "2026-07-20T11:11:37.754Z",
+    "captureDate": "2026-07-20",
+    "fileName": "默认文件夹_缸号250627-075纺织信息_20260720_191137.png",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_缸号250627-075纺织信息_20260720_191137.png",
+    "mime": "image/png",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "ab8470c2-df9f-4e3d-8eda-f87a602dfa0f",
+      "capturedDate": "2026-07-20",
+      "title": "缸号250627-075纺织信息",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为纺织信息联络单，包含缸号等具体业务信息，无明确学科属性。",
+      "error": null,
+      "requestedAt": "2026-07-20T11:11:37.754Z",
+      "completedAt": "2026-07-20T11:11:40.642Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-20T11:11:40.642Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "0573a99c-34b6-44ee-88b4-8543105d156d",
+    "id": "默认文件夹_精度纺织信息联络单_20260720_191157",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "精度纺织信息联络单",
+    "remark": "按照图片中的缸号信息命名",
+    "createdAt": "2026-07-20T11:11:57.874Z",
+    "captureDate": "2026-07-20",
+    "fileName": "默认文件夹_精度纺织信息联络单_20260720_191157.png",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_精度纺织信息联络单_20260720_191157.png",
+    "mime": "image/png",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "0573a99c-34b6-44ee-88b4-8543105d156d",
+      "capturedDate": "2026-07-20",
+      "title": "精度纺织信息联络单",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为纺织行业的联络单，无明确学科属性",
+      "error": null,
+      "requestedAt": "2026-07-20T11:11:57.874Z",
+      "completedAt": "2026-07-20T11:12:00.443Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-20T11:12:00.443Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "cd90980d-3460-4f0e-b253-9f76be04aa9b",
+    "id": "默认文件夹_纺织信息联络单_20260720_201044",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "纺织信息联络单",
+    "remark": "",
+    "createdAt": "2026-07-20T12:10:44.139Z",
+    "captureDate": "2026-07-20",
+    "fileName": "默认文件夹_纺织信息联络单_20260720_201044.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_纺织信息联络单_20260720_201044.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "cd90980d-3460-4f0e-b253-9f76be04aa9b",
+      "capturedDate": "2026-07-20",
+      "title": "纺织信息联络单",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为纺织行业联络单，非学习科目相关",
+      "error": null,
+      "requestedAt": "2026-07-20T12:10:44.139Z",
+      "completedAt": "2026-07-20T12:11:07.335Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-20T12:11:07.335Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "2bb3fa55-df73-4e49-8718-cae7fd2f94ef",
+    "id": "默认文件夹_纺织信息联络单_20260720_201142",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "纺织信息联络单",
+    "remark": "",
+    "createdAt": "2026-07-20T12:11:42.168Z",
+    "captureDate": "2026-07-20",
+    "fileName": "默认文件夹_纺织信息联络单_20260720_201142.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_纺织信息联络单_20260720_201142.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "2bb3fa55-df73-4e49-8718-cae7fd2f94ef",
+      "capturedDate": "2026-07-20",
+      "title": "纺织信息联络单",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为纺织行业联络单，非学习科目相关",
+      "error": null,
+      "requestedAt": "2026-07-20T12:11:42.168Z",
+      "completedAt": "2026-07-20T12:11:44.836Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-20T12:11:44.836Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "8700e223-2024-4c9a-8b3f-8c6be9dfa0c8",
+    "id": "默认文件夹_联络单_缸号待识别_20260720_203335",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "联络单_缸号待识别",
+    "remark": "",
+    "createdAt": "2026-07-20T12:33:35.598Z",
+    "captureDate": "2026-07-20",
+    "fileName": "默认文件夹_联络单_缸号待识别_20260720_203335.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_联络单_缸号待识别_20260720_203335.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "8700e223-2024-4c9a-8b3f-8c6be9dfa0c8",
+      "capturedDate": "2026-07-20",
+      "title": "联络单_缸号待识别",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片中未出现明确的学科内容，且缸号信息无法识别，故归类为默认文件夹。",
+      "error": null,
+      "requestedAt": "2026-07-20T12:33:35.598Z",
+      "completedAt": "2026-07-20T12:33:38.405Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-20T12:33:38.405Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "b3fbc744-3ecb-436b-892e-af47dfc6dfac",
+    "id": "默认文件夹_联络单_缸号待识别_20260720_203416",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "联络单_缸号待识别",
+    "remark": "",
+    "createdAt": "2026-07-20T12:34:16.209Z",
+    "captureDate": "2026-07-20",
+    "fileName": "默认文件夹_联络单_缸号待识别_20260720_203416.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_联络单_缸号待识别_20260720_203416.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "b3fbc744-3ecb-436b-892e-af47dfc6dfac",
+      "capturedDate": "2026-07-20",
+      "title": "联络单_缸号待识别",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片中未出现明确的学科内容，且缸号信息无法识别",
+      "error": null,
+      "requestedAt": "2026-07-20T12:34:16.209Z",
+      "completedAt": "2026-07-20T12:34:40.183Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-20T12:34:40.183Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "d89cb4ac-e859-4a5a-8074-6c2a290a724f",
+    "id": "默认文件夹_联络单_缸号待识别_20260721_080320",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "联络单_缸号待识别",
+    "remark": "",
+    "createdAt": "2026-07-21T00:03:20.104Z",
+    "captureDate": "2026-07-21",
+    "fileName": "默认文件夹_联络单_缸号待识别_20260721_080320.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_联络单_缸号待识别_20260721_080320.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "d89cb4ac-e859-4a5a-8074-6c2a290a724f",
+      "capturedDate": "2026-07-21",
+      "title": "联络单_缸号待识别",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片中未出现明确的学科内容，且缸号字段无法识别",
+      "error": null,
+      "requestedAt": "2026-07-21T00:03:20.104Z",
+      "completedAt": "2026-07-21T00:03:44.176Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-21T00:03:44.176Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "780bb68d-57db-4666-b589-42f8f366a2a2",
+    "id": "默认文件夹_联络单_缸号待识别_20260721_080417",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "联络单_缸号待识别",
+    "remark": "",
+    "createdAt": "2026-07-21T00:04:17.460Z",
+    "captureDate": "2026-07-21",
+    "fileName": "默认文件夹_联络单_缸号待识别_20260721_080417.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_联络单_缸号待识别_20260721_080417.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "780bb68d-57db-4666-b589-42f8f366a2a2",
+      "capturedDate": "2026-07-21",
+      "title": "联络单_缸号待识别",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片中未出现明确的学科内容，且缸号字段无法识别",
+      "error": null,
+      "requestedAt": "2026-07-21T00:04:17.460Z",
+      "completedAt": "2026-07-21T00:04:20.099Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-21T00:04:20.099Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "5c566cde-740c-42a2-bea6-1fc5d54e7a69",
+    "id": "默认文件夹_联络单_缸号待识别_20260721_080647",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "联络单_缸号待识别",
+    "remark": "",
+    "createdAt": "2026-07-21T00:06:47.423Z",
+    "captureDate": "2026-07-21",
+    "fileName": "默认文件夹_联络单_缸号待识别_20260721_080647.png",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_联络单_缸号待识别_20260721_080647.png",
+    "mime": "image/png",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "5c566cde-740c-42a2-bea6-1fc5d54e7a69",
+      "capturedDate": "2026-07-21",
+      "title": "联络单_缸号待识别",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片中未明确显示学习内容，且缸号信息无法识别",
+      "error": null,
+      "requestedAt": "2026-07-21T00:06:47.423Z",
+      "completedAt": "2026-07-21T00:06:49.297Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-21T00:06:49.297Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "be14bc89-7723-4a7d-97c3-1307a4d07260",
+    "id": "默认文件夹_缸号_250626-088_20260721_080702",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "缸号_250626-088",
+    "remark": "",
+    "createdAt": "2026-07-21T00:07:02.270Z",
+    "captureDate": "2026-07-21",
+    "fileName": "默认文件夹_缸号_250626-088_20260721_080702.png",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_缸号_250626-088_20260721_080702.png",
+    "mime": "image/png",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "be14bc89-7723-4a7d-97c3-1307a4d07260",
+      "capturedDate": "2026-07-21",
+      "title": "缸号_250626-088",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片中仅显示缸号信息，无法判断具体学科。",
+      "error": null,
+      "requestedAt": "2026-07-21T00:07:02.270Z",
+      "completedAt": "2026-07-21T00:07:03.638Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-21T00:07:03.638Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "fd7e5c2e-4b73-4556-8905-1de3aba13b07",
+    "id": "默认文件夹_纺织信息联络单_20260721_081302",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "纺织信息联络单",
+    "remark": "",
+    "createdAt": "2026-07-21T00:13:02.398Z",
+    "captureDate": "2026-07-21",
+    "fileName": "默认文件夹_纺织信息联络单_20260721_081302.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_纺织信息联络单_20260721_081302.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "fd7e5c2e-4b73-4556-8905-1de3aba13b07",
+      "capturedDate": "2026-07-21",
+      "title": "纺织信息联络单",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为纺织行业联络单，非学习科目相关",
+      "error": null,
+      "requestedAt": "2026-07-21T00:13:02.398Z",
+      "completedAt": "2026-07-21T00:13:05.077Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-21T00:13:05.077Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "b5a85e66-6d6c-473d-9763-4be824f169fa",
+    "id": "默认文件夹_单调性判别定义_20260721_090811",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "单调性判别定义",
+    "remark": "单调性判别定义",
+    "createdAt": "2026-07-21T01:08:11.189Z",
+    "captureDate": "2026-07-21",
+    "fileName": "默认文件夹_单调性判别定义_20260721_090811.png",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_单调性判别定义_20260721_090811.png",
+    "mime": "image/png",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "b5a85e66-6d6c-473d-9763-4be824f169fa",
+      "capturedDate": "2026-07-21",
+      "title": "单调性判别定义",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "failed",
+      "provider": null,
+      "model": null,
+      "reason": "fallback",
+      "error": "所有可用 AI 均调用失败",
+      "requestedAt": "2026-07-21T01:08:11.189Z",
+      "completedAt": "2026-07-21T01:08:44.091Z"
+    },
+    "classifier": {
+      "status": "fallback_named",
+      "provider": null,
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-21T01:08:44.091Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "530fcc21-8bfb-47e9-af16-2a4fcaf19bc0",
+    "id": "默认文件夹_精度纺织信息联络单_20260721_092458",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "精度纺织信息联络单",
+    "remark": "",
+    "createdAt": "2026-07-21T01:24:58.265Z",
+    "captureDate": "2026-07-21",
+    "fileName": "默认文件夹_精度纺织信息联络单_20260721_092458.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_精度纺织信息联络单_20260721_092458.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "530fcc21-8bfb-47e9-af16-2a4fcaf19bc0",
+      "capturedDate": "2026-07-21",
+      "title": "精度纺织信息联络单",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen3-vl-flash",
+      "reason": "图片为纸质单据，无明确学科内容，且未出现可识别的考研科目特征；备注为空，无法判断具体学科，故归入默认文件夹",
+      "error": null,
+      "requestedAt": "2026-07-21T01:24:58.265Z",
+      "ruleId": null,
+      "ruleName": null,
+      "ruleValue": null,
+      "ruleEvidence": null,
+      "completedAt": "2026-07-21T01:25:00.181Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-21T01:25:00.181Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "46620682-f611-4574-a8c8-48577f2b84c2",
+    "id": "默认文件夹_250626-088_20260721_093308",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "250626-088",
+    "remark": "",
+    "createdAt": "2026-07-21T01:33:08.314Z",
+    "captureDate": "2026-07-21",
+    "fileName": "默认文件夹_250626-088_20260721_093308.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_250626-088_20260721_093308.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "46620682-f611-4574-a8c8-48577f2b84c2",
+      "capturedDate": "2026-07-21",
+      "title": "250626-088",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen3-vl-plus",
+      "reason": "图片为纺织行业内部联络单，含客户名称、布类、颜色、生产单号等业务信息，不属于考研科目范畴",
+      "error": null,
+      "requestedAt": "2026-07-21T01:33:08.314Z",
+      "ruleId": "tank-number",
+      "ruleName": "缸号命名",
+      "ruleValue": "250626-088",
+      "ruleEvidence": "‘缸号:250626-088’位于表格中‘客户名称’行右侧单元格，标签明确为‘缸号’，值符合格式要求",
+      "completedAt": "2026-07-21T01:33:14.524Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-21T01:33:14.524Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "5032d2f3-34c6-4a3d-90c1-ceff0dd7f7d3",
+    "id": "默认文件夹_{缸号}_250626-104A_20260721_093506",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "{缸号}_250626-104A",
+    "remark": "",
+    "createdAt": "2026-07-21T01:35:06.246Z",
+    "captureDate": "2026-07-21",
+    "fileName": "默认文件夹_{缸号}_250626-104A_20260721_093506.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_{缸号}_250626-104A_20260721_093506.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "5032d2f3-34c6-4a3d-90c1-ceff0dd7f7d3",
+      "capturedDate": "2026-07-21",
+      "title": "{缸号}_250626-104A",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen3-vl-plus",
+      "reason": "图片为纺织行业内部联络单，内容涉及布类、颜色、纱批等生产信息，不属于考研科目范畴",
+      "error": null,
+      "requestedAt": "2026-07-21T01:35:06.246Z",
+      "ruleId": "tank-number",
+      "ruleName": "缸号命名",
+      "ruleValue": "250626-104A",
+      "ruleEvidence": "‘缸号:250626-104A’位于表格中‘客户名称’行右侧单元格，明确标注‘缸号’字段",
+      "completedAt": "2026-07-21T01:35:12.079Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-21T01:35:12.079Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "92ffe05e-4393-4168-9bed-12e8e0ae03d6",
+    "id": "默认文件夹_{缸号}_250627-075_20260721_093551",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "{缸号}_250627-075",
+    "remark": "",
+    "createdAt": "2026-07-21T01:35:51.429Z",
+    "captureDate": "2026-07-21",
+    "fileName": "默认文件夹_{缸号}_250627-075_20260721_093551.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_{缸号}_250627-075_20260721_093551.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "92ffe05e-4393-4168-9bed-12e8e0ae03d6",
+      "capturedDate": "2026-07-21",
+      "title": "{缸号}_250627-075",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen3-vl-plus",
+      "reason": "图片为纺织行业内部联络单，内容涉及布类、颜色、生产单号等业务信息，不属于考研科目范畴",
+      "error": null,
+      "requestedAt": "2026-07-21T01:35:51.429Z",
+      "ruleId": "tank-number",
+      "ruleName": "缸号命名",
+      "ruleValue": "250627-075",
+      "ruleEvidence": "‘缸号’字段位于表格中‘客户名称’行右侧单元格，明确标注‘缸号:250627-075’",
+      "completedAt": "2026-07-21T01:35:56.591Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-21T01:35:56.591Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "8c1ad67d-0a60-4366-819d-6e926039799a",
+    "id": "默认文件夹_缸号_250626-088_20260721_093633",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "缸号_250626-088",
+    "remark": "",
+    "createdAt": "2026-07-21T01:36:33.451Z",
+    "captureDate": "2026-07-21",
+    "fileName": "默认文件夹_缸号_250626-088_20260721_093633.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_缸号_250626-088_20260721_093633.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "8c1ad67d-0a60-4366-819d-6e926039799a",
+      "capturedDate": "2026-07-21",
+      "title": "缸号_250626-088",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen3-vl-plus",
+      "reason": "图片为纺织行业内部联络单，含布类、颜色、缸号等生产信息，不属于考研科目范畴",
+      "error": null,
+      "requestedAt": "2026-07-21T01:36:33.451Z",
+      "ruleId": "tank-number",
+      "ruleName": "缸号命名",
+      "ruleValue": "250626-088",
+      "ruleEvidence": "‘缸号’字段位于表格中‘客户名称’行右侧单元格，值为250626-088",
+      "completedAt": "2026-07-21T01:36:38.395Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-21T01:36:38.395Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "6699eb75-4806-4dab-91d8-ad9713fc51c9",
+    "id": "默认文件夹_图片笔记_20260721_094033",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "图片笔记",
+    "remark": "",
+    "createdAt": "2026-07-21T01:40:33.950Z",
+    "captureDate": "2026-07-21",
+    "fileName": "默认文件夹_图片笔记_20260721_094033.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_图片笔记_20260721_094033.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "6699eb75-4806-4dab-91d8-ad9713fc51c9",
+      "capturedDate": "2026-07-21",
+      "title": "图片笔记",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": true
+    },
+    "naming": {
+      "status": "pending",
+      "provider": null,
+      "model": null,
+      "reason": "local_first",
+      "error": null,
+      "requestedAt": "2026-07-21T01:40:33.950Z"
+    },
+    "classifier": {
+      "status": "saved_pending_ai",
+      "provider": null,
+      "scheduledAt": "every_72_hours"
+    }
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "98a57fb9-9df3-4625-b6b1-21ab8a71943e",
+    "id": "默认文件夹_颜色_BU32深空蓝_20260721_094103",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "颜色_BU32深空蓝",
+    "remark": "",
+    "createdAt": "2026-07-21T01:41:03.170Z",
+    "captureDate": "2026-07-21",
+    "fileName": "默认文件夹_颜色_BU32深空蓝_20260721_094103.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_颜色_BU32深空蓝_20260721_094103.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "98a57fb9-9df3-4625-b6b1-21ab8a71943e",
+      "capturedDate": "2026-07-21",
+      "title": "颜色_BU32深空蓝",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen3-vl-plus",
+      "reason": "图片为纺织行业内部联络单，无任何考研科目相关内容；字段命名规则中‘颜色’字段虽存在（颜色:BU32深空蓝），但该规则适用于产品命名场景，非考研学习资料，且用户要求仅当图片明确属于指定考研科目时才选具体科目，故归入默认文件夹。",
+      "error": null,
+      "requestedAt": "2026-07-21T01:41:03.170Z",
+      "ruleId": "naming-df769be3-95d3-4bbd-8760-5a16d91d1dbd",
+      "ruleName": "颜色命名",
+      "ruleValue": "BU32深空蓝",
+      "ruleEvidence": "表格中‘颜色’标签右侧明确标注‘BU32深空蓝’，位于‘布类’行下方同一行左侧单元格",
+      "completedAt": "2026-07-21T01:41:09.975Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-21T01:41:09.975Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "f23531c2-a560-4732-9ff7-83b2d356636b",
+    "id": "默认文件夹_250627-076_20260721_095314",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "250627-076",
+    "remark": "",
+    "createdAt": "2026-07-21T01:53:14.263Z",
+    "captureDate": "2026-07-21",
+    "fileName": "默认文件夹_250627-076_20260721_095314.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_250627-076_20260721_095314.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "f23531c2-a560-4732-9ff7-83b2d356636b",
+      "capturedDate": "2026-07-21",
+      "title": "250627-076",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen3-vl-plus",
+      "reason": "图片为纺织行业内部联络单，含缸号、布类、颜色等生产信息，不属于考研科目范畴",
+      "error": null,
+      "requestedAt": "2026-07-21T01:53:14.263Z",
+      "ruleId": "naming-c16d8e35-ca31-4a6e-ad20-346610274dae",
+      "ruleName": "缸号命名",
+      "ruleValue": "250627-076",
+      "ruleEvidence": "表格中‘缸号’字段右侧明确标注‘缸号:250627-076’",
+      "completedAt": "2026-07-21T01:53:19.145Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-21T01:53:19.145Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "8ae0fa10-01bb-430e-b62b-e5dab075db71",
+    "id": "默认文件夹_250718-014_20260721_095318",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "250718-014",
+    "remark": "",
+    "createdAt": "2026-07-21T01:53:18.398Z",
+    "captureDate": "2026-07-21",
+    "fileName": "默认文件夹_250718-014_20260721_095318.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_250718-014_20260721_095318.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "8ae0fa10-01bb-430e-b62b-e5dab075db71",
+      "capturedDate": "2026-07-21",
+      "title": "250718-014",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen3-vl-plus",
+      "reason": "图片为纺织行业内部联络单，内容涉及客户、布类、颜色、生产单号等业务信息，不属于考研科目范畴",
+      "error": null,
+      "requestedAt": "2026-07-21T01:53:18.398Z",
+      "ruleId": "naming-c16d8e35-ca31-4a6e-ad20-346610274dae",
+      "ruleName": "缸号命名",
+      "ruleValue": "250718-014",
+      "ruleEvidence": "‘缸号:250718-014’位于‘客户名称’行右侧单元格，标签明确为‘缸号’",
+      "completedAt": "2026-07-21T01:53:24.776Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-21T01:53:24.776Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "d5539e97-c144-4ca7-904c-ec61c31b72c2",
+    "id": "默认文件夹_缸号250627-076_20260721_095353",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "缸号250627-076",
+    "remark": "",
+    "createdAt": "2026-07-21T01:53:53.277Z",
+    "captureDate": "2026-07-21",
+    "fileName": "默认文件夹_缸号250627-076_20260721_095353.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_缸号250627-076_20260721_095353.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "d5539e97-c144-4ca7-904c-ec61c31b72c2",
+      "capturedDate": "2026-07-21",
+      "title": "缸号250627-076",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen3-vl-plus",
+      "reason": "图片为纺织行业内部联络单，含客户名称、布类、缸号等业务信息，不属于考研科目范畴",
+      "error": null,
+      "requestedAt": "2026-07-21T01:53:53.277Z",
+      "ruleId": "naming-c16d8e35-ca31-4a6e-ad20-346610274dae",
+      "ruleName": "缸号命名",
+      "ruleValue": "250627-076",
+      "ruleEvidence": "表格中‘缸号’字段右侧明确标注‘250627-076’",
+      "completedAt": "2026-07-21T01:53:59.922Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-21T01:53:59.922Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "2326552e-665a-4c39-827f-d0f1648b3e8c",
+    "id": "默认文件夹_缸号250718-014_20260721_095355",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "缸号250718-014",
+    "remark": "",
+    "createdAt": "2026-07-21T01:53:55.541Z",
+    "captureDate": "2026-07-21",
+    "fileName": "默认文件夹_缸号250718-014_20260721_095355.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_缸号250718-014_20260721_095355.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "2326552e-665a-4c39-827f-d0f1648b3e8c",
+      "capturedDate": "2026-07-21",
+      "title": "缸号250718-014",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen3-vl-plus",
+      "reason": "图片为纺织行业内部联络单，内容涉及客退成品处理、缸号等生产管理信息，不属于考研科目范畴",
+      "error": null,
+      "requestedAt": "2026-07-21T01:53:55.541Z",
+      "ruleId": "naming-c16d8e35-ca31-4a6e-ad20-346610274dae",
+      "ruleName": "缸号命名",
+      "ruleValue": "250718-014",
+      "ruleEvidence": "‘缸号:250718-014’位于‘客户名称’行右侧单元格，标签明确为‘缸号’",
+      "completedAt": "2026-07-21T01:54:05.531Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-21T01:54:05.531Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "341e8ec8-c054-4dc1-8397-6a448ea4b890",
+    "id": "默认文件夹_缸号250627-076_20260721_095650",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "缸号250627-076",
+    "remark": "",
+    "createdAt": "2026-07-21T01:56:50.625Z",
+    "captureDate": "2026-07-21",
+    "fileName": "默认文件夹_缸号250627-076_20260721_095650.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_缸号250627-076_20260721_095650.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "341e8ec8-c054-4dc1-8397-6a448ea4b890",
+      "capturedDate": "2026-07-21",
+      "title": "缸号250627-076",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "kimi",
+      "model": "kimi-k3",
+      "reason": "图片为纺织企业信息联络单，与考研科目无关，且单据中明确可见缸号字段",
+      "error": null,
+      "requestedAt": "2026-07-21T01:56:50.625Z",
+      "ruleId": "naming-16e96ac2-1eb4-466f-83ef-edffb5dd8060",
+      "ruleName": "缸号命名",
+      "ruleValue": "250627-076",
+      "ruleEvidence": "单据中部客户名称同行右侧单元格内标注“缸号:250627-076”",
+      "completedAt": "2026-07-21T01:58:49.678Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "kimi",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-21T01:58:49.678Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "24b64a3b-ecea-47bc-9e09-a4cdc2548bca",
+    "id": "默认文件夹_缸号250718-014_20260721_095653",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "缸号250718-014",
+    "remark": "",
+    "createdAt": "2026-07-21T01:56:53.303Z",
+    "captureDate": "2026-07-21",
+    "fileName": "默认文件夹_缸号250718-014_20260721_095653.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_缸号250718-014_20260721_095653.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "24b64a3b-ecea-47bc-9e09-a4cdc2548bca",
+      "capturedDate": "2026-07-21",
+      "title": "缸号250718-014",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "kimi",
+      "model": "kimi-k3",
+      "reason": "图片为纺织信息联络单工作单据，非考研学科内容，故归入默认文件夹",
+      "error": null,
+      "requestedAt": "2026-07-21T01:56:53.303Z",
+      "ruleId": "naming-16e96ac2-1eb4-466f-83ef-edffb5dd8060",
+      "ruleName": "缸号命名",
+      "ruleValue": "250718-014",
+      "ruleEvidence": "表单中部客户名称同一行右侧单元格明确标注“缸号:250718-014”",
+      "completedAt": "2026-07-21T02:00:14.986Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "kimi",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-21T02:00:14.986Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "7f150141-ca81-4aca-a682-021861ca3a73",
+    "id": "默认文件夹_缸号250630-060_20260721_104845",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "缸号250630-060",
+    "remark": "",
+    "createdAt": "2026-07-21T02:48:45.950Z",
+    "captureDate": "2026-07-21",
+    "fileName": "默认文件夹_缸号250630-060_20260721_104845.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_缸号250630-060_20260721_104845.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "7f150141-ca81-4aca-a682-021861ca3a73",
+      "capturedDate": "2026-07-21",
+      "title": "缸号250630-060",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen3-vl-plus",
+      "reason": "图片为纺织行业内部联络单，含布类、颜色、织厂等生产信息，不属于考研科目范畴",
+      "error": null,
+      "requestedAt": "2026-07-21T02:48:45.950Z",
+      "ruleId": "naming-16e96ac2-1eb4-466f-83ef-edffb5dd8060",
+      "ruleName": "缸号命名",
+      "ruleValue": "250630-060",
+      "ruleEvidence": "表格中‘缸号:250630-060’字段明确标注‘缸号’标签，右侧为完整值250630-060",
+      "completedAt": "2026-07-21T02:48:52.029Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-21T02:48:52.029Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "401ac5f6-4f80-462f-a779-bc3a8468f08f",
+    "id": "默认文件夹_缸号250718-014_20260721_104848",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "缸号250718-014",
+    "remark": "",
+    "createdAt": "2026-07-21T02:48:48.472Z",
+    "captureDate": "2026-07-21",
+    "fileName": "默认文件夹_缸号250718-014_20260721_104848.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_缸号250718-014_20260721_104848.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "401ac5f6-4f80-462f-a779-bc3a8468f08f",
+      "capturedDate": "2026-07-21",
+      "title": "缸号250718-014",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen3-vl-plus",
+      "reason": "图片为纺织行业内部联络单，含客户名称、缸号、生产单号等业务信息，无任何考研科目相关内容",
+      "error": null,
+      "requestedAt": "2026-07-21T02:48:48.472Z",
+      "ruleId": "naming-16e96ac2-1eb4-466f-83ef-edffb5dd8060",
+      "ruleName": "缸号命名",
+      "ruleValue": "250718-014",
+      "ruleEvidence": "‘缸号’标签位于‘客户名称’行右侧单元格，值为‘250718-014’，符合规则要求的格式（数字+连字符+数字）",
+      "completedAt": "2026-07-21T02:48:57.218Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-21T02:48:57.218Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "3be536c9-29f6-4abb-b510-944ee682bddb",
+    "id": "默认文件夹_颜色黑色_20260721_105038",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "颜色黑色",
+    "remark": "",
+    "createdAt": "2026-07-21T02:50:38.678Z",
+    "captureDate": "2026-07-21",
+    "fileName": "默认文件夹_颜色黑色_20260721_105038.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_颜色黑色_20260721_105038.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "3be536c9-29f6-4abb-b510-944ee682bddb",
+      "capturedDate": "2026-07-21",
+      "title": "颜色黑色",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen3-vl-plus",
+      "reason": "图片为纺织行业内部联络单，内容涉及布类规格、颜色、生产单号等业务信息，不属于考研科目范畴",
+      "error": null,
+      "requestedAt": "2026-07-21T02:50:38.678Z",
+      "ruleId": "naming-2a17ea3d-9e81-4f72-b4a1-abf8ec9a7852",
+      "ruleName": "颜色命名",
+      "ruleValue": "黑色",
+      "ruleEvidence": "表格中‘颜色:黑色’字段明确标注，位于‘布类’行下方左侧单元格",
+      "completedAt": "2026-07-21T02:50:42.478Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-21T02:50:42.478Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "a3e794a6-392c-4cae-b90f-c2a1a309565f",
+    "id": "默认文件夹_颜色花青色_20260721_105041",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "颜色花青色",
+    "remark": "",
+    "createdAt": "2026-07-21T02:50:41.245Z",
+    "captureDate": "2026-07-21",
+    "fileName": "默认文件夹_颜色花青色_20260721_105041.jpg",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_颜色花青色_20260721_105041.jpg",
+    "mime": "image/jpeg",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "a3e794a6-392c-4cae-b90f-c2a1a309565f",
+      "capturedDate": "2026-07-21",
+      "title": "颜色花青色",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "默认文件夹"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen3-vl-plus",
+      "reason": "图片为纺织行业内部联络单，含客户名称、布类、颜色等业务信息，不属于考研科目范畴",
+      "error": null,
+      "requestedAt": "2026-07-21T02:50:41.245Z",
+      "ruleId": "naming-2a17ea3d-9e81-4f72-b4a1-abf8ec9a7852",
+      "ruleName": "颜色命名",
+      "ruleValue": "花青色",
+      "ruleEvidence": "表格中‘颜色:’字段后明确标注‘花青色’，位于‘布类:布拉格’下方一行",
+      "completedAt": "2026-07-21T02:50:47.133Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-21T02:50:47.133Z"
+  }
+]

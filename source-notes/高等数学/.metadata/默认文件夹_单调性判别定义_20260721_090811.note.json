@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "b5a85e66-6d6c-473d-9763-4be824f169fa",
+  "id": "默认文件夹_单调性判别定义_20260721_090811",
+  "kind": "single",
+  "subject": "默认文件夹",
+  "requestedSubject": "默认文件夹",
+  "title": "单调性判别定义",
+  "remark": "单调性判别定义",
+  "createdAt": "2026-07-21T01:08:11.189Z",
+  "captureDate": "2026-07-21",
+  "fileName": "默认文件夹_单调性判别定义_20260721_090811.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_单调性判别定义_20260721_090811.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "b5a85e66-6d6c-473d-9763-4be824f169fa",
+    "capturedDate": "2026-07-21",
+    "title": "单调性判别定义",
+    "subject": "默认文件夹",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [],
+    "knowledgePath": [],
+    "noteType": "note",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "pending",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "failed",
+    "provider": null,
+    "model": null,
+    "reason": "fallback",
+    "error": "所有可用 AI 均调用失败",
+    "requestedAt": "2026-07-21T01:08:11.189Z",
+    "completedAt": "2026-07-21T01:08:44.091Z"
+  },
+  "classifier": {
+    "status": "fallback_named",
+    "provider": null,
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-21T01:08:44.091Z"
+}

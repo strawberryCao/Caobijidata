@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "58e4f6d3-88f9-4e55-bfd7-28ceeec25541",
+  "id": "高等数学_例4.14_求n阶导数_20260720_204016",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "例4.14_求n阶导数",
+  "remark": "",
+  "createdAt": "2026-07-20T12:40:16.441Z",
+  "captureDate": "2026-07-20",
+  "fileName": "高等数学_例4.14_求n阶导数_20260720_204016.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_例4.14_求n阶导数_20260720_204016.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "58e4f6d3-88f9-4e55-bfd7-28ceeec25541",
+    "capturedDate": "2026-07-20",
+    "title": "例4.14_求n阶导数",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "note",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容为高等数学中关于函数n阶导数的例题，明确属于高等数学科目。",
+    "error": null,
+    "requestedAt": "2026-07-20T12:40:16.441Z",
+    "completedAt": "2026-07-20T12:40:40.206Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-20T12:40:40.206Z"
+}

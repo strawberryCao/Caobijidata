@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "a9e5cadd-27a5-4fd5-a767-a6354241d1ef",
+  "id": "高等数学_零点定理与函数交点分析_20260723_162453",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "零点定理与函数交点分析",
+  "remark": "",
+  "createdAt": "2026-07-23T08:24:53.713Z",
+  "captureDate": "2026-07-23",
+  "fileName": "高等数学_零点定理与函数交点分析_20260723_162453.jpg",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_零点定理与函数交点分析_20260723_162453.jpg",
+  "mime": "image/jpeg",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "a9e5cadd-27a5-4fd5-a767-a6354241d1ef",
+    "capturedDate": "2026-07-23",
+    "title": "零点定理与函数交点分析",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "note",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "manual",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false,
+    "questionType": ""
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "图中明确出现‘零点定理’推导、构造辅助函数h(x)=f(x)-x，并结合图像分析f(x)与y=x交点，属高等数学中连续函数性质与介值定理应用",
+    "error": null,
+    "requestedAt": "2026-07-23T08:24:53.713Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-23T08:24:57.509Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-23T08:25:18.741Z",
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": null,
+    "knowledgePointName": null,
+    "correctedBy": "user",
+    "correctedAt": "2026-07-23T08:25:18.741Z"
+  },
+  "organizer": {
+    "status": "user_corrected",
+    "proposed": null
+  }
+}

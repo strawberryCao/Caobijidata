@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "40d29f03-3440-4e89-bdc0-65630c05d072",
+  "id": "高等数学_极值点与拐点判断_20260721_154241",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "极值点与拐点判断",
+  "remark": "5.6 好题 帮助记忆极值点和拐点的判断\n比较综合",
+  "createdAt": "2026-07-21T07:42:41.383Z",
+  "captureDate": "2026-07-21",
+  "fileName": "高等数学_极值点与拐点判断_20260721_154241.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_极值点与拐点判断_20260721_154241.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [
+      "经典"
+    ],
+    "flags": {
+      "isMistake": false,
+      "isClassic": true,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "40d29f03-3440-4e89-bdc0-65630c05d072",
+    "capturedDate": "2026-07-21",
+    "title": "极值点与拐点判断",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [
+      "经典",
+      "好题"
+    ],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "note",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": true,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": true,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "题目考察函数y=|xe^{-x}|在x=0处的极值点与拐点判定，属高等数学中导数应用核心内容",
+    "error": null,
+    "requestedAt": "2026-07-21T07:42:41.383Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-21T07:42:44.337Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-21T07:42:44.337Z"
+}

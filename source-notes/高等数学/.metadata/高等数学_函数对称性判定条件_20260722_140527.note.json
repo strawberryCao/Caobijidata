@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "2de25316-a2d2-4610-88c3-1ecb9976a338",
+  "id": "高等数学_函数对称性判定条件_20260722_140527",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "函数对称性判定条件",
+  "remark": "记 图像对称",
+  "createdAt": "2026-07-22T06:05:27.460Z",
+  "captureDate": "2026-07-22",
+  "fileName": "高等数学_函数对称性判定条件_20260722_140527.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_函数对称性判定条件_20260722_140527.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [
+      "背诵"
+    ],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": true,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "2de25316-a2d2-4610-88c3-1ecb9976a338",
+    "capturedDate": "2026-07-22",
+    "title": "函数对称性判定条件",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [
+      "背诵"
+    ],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "memory",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": true
+    },
+    "cards": [
+      {
+        "sourceKey": "remark-memory:0",
+        "kind": "memory",
+        "front": "记_图像对称",
+        "back": "记 图像对称",
+        "status": "active",
+        "knowledgePath": [
+          "数据结构"
+        ],
+        "tags": [
+          "背诵"
+        ],
+        "pageRefs": []
+      }
+    ],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": true,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "图片内容为函数关于坐标轴、直线及点对称的六条充要条件，属高等数学中函数性质核心知识点",
+    "error": null,
+    "requestedAt": "2026-07-22T06:05:27.460Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-22T06:05:30.853Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-22T06:05:30.853Z"
+}

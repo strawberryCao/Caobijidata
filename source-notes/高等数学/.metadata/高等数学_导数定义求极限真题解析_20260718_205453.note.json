@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "a4a03d57-1694-4993-86e2-3dbfa8da5584",
+  "id": "高等数学_导数定义求极限真题解析_20260718_205453",
+  "kind": "canvas",
+  "canvasProjectId": "document_db5636ad-6bdd-4611-85fb-398c8f1a8f2d",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "导数定义求极限真题解析",
+  "remark": "真题1000 p8 6 好题\n善于识别导数的形式 这也启发我 凑导数形式 也是求极限的方法",
+  "createdAt": "2026-07-18T12:54:53.322Z",
+  "captureDate": "2026-07-18",
+  "fileName": "高等数学_导数定义求极限真题解析_20260718_205453.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_导数定义求极限真题解析_20260718_205453.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [
+      8
+    ],
+    "pageRefs": [
+      {
+        "raw": "p8",
+        "start": 8,
+        "end": 8
+      }
+    ],
+    "questions": [
+      "1000"
+    ],
+    "questionRefs": [
+      {
+        "raw": "题1000",
+        "number": "1000"
+      }
+    ],
+    "explicitTags": [],
+    "inferredTags": [
+      "经典"
+    ],
+    "flags": {
+      "isMistake": false,
+      "isClassic": true,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "a4a03d57-1694-4993-86e2-3dbfa8da5584",
+    "capturedDate": "2026-07-18",
+    "title": "导数定义求极限真题解析",
+    "subject": "高等数学",
+    "pageRefs": [
+      {
+        "raw": "p8",
+        "page": 8
+      },
+      {
+        "raw": "题1000",
+        "question": "1000"
+      }
+    ],
+    "questions": [
+      "1000"
+    ],
+    "tags": [
+      "经典",
+      "题型:证明题",
+      "导数应用",
+      "极限计算",
+      "好题"
+    ],
+    "knowledgePath": [
+      "高等数学",
+      "导数与微分"
+    ],
+    "noteType": "question",
+    "wrongReason": null,
+    "intent": {
+      "isQuestion": true,
+      "isMistake": false,
+      "isGood": true,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "flags": {
+      "isMistake": false,
+      "isClassic": true,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false,
+    "questionType": "证明题",
+    "classificationSource": "ai",
+    "items": [
+      {
+        "title": "题目解析",
+        "knowledgePoint": "导数定义",
+        "questionType": "证明题",
+        "summary": "题目要求证明极限 $ lim_{n o ty} n rac{f\big( rac{1}{n}\big)}{f(0)} = rac{f'(0)}{f(0)}$,通过变量替换 $t = rac{1}{n}$,将极限转化为导数的定义形式,利用导数的性质进行证明。",
+        "tags": [
+          "导数定义",
+          "变量替换",
+          "极限转化"
+        ],
+        "wrongReason": null,
+        "intent": {
+          "isQuestion": true,
+          "isMistake": false,
+          "isGood": true,
+          "shouldMemorize": false
+        }
+      }
+    ],
+    "confidence": 0.95,
+    "enrichedAt": "2026-07-20T10:12:07.398Z"
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容为高等数学中利用导数定义求极限的真题解析，核心在于导数形式的应用。",
+    "error": null,
+    "requestedAt": "2026-07-18T12:54:53.322Z",
+    "completedAt": "2026-07-18T12:54:55.149Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-18T12:54:55.149Z",
+  "questionType": "证明题",
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "经典",
+      "题型:证明题",
+      "导数应用",
+      "极限计算",
+      "好题"
+    ]
+  },
+  "items": [
+    {
+      "title": "题目解析",
+      "knowledgePoint": "导数定义",
+      "questionType": "证明题",
+      "summary": "题目要求证明极限 $ lim_{n o ty} n rac{f\big( rac{1}{n}\big)}{f(0)} = rac{f'(0)}{f(0)}$,通过变量替换 $t = rac{1}{n}$,将极限转化为导数的定义形式,利用导数的性质进行证明。",
+      "tags": [
+        "导数定义",
+        "变量替换",
+        "极限转化"
+      ],
+      "wrongReason": null,
+      "intent": {
+        "isQuestion": true,
+        "isMistake": false,
+        "isGood": true,
+        "shouldMemorize": false
+      }
+    }
+  ],
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": "kp_13761336-6746-4f82-af9e-86a103aeb88d",
+    "knowledgePointName": "导数与微分"
+  },
+  "organizer": {
+    "version": 1,
+    "inputHash": "5efa469049a8c95da2fd924f2569e686cb9c03253e87a5ac022cfac446c36073",
+    "analyzerVersion": "note-ai-analyzer-v3",
+    "status": "organized",
+    "processedAt": "2026-07-20T10:12:07.397Z",
+    "confidence": 0.95,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容为高等数学中导数定义的应用,属于导数与微分的知识点。题目类型为证明题,用户备注表明其为经典题,且记录了利用导数形式求极限的方法,具有典型性和迁移价值,因此判断为主分类为‘高等数学’,知识点为‘导数与微分’。",
+    "summary": "本题通过导数的定义,将极限问题转化为导数的计算,展示了利用导数形式求解极限的方法。",
+    "questionType": "证明题",
+    "wrongReason": null,
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": true,
+      "isMistake": false,
+      "isGood": true,
+      "shouldMemorize": false
+    },
+    "items": [
+      {
+        "title": "题目解析",
+        "knowledgePoint": "导数定义",
+        "questionType": "证明题",
+        "summary": "题目要求证明极限 $ lim_{n o ty} n rac{f\big( rac{1}{n}\big)}{f(0)} = rac{f'(0)}{f(0)}$,通过变量替换 $t = rac{1}{n}$,将极限转化为导数的定义形式,利用导数的性质进行证明。",
+        "tags": [
+          "导数定义",
+          "变量替换",
+          "极限转化"
+        ],
+        "wrongReason": null,
+        "intent": {
+          "isQuestion": true,
+          "isMistake": false,
+          "isGood": true,
+          "shouldMemorize": false
+        }
+      }
+    ],
+    "subjectPolicy": {
+      "requested": "默认文件夹",
+      "resolved": "高等数学",
+      "reason": "current-user"
+    },
+    "proposed": null,
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-20T10:12:07.430Z"
+  }
+}

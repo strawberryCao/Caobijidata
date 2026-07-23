@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "a230954a-f9c6-493f-a043-783b4637d89d",
+  "id": "高等数学_常用泰勒展开公式总结_20260720_161841",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "常用泰勒展开公式总结",
+  "remark": "背 非常重要 常用泰勒展开",
+  "createdAt": "2026-07-20T08:18:41.194Z",
+  "captureDate": "2026-07-20",
+  "fileName": "高等数学_常用泰勒展开公式总结_20260720_161841.jpg",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_常用泰勒展开公式总结_20260720_161841.jpg",
+  "mime": "image/jpeg",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [
+      "背诵"
+    ],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": true,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "a230954a-f9c6-493f-a043-783b4637d89d",
+    "capturedDate": "2026-07-20",
+    "title": "常用泰勒展开公式总结",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [
+      "背诵",
+      "泰勒展开",
+      "重要公式",
+      "公式",
+      "记忆",
+      "好题"
+    ],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "memory",
+    "wrongReason": null,
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": true,
+      "shouldMemorize": true
+    },
+    "cards": [
+      {
+        "sourceKey": "ai:root:0",
+        "kind": "memory",
+        "front": "请写出以下函数在x=0处的泰勒展开式: 1. e^x 2. sinx 3. cosx 4. arctanx 5. arcsinx 6. ln(1+x) 7. tanx 8. (1+x)^a",
+        "back": "1. e^x = 1 + x + x^2/2! + x^3/3! + o(x^3) 2. sinx = x - x^3/3! + o(x^3) 3. cosx = 1 - x^2/2! + x^4/4! + o(x^4) 4. arctanx = x - x^3/3 + o(x^3) 5. arcsinx = x + x^3/3! + o(x^3) 6. ln(1+x) = x - x^2/2 + x^3/3 + o(x^3) 7. tanx = x + x^3/3 + o(x^3) 8. (1+x)^a = 1 + ax + a(a-1)x^2/2! + o(x^2)",
+        "status": "active"
+      }
+    ],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": true,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false,
+    "questionType": null,
+    "items": [],
+    "confidence": 0.95,
+    "enrichedAt": "2026-07-20T10:11:47.831Z"
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容为高等数学中的泰勒展开公式，且备注强调‘背 非常重要 常用泰勒展开’",
+    "error": null,
+    "requestedAt": "2026-07-20T08:18:41.194Z",
+    "completedAt": "2026-07-20T08:18:43.024Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-20T08:18:43.024Z",
+  "questionType": null,
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "背诵",
+      "泰勒展开",
+      "重要公式",
+      "公式",
+      "记忆",
+      "好题"
+    ]
+  },
+  "items": [],
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": null,
+    "knowledgePointName": null
+  },
+  "organizer": {
+    "version": 1,
+    "inputHash": "d109265d5d5500f783e9c251c3ba56a111a125e1e19507097b973abc75459e54",
+    "analyzerVersion": "note-ai-analyzer-v3",
+    "status": "organized",
+    "processedAt": "2026-07-20T10:11:47.831Z",
+    "confidence": 0.95,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "根据备注明确指出‘背 非常重要 常用泰勒展开’,判断为需要记忆的知识点。公式列表清晰,属于高等数学中的泰勒展开主题,符合‘记忆’意图。",
+    "summary": "图片展示了多个常用函数在x=0处的泰勒展开式,包括指数函数、三角函数、反三角函数、对数函数和广义二项式定理等。备注强调这些公式非常重要且需要背诵。",
+    "questionType": null,
+    "wrongReason": null,
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": true,
+      "shouldMemorize": true
+    },
+    "items": [],
+    "subjectPolicy": {
+      "requested": "默认文件夹",
+      "resolved": "高等数学",
+      "reason": "current-user"
+    },
+    "proposed": null,
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-20T10:11:47.857Z"
+  }
+}

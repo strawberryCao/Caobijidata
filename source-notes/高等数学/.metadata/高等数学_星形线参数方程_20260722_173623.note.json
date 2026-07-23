@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "ccc603de-eddd-4859-ae42-3942aaad761e",
+  "id": "高等数学_星形线参数方程_20260722_173623",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "星形线参数方程",
+  "remark": "背",
+  "createdAt": "2026-07-22T09:36:23.642Z",
+  "captureDate": "2026-07-22",
+  "fileName": "高等数学_星形线参数方程_20260722_173623.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_星形线参数方程_20260722_173623.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [
+      "背诵"
+    ],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": true,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "ccc603de-eddd-4859-ae42-3942aaad761e",
+    "capturedDate": "2026-07-22",
+    "title": "星形线参数方程",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [
+      "背诵"
+    ],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "memory",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": true
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": true,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "图中明确标注‘星形线（内摆线的一种）’并给出其参数方程x=a cos³t, y=a sin³t及直角坐标形式x^(2/3)+y^(2/3)=a^(2/3)，属于高等数学曲线内容",
+    "error": null,
+    "requestedAt": "2026-07-22T09:36:23.642Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-22T09:36:28.855Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-22T09:36:28.855Z"
+}

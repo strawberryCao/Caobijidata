@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "5c566cde-740c-42a2-bea6-1fc5d54e7a69",
+  "id": "默认文件夹_联络单_缸号待识别_20260721_080647",
+  "kind": "single",
+  "subject": "默认文件夹",
+  "requestedSubject": "默认文件夹",
+  "title": "联络单_缸号待识别",
+  "remark": "",
+  "createdAt": "2026-07-21T00:06:47.423Z",
+  "captureDate": "2026-07-21",
+  "fileName": "默认文件夹_联络单_缸号待识别_20260721_080647.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_联络单_缸号待识别_20260721_080647.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "5c566cde-740c-42a2-bea6-1fc5d54e7a69",
+    "capturedDate": "2026-07-21",
+    "title": "联络单_缸号待识别",
+    "subject": "默认文件夹",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [],
+    "knowledgePath": [
+      "默认文件夹"
+    ],
+    "noteType": "note",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "pending",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片中未明确显示学习内容，且缸号信息无法识别",
+    "error": null,
+    "requestedAt": "2026-07-21T00:06:47.423Z",
+    "completedAt": "2026-07-21T00:06:49.297Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-21T00:06:49.297Z"
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "49357e66-2685-43af-a913-2abe371cddcb",
+  "id": "默认文件夹_B站视频推荐页面截图_20260720_153222",
+  "kind": "single",
+  "subject": "默认文件夹",
+  "requestedSubject": "默认文件夹",
+  "title": "B站视频推荐页面截图",
+  "remark": "你猜猜这是什么",
+  "createdAt": "2026-07-20T07:32:22.088Z",
+  "captureDate": "2026-07-20",
+  "fileName": "默认文件夹_B站视频推荐页面截图_20260720_153222.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_B站视频推荐页面截图_20260720_153222.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "49357e66-2685-43af-a913-2abe371cddcb",
+    "capturedDate": "2026-07-20",
+    "title": "B站视频推荐页面截图",
+    "subject": "默认文件夹",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [
+      "视频平台",
+      "内容推荐",
+      "社交媒体"
+    ],
+    "knowledgePath": [
+      "默认文件夹"
+    ],
+    "noteType": "note",
+    "wrongReason": null,
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "pending",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false,
+    "questionType": null,
+    "items": [],
+    "confidence": 0.95,
+    "enrichedAt": "2026-07-20T11:11:20.879Z"
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容为B站视频推荐页面，无明确学习科目内容。",
+    "error": null,
+    "requestedAt": "2026-07-20T07:32:22.088Z",
+    "completedAt": "2026-07-20T07:32:26.491Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-20T07:32:26.491Z",
+  "organizer": {
+    "version": 1,
+    "inputHash": "69673fcb6e0aa71f29c24336407595fac25d0d7027e0ebc043c0451e37158656",
+    "analyzerVersion": "note-ai-analyzer-v3",
+    "status": "needs_review",
+    "processedAt": "2026-07-20T11:11:20.879Z",
+    "confidence": 0.95,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片为B站视频推荐页面截图,无学习内容或考研科目相关知识,属于通用信息展示,归类为‘默认文件夹’。备注中‘你猜猜这是什么’仅为趣味性描述,无记忆或错题意图。",
+    "summary": "一张Bilibili(B站)视频推荐页面的截图,展示了多个热门视频的缩略图、标题、播放量、评论数及发布时间等信息。",
+    "questionType": null,
+    "wrongReason": null,
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "items": [],
+    "subjectPolicy": {
+      "requested": "默认文件夹",
+      "resolved": "默认文件夹",
+      "reason": "unknown"
+    },
+    "proposed": {
+      "subject": "默认文件夹",
+      "knowledgePoint": null
+    },
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-20T11:11:20.921Z"
+  },
+  "questionType": null,
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "视频平台",
+      "内容推荐",
+      "社交媒体"
+    ]
+  },
+  "items": [],
+  "classification": {
+    "subjectId": "subject_4fb7dd54-d7a8-430e-90b6-accca807f506",
+    "subjectName": "默认文件夹",
+    "knowledgePointId": null,
+    "knowledgePointName": null
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "8fe9fee6-244d-4ac6-9452-78e730dee9bf",
+  "id": "高等数学_极大值二阶导数符号陷阱_20260721_131555",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "极大值二阶导数符号陷阱",
+  "remark": "5.2 错题 坑 细节\n极限判断的第二充分 反过来并不是必要；\n极限在某点取得极大值 一阶导数一定是0 但是二阶导数不一定\n比如-x^4在0点的二阶导数为0 所以是小于等于 不一定要严格小于；\n由第三充分可知道 他是再某一偶阶的导数会小于0 但是不一定是二阶",
+  "createdAt": "2026-07-21T05:15:55.788Z",
+  "captureDate": "2026-07-21",
+  "fileName": "高等数学_极大值二阶导数符号陷阱_20260721_131555.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_极大值二阶导数符号陷阱_20260721_131555.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [
+      "错题"
+    ],
+    "flags": {
+      "isMistake": true,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "8fe9fee6-244d-4ac6-9452-78e730dee9bf",
+    "capturedDate": "2026-07-21",
+    "title": "极大值二阶导数符号陷阱",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [
+      "错题"
+    ],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "mistake",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": true,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [
+      {
+        "sourceKey": "remark-mistake:0",
+        "kind": "mistake",
+        "front": "重做：5.2_错题_坑_细节_极限判断的第二充分_反过来并不是必要；_极限在某点取得极大值",
+        "back": "5.2 错题 坑 细节\n极限判断的第二充分 反过来并不是必要；\n极限在某点取得极大值 一阶导数一定是0 但是二阶导数不一定\n比如-x^4在0点的二阶导数为0 所以是小于等于 不一定要严格小于；\n由第三充分可知道 他是再某一偶阶的导数会小于0 但是不一定是二阶",
+        "status": "active",
+        "knowledgePath": [
+          "高等数学"
+        ],
+        "tags": [
+          "错题"
+        ],
+        "pageRefs": []
+      }
+    ],
+    "organizationStatus": "confirmed",
+    "classificationSource": "manual",
+    "flags": {
+      "isMistake": true,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false,
+    "questionType": ""
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "kimi",
+    "model": "kimi-k3",
+    "reason": "图片为例5.2，讨论极大值点二阶导数应小于等于0而非严格小于0，并用-x^4作反例。",
+    "error": null,
+    "requestedAt": "2026-07-21T05:15:55.788Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-21T05:16:22.184Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "kimi",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-21T05:22:03.901Z",
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": null,
+    "knowledgePointName": null,
+    "correctedBy": "user",
+    "correctedAt": "2026-07-21T05:22:03.901Z"
+  },
+  "organizer": {
+    "status": "user_corrected",
+    "proposed": null
+  }
+}

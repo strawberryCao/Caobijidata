@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "8700e223-2024-4c9a-8b3f-8c6be9dfa0c8",
+  "id": "默认文件夹_联络单_缸号待识别_20260720_203335",
+  "kind": "single",
+  "subject": "默认文件夹",
+  "requestedSubject": "默认文件夹",
+  "title": "联络单_缸号待识别",
+  "remark": "",
+  "createdAt": "2026-07-20T12:33:35.598Z",
+  "captureDate": "2026-07-20",
+  "fileName": "默认文件夹_联络单_缸号待识别_20260720_203335.jpg",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_联络单_缸号待识别_20260720_203335.jpg",
+  "mime": "image/jpeg",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "8700e223-2024-4c9a-8b3f-8c6be9dfa0c8",
+    "capturedDate": "2026-07-20",
+    "title": "联络单_缸号待识别",
+    "subject": "默认文件夹",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [],
+    "knowledgePath": [
+      "默认文件夹"
+    ],
+    "noteType": "note",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "pending",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片中未出现明确的学科内容，且缸号信息无法识别，故归类为默认文件夹。",
+    "error": null,
+    "requestedAt": "2026-07-20T12:33:35.598Z",
+    "completedAt": "2026-07-20T12:33:38.405Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-20T12:33:38.405Z"
+}

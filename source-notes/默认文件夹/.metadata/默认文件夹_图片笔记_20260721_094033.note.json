@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "6699eb75-4806-4dab-91d8-ad9713fc51c9",
+  "id": "默认文件夹_图片笔记_20260721_094033",
+  "kind": "single",
+  "subject": "默认文件夹",
+  "requestedSubject": "默认文件夹",
+  "title": "图片笔记",
+  "remark": "",
+  "createdAt": "2026-07-21T01:40:33.950Z",
+  "captureDate": "2026-07-21",
+  "fileName": "默认文件夹_图片笔记_20260721_094033.jpg",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_图片笔记_20260721_094033.jpg",
+  "mime": "image/jpeg",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "6699eb75-4806-4dab-91d8-ad9713fc51c9",
+    "capturedDate": "2026-07-21",
+    "title": "图片笔记",
+    "subject": "默认文件夹",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [],
+    "knowledgePath": [],
+    "noteType": "note",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "pending",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": true
+  },
+  "naming": {
+    "status": "pending",
+    "provider": null,
+    "model": null,
+    "reason": "local_first",
+    "error": null,
+    "requestedAt": "2026-07-21T01:40:33.950Z"
+  },
+  "classifier": {
+    "status": "saved_pending_ai",
+    "provider": null,
+    "scheduledAt": "every_72_hours"
+  }
+}

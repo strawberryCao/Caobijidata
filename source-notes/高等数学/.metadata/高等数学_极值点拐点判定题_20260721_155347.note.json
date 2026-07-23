@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "bc3c59cf-d535-4dc0-a721-7bdf7d5befcb",
+  "id": "高等数学_极值点拐点判定题_20260721_155347",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "极值点拐点判定题",
+  "remark": "错题 不会 难 \n需要用极值点和拐点地重要结论",
+  "createdAt": "2026-07-21T07:53:47.975Z",
+  "captureDate": "2026-07-21",
+  "fileName": "高等数学_极值点拐点判定题_20260721_155347.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_极值点拐点判定题_20260721_155347.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [
+      "错题"
+    ],
+    "flags": {
+      "isMistake": true,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "bc3c59cf-d535-4dc0-a721-7bdf7d5befcb",
+    "capturedDate": "2026-07-21",
+    "title": "极值点拐点判定题",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [
+      "错题"
+    ],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "mistake",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": true,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "manual",
+    "flags": {
+      "isMistake": true,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false,
+    "questionType": ""
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "题目涉及函数y=(x-1)(x-2)²(x-3)³(x-4)⁴的拐点判断，用户备注明确要求‘用极值点和拐点的重要结论’，属高等数学微分学核心内容",
+    "error": null,
+    "requestedAt": "2026-07-21T07:53:47.975Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-21T07:53:52.324Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-21T08:12:26.501Z",
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": null,
+    "knowledgePointName": null,
+    "correctedBy": "user",
+    "correctedAt": "2026-07-21T08:12:26.501Z"
+  },
+  "organizer": {
+    "status": "user_corrected",
+    "proposed": null
+  }
+}

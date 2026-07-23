@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "d8da736c-ed89-49aa-b3cf-7e37a50d56a6",
+  "id": "高等数学_凹凸函数Jensen不等式推广_20260721_141025",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "凹凸函数Jensen不等式推广",
+  "remark": "凹凸函数定义的广泛推论\n系数和为0 系数大于0",
+  "createdAt": "2026-07-21T06:10:25.911Z",
+  "captureDate": "2026-07-21",
+  "fileName": "高等数学_凹凸函数Jensen不等式推广_20260721_141025.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_凹凸函数Jensen不等式推广_20260721_141025.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "d8da736c-ed89-49aa-b3cf-7e37a50d56a6",
+    "capturedDate": "2026-07-21",
+    "title": "凹凸函数Jensen不等式推广",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "note",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "图片展示凹函数（凸函数）的广义Jensen不等式形式，含系数λ₁+λ₂=1且>0的条件，属高等数学中多元函数凸性核心内容",
+    "error": null,
+    "requestedAt": "2026-07-21T06:10:25.911Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-21T06:10:30.511Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-21T06:10:30.511Z"
+}

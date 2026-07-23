@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "76952f68-79ed-43f7-88c2-9729f472f798",
+  "id": "高等数学_闭区间连续函数核心定理_20260723_165458",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "闭区间连续函数核心定理",
+  "remark": "记",
+  "createdAt": "2026-07-23T08:54:58.631Z",
+  "captureDate": "2026-07-23",
+  "fileName": "高等数学_闭区间连续函数核心定理_20260723_165458.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_闭区间连续函数核心定理_20260723_165458.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [
+      "背诵"
+    ],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": true,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "76952f68-79ed-43f7-88c2-9729f472f798",
+    "capturedDate": "2026-07-23",
+    "title": "闭区间连续函数核心定理",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [
+      "背诵"
+    ],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "memory",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": true
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": true,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "图片标题明确为“闭区间连续函数的核心定理”，内容涵盖有界性、最值、零点、介值、积分平均值等经典定理，属于高等数学中连续函数性质的核心内容。",
+    "error": null,
+    "requestedAt": "2026-07-23T08:54:58.631Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-23T08:55:02.570Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-23T08:55:02.570Z"
+}

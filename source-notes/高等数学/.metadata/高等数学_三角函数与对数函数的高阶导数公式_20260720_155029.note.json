@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "21507d85-ce1d-4767-a108-e95f5cb0bcf9",
+  "id": "高等数学_三角函数与对数函数的高阶导数公式_20260720_155029",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "三角函数与对数函数的高阶导数公式",
+  "remark": "",
+  "createdAt": "2026-07-20T07:50:29.947Z",
+  "captureDate": "2026-07-20",
+  "fileName": "高等数学_三角函数与对数函数的高阶导数公式_20260720_155029.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_三角函数与对数函数的高阶导数公式_20260720_155029.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "21507d85-ce1d-4767-a108-e95f5cb0bcf9",
+    "capturedDate": "2026-07-20",
+    "title": "三角函数与对数函数的高阶导数公式",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [
+      "高阶导数",
+      "三角函数",
+      "对数函数",
+      "分式函数",
+      "好题",
+      "背诵"
+    ],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "memory",
+    "wrongReason": null,
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": true,
+      "shouldMemorize": true
+    },
+    "cards": [
+      {
+        "sourceKey": "ai:root:0",
+        "kind": "memory",
+        "front": "cos(ax+b)的n阶导数公式是什么?",
+        "back": "cos^{(n)}(ax+b) = a^n cos(ax+b + nπ/2)",
+        "status": "active"
+      },
+      {
+        "sourceKey": "ai:root:1",
+        "kind": "memory",
+        "front": "ln(ax+b)的n阶导数公式是什么?",
+        "back": "ln^{(n)}(ax+b) = (-1)^{n-1} a^n (n-1)! / (ax+b)^n",
+        "status": "active"
+      }
+    ],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false,
+    "questionType": null,
+    "items": [],
+    "confidence": 0.95,
+    "enrichedAt": "2026-07-20T10:58:10.394Z"
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容为高等数学中关于三角函数和对数函数的高阶导数计算公式。",
+    "error": null,
+    "requestedAt": "2026-07-20T07:50:29.947Z",
+    "completedAt": "2026-07-20T07:50:31.904Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-20T07:50:31.904Z",
+  "organizer": {
+    "version": 1,
+    "inputHash": "05ad4bc524819a79ce83dc98ac51ad72974acf456f4ab65f0df1fbfb6af3a0cc",
+    "analyzerVersion": "note-ai-analyzer-v3",
+    "status": "organized",
+    "processedAt": "2026-07-20T10:58:10.394Z",
+    "confidence": 0.95,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容为高等数学中常见的高阶导数公式,属于需要记忆的知识点。公式清晰,无歧义,判断为高等数学科目,且公式具有典型性,值得记忆。",
+    "summary": "记录了三角函数、对数函数以及分式函数的n阶导数公式,包括cos(ax+b)、ln(ax+b)和1/(ax+b)的导数表达式。",
+    "questionType": null,
+    "wrongReason": null,
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": true,
+      "shouldMemorize": true
+    },
+    "items": [],
+    "subjectPolicy": {
+      "requested": "默认文件夹",
+      "resolved": "高等数学",
+      "reason": "current-user"
+    },
+    "proposed": null,
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-20T10:58:10.420Z"
+  },
+  "questionType": null,
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "高阶导数",
+      "三角函数",
+      "对数函数",
+      "分式函数",
+      "好题",
+      "背诵"
+    ]
+  },
+  "items": [],
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": null,
+    "knowledgePointName": null
+  }
+}

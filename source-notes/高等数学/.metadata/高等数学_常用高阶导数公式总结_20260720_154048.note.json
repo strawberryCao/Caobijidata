@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "700a954b-072d-40b9-8fe8-d825ef452f5f",
+  "id": "高等数学_常用高阶导数公式总结_20260720_154048",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "常用高阶导数公式总结",
+  "remark": "背 常用的高阶导数",
+  "createdAt": "2026-07-20T07:40:48.742Z",
+  "captureDate": "2026-07-20",
+  "fileName": "高等数学_常用高阶导数公式总结_20260720_154048.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_常用高阶导数公式总结_20260720_154048.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [
+      "背诵"
+    ],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": true,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "700a954b-072d-40b9-8fe8-d825ef452f5f",
+    "capturedDate": "2026-07-20",
+    "title": "常用高阶导数公式总结",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [
+      "背诵",
+      "高阶导数",
+      "公式记忆",
+      "微积分",
+      "好题"
+    ],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "memory",
+    "wrongReason": null,
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": true,
+      "shouldMemorize": true
+    },
+    "cards": [
+      {
+        "sourceKey": "ai:root:0",
+        "kind": "memory",
+        "front": "e^(ax+b)的n阶导数是什么?",
+        "back": "a^n * e^(ax+b)",
+        "status": "active"
+      },
+      {
+        "sourceKey": "ai:root:1",
+        "kind": "memory",
+        "front": "sin(ax+b)的n阶导数公式是什么?",
+        "back": "a^n * sin(ax+b + nπ/2)",
+        "status": "active"
+      }
+    ],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": true,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false,
+    "questionType": null,
+    "items": [],
+    "confidence": 0.95,
+    "enrichedAt": "2026-07-20T10:55:17.924Z"
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容为高等数学中关于常见函数的高阶导数公式，属于高等数学学科。",
+    "error": null,
+    "requestedAt": "2026-07-20T07:40:48.742Z",
+    "completedAt": "2026-07-20T07:40:50.678Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-20T07:40:50.678Z",
+  "organizer": {
+    "version": 1,
+    "inputHash": "6addfee86fbe16284d8d469d51c5c13e8f9791752840e688a8ed5f51a1f14bae",
+    "analyzerVersion": "note-ai-analyzer-v3",
+    "status": "organized",
+    "processedAt": "2026-07-20T10:55:17.923Z",
+    "confidence": 0.95,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容为高等数学中常用的高阶导数公式,属于明确的知识点总结。备注中明确提到“背 常用的高阶导数”,表明用户有强烈的记忆意图。公式清晰且无歧义,判断为高等数学科目,置信度较高。由于卡片数量过多,修正为前两个最有代表性的公式。",
+    "summary": "总结了指数函数、三角函数、对数函数和分式函数的n阶导数公式,适用于快速计算高阶导数。",
+    "questionType": null,
+    "wrongReason": null,
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": true,
+      "shouldMemorize": true
+    },
+    "items": [],
+    "subjectPolicy": {
+      "requested": "默认文件夹",
+      "resolved": "高等数学",
+      "reason": "current-user"
+    },
+    "proposed": null,
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-20T10:55:17.956Z"
+  },
+  "questionType": null,
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "背诵",
+      "高阶导数",
+      "公式记忆",
+      "微积分",
+      "好题"
+    ]
+  },
+  "items": [],
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": null,
+    "knowledgePointName": null
+  }
+}

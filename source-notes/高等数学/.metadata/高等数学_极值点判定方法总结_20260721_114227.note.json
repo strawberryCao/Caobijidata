@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "884498b9-ee88-4093-9f12-69d239abe602",
+  "id": "高等数学_极值点判定方法总结_20260721_114227",
+  "kind": "canvas",
+  "canvasProjectId": "document_1784603472012_81fa6a16f48d",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "极值点判定方法总结",
+  "remark": "系统求极值点方法总结：\n1.通过驻点+不可导点找出候选点\n2.灵活利用三个充分点找出真正的极值点",
+  "createdAt": "2026-07-21T03:42:27.205Z",
+  "captureDate": "2026-07-21",
+  "fileName": "高等数学_极值点判定方法总结_20260721_114227.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_极值点判定方法总结_20260721_114227.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "884498b9-ee88-4093-9f12-69d239abe602",
+    "capturedDate": "2026-07-21",
+    "title": "极值点判定方法总结",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "canvas",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容为高等数学中关于如何寻找和判定极值点的方法，包括驻点、不可导点及多种充分条件的判断。",
+    "error": null,
+    "requestedAt": "2026-07-21T03:42:27.205Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-21T03:42:31.149Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-21T03:42:31.149Z"
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "164a91ac-5ad5-4a7d-a4bd-6372b19428fa",
+  "id": "高等数学_y=1_x+ln(1+e^x)渐近线_20260721_172431",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "y=1_x+ln(1+e^x)渐近线",
+  "remark": "好题 5.9\n三种渐近线都有 然后还有一个不错的极限处理：不跳步求ln(1+e^x) x取正无穷 结果为正无穷",
+  "createdAt": "2026-07-21T09:24:31.494Z",
+  "captureDate": "2026-07-21",
+  "fileName": "高等数学_y=1_x+ln(1+e^x)渐近线_20260721_172431.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_y=1_x+ln(1+e^x)渐近线_20260721_172431.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [
+      "5.9"
+    ],
+    "questionRefs": [
+      {
+        "raw": "题 5.9",
+        "number": "5.9"
+      }
+    ],
+    "explicitTags": [],
+    "inferredTags": [
+      "经典"
+    ],
+    "flags": {
+      "isMistake": false,
+      "isClassic": true,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "164a91ac-5ad5-4a7d-a4bd-6372b19428fa",
+    "capturedDate": "2026-07-21",
+    "title": "y=1_x+ln(1+e^x)渐近线",
+    "subject": "高等数学",
+    "pageRefs": [
+      {
+        "raw": "题 5.9",
+        "question": "5.9"
+      }
+    ],
+    "questions": [
+      "5.9"
+    ],
+    "tags": [
+      "经典",
+      "好题"
+    ],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "question",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": true,
+      "isMistake": false,
+      "isGood": true,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": true,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "题目明确要求求曲线y=1/x+ln(1+e^x)的渐近线，属高等数学中函数极限与渐近线核心知识点",
+    "error": null,
+    "requestedAt": "2026-07-21T09:24:31.494Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-21T09:24:35.221Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-21T09:24:35.221Z"
+}

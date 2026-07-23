@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "530fcc21-8bfb-47e9-af16-2a4fcaf19bc0",
+  "id": "默认文件夹_精度纺织信息联络单_20260721_092458",
+  "kind": "single",
+  "subject": "默认文件夹",
+  "requestedSubject": "默认文件夹",
+  "title": "精度纺织信息联络单",
+  "remark": "",
+  "createdAt": "2026-07-21T01:24:58.265Z",
+  "captureDate": "2026-07-21",
+  "fileName": "默认文件夹_精度纺织信息联络单_20260721_092458.jpg",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_精度纺织信息联络单_20260721_092458.jpg",
+  "mime": "image/jpeg",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "530fcc21-8bfb-47e9-af16-2a4fcaf19bc0",
+    "capturedDate": "2026-07-21",
+    "title": "精度纺织信息联络单",
+    "subject": "默认文件夹",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [],
+    "knowledgePath": [
+      "默认文件夹"
+    ],
+    "noteType": "note",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "pending",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-flash",
+    "reason": "图片为纸质单据，无明确学科内容，且未出现可识别的考研科目特征；备注为空，无法判断具体学科，故归入默认文件夹",
+    "error": null,
+    "requestedAt": "2026-07-21T01:24:58.265Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-21T01:25:00.181Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-21T01:25:00.181Z"
+}

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "3be536c9-29f6-4abb-b510-944ee682bddb",
+  "id": "默认文件夹_颜色黑色_20260721_105038",
+  "kind": "single",
+  "subject": "默认文件夹",
+  "requestedSubject": "默认文件夹",
+  "title": "颜色黑色",
+  "remark": "",
+  "createdAt": "2026-07-21T02:50:38.678Z",
+  "captureDate": "2026-07-21",
+  "fileName": "默认文件夹_颜色黑色_20260721_105038.jpg",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_颜色黑色_20260721_105038.jpg",
+  "mime": "image/jpeg",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "3be536c9-29f6-4abb-b510-944ee682bddb",
+    "capturedDate": "2026-07-21",
+    "title": "颜色黑色",
+    "subject": "默认文件夹",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [],
+    "knowledgePath": [
+      "默认文件夹"
+    ],
+    "noteType": "note",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "pending",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "图片为纺织行业内部联络单，内容涉及布类规格、颜色、生产单号等业务信息，不属于考研科目范畴",
+    "error": null,
+    "requestedAt": "2026-07-21T02:50:38.678Z",
+    "ruleId": "naming-2a17ea3d-9e81-4f72-b4a1-abf8ec9a7852",
+    "ruleName": "颜色命名",
+    "ruleValue": "黑色",
+    "ruleEvidence": "表格中‘颜色:黑色’字段明确标注，位于‘布类’行下方左侧单元格",
+    "completedAt": "2026-07-21T02:50:42.478Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-21T02:50:42.478Z"
+}

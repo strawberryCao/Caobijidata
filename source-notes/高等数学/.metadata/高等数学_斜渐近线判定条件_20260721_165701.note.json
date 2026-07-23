@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "3db5e93e-2b34-470f-8989-4a2166b689ae",
+  "id": "高等数学_斜渐近线判定条件_20260721_165701",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "斜渐近线判定条件",
+  "remark": "",
+  "createdAt": "2026-07-21T08:57:01.286Z",
+  "captureDate": "2026-07-21",
+  "fileName": "高等数学_斜渐近线判定条件_20260721_165701.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_斜渐近线判定条件_20260721_165701.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "3db5e93e-2b34-470f-8989-4a2166b689ae",
+    "capturedDate": "2026-07-21",
+    "title": "斜渐近线判定条件",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "note",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "图片内容为求函数y=x+sinx的斜渐近线，涉及极限计算a=lim(y/x)与b=lim(y−ax)，属高等数学中函数性态分析核心知识点",
+    "error": null,
+    "requestedAt": "2026-07-21T08:57:01.286Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-21T08:57:05.235Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-21T08:57:05.235Z"
+}

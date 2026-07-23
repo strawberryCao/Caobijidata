@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "d5539e97-c144-4ca7-904c-ec61c31b72c2",
+  "id": "默认文件夹_缸号250627-076_20260721_095353",
+  "kind": "single",
+  "subject": "默认文件夹",
+  "requestedSubject": "默认文件夹",
+  "title": "缸号250627-076",
+  "remark": "",
+  "createdAt": "2026-07-21T01:53:53.277Z",
+  "captureDate": "2026-07-21",
+  "fileName": "默认文件夹_缸号250627-076_20260721_095353.jpg",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_缸号250627-076_20260721_095353.jpg",
+  "mime": "image/jpeg",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "d5539e97-c144-4ca7-904c-ec61c31b72c2",
+    "capturedDate": "2026-07-21",
+    "title": "缸号250627-076",
+    "subject": "默认文件夹",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [],
+    "knowledgePath": [
+      "默认文件夹"
+    ],
+    "noteType": "note",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "pending",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "图片为纺织行业内部联络单，含客户名称、布类、缸号等业务信息，不属于考研科目范畴",
+    "error": null,
+    "requestedAt": "2026-07-21T01:53:53.277Z",
+    "ruleId": "naming-c16d8e35-ca31-4a6e-ad20-346610274dae",
+    "ruleName": "缸号命名",
+    "ruleValue": "250627-076",
+    "ruleEvidence": "表格中‘缸号’字段右侧明确标注‘250627-076’",
+    "completedAt": "2026-07-21T01:53:59.922Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-21T01:53:59.922Z"
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "d9cbe37b-f6dd-4739-afa9-0320c4ccf271",
+  "id": "高等数学_拐点的二阶导数条件_20260721_142505",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "拐点的二阶导数条件",
+  "remark": "很好理解 结合凹凸函数的定义和图像理解 就是变化率增长为0的时候就拐了嘛，那就是二阶导数为0；\n类似极值点的时候 一阶导数为0",
+  "createdAt": "2026-07-21T06:25:05.855Z",
+  "captureDate": "2026-07-21",
+  "fileName": "高等数学_拐点的二阶导数条件_20260721_142505.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_拐点的二阶导数条件_20260721_142505.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "d9cbe37b-f6dd-4739-afa9-0320c4ccf271",
+    "capturedDate": "2026-07-21",
+    "title": "拐点的二阶导数条件",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "note",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "manual",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false,
+    "questionType": ""
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "图片明确展示‘二阶可导点是拐点的必要条件’及f''(x₀)=0的公式，结合备注强调凹凸函数与二阶导数为0的关系，属高数中函数性态分析核心知识点",
+    "error": null,
+    "requestedAt": "2026-07-21T06:25:05.855Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-21T06:25:10.597Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-21T06:25:48.746Z",
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": null,
+    "knowledgePointName": null,
+    "correctedBy": "user",
+    "correctedAt": "2026-07-21T06:25:48.746Z"
+  },
+  "organizer": {
+    "status": "user_corrected",
+    "proposed": null
+  }
+}

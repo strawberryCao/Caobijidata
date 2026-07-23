@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "a7fc3d2a-dd33-4f59-b917-38288d059772",
+  "id": "高等数学_y²=(1−x²)³图像绘制_20260722_180954",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "y²=(1−x²)³图像绘制",
+  "remark": "5.11 错题 被纸老虎吓到了 完全没思路\n先判断实数点的范围（尤其是无定义点和端点），再利用对称性、周期性、奇偶缩小分析区间；在第一象限内把它化成显函数，分析端点、截距、单调性、凹凸性和特殊点，最后利用对称性补全图像。",
+  "createdAt": "2026-07-22T10:09:54.832Z",
+  "captureDate": "2026-07-22",
+  "fileName": "高等数学_y²=(1−x²)³图像绘制_20260722_180954.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_y²=(1−x²)³图像绘制_20260722_180954.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [
+      "错题"
+    ],
+    "flags": {
+      "isMistake": true,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "a7fc3d2a-dd33-4f59-b917-38288d059772",
+    "capturedDate": "2026-07-22",
+    "title": "y²=(1−x²)³图像绘制",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [
+      "错题"
+    ],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "mistake",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": true,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [
+      {
+        "sourceKey": "remark-mistake:0",
+        "kind": "mistake",
+        "front": "重做：5.11_错题_被纸老虎吓到了_完全没思路_先判断实数点的范围（尤其是无定义点和端点",
+        "back": "5.11 错题 被纸老虎吓到了 完全没思路\n先判断实数点的范围（尤其是无定义点和端点），再利用对称性、周期性、奇偶缩小分析区间；在第一象限内把它化成显函数，分析端点、截距、单调性、凹凸性和特殊点，最后利用对称性补全图像。",
+        "status": "active",
+        "knowledgePath": [
+          "数据结构"
+        ],
+        "tags": [
+          "错题"
+        ],
+        "pageRefs": []
+      }
+    ],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": true,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "图片明确要求画出y²=(1−x²)³的图像，属高等数学中隐函数图像分析与作图问题",
+    "error": null,
+    "requestedAt": "2026-07-22T10:09:54.832Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-22T10:09:57.819Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-22T10:09:57.819Z"
+}

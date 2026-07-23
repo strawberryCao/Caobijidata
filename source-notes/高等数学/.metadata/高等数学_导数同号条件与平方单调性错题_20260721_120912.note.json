@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "5780ccbf-7260-49ea-b32f-95b190b63210",
+  "id": "高等数学_导数同号条件与平方单调性错题_20260721_120912",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "导数同号条件与平方单调性错题",
+  "remark": "p143 5.1 错题 不会  能力不足\n1.对条件的变化能力不足",
+  "createdAt": "2026-07-21T04:09:12.060Z",
+  "captureDate": "2026-07-21",
+  "fileName": "高等数学_导数同号条件与平方单调性错题_20260721_120912.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_导数同号条件与平方单调性错题_20260721_120912.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [
+      143
+    ],
+    "pageRefs": [
+      {
+        "raw": "p143",
+        "start": 143,
+        "end": 143
+      }
+    ],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [
+      "错题"
+    ],
+    "flags": {
+      "isMistake": true,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "5780ccbf-7260-49ea-b32f-95b190b63210",
+    "capturedDate": "2026-07-21",
+    "title": "导数同号条件与平方单调性错题",
+    "subject": "高等数学",
+    "pageRefs": [
+      {
+        "raw": "p143",
+        "page": 143
+      }
+    ],
+    "questions": [],
+    "tags": [
+      "错题"
+    ],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "mistake",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": true,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": true,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "kimi",
+    "model": "kimi-k3",
+    "reason": "图片是高等数学中由可导函数导数同号条件判断函数平方单调性的错题。",
+    "error": null,
+    "requestedAt": "2026-07-21T04:09:12.060Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-21T04:09:41.367Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "kimi",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-21T04:09:41.367Z"
+}

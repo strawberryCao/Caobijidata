@@ -1,0 +1,195 @@
+{
+  "id": "高等数学_导数与切线关系及无穷导数_20260717_160433",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "研究函数在某点的切线及导数特性",
+  "remark": "切线描述的是空间 导数描述的是函数特征 只是导数刚好可以描述切线 有切线不一定可导 比如x=1",
+  "createdAt": "2026-07-17T08:04:33.248Z",
+  "fileName": "高等数学_导数与切线关系及无穷导数_20260717_160433.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_导数与切线关系及无穷导数_20260717_160433.png",
+  "mime": "image/png",
+  "naming": {
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "baseUrl": "https://ws-wz2m9ithvttiwqm6.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "source": "file",
+    "reason": "图片内容主要讲解了导数与切线的关系，特别是关于无穷导数的定义和特殊情况，属于高等数学范畴。",
+    "error": null
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "24:00"
+  },
+  "schemaVersion": 2,
+  "noteUid": "f41aa9a2-2537-4586-b3f2-62c3a8be1aef",
+  "captureDate": "2026-07-17",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "questionType": "证明题",
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "导数定义",
+      "无穷导数",
+      "切线",
+      "高等数学规范",
+      "题型:证明题",
+      "切线存在性",
+      "可导性判断",
+      "切线性质",
+      "好题"
+    ]
+  },
+  "items": [
+    {
+      "title": "函数在某点的切线与导数特性",
+      "knowledgePoint": "导数与切线",
+      "questionType": "证明题",
+      "summary": "研究函数 $ y = f(x) = x^{ rac{1}{3}} $ 在 $ x = 0 $ 处的切线和导数特性,通过计算左右导数得出 $ f'(0) $ 不存在(为无穷大),称为无穷导数或广义导数。",
+      "tags": [
+        "导数定义",
+        "无穷导数",
+        "切线性质"
+      ],
+      "wrongReason": null,
+      "intent": {
+        "isQuestion": true,
+        "isMistake": false,
+        "isGood": true,
+        "shouldMemorize": false
+      }
+    }
+  ],
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": "kp_b51e3074-daea-43ce-8970-d0c8b6cbcc80",
+    "knowledgePointName": "导数与切线"
+  },
+  "organizer": {
+    "version": 1,
+    "inputHash": "bd941e4b8aee93e5a8d1cc885901dc5cef271acb918b01e89f518cd1d478f544",
+    "analyzerVersion": "note-ai-analyzer-v3",
+    "status": "organized",
+    "processedAt": "2026-07-20T10:14:27.953Z",
+    "confidence": 0.95,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容明确属于高等数学中的导数与切线知识,且备注中提到‘切线描述的是空间 导数描述的是函数特征’,进一步确认了主题。题目类型为证明题,涉及导数定义和无穷导数的概念,具有典型性和迁移价值,因此判断为‘好题’。卡片设计聚焦于核心知识点,便于记忆和理解。",
+    "summary": "该例题研究了函数 $ y = f(x) = x^{ rac{1}{3}} $ 在 $ x = 0 $ 处的切线和导数特性。通过计算左右导数,发现 $ f'(0) $ 不存在(为无穷大),称为无穷导数或广义导数。虽然在某些数学场合可视为导数存在,但在高等数学中通常认为导数不存在,这是“高等数学”的“规矩”。同时指出,垂直于 x 轴的切线等价于无穷导数。",
+    "questionType": "证明题",
+    "wrongReason": null,
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": true,
+      "isMistake": false,
+      "isGood": true,
+      "shouldMemorize": false
+    },
+    "items": [
+      {
+        "title": "函数在某点的切线与导数特性",
+        "knowledgePoint": "导数与切线",
+        "questionType": "证明题",
+        "summary": "研究函数 $ y = f(x) = x^{ rac{1}{3}} $ 在 $ x = 0 $ 处的切线和导数特性,通过计算左右导数得出 $ f'(0) $ 不存在(为无穷大),称为无穷导数或广义导数。",
+        "tags": [
+          "导数定义",
+          "无穷导数",
+          "切线性质"
+        ],
+        "wrongReason": null,
+        "intent": {
+          "isQuestion": true,
+          "isMistake": false,
+          "isGood": true,
+          "shouldMemorize": false
+        }
+      }
+    ],
+    "subjectPolicy": {
+      "requested": "默认文件夹",
+      "resolved": "高等数学",
+      "reason": "current-user"
+    },
+    "proposed": null,
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-20T10:14:27.979Z"
+  },
+  "learning": {
+    "noteUid": "f41aa9a2-2537-4586-b3f2-62c3a8be1aef",
+    "capturedDate": "2026-07-17",
+    "title": "研究函数在某点的切线及导数特性",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "tags": [
+      "导数定义",
+      "无穷导数",
+      "切线",
+      "高等数学规范",
+      "题型:证明题",
+      "切线存在性",
+      "可导性判断",
+      "切线性质",
+      "好题"
+    ],
+    "knowledgePath": [
+      "高等数学",
+      "导数与切线"
+    ],
+    "noteType": "question",
+    "questionType": "证明题",
+    "wrongReason": null,
+    "intent": {
+      "isQuestion": true,
+      "isMistake": false,
+      "isGood": true,
+      "shouldMemorize": false
+    },
+    "items": [
+      {
+        "title": "函数在某点的切线与导数特性",
+        "knowledgePoint": "导数与切线",
+        "questionType": "证明题",
+        "summary": "研究函数 $ y = f(x) = x^{ rac{1}{3}} $ 在 $ x = 0 $ 处的切线和导数特性,通过计算左右导数得出 $ f'(0) $ 不存在(为无穷大),称为无穷导数或广义导数。",
+        "tags": [
+          "导数定义",
+          "无穷导数",
+          "切线性质"
+        ],
+        "wrongReason": null,
+        "intent": {
+          "isQuestion": true,
+          "isMistake": false,
+          "isGood": true,
+          "shouldMemorize": false
+        }
+      }
+    ],
+    "confidence": 0.95,
+    "cards": [],
+    "enrichedAt": "2026-07-20T10:14:27.953Z",
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "pendingAiOrganization": false
+  },
+  "updatedAt": "2026-07-18T10:49:26.286Z"
+}

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "98a57fb9-9df3-4625-b6b1-21ab8a71943e",
+  "id": "默认文件夹_颜色_BU32深空蓝_20260721_094103",
+  "kind": "single",
+  "subject": "默认文件夹",
+  "requestedSubject": "默认文件夹",
+  "title": "颜色_BU32深空蓝",
+  "remark": "",
+  "createdAt": "2026-07-21T01:41:03.170Z",
+  "captureDate": "2026-07-21",
+  "fileName": "默认文件夹_颜色_BU32深空蓝_20260721_094103.jpg",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_颜色_BU32深空蓝_20260721_094103.jpg",
+  "mime": "image/jpeg",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "98a57fb9-9df3-4625-b6b1-21ab8a71943e",
+    "capturedDate": "2026-07-21",
+    "title": "颜色_BU32深空蓝",
+    "subject": "默认文件夹",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [],
+    "knowledgePath": [
+      "默认文件夹"
+    ],
+    "noteType": "note",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "pending",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "图片为纺织行业内部联络单，无任何考研科目相关内容；字段命名规则中‘颜色’字段虽存在（颜色:BU32深空蓝），但该规则适用于产品命名场景，非考研学习资料，且用户要求仅当图片明确属于指定考研科目时才选具体科目，故归入默认文件夹。",
+    "error": null,
+    "requestedAt": "2026-07-21T01:41:03.170Z",
+    "ruleId": "naming-df769be3-95d3-4bbd-8760-5a16d91d1dbd",
+    "ruleName": "颜色命名",
+    "ruleValue": "BU32深空蓝",
+    "ruleEvidence": "表格中‘颜色’标签右侧明确标注‘BU32深空蓝’，位于‘布类’行下方同一行左侧单元格",
+    "completedAt": "2026-07-21T01:41:09.975Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-21T01:41:09.975Z"
+}

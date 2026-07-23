@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "10194d97-2a0b-4212-bc4f-3313d96b2d84",
+  "id": "高等数学_函数极值的定义与判定_20260721_083402",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "函数极值的定义与判定",
+  "remark": "极值的定义",
+  "createdAt": "2026-07-21T00:34:02.139Z",
+  "captureDate": "2026-07-21",
+  "fileName": "高等数学_函数极值的定义与判定_20260721_083402.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_函数极值的定义与判定_20260721_083402.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "10194d97-2a0b-4212-bc4f-3313d96b2d84",
+    "capturedDate": "2026-07-21",
+    "title": "函数极值的定义与判定",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "note",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容为高等数学中关于函数极值的定义，备注明确指出“极值的定义”，因此确定科目为高等数学。",
+    "error": null,
+    "requestedAt": "2026-07-21T00:34:02.139Z",
+    "completedAt": "2026-07-21T00:34:07.112Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-21T00:34:07.112Z"
+}

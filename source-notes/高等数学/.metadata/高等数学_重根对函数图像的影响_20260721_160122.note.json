@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "a0f0c37c-4e02-452a-b3d4-d991415ce366",
+  "id": "高等数学_重根对函数图像的影响_20260721_160122",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "重根对函数图像的影响",
+  "remark": "重根对函数图像的影响",
+  "createdAt": "2026-07-21T08:01:22.293Z",
+  "captureDate": "2026-07-21",
+  "fileName": "高等数学_重根对函数图像的影响_20260721_160122.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_重根对函数图像的影响_20260721_160122.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "a0f0c37c-4e02-452a-b3d4-d991415ce366",
+    "capturedDate": "2026-07-21",
+    "title": "重根对函数图像的影响",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "note",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "截图标题明确为“重数对图像的影响”，内容涉及多项式零点重数与函数图像行为（穿轴/反弹）及导数判别，属高等数学中函数性态分析核心知识点",
+    "error": null,
+    "requestedAt": "2026-07-21T08:01:22.293Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-21T08:01:27.183Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-21T08:01:27.183Z"
+}

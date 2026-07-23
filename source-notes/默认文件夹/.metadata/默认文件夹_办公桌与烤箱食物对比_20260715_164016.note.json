@@ -1,0 +1,125 @@
+{
+  "id": "默认文件夹_办公桌与烤箱食物对比_20260715_164016",
+  "kind": "canvas",
+  "subject": "默认文件夹",
+  "requestedSubject": "默认文件夹",
+  "title": "办公桌与烤箱食物对比",
+  "remark": "和不合理合理",
+  "createdAt": "2026-07-15T08:40:16.280Z",
+  "fileName": "默认文件夹_办公桌与烤箱食物对比_20260715_164016.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_办公桌与烤箱食物对比_20260715_164016.png",
+  "mime": "image/png",
+  "naming": {
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "baseUrl": "https://ws-wz2m9ithvttiwqm6.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "source": "file",
+    "reason": "图片内容为办公环境与食物的并列展示，无特定学科关联。",
+    "error": null
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "24:00"
+  },
+  "noteUid": "legacy-25079a44fe187d6ab627107a",
+  "captureDate": "2026-07-15",
+  "learning": {
+    "noteUid": "legacy-25079a44fe187d6ab627107a",
+    "capturedDate": "2026-07-15",
+    "title": "办公桌与烤箱食物对比",
+    "subject": "默认文件夹",
+    "pageRefs": [],
+    "tags": [
+      "生活场景",
+      "日常记录"
+    ],
+    "knowledgePath": [
+      "默认文件夹"
+    ],
+    "noteType": "note",
+    "questionType": null,
+    "wrongReason": null,
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "items": [],
+    "cards": [],
+    "confidence": 0.3,
+    "enrichedAt": "2026-07-20T11:07:28.279Z",
+    "organizationStatus": "pending",
+    "classificationSource": "ai",
+    "pendingAiOrganization": false
+  },
+  "schemaVersion": 2,
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "questionType": null,
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "生活场景",
+      "日常记录"
+    ]
+  },
+  "items": [],
+  "classification": {
+    "subjectId": "subject_4fb7dd54-d7a8-430e-90b6-accca807f506",
+    "subjectName": "默认文件夹",
+    "knowledgePointId": null,
+    "knowledgePointName": null
+  },
+  "organizer": {
+    "version": 1,
+    "inputHash": "ea3eee3afd7facfb35c4571099e184675eb075dc382001a6dfbed749a51465e1",
+    "analyzerVersion": "note-ai-analyzer-v3",
+    "status": "needs_review",
+    "processedAt": "2026-07-20T11:07:28.278Z",
+    "confidence": 0.3,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容为生活场景,与考研408科目无关,无法可靠归类到任何一级科目,故归为“默认文件夹”。",
+    "summary": "图片展示了办公桌环境与烤箱内食物的对比,左侧为烤箱内的食物(疑似面包和谷物),右侧为办公桌上的笔记本电脑及其他物品。",
+    "questionType": null,
+    "wrongReason": null,
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "items": [],
+    "subjectPolicy": {
+      "requested": "默认文件夹",
+      "resolved": "默认文件夹",
+      "reason": "unknown"
+    },
+    "proposed": {
+      "subject": "默认文件夹",
+      "knowledgePoint": null
+    },
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-20T11:07:28.311Z"
+  }
+}

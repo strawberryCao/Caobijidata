@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "350f20dd-0a7a-4de9-a888-c1483060e1b0",
+  "id": "高等数学_驻点与极值点判定方法_20260721_144309",
+  "kind": "canvas",
+  "canvasProjectId": "document_824b127d-7bfa-4d4f-839f-8fb9cf816ac2",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "驻点与极值点判定方法",
+  "remark": "找驻点的方法\n对比找极值点",
+  "createdAt": "2026-07-21T06:43:09.047Z",
+  "captureDate": "2026-07-21",
+  "fileName": "高等数学_驻点与极值点判定方法_20260721_144309.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_驻点与极值点判定方法_20260721_144309.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "350f20dd-0a7a-4de9-a888-c1483060e1b0",
+    "capturedDate": "2026-07-21",
+    "title": "驻点与极值点判定方法",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "canvas",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "manual",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false,
+    "questionType": ""
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "图片核心内容为求驻点（导数为0的点）及利用一阶、二阶、高阶导数判别极值点，属微分学中函数极值章节核心知识点",
+    "error": null,
+    "requestedAt": "2026-07-21T06:43:09.047Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-21T06:43:14.208Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-21T07:37:02.399Z",
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": null,
+    "knowledgePointName": null,
+    "correctedBy": "user",
+    "correctedAt": "2026-07-21T07:37:02.399Z"
+  },
+  "organizer": {
+    "status": "user_corrected",
+    "proposed": null
+  }
+}

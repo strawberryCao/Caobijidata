@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "288098dd-1ba1-4b28-bdb2-5267bcc56e33",
+  "id": "高等数学_导数定义式错题解析_20260718_205527",
+  "kind": "canvas",
+  "canvasProjectId": "document_d27acd03-ef2a-45c8-822c-924f30e7c905",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "导数定义式应用与切线方程求解",
+  "remark": "真题1000 p8 8 错题 知识不熟 导数定义式不够熟练",
+  "createdAt": "2026-07-18T12:55:27.326Z",
+  "captureDate": "2026-07-18",
+  "fileName": "高等数学_导数定义式错题解析_20260718_205527.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_导数定义式错题解析_20260718_205527.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [
+      8
+    ],
+    "pageRefs": [
+      {
+        "raw": "p8",
+        "start": 8,
+        "end": 8
+      }
+    ],
+    "questions": [
+      "1000"
+    ],
+    "questionRefs": [
+      {
+        "raw": "题1000",
+        "number": "1000"
+      }
+    ],
+    "explicitTags": [],
+    "inferredTags": [
+      "错题"
+    ],
+    "flags": {
+      "isMistake": true,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "288098dd-1ba1-4b28-bdb2-5267bcc56e33",
+    "capturedDate": "2026-07-18",
+    "title": "导数定义式应用与切线方程求解",
+    "subject": "高等数学",
+    "pageRefs": [
+      {
+        "raw": "p8",
+        "page": 8
+      },
+      {
+        "raw": "题1000",
+        "question": "1000"
+      }
+    ],
+    "questions": [
+      "1000"
+    ],
+    "tags": [
+      "错题",
+      "导数",
+      "极限",
+      "切线方程",
+      "题型:选择题",
+      "导数定义",
+      "好题",
+      "错因:对导数定义式理解不熟,误将增量符号x-1写成x,导致计算错误。"
+    ],
+    "knowledgePath": [
+      "高等数学",
+      "导数与极限"
+    ],
+    "noteType": "mistake",
+    "wrongReason": "对导数定义式理解不熟,误将增量符号x-1写成x,导致计算错误。",
+    "intent": {
+      "isQuestion": true,
+      "isMistake": true,
+      "isGood": true,
+      "shouldMemorize": false
+    },
+    "cards": [
+      {
+        "sourceKey": "ai:0:0",
+        "kind": "mistake",
+        "front": "已知函数f(x)连续,且lim(x→1)[(f(x)-1)/lnx]=2,求曲线y=f(x)在x=1处的切线方程。",
+        "back": "由导数定义,f'(1)=lim(x→1)[(f(x)-f(1))/(x-1)]。利用已知条件,令t=x-1,则当x→1时t→0,原式变为lim(t→0)[(f(t+1)-f(1))/ln(1+t)]。根据等价无穷小替换,ln(1+t)~t,因此f'(1)=lim(t→0)[(f(t+1)-f(1))/t]=2。故切线方程为y-1=2(x-1),即y=2x-1。",
+        "status": "active",
+        "itemIndex": 0
+      }
+    ],
+    "organizationStatus": "confirmed",
+    "flags": {
+      "isMistake": true,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false,
+    "questionType": "选择题",
+    "classificationSource": "ai",
+    "items": [
+      {
+        "title": "题目解析",
+        "knowledgePoint": "导数定义与极限计算",
+        "questionType": "选择题",
+        "summary": "函数f(x)在x=1处的导数通过极限定义计算,结合给定条件求出导数值,进而得到切线方程。",
+        "tags": [
+          "导数定义",
+          "极限计算"
+        ],
+        "wrongReason": "对导数定义式中增量符号的理解错误,误用x-1而非x。",
+        "intent": {
+          "isQuestion": true,
+          "isMistake": true,
+          "isGood": true,
+          "shouldMemorize": false
+        }
+      }
+    ],
+    "confidence": 0.95,
+    "enrichedAt": "2026-07-20T10:14:10.649Z"
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容为高等数学中关于导数定义式的题目解析，涉及切线方程计算及常见错误分析。",
+    "error": null,
+    "requestedAt": "2026-07-18T12:55:27.326Z",
+    "completedAt": "2026-07-18T12:55:29.690Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-18T12:55:29.690Z",
+  "questionType": "选择题",
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "错题",
+      "导数",
+      "极限",
+      "切线方程",
+      "题型:选择题",
+      "导数定义",
+      "好题"
+    ]
+  },
+  "items": [
+    {
+      "title": "题目解析",
+      "knowledgePoint": "导数定义与极限计算",
+      "questionType": "选择题",
+      "summary": "函数f(x)在x=1处的导数通过极限定义计算,结合给定条件求出导数值,进而得到切线方程。",
+      "tags": [
+        "导数定义",
+        "极限计算"
+      ],
+      "wrongReason": "对导数定义式中增量符号的理解错误,误用x-1而非x。",
+      "intent": {
+        "isQuestion": true,
+        "isMistake": true,
+        "isGood": true,
+        "shouldMemorize": false
+      }
+    }
+  ],
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": "kp_46704fff-430b-4d77-80e7-2661d656a121",
+    "knowledgePointName": "导数与极限"
+  },
+  "organizer": {
+    "version": 1,
+    "inputHash": "99bb103ae202d0ecadff3dc4305d2e50724ad4d7a1e9548680bb01a437ef8b46",
+    "analyzerVersion": "note-ai-analyzer-v3",
+    "status": "organized",
+    "processedAt": "2026-07-20T10:14:10.649Z",
+    "confidence": 0.95,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容明确属于高等数学中的导数定义与切线方程问题,题目类型为选择题,用户记录为错题且存在典型错误(增量符号理解错误),具有较好的学习价值和记忆必要性。",
+    "summary": "本题考查导数的定义及其在求曲线切线方程中的应用,涉及极限计算和导数的几何意义。",
+    "questionType": "选择题",
+    "wrongReason": "对导数定义式理解不熟,误将增量符号x-1写成x,导致计算错误。",
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": true,
+      "isMistake": true,
+      "isGood": true,
+      "shouldMemorize": false
+    },
+    "items": [
+      {
+        "title": "题目解析",
+        "knowledgePoint": "导数定义与极限计算",
+        "questionType": "选择题",
+        "summary": "函数f(x)在x=1处的导数通过极限定义计算,结合给定条件求出导数值,进而得到切线方程。",
+        "tags": [
+          "导数定义",
+          "极限计算"
+        ],
+        "wrongReason": "对导数定义式中增量符号的理解错误,误用x-1而非x。",
+        "intent": {
+          "isQuestion": true,
+          "isMistake": true,
+          "isGood": true,
+          "shouldMemorize": false
+        }
+      }
+    ],
+    "subjectPolicy": {
+      "requested": "默认文件夹",
+      "resolved": "高等数学",
+      "reason": "current-user"
+    },
+    "proposed": null,
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-20T10:14:10.679Z"
+  }
+}

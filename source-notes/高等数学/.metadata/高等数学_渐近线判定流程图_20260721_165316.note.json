@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "3f40d261-71b5-42f1-9774-1bb7e406be68",
+  "id": "高等数学_渐近线判定流程图_20260721_165316",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "渐近线判定流程图",
+  "remark": "找渐进性的流程",
+  "createdAt": "2026-07-21T08:53:16.042Z",
+  "captureDate": "2026-07-21",
+  "fileName": "高等数学_渐近线判定流程图_20260721_165316.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_渐近线判定流程图_20260721_165316.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "3f40d261-71b5-42f1-9774-1bb7e406be68",
+    "capturedDate": "2026-07-21",
+    "title": "渐近线判定流程图",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "note",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "图中完整呈现求函数渐近线（水平、铅直、斜渐近线）的逻辑判断流程，核心知识点为‘渐近线判定’，符合用户备注‘找渐进性的流程’。",
+    "error": null,
+    "requestedAt": "2026-07-21T08:53:16.042Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-21T08:53:19.796Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-21T08:53:19.796Z"
+}

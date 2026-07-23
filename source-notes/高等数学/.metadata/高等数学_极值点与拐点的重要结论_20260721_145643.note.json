@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "79781536-d390-43f4-890e-fcfe7a4732a9",
+  "id": "高等数学_极值点与拐点的重要结论_20260721_145643",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "极值点与拐点的重要结论",
+  "remark": "背 选填好手",
+  "createdAt": "2026-07-21T06:56:43.053Z",
+  "captureDate": "2026-07-21",
+  "fileName": "高等数学_极值点与拐点的重要结论_20260721_145643.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_极值点与拐点的重要结论_20260721_145643.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [
+      "背诵"
+    ],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": true,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "79781536-d390-43f4-890e-fcfe7a4732a9",
+    "capturedDate": "2026-07-21",
+    "title": "极值点与拐点的重要结论",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [
+      "背诵"
+    ],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "memory",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": true
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": true,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "图片标题明确为“极值点与拐点的重要结论”，内容涉及多项式函数的极值点、拐点判定，属于高等数学微分学核心知识点",
+    "error": null,
+    "requestedAt": "2026-07-21T06:56:43.053Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-21T06:56:48.593Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-21T06:56:48.593Z"
+}

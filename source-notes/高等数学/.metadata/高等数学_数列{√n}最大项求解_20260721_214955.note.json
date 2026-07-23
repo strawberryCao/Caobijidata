@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "01bf5c17-55ab-4072-bd2c-c3f92ce71625",
+  "id": "高等数学_数列{√n}最大项求解_20260721_214955",
+  "kind": "canvas",
+  "canvasProjectId": "document_a70aacd5-8c24-409f-aa7d-2ca2b209cde1",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "数列{√n}最大项求解",
+  "remark": "错题 5.10",
+  "createdAt": "2026-07-21T13:49:55.709Z",
+  "captureDate": "2026-07-21",
+  "fileName": "高等数学_数列{√n}最大项求解_20260721_214955.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_数列{√n}最大项求解_20260721_214955.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [
+      "5.10"
+    ],
+    "questionRefs": [
+      {
+        "raw": "题 5.10",
+        "number": "5.10"
+      }
+    ],
+    "explicitTags": [],
+    "inferredTags": [
+      "错题"
+    ],
+    "flags": {
+      "isMistake": true,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "01bf5c17-55ab-4072-bd2c-c3f92ce71625",
+    "capturedDate": "2026-07-21",
+    "title": "数列{√n}最大项求解",
+    "subject": "高等数学",
+    "pageRefs": [
+      {
+        "raw": "题 5.10",
+        "question": "5.10"
+      }
+    ],
+    "questions": [
+      "5.10"
+    ],
+    "tags": [
+      "错题"
+    ],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "mistake",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": true,
+      "isMistake": true,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "manual",
+    "flags": {
+      "isMistake": true,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false,
+    "questionType": ""
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "图片核心问题是求取数列{√n}的最大项，属于高等数学中数列极限与最值分析内容，手写批注涉及极限、项的比较等典型高数方法。",
+    "error": null,
+    "requestedAt": "2026-07-21T13:49:55.709Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-21T13:49:59.932Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-21T13:50:27.858Z",
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": null,
+    "knowledgePointName": null,
+    "correctedBy": "user",
+    "correctedAt": "2026-07-21T13:50:27.858Z"
+  },
+  "organizer": {
+    "status": "user_corrected",
+    "proposed": null
+  }
+}

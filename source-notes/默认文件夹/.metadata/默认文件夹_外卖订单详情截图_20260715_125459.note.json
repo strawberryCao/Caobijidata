@@ -1,0 +1,131 @@
+{
+  "id": "默认文件夹_外卖订单详情截图_20260715_125459",
+  "kind": "single",
+  "subject": "默认文件夹",
+  "requestedSubject": "默认文件夹",
+  "title": "外卖订单详情截图",
+  "remark": "",
+  "createdAt": "2026-07-15T04:54:59.951Z",
+  "fileName": "默认文件夹_外卖订单详情截图_20260715_125459.jpg",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_外卖订单详情截图_20260715_125459.jpg",
+  "mime": "image/jpeg",
+  "naming": {
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "baseUrl": "https://ws-wz2m9ithvttiwqm6.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "source": "file",
+    "reason": "图片内容为外卖订单的详细信息，不属于任何考研科目，故归类为默认文件夹。",
+    "error": null
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "24:00"
+  },
+  "noteUid": "legacy-7dd84e517b5d58b4c2438260",
+  "captureDate": "2026-07-15",
+  "learning": {
+    "noteUid": "legacy-7dd84e517b5d58b4c2438260",
+    "capturedDate": "2026-07-15",
+    "title": "外卖订单详情截图",
+    "subject": "默认文件夹",
+    "pageRefs": [],
+    "tags": [
+      "外卖订单",
+      "配送信息",
+      "订单详情",
+      "生活记录",
+      "订单信息"
+    ],
+    "knowledgePath": [
+      "默认文件夹"
+    ],
+    "noteType": "note",
+    "questionType": null,
+    "wrongReason": null,
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "items": [],
+    "cards": [],
+    "organizationStatus": "pending",
+    "classificationSource": "ai",
+    "pendingAiOrganization": false,
+    "confidence": 0.1,
+    "enrichedAt": "2026-07-20T11:07:45.745Z"
+  },
+  "schemaVersion": 2,
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "organizer": {
+    "version": 1,
+    "inputHash": "34bc2a0894762426e4dbadf0b06311f3688ae4f0c2e6a46becdc0fb7eac37647",
+    "analyzerVersion": "note-ai-analyzer-v3",
+    "status": "needs_review",
+    "processedAt": "2026-07-20T11:07:45.745Z",
+    "confidence": 0.1,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容为外卖订单详情截图,属于生活记录类信息,与408考研科目无关,无法可靠归入任何一级科目,故分类为“默认文件夹”。",
+    "summary": "一张外卖订单的详细信息截图,包含预计送达时间、商家接单状态、配送地图、订单地址及商品费用等。",
+    "questionType": null,
+    "wrongReason": null,
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "items": [],
+    "subjectPolicy": {
+      "requested": "默认文件夹",
+      "resolved": "默认文件夹",
+      "reason": "unknown"
+    },
+    "proposed": {
+      "subject": "默认文件夹",
+      "knowledgePoint": null
+    },
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-20T11:07:45.778Z"
+  },
+  "questionType": null,
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "外卖订单",
+      "配送信息",
+      "订单详情",
+      "生活记录",
+      "订单信息"
+    ]
+  },
+  "items": [],
+  "classification": {
+    "subjectId": "subject_4fb7dd54-d7a8-430e-90b6-accca807f506",
+    "subjectName": "默认文件夹",
+    "knowledgePointId": null,
+    "knowledgePointName": null
+  }
+}

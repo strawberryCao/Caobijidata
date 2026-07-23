@@ -1,0 +1,257 @@
+{
+  "id": "高等数学_可微与可导互推证明_20260717_183957",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "可微与可导的互推证明",
+  "remark": "p111 可微与可导互推 \n自己写的证明 也算是一个思维提升",
+  "createdAt": "2026-07-17T10:39:57.826Z",
+  "fileName": "高等数学_可微与可导互推证明_20260717_183957.jpg",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_可微与可导互推证明_20260717_183957.jpg",
+  "mime": "image/jpeg",
+  "naming": {
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "baseUrl": "https://ws-wz2m9ithvttiwqm6.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "source": "file",
+    "reason": "图片内容为高等数学中关于可微与可导互推的证明过程，属于核心知识点总结。",
+    "error": null
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "24:00"
+  },
+  "noteUid": "legacy-05578f085a92225c2ec55337",
+  "captureDate": "2026-07-17",
+  "learning": {
+    "noteUid": "legacy-05578f085a92225c2ec55337",
+    "capturedDate": "2026-07-17",
+    "title": "可微与可导的互推证明",
+    "subject": "高等数学",
+    "pageRefs": [
+      {
+        "raw": "p111",
+        "page": 111
+      }
+    ],
+    "tags": [
+      "证明题",
+      "高等数学",
+      "导数",
+      "微分",
+      "等价关系",
+      "好题",
+      "题型:证明题"
+    ],
+    "knowledgePath": [
+      "高等数学",
+      "导数与微分"
+    ],
+    "noteType": "question",
+    "questionType": "证明题",
+    "wrongReason": null,
+    "intent": {
+      "isQuestion": true,
+      "isMistake": false,
+      "isGood": true,
+      "shouldMemorize": false
+    },
+    "items": [
+      {
+        "title": "可微 ⇒ 可导",
+        "knowledgePoint": "可微性推出可导性",
+        "questionType": "证明",
+        "summary": "从可微的定义出发,利用增量表达式 Δy = AΔx + o(Δx),通过极限运算证明函数在该点的导数存在且等于A。",
+        "tags": [
+          "可微",
+          "可导",
+          "极限定义"
+        ],
+        "wrongReason": null,
+        "intent": {
+          "isQuestion": true,
+          "isMistake": false,
+          "isGood": true,
+          "shouldMemorize": false
+        }
+      },
+      {
+        "title": "可导 ⇒ 可微",
+        "knowledgePoint": "可导性推出可微性",
+        "questionType": "证明",
+        "summary": "从可导的定义出发,利用导数的极限形式,构造增量表达式 Δy - AΔx = o(Δx),证明函数在该点可微。",
+        "tags": [
+          "可导",
+          "可微",
+          "泰勒展开"
+        ],
+        "wrongReason": null,
+        "intent": {
+          "isQuestion": true,
+          "isMistake": false,
+          "isGood": true,
+          "shouldMemorize": false
+        }
+      }
+    ],
+    "cards": [],
+    "confidence": 0.95,
+    "enrichedAt": "2026-07-20T10:56:46.445Z",
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "pendingAiOrganization": false
+  },
+  "schemaVersion": 2,
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [
+      111
+    ],
+    "pageRefs": [
+      {
+        "raw": "p111",
+        "start": 111,
+        "end": 111
+      }
+    ],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "questionType": "证明题",
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "证明题",
+      "高等数学",
+      "导数",
+      "微分",
+      "等价关系",
+      "好题",
+      "题型:证明题"
+    ]
+  },
+  "items": [
+    {
+      "title": "可微 ⇒ 可导",
+      "knowledgePoint": "可微性推出可导性",
+      "questionType": "证明",
+      "summary": "从可微的定义出发,利用增量表达式 Δy = AΔx + o(Δx),通过极限运算证明函数在该点的导数存在且等于A。",
+      "tags": [
+        "可微",
+        "可导",
+        "极限定义"
+      ],
+      "wrongReason": null,
+      "intent": {
+        "isQuestion": true,
+        "isMistake": false,
+        "isGood": true,
+        "shouldMemorize": false
+      }
+    },
+    {
+      "title": "可导 ⇒ 可微",
+      "knowledgePoint": "可导性推出可微性",
+      "questionType": "证明",
+      "summary": "从可导的定义出发,利用导数的极限形式,构造增量表达式 Δy - AΔx = o(Δx),证明函数在该点可微。",
+      "tags": [
+        "可导",
+        "可微",
+        "泰勒展开"
+      ],
+      "wrongReason": null,
+      "intent": {
+        "isQuestion": true,
+        "isMistake": false,
+        "isGood": true,
+        "shouldMemorize": false
+      }
+    }
+  ],
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": "kp_13761336-6746-4f82-af9e-86a103aeb88d",
+    "knowledgePointName": "导数与微分"
+  },
+  "organizer": {
+    "version": 1,
+    "inputHash": "f21c1619e9bc396254518e1a1d1b7a1211118ded109f8d07c7482b83c2bd8960",
+    "analyzerVersion": "note-ai-analyzer-v3",
+    "status": "organized",
+    "processedAt": "2026-07-20T10:56:46.445Z",
+    "confidence": 0.95,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容清晰,主题明确为高等数学中的导数与微分,具体为可微与可导的等价关系证明。根据备注‘p111 可微与可导互推’及‘自己写的证明 也算是一个思维提升’,判断为典型证明题,具有良好的学习价值和记忆意义。",
+    "summary": "该笔记详细证明了函数在某点可微与可导之间的等价关系,通过极限定义和增量表达式推导出两者相互蕴含。",
+    "questionType": "证明题",
+    "wrongReason": null,
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": true,
+      "isMistake": false,
+      "isGood": true,
+      "shouldMemorize": false
+    },
+    "items": [
+      {
+        "title": "可微 ⇒ 可导",
+        "knowledgePoint": "可微性推出可导性",
+        "questionType": "证明",
+        "summary": "从可微的定义出发,利用增量表达式 Δy = AΔx + o(Δx),通过极限运算证明函数在该点的导数存在且等于A。",
+        "tags": [
+          "可微",
+          "可导",
+          "极限定义"
+        ],
+        "wrongReason": null,
+        "intent": {
+          "isQuestion": true,
+          "isMistake": false,
+          "isGood": true,
+          "shouldMemorize": false
+        }
+      },
+      {
+        "title": "可导 ⇒ 可微",
+        "knowledgePoint": "可导性推出可微性",
+        "questionType": "证明",
+        "summary": "从可导的定义出发,利用导数的极限形式,构造增量表达式 Δy - AΔx = o(Δx),证明函数在该点可微。",
+        "tags": [
+          "可导",
+          "可微",
+          "泰勒展开"
+        ],
+        "wrongReason": null,
+        "intent": {
+          "isQuestion": true,
+          "isMistake": false,
+          "isGood": true,
+          "shouldMemorize": false
+        }
+      }
+    ],
+    "subjectPolicy": {
+      "requested": "默认文件夹",
+      "resolved": "高等数学",
+      "reason": "current-user"
+    },
+    "proposed": null,
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-20T10:56:46.479Z"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "ce011d3f-14e9-4b59-b373-51a4b8611e02",
+  "id": "高等数学_y=e^xlnx图像与渐近线分析_20260722_182548",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "y=e^xlnx图像与渐近线分析",
+  "remark": "写的不错 好题\n注意了渐进线 注意了无定义点极限",
+  "createdAt": "2026-07-22T10:25:48.437Z",
+  "captureDate": "2026-07-22",
+  "fileName": "高等数学_y=e^xlnx图像与渐近线分析_20260722_182548.jpg",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_y=e^xlnx图像与渐近线分析_20260722_182548.jpg",
+  "mime": "image/jpeg",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [
+      "经典"
+    ],
+    "flags": {
+      "isMistake": false,
+      "isClassic": true,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "ce011d3f-14e9-4b59-b373-51a4b8611e02",
+    "capturedDate": "2026-07-22",
+    "title": "y=e^xlnx图像与渐近线分析",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [
+      "经典",
+      "好题"
+    ],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "note",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": true,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": true,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "图片核心内容为函数y=e^(xlnx)的求导、单调性、凹凸性、极限及图像绘制，明确涉及无定义点（x=0）、渐近线（x→0+时极限为1，x→+∞时无渐近线但标注‘无渐近线’），属高等数学中函数性态与作图典型题型",
+    "error": null,
+    "requestedAt": "2026-07-22T10:25:48.437Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-22T10:25:53.625Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-22T10:25:53.625Z"
+}
