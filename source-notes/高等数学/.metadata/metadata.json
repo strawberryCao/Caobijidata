@@ -11082,5 +11082,91 @@
       "scheduledAt": "every_72_hours"
     },
     "updatedAt": "2026-07-23T13:57:17.710Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "b93fbb51-cd45-47a2-bcf8-7e35c395b54d",
+    "id": "高等数学_罗尔定理辅助函数构造_20260723_222250",
+    "kind": "single",
+    "subject": "高等数学",
+    "requestedSubject": "默认文件夹",
+    "title": "罗尔定理辅助函数构造",
+    "remark": "错题 难 6.5 真的不会 \n辅助函数构造 罗尔定理",
+    "createdAt": "2026-07-23T14:22:50.112Z",
+    "captureDate": "2026-07-23",
+    "fileName": "高等数学_罗尔定理辅助函数构造_20260723_222250.png",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_罗尔定理辅助函数构造_20260723_222250.png",
+    "mime": "image/png",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [
+        "错题"
+      ],
+      "flags": {
+        "isMistake": true,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "b93fbb51-cd45-47a2-bcf8-7e35c395b54d",
+      "capturedDate": "2026-07-23",
+      "title": "罗尔定理辅助函数构造",
+      "subject": "高等数学",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [
+        "错题"
+      ],
+      "knowledgePath": [
+        "高等数学"
+      ],
+      "noteType": "mistake",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": true,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "confirmed",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": true,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen3-vl-plus",
+      "reason": "手写题目标号6.5，内容为在[a,b]连续可导条件下构造满足f(ξ)=(b-ξ)/a·f'(ξ)的点ξ，结合用户备注明确提及‘辅助函数 罗尔定理’，属高数中值定理典型题型",
+      "error": null,
+      "requestedAt": "2026-07-23T14:22:50.112Z",
+      "ruleId": null,
+      "ruleName": null,
+      "ruleValue": null,
+      "ruleEvidence": null,
+      "completedAt": "2026-07-23T14:22:54.790Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-23T14:22:54.790Z"
   }
 ]

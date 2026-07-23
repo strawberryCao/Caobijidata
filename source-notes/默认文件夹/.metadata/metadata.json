@@ -4850,5 +4850,79 @@
       "scheduledAt": "every_72_hours"
     },
     "updatedAt": "2026-07-21T02:50:47.133Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "8938c556-7e86-47dc-91dc-4dc5be52b752",
+    "id": "默认文件夹_罗尔定理_证明区间内存在二阶导为的思路_20260723_222407",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "罗尔定理_证明区间内存在二阶导为的思路",
+    "remark": "罗尔定理 证明区间内存在二阶导为的思路",
+    "createdAt": "2026-07-23T14:24:07.119Z",
+    "captureDate": "2026-07-23",
+    "fileName": "默认文件夹_罗尔定理_证明区间内存在二阶导为的思路_20260723_222407.png",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_罗尔定理_证明区间内存在二阶导为的思路_20260723_222407.png",
+    "mime": "image/png",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "8938c556-7e86-47dc-91dc-4dc5be52b752",
+      "capturedDate": "2026-07-23",
+      "title": "罗尔定理_证明区间内存在二阶导为的思路",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": true
+    },
+    "naming": {
+      "status": "pending",
+      "provider": null,
+      "model": null,
+      "reason": "local_first",
+      "error": null,
+      "requestedAt": "2026-07-23T14:24:07.119Z"
+    },
+    "classifier": {
+      "status": "saved_pending_ai",
+      "provider": null,
+      "scheduledAt": "every_72_hours"
+    }
   }
 ]
