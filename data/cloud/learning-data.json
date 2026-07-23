@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 17,
-  "updatedAt": "2026-07-23T14:24:25.886Z",
+  "revision": 18,
+  "updatedAt": "2026-07-23T15:01:28.535Z",
   "days": {
     "2026-07-21": {
       "manual": {
@@ -4378,33 +4378,37 @@
           "noteUid": "8938c556-7e86-47dc-91dc-4dc5be52b752",
           "capturedDate": "2026-07-23",
           "title": "罗尔定理_证明区间内存在二阶导为的思路",
-          "subject": "默认文件夹",
+          "subject": "高等数学",
           "remark": "罗尔定理 证明区间内存在二阶导为的思路",
           "createdAt": "2026-07-23T14:24:07.119Z",
-          "updatedAt": "2026-07-23T14:24:07.119Z",
+          "updatedAt": "2026-07-23T15:01:27.453Z",
           "firstSyncedAt": "2026-07-23T14:24:25.886Z",
           "filePath": "github://data/assets/8938c556-7e86-47dc-91dc-4dc5be52b752.png",
           "pageRefs": [],
           "tags": [],
           "knowledgePath": [
-            "默认文件夹"
+            "高等数学"
           ],
-          "noteType": "note",
+          "noteType": "knowledge",
           "questionType": "",
           "wrongReason": "",
-          "wrongReasonSource": "",
+          "wrongReasonSource": "manual",
           "wrongReasonConfidence": null,
-          "organizationStatus": "pending",
-          "classificationSource": "ai",
-          "reviewStatus": "pending",
-          "decisionRevision": 0,
+          "organizationStatus": "confirmed",
+          "classificationSource": "manual",
+          "reviewStatus": "corrected",
+          "decisionRevision": 1,
           "lastReviewOperationId": "",
           "lastReviewAction": "",
           "proposalId": "",
-          "reviewedAt": "",
+          "reviewedAt": "2026-07-23T15:01:27.453Z",
           "manualCreated": false,
           "userEditedFields": [
-            "remark"
+            "remark",
+            "title",
+            "tags",
+            "noteType",
+            "goodQuestion"
           ],
           "goodQuestion": false,
           "items": [],
