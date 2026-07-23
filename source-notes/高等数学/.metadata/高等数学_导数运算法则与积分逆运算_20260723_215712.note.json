@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "14c1ac11-609c-4346-828b-9c17d7a75be0",
+  "id": "高等数学_导数运算法则与积分逆运算_20260723_215712",
+  "kind": "canvas",
+  "canvasProjectId": "document_854405c0-b909-4d6c-8eeb-c018dd340330",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "导数运算法则与积分逆运算",
+  "remark": "逆运算",
+  "createdAt": "2026-07-23T13:57:12.643Z",
+  "captureDate": "2026-07-23",
+  "fileName": "高等数学_导数运算法则与积分逆运算_20260723_215712.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_导数运算法则与积分逆运算_20260723_215712.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "14c1ac11-609c-4346-828b-9c17d7a75be0",
+    "capturedDate": "2026-07-23",
+    "title": "导数运算法则与积分逆运算",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "canvas",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "图片手写内容包含f'+f、f'-f等导数四则运算形式，右侧列出对应原函数（积分）表达式，结合用户备注“逆运算”，明确指向微分与积分的互逆关系，属高等数学核心知识点。",
+    "error": null,
+    "requestedAt": "2026-07-23T13:57:12.643Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-23T13:57:17.710Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-23T13:57:17.710Z"
+}
