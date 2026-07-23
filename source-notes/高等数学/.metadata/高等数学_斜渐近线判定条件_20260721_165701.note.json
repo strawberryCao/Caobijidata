@@ -37,14 +37,20 @@
     "subject": "高等数学",
     "pageRefs": [],
     "questions": [],
-    "tags": [],
-    "knowledgePath": [
-      "高等数学"
+    "tags": [
+      "极限",
+      "渐近线",
+      "三角函数",
+      "题型:证明题"
     ],
-    "noteType": "note",
-    "wrongReason": "",
+    "knowledgePath": [
+      "高等数学",
+      "导数与极限"
+    ],
+    "noteType": "question",
+    "wrongReason": null,
     "intent": {
-      "isQuestion": false,
+      "isQuestion": true,
       "isMistake": false,
       "isGood": false,
       "shouldMemorize": false
@@ -58,7 +64,33 @@
       "shouldMemorize": false,
       "needsReview": false
     },
-    "pendingAiOrganization": false
+    "pendingAiOrganization": false,
+    "questionType": "证明题",
+    "reviewStatus": "auto_applied",
+    "decisionRevision": 0,
+    "proposalId": "proposal-1a34dbdca8b48a1c7b18",
+    "items": [
+      {
+        "title": "函数y=x+sinx的斜渐近线判定",
+        "knowledgePoint": "导数与极限",
+        "questionType": "证明题",
+        "summary": "通过计算函数y=x+sinx的极限a=lim(y/x)和b=lim(y-ax),发现a存在但b不存在(因sinx在x趋于无穷时无极限),故该函数无斜渐近线。",
+        "tags": [
+          "极限计算",
+          "渐近线判定",
+          "三角函数性质"
+        ],
+        "wrongReason": null,
+        "intent": {
+          "isQuestion": true,
+          "isMistake": false,
+          "isGood": false,
+          "shouldMemorize": false
+        }
+      }
+    ],
+    "confidence": 0.95,
+    "enrichedAt": "2026-07-23T12:16:29.793Z"
   },
   "naming": {
     "status": "complete",
@@ -78,5 +110,91 @@
     "provider": "qwen",
     "scheduledAt": "every_72_hours"
   },
-  "updatedAt": "2026-07-21T08:57:05.235Z"
+  "updatedAt": "2026-07-21T08:57:05.235Z",
+  "questionType": "证明题",
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "极限",
+      "渐近线",
+      "三角函数",
+      "题型:证明题"
+    ]
+  },
+  "items": [
+    {
+      "title": "函数y=x+sinx的斜渐近线判定",
+      "knowledgePoint": "导数与极限",
+      "questionType": "证明题",
+      "summary": "通过计算函数y=x+sinx的极限a=lim(y/x)和b=lim(y-ax),发现a存在但b不存在(因sinx在x趋于无穷时无极限),故该函数无斜渐近线。",
+      "tags": [
+        "极限计算",
+        "渐近线判定",
+        "三角函数性质"
+      ],
+      "wrongReason": null,
+      "intent": {
+        "isQuestion": true,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      }
+    }
+  ],
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": "kp_46704fff-430b-4d77-80e7-2661d656a121",
+    "knowledgePointName": "导数与极限"
+  },
+  "organizer": {
+    "version": 1,
+    "inputHash": "9fd30d5ada02bf5c45671598b1a74a2d79f321495b8fa9c9ff8da3365f92a197",
+    "analyzerVersion": "note-ai-analyzer-v3",
+    "status": "organized",
+    "processedAt": "2026-07-23T12:16:29.793Z",
+    "confidence": 0.95,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容清晰,明确为高等数学中的极限与渐近线问题,知识点可准确归类为'导数与极限'。题目类型为证明题,用户已通过红色标记强调了关键计算过程,但未见明显错误或记忆意图提示,故判断为普通练习题。",
+    "summary": "本题通过计算函数y=x+sinx的极限a和b来判断是否存在斜渐近线。计算结果表明,虽然a存在且等于1,但b不存在(因为lim sinx在x趋于无穷时无极限),因此该函数没有斜渐近线。",
+    "questionType": "证明题",
+    "wrongReason": null,
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": true,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "items": [
+      {
+        "title": "函数y=x+sinx的斜渐近线判定",
+        "knowledgePoint": "导数与极限",
+        "questionType": "证明题",
+        "summary": "通过计算函数y=x+sinx的极限a=lim(y/x)和b=lim(y-ax),发现a存在但b不存在(因sinx在x趋于无穷时无极限),故该函数无斜渐近线。",
+        "tags": [
+          "极限计算",
+          "渐近线判定",
+          "三角函数性质"
+        ],
+        "wrongReason": null,
+        "intent": {
+          "isQuestion": true,
+          "isMistake": false,
+          "isGood": false,
+          "shouldMemorize": false
+        }
+      }
+    ],
+    "subjectPolicy": {
+      "requested": "高等数学",
+      "resolved": "高等数学",
+      "reason": "direct"
+    },
+    "proposed": null,
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-23T12:16:29.819Z"
+  }
 }

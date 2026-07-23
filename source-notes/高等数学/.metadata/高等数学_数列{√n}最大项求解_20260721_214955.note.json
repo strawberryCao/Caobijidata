@@ -108,7 +108,12 @@
     "correctedAt": "2026-07-21T13:50:27.858Z"
   },
   "organizer": {
-    "status": "user_corrected",
-    "proposed": null
+    "status": "failed",
+    "proposed": null,
+    "version": 1,
+    "inputHash": "cb733c4089d122fe051f01e2d776c6264ce62235b1334c373c4cca882e34c9ac",
+    "analyzerVersion": "note-ai-analyzer-v3",
+    "attemptedAt": "2026-07-23T12:16:23.349Z",
+    "error": "所有可用 AI 均调用失败（gemini/gemini-3.5-flash：AI 网络请求失败）"
   }
 }

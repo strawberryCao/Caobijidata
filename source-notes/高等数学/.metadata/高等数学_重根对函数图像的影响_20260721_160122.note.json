@@ -37,19 +37,40 @@
     "subject": "高等数学",
     "pageRefs": [],
     "questions": [],
-    "tags": [],
-    "knowledgePath": [
-      "高等数学"
+    "tags": [
+      "重根",
+      "函数图像",
+      "导数应用",
+      "背诵"
     ],
-    "noteType": "note",
-    "wrongReason": "",
+    "knowledgePath": [
+      "高等数学",
+      "导数与极值"
+    ],
+    "noteType": "memory",
+    "wrongReason": null,
     "intent": {
       "isQuestion": false,
       "isMistake": false,
       "isGood": false,
-      "shouldMemorize": false
+      "shouldMemorize": true
     },
-    "cards": [],
+    "cards": [
+      {
+        "sourceKey": "ai:root:0",
+        "kind": "memory",
+        "front": "奇数重根和偶数重根对函数图像的影响分别是什么?",
+        "back": "奇数重根:穿过x轴且变号,重数越高越平缓;偶数重根:接触x轴后反弹,重数越高越平缓。",
+        "status": "active"
+      },
+      {
+        "sourceKey": "ai:root:1",
+        "kind": "memory",
+        "front": "如何通过导数判断重根的性质?",
+        "back": "若a是m重根,则f(a)=f'(a)=...=f^(m-1)(a)=0,且f^(m)(a)≠0。",
+        "status": "active"
+      }
+    ],
     "organizationStatus": "confirmed",
     "classificationSource": "ai",
     "flags": {
@@ -58,7 +79,14 @@
       "shouldMemorize": false,
       "needsReview": false
     },
-    "pendingAiOrganization": false
+    "pendingAiOrganization": false,
+    "questionType": null,
+    "reviewStatus": "auto_applied",
+    "decisionRevision": 0,
+    "proposalId": "proposal-2609fe428999e00735b0",
+    "items": [],
+    "confidence": 0.95,
+    "enrichedAt": "2026-07-23T12:17:59.846Z"
   },
   "naming": {
     "status": "complete",
@@ -78,5 +106,53 @@
     "provider": "qwen",
     "scheduledAt": "every_72_hours"
   },
-  "updatedAt": "2026-07-21T08:01:27.183Z"
+  "updatedAt": "2026-07-21T08:01:27.183Z",
+  "questionType": null,
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "重根",
+      "函数图像",
+      "导数应用",
+      "背诵"
+    ]
+  },
+  "items": [],
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": "kp_866ba69c-e937-4b9b-af81-696e7ceaffe9",
+    "knowledgePointName": "导数与极值"
+  },
+  "organizer": {
+    "version": 1,
+    "inputHash": "e395bc943e727bb244a4a9549ba9038d66e10f242971dc2961739df38ebf19d0",
+    "analyzerVersion": "note-ai-analyzer-v3",
+    "status": "organized",
+    "processedAt": "2026-07-23T12:17:59.846Z",
+    "confidence": 0.95,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容清晰,明确属于高等数学中导数与极值的知识点,主题为重根对函数图像的影响。用户备注总结了核心结论,表明有记忆意图。根据定义和公式,可准确判断重根的性质及对图像的影响,符合记忆要求。",
+    "summary": "奇数重根(如三重根、五重根)会使函数图像在根处穿过x轴且变号,通常较平缓;偶数重根(如二重根、四重根)会使图像在根处接触x轴后反弹,且重数越高图像越平缓。可通过导数判断重根的性质,例如三重根处函数及其一阶、二阶导数为0,三阶导数不为0。",
+    "questionType": null,
+    "wrongReason": null,
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": true
+    },
+    "items": [],
+    "subjectPolicy": {
+      "requested": "高等数学",
+      "resolved": "高等数学",
+      "reason": "direct"
+    },
+    "proposed": null,
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-23T12:17:59.874Z"
+  }
 }
