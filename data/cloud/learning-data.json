@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 8,
-  "updatedAt": "2026-07-23T13:05:32.349Z",
+  "revision": 9,
+  "updatedAt": "2026-07-23T13:05:50.990Z",
   "days": {
     "2026-07-21": {
       "manual": {
@@ -4371,11 +4371,11 @@
         {
           "noteUid": "686c3f1f-290a-4249-b864-27b994a0fd32",
           "capturedDate": "2026-07-23",
-          "title": "图片笔记",
+          "title": "The problem requires solving a system of linear equations using Cramer’s Rule. T",
           "subject": "普通笔记",
           "remark": "",
           "createdAt": "2026-07-23T13:05:31.701Z",
-          "updatedAt": "2026-07-23T13:05:31.701Z",
+          "updatedAt": "2026-07-23T13:05:50.402Z",
           "firstSyncedAt": "2026-07-23T13:05:31.701Z",
           "filePath": "github://data/assets/686c3f1f-290a-4249-b864-27b994a0fd32.jpg",
           "pageRefs": [],
@@ -4397,7 +4397,9 @@
           "proposalId": "",
           "reviewedAt": "",
           "manualCreated": false,
-          "userEditedFields": [],
+          "userEditedFields": [
+            "title"
+          ],
           "goodQuestion": null,
           "items": [],
           "studyNotes": [],
