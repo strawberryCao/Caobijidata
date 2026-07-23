@@ -95,5 +95,13 @@
     "provider": "kimi",
     "scheduledAt": "every_72_hours"
   },
-  "updatedAt": "2026-07-21T04:09:41.367Z"
+  "updatedAt": "2026-07-21T04:09:41.367Z",
+  "organizer": {
+    "version": 1,
+    "inputHash": "27e9c6a1261c5d7593b970cdf889f2bd6abcfa74ba25e6908c13589b943cb12b",
+    "analyzerVersion": "note-ai-analyzer-v3",
+    "status": "failed",
+    "attemptedAt": "2026-07-23T12:04:09.382Z",
+    "error": "所有可用 AI 均调用失败（gemini/gemini-3.5-flash：AI 网络请求失败）"
+  }
 }

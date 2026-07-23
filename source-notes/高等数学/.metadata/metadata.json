@@ -5128,6 +5128,82 @@
   },
   {
     "schemaVersion": 2,
+    "noteUid": "b5a85e66-6d6c-473d-9763-4be824f169fa",
+    "id": "默认文件夹_单调性判别定义_20260721_090811",
+    "kind": "single",
+    "subject": "默认文件夹",
+    "requestedSubject": "默认文件夹",
+    "title": "单调性判别定义",
+    "remark": "单调性判别定义",
+    "createdAt": "2026-07-21T01:08:11.189Z",
+    "captureDate": "2026-07-21",
+    "fileName": "默认文件夹_单调性判别定义_20260721_090811.png",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_单调性判别定义_20260721_090811.png",
+    "mime": "image/png",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "b5a85e66-6d6c-473d-9763-4be824f169fa",
+      "capturedDate": "2026-07-21",
+      "title": "单调性判别定义",
+      "subject": "默认文件夹",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "pending",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "failed",
+      "provider": null,
+      "model": null,
+      "reason": "fallback",
+      "error": "所有可用 AI 均调用失败",
+      "requestedAt": "2026-07-21T01:08:11.189Z",
+      "completedAt": "2026-07-21T01:08:44.091Z"
+    },
+    "classifier": {
+      "status": "fallback_named",
+      "provider": null,
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-21T01:08:44.091Z"
+  },
+  {
+    "schemaVersion": 2,
     "noteUid": "884498b9-ee88-4093-9f12-69d239abe602",
     "id": "高等数学_极值点判定方法总结_20260721_114227",
     "kind": "canvas",
@@ -5306,7 +5382,15 @@
       "provider": "kimi",
       "scheduledAt": "every_72_hours"
     },
-    "updatedAt": "2026-07-21T04:09:41.367Z"
+    "updatedAt": "2026-07-21T04:09:41.367Z",
+    "organizer": {
+      "version": 1,
+      "inputHash": "27e9c6a1261c5d7593b970cdf889f2bd6abcfa74ba25e6908c13589b943cb12b",
+      "analyzerVersion": "note-ai-analyzer-v3",
+      "status": "failed",
+      "attemptedAt": "2026-07-23T12:04:09.382Z",
+      "error": "所有可用 AI 均调用失败（gemini/gemini-3.5-flash：AI 网络请求失败）"
+    }
   },
   {
     "schemaVersion": 2,
@@ -5530,7 +5614,7 @@
     "kind": "single",
     "subject": "高等数学",
     "requestedSubject": "默认文件夹",
-    "title": "凹凸函数Jensen不等式推广",
+    "title": "凹凸函数的Jensen不等式推广",
     "remark": "凹凸函数定义的广泛推论\n系数和为0 系数大于0",
     "createdAt": "2026-07-21T06:10:25.911Z",
     "captureDate": "2026-07-21",
@@ -5558,23 +5642,37 @@
     "learning": {
       "noteUid": "d8da736c-ed89-49aa-b3cf-7e37a50d56a6",
       "capturedDate": "2026-07-21",
-      "title": "凹凸函数Jensen不等式推广",
+      "title": "凹凸函数的Jensen不等式推广",
       "subject": "高等数学",
       "pageRefs": [],
       "questions": [],
-      "tags": [],
-      "knowledgePath": [
-        "高等数学"
+      "tags": [
+        "凹凸函数",
+        "Jensen不等式",
+        "函数性质",
+        "背诵"
       ],
-      "noteType": "note",
-      "wrongReason": "",
+      "knowledgePath": [
+        "高等数学",
+        "凹凸函数与Jensen不等式"
+      ],
+      "noteType": "memory",
+      "wrongReason": null,
       "intent": {
         "isQuestion": false,
         "isMistake": false,
         "isGood": false,
-        "shouldMemorize": false
+        "shouldMemorize": true
       },
-      "cards": [],
+      "cards": [
+        {
+          "sourceKey": "ai:root:0",
+          "kind": "memory",
+          "front": "凹凸函数的Jensen不等式推广是什么?",
+          "back": "当图形为凹(凸)时,对于任意两点x1、x2及权重λ1、λ2(0<λ1,λ2<1且λ1+λ2=1),有f(λ1x1+λ2x2) < (>) λ1f(x1)+λ2f(x2)。",
+          "status": "active"
+        }
+      ],
       "organizationStatus": "confirmed",
       "classificationSource": "ai",
       "flags": {
@@ -5583,7 +5681,14 @@
         "shouldMemorize": false,
         "needsReview": false
       },
-      "pendingAiOrganization": false
+      "pendingAiOrganization": false,
+      "questionType": null,
+      "reviewStatus": "auto_applied",
+      "decisionRevision": 0,
+      "proposalId": "proposal-cd202e73e4fe66b0e74a",
+      "items": [],
+      "confidence": 0.95,
+      "enrichedAt": "2026-07-23T12:01:30.420Z"
     },
     "naming": {
       "status": "complete",
@@ -5603,7 +5708,55 @@
       "provider": "qwen",
       "scheduledAt": "every_72_hours"
     },
-    "updatedAt": "2026-07-21T06:10:30.511Z"
+    "updatedAt": "2026-07-21T06:10:30.511Z",
+    "questionType": null,
+    "tags": {
+      "manual": [],
+      "explicit": [],
+      "inferred": [
+        "凹凸函数",
+        "Jensen不等式",
+        "函数性质",
+        "背诵"
+      ]
+    },
+    "items": [],
+    "classification": {
+      "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+      "subjectName": "高等数学",
+      "knowledgePointId": "kp_8651dd6c-7b94-4a68-bbff-8c3ca0dc53b0",
+      "knowledgePointName": "凹凸函数与Jensen不等式"
+    },
+    "organizer": {
+      "version": 1,
+      "inputHash": "d50b9f3738c5536746788ebf8f9d0354a1f5627bc5e5aab5f6b89cfe23ef58b2",
+      "analyzerVersion": "note-ai-analyzer-v3",
+      "status": "organized",
+      "processedAt": "2026-07-23T12:01:30.420Z",
+      "confidence": 0.95,
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容清晰,明确展示了高等数学中凹凸函数的Jensen不等式推广公式,备注也指明了这是对凹凸函数定义的广泛推论。根据公式特征和备注语义,判断为主分类为‘高等数学’,知识点为‘凹凸函数与Jensen不等式’。用户备注虽未直接说明记忆意图,但公式本身是重要的数学结论,具有明确的记忆价值,因此标记为需要记忆。",
+      "summary": "该笔记记录了凹凸函数定义的推广形式,即当图形为凹(凸)时,对于任意两点x1、x2及权重λ1、λ2(0<λ1,λ2<1且λ1+λ2=1),有f(λ1x1+λ2x2) < (>) λ1f(x1)+λ2f(x2),这是Jensen不等式的更一般化表达。",
+      "questionType": null,
+      "wrongReason": null,
+      "memoryCard": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": true
+      },
+      "items": [],
+      "subjectPolicy": {
+        "requested": "高等数学",
+        "resolved": "高等数学",
+        "reason": "direct"
+      },
+      "proposed": null,
+      "learningSyncStatus": "synced",
+      "learningSyncedAt": "2026-07-23T12:01:30.446Z"
+    }
   },
   {
     "schemaVersion": 2,
@@ -5647,20 +5800,40 @@
       "pageRefs": [],
       "questions": [],
       "tags": [
-        "背诵"
+        "背诵",
+        "定义",
+        "公式",
+        "几何意义",
+        "凹凸性"
       ],
       "knowledgePath": [
-        "高等数学"
+        "高等数学",
+        "导数与微分"
       ],
       "noteType": "memory",
-      "wrongReason": "",
+      "wrongReason": null,
       "intent": {
         "isQuestion": false,
         "isMistake": false,
         "isGood": false,
         "shouldMemorize": true
       },
-      "cards": [],
+      "cards": [
+        {
+          "sourceKey": "ai:root:0",
+          "kind": "memory",
+          "front": "凹函数的数学定义是什么?",
+          "back": "设f(x)在[a, b]上连续,在(a, b)内可导,若对(a, b)内的任意x及x0(x≠x0),均有f(x) ≥ f(x0) + f'(x0)(x - x0),则称f(x)在[a, b]上为凹函数。",
+          "status": "active"
+        },
+        {
+          "sourceKey": "ai:root:1",
+          "kind": "memory",
+          "front": "凸函数的数学定义是什么?",
+          "back": "设f(x)在[a, b]上连续,在(a, b)内可导,若对(a, b)内的任意x及x0(x≠x0),均有f(x) ≤ f(x0) + f'(x0)(x - x0),则称f(x)在[a, b]上为凸函数。",
+          "status": "active"
+        }
+      ],
       "organizationStatus": "confirmed",
       "classificationSource": "ai",
       "flags": {
@@ -5669,7 +5842,14 @@
         "shouldMemorize": true,
         "needsReview": false
       },
-      "pendingAiOrganization": false
+      "pendingAiOrganization": false,
+      "questionType": null,
+      "reviewStatus": "auto_applied",
+      "decisionRevision": 0,
+      "proposalId": "proposal-f184838921940da0bd29",
+      "items": [],
+      "confidence": 0.95,
+      "enrichedAt": "2026-07-23T12:01:23.652Z"
     },
     "naming": {
       "status": "complete",
@@ -5689,7 +5869,56 @@
       "provider": "qwen",
       "scheduledAt": "every_72_hours"
     },
-    "updatedAt": "2026-07-21T06:14:09.427Z"
+    "updatedAt": "2026-07-21T06:14:09.427Z",
+    "questionType": null,
+    "tags": {
+      "manual": [],
+      "explicit": [],
+      "inferred": [
+        "背诵",
+        "定义",
+        "公式",
+        "几何意义",
+        "凹凸性"
+      ]
+    },
+    "items": [],
+    "classification": {
+      "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+      "subjectName": "高等数学",
+      "knowledgePointId": "kp_13761336-6746-4f82-af9e-86a103aeb88d",
+      "knowledgePointName": "导数与微分"
+    },
+    "organizer": {
+      "version": 1,
+      "inputHash": "21eb0590dd61913682f6d16e9da2dd6d353fc46fc7ee6feaf67e17748acc2e35",
+      "analyzerVersion": "note-ai-analyzer-v3",
+      "status": "organized",
+      "processedAt": "2026-07-23T12:01:23.652Z",
+      "confidence": 0.95,
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容清晰,明确展示了高等数学中凹凸函数的定义及其几何解释,属于标准考研科目范畴。备注中'记住'表明用户有记忆意图,符合'背诵'标签要求。卡片设计聚焦于核心定义和公式,便于主动回忆。",
+      "summary": "该笔记详细阐述了凹凸函数的数学定义及其几何意义。定义2给出了在区间[a, b]上连续且可导的函数f(x),若对任意x≠x0,满足不等式f(x) ≥ f(x0) + f'(x0)(x - x0),则称f(x)在[a, b]上为凹函数;若不等式方向相反,则为凸函数。注释进一步解释了该定义的几何含义:凹函数的切线总位于曲线下方,凸函数的切线总位于曲线上方。",
+      "questionType": null,
+      "wrongReason": null,
+      "memoryCard": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": true
+      },
+      "items": [],
+      "subjectPolicy": {
+        "requested": "高等数学",
+        "resolved": "高等数学",
+        "reason": "direct"
+      },
+      "proposed": null,
+      "learningSyncStatus": "synced",
+      "learningSyncedAt": "2026-07-23T12:01:23.682Z"
+    }
   },
   {
     "schemaVersion": 2,
@@ -5730,19 +5959,33 @@
       "subject": "高等数学",
       "pageRefs": [],
       "questions": [],
-      "tags": [],
-      "knowledgePath": [
-        "高等数学"
+      "tags": [
+        "二阶导数",
+        "凹凸性",
+        "函数性质",
+        "背诵"
       ],
-      "noteType": "note",
-      "wrongReason": "",
+      "knowledgePath": [
+        "高等数学",
+        "凹凸函数与Jensen不等式"
+      ],
+      "noteType": "memory",
+      "wrongReason": null,
       "intent": {
         "isQuestion": false,
         "isMistake": false,
         "isGood": false,
-        "shouldMemorize": false
+        "shouldMemorize": true
       },
-      "cards": [],
+      "cards": [
+        {
+          "sourceKey": "ai:root:0",
+          "kind": "memory",
+          "front": "如何利用二阶导数判断函数的凹凸性?",
+          "back": "若在区间I上f''(x)>0,则f(x)在I上为凹函数;若f''(x)<0,则f(x)在I上为凸函数。",
+          "status": "active"
+        }
+      ],
       "organizationStatus": "confirmed",
       "classificationSource": "ai",
       "flags": {
@@ -5751,7 +5994,14 @@
         "shouldMemorize": false,
         "needsReview": false
       },
-      "pendingAiOrganization": false
+      "pendingAiOrganization": false,
+      "questionType": null,
+      "reviewStatus": "auto_applied",
+      "decisionRevision": 0,
+      "proposalId": "proposal-3e4915c8b8568d2f9a9c",
+      "items": [],
+      "confidence": 0.95,
+      "enrichedAt": "2026-07-23T12:01:35.949Z"
     },
     "naming": {
       "status": "complete",
@@ -5771,7 +6021,55 @@
       "provider": "qwen",
       "scheduledAt": "every_72_hours"
     },
-    "updatedAt": "2026-07-21T06:22:36.581Z"
+    "updatedAt": "2026-07-21T06:22:36.581Z",
+    "questionType": null,
+    "tags": {
+      "manual": [],
+      "explicit": [],
+      "inferred": [
+        "二阶导数",
+        "凹凸性",
+        "函数性质",
+        "背诵"
+      ]
+    },
+    "items": [],
+    "classification": {
+      "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+      "subjectName": "高等数学",
+      "knowledgePointId": "kp_8651dd6c-7b94-4a68-bbff-8c3ca0dc53b0",
+      "knowledgePointName": "凹凸函数与Jensen不等式"
+    },
+    "organizer": {
+      "version": 1,
+      "inputHash": "2390659c8042aa30f7251909fe8579d7007d293115718decb49cf39c6ab64f41",
+      "analyzerVersion": "note-ai-analyzer-v3",
+      "status": "organized",
+      "processedAt": "2026-07-23T12:01:35.949Z",
+      "confidence": 0.95,
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容清晰,明确展示了高等数学中关于凹凸性判别的标准定义和公式,备注进一步解释了概念本质,符合'高等数学'科目下的'凹凸函数与Jensen不等式'知识点。用户记录该内容表明其需要记忆这一重要结论,因此标记为值得记忆。",
+      "summary": "本笔记总结了利用二阶导数判断函数凹凸性的核心规则:若在区间I上f''(x)>0,则f(x)在I上为凹函数;若f''(x)<0,则f(x)在I上为凸函数。这是高等数学中分析函数形态的重要工具。",
+      "questionType": null,
+      "wrongReason": null,
+      "memoryCard": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": true
+      },
+      "items": [],
+      "subjectPolicy": {
+        "requested": "高等数学",
+        "resolved": "高等数学",
+        "reason": "direct"
+      },
+      "proposed": null,
+      "learningSyncStatus": "synced",
+      "learningSyncedAt": "2026-07-23T12:01:35.977Z"
+    }
   },
   {
     "schemaVersion": 2,
@@ -5867,92 +6165,6 @@
       "status": "user_corrected",
       "proposed": null
     }
-  },
-  {
-    "schemaVersion": 2,
-    "noteUid": "79781536-d390-43f4-890e-fcfe7a4732a9",
-    "id": "高等数学_极值点与拐点的重要结论_20260721_145643",
-    "kind": "single",
-    "subject": "高等数学",
-    "requestedSubject": "默认文件夹",
-    "title": "极值点与拐点的重要结论",
-    "remark": "背 选填好手",
-    "createdAt": "2026-07-21T06:56:43.053Z",
-    "captureDate": "2026-07-21",
-    "fileName": "高等数学_极值点与拐点的重要结论_20260721_145643.png",
-    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_极值点与拐点的重要结论_20260721_145643.png",
-    "mime": "image/png",
-    "extracted": {
-      "parserVersion": 1,
-      "pages": [],
-      "pageRefs": [],
-      "questions": [],
-      "questionRefs": [],
-      "explicitTags": [],
-      "inferredTags": [
-        "背诵"
-      ],
-      "flags": {
-        "isMistake": false,
-        "isClassic": false,
-        "shouldMemorize": true,
-        "needsReview": false
-      },
-      "wrongReasons": [],
-      "cautions": [],
-      "sources": []
-    },
-    "learning": {
-      "noteUid": "79781536-d390-43f4-890e-fcfe7a4732a9",
-      "capturedDate": "2026-07-21",
-      "title": "极值点与拐点的重要结论",
-      "subject": "高等数学",
-      "pageRefs": [],
-      "questions": [],
-      "tags": [
-        "背诵"
-      ],
-      "knowledgePath": [
-        "高等数学"
-      ],
-      "noteType": "memory",
-      "wrongReason": "",
-      "intent": {
-        "isQuestion": false,
-        "isMistake": false,
-        "isGood": false,
-        "shouldMemorize": true
-      },
-      "cards": [],
-      "organizationStatus": "confirmed",
-      "classificationSource": "ai",
-      "flags": {
-        "isMistake": false,
-        "isClassic": false,
-        "shouldMemorize": true,
-        "needsReview": false
-      },
-      "pendingAiOrganization": false
-    },
-    "naming": {
-      "status": "complete",
-      "provider": "qwen",
-      "model": "qwen3-vl-plus",
-      "reason": "图片标题明确为“极值点与拐点的重要结论”，内容涉及多项式函数的极值点、拐点判定，属于高等数学微分学核心知识点",
-      "error": null,
-      "requestedAt": "2026-07-21T06:56:43.053Z",
-      "ruleId": null,
-      "ruleName": null,
-      "ruleValue": null,
-      "ruleEvidence": null,
-      "completedAt": "2026-07-21T06:56:48.593Z"
-    },
-    "classifier": {
-      "status": "named",
-      "provider": "qwen",
-      "scheduledAt": "every_72_hours"
-    },
-    "updatedAt": "2026-07-21T06:56:48.593Z"
   },
   {
     "schemaVersion": 2,
@@ -6052,6 +6264,92 @@
   },
   {
     "schemaVersion": 2,
+    "noteUid": "79781536-d390-43f4-890e-fcfe7a4732a9",
+    "id": "高等数学_极值点与拐点的重要结论_20260721_145643",
+    "kind": "single",
+    "subject": "高等数学",
+    "requestedSubject": "默认文件夹",
+    "title": "极值点与拐点的重要结论",
+    "remark": "背 选填好手",
+    "createdAt": "2026-07-21T06:56:43.053Z",
+    "captureDate": "2026-07-21",
+    "fileName": "高等数学_极值点与拐点的重要结论_20260721_145643.png",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_极值点与拐点的重要结论_20260721_145643.png",
+    "mime": "image/png",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [
+        "背诵"
+      ],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": true,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "79781536-d390-43f4-890e-fcfe7a4732a9",
+      "capturedDate": "2026-07-21",
+      "title": "极值点与拐点的重要结论",
+      "subject": "高等数学",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [
+        "背诵"
+      ],
+      "knowledgePath": [
+        "高等数学"
+      ],
+      "noteType": "memory",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": true
+      },
+      "cards": [],
+      "organizationStatus": "confirmed",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": true,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen3-vl-plus",
+      "reason": "图片标题明确为“极值点与拐点的重要结论”，内容涉及多项式函数的极值点、拐点判定，属于高等数学微分学核心知识点",
+      "error": null,
+      "requestedAt": "2026-07-21T06:56:43.053Z",
+      "ruleId": null,
+      "ruleName": null,
+      "ruleValue": null,
+      "ruleEvidence": null,
+      "completedAt": "2026-07-21T06:56:48.593Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-21T06:56:48.593Z"
+  },
+  {
+    "schemaVersion": 2,
     "noteUid": "40d29f03-3440-4e89-bdc0-65630c05d072",
     "id": "高等数学_极值点与拐点判断_20260721_154241",
     "kind": "single",
@@ -6136,88 +6434,6 @@
       "scheduledAt": "every_72_hours"
     },
     "updatedAt": "2026-07-21T07:42:44.337Z"
-  },
-  {
-    "schemaVersion": 2,
-    "noteUid": "a0f0c37c-4e02-452a-b3d4-d991415ce366",
-    "id": "高等数学_重根对函数图像的影响_20260721_160122",
-    "kind": "single",
-    "subject": "高等数学",
-    "requestedSubject": "默认文件夹",
-    "title": "重根对函数图像的影响",
-    "remark": "重根对函数图像的影响",
-    "createdAt": "2026-07-21T08:01:22.293Z",
-    "captureDate": "2026-07-21",
-    "fileName": "高等数学_重根对函数图像的影响_20260721_160122.png",
-    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_重根对函数图像的影响_20260721_160122.png",
-    "mime": "image/png",
-    "extracted": {
-      "parserVersion": 1,
-      "pages": [],
-      "pageRefs": [],
-      "questions": [],
-      "questionRefs": [],
-      "explicitTags": [],
-      "inferredTags": [],
-      "flags": {
-        "isMistake": false,
-        "isClassic": false,
-        "shouldMemorize": false,
-        "needsReview": false
-      },
-      "wrongReasons": [],
-      "cautions": [],
-      "sources": []
-    },
-    "learning": {
-      "noteUid": "a0f0c37c-4e02-452a-b3d4-d991415ce366",
-      "capturedDate": "2026-07-21",
-      "title": "重根对函数图像的影响",
-      "subject": "高等数学",
-      "pageRefs": [],
-      "questions": [],
-      "tags": [],
-      "knowledgePath": [
-        "高等数学"
-      ],
-      "noteType": "note",
-      "wrongReason": "",
-      "intent": {
-        "isQuestion": false,
-        "isMistake": false,
-        "isGood": false,
-        "shouldMemorize": false
-      },
-      "cards": [],
-      "organizationStatus": "confirmed",
-      "classificationSource": "ai",
-      "flags": {
-        "isMistake": false,
-        "isClassic": false,
-        "shouldMemorize": false,
-        "needsReview": false
-      },
-      "pendingAiOrganization": false
-    },
-    "naming": {
-      "status": "complete",
-      "provider": "qwen",
-      "model": "qwen3-vl-plus",
-      "reason": "截图标题明确为“重数对图像的影响”，内容涉及多项式零点重数与函数图像行为（穿轴/反弹）及导数判别，属高等数学中函数性态分析核心知识点",
-      "error": null,
-      "requestedAt": "2026-07-21T08:01:22.293Z",
-      "ruleId": null,
-      "ruleName": null,
-      "ruleValue": null,
-      "ruleEvidence": null,
-      "completedAt": "2026-07-21T08:01:27.183Z"
-    },
-    "classifier": {
-      "status": "named",
-      "provider": "qwen",
-      "scheduledAt": "every_72_hours"
-    },
-    "updatedAt": "2026-07-21T08:01:27.183Z"
   },
   {
     "schemaVersion": 2,
@@ -6317,6 +6533,88 @@
       "status": "user_corrected",
       "proposed": null
     }
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "a0f0c37c-4e02-452a-b3d4-d991415ce366",
+    "id": "高等数学_重根对函数图像的影响_20260721_160122",
+    "kind": "single",
+    "subject": "高等数学",
+    "requestedSubject": "默认文件夹",
+    "title": "重根对函数图像的影响",
+    "remark": "重根对函数图像的影响",
+    "createdAt": "2026-07-21T08:01:22.293Z",
+    "captureDate": "2026-07-21",
+    "fileName": "高等数学_重根对函数图像的影响_20260721_160122.png",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_重根对函数图像的影响_20260721_160122.png",
+    "mime": "image/png",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "a0f0c37c-4e02-452a-b3d4-d991415ce366",
+      "capturedDate": "2026-07-21",
+      "title": "重根对函数图像的影响",
+      "subject": "高等数学",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "高等数学"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "confirmed",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen3-vl-plus",
+      "reason": "截图标题明确为“重数对图像的影响”，内容涉及多项式零点重数与函数图像行为（穿轴/反弹）及导数判别，属高等数学中函数性态分析核心知识点",
+      "error": null,
+      "requestedAt": "2026-07-21T08:01:22.293Z",
+      "ruleId": null,
+      "ruleName": null,
+      "ruleValue": null,
+      "ruleEvidence": null,
+      "completedAt": "2026-07-21T08:01:27.183Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-21T08:01:27.183Z"
   },
   {
     "schemaVersion": 2,
@@ -6887,7 +7185,7 @@
     "kind": "single",
     "subject": "高等数学",
     "requestedSubject": "默认文件夹",
-    "title": "摆线参数方程与几何",
+    "title": "摆线(平摆线)的参数方程与几何特征",
     "remark": "记 摆线 重要",
     "createdAt": "2026-07-22T09:34:48.552Z",
     "captureDate": "2026-07-22",
@@ -6917,25 +7215,38 @@
     "learning": {
       "noteUid": "51d531db-e021-47c2-b27c-49764b9de74a",
       "capturedDate": "2026-07-22",
-      "title": "摆线参数方程与几何",
+      "title": "摆线(平摆线)的参数方程与几何特征",
       "subject": "高等数学",
       "pageRefs": [],
       "questions": [],
       "tags": [
-        "背诵"
-      ],
-      "knowledgePath": [
+        "背诵",
+        "曲线",
+        "参数方程",
+        "几何",
         "高等数学"
       ],
+      "knowledgePath": [
+        "高等数学",
+        "曲线与参数方程"
+      ],
       "noteType": "memory",
-      "wrongReason": "",
+      "wrongReason": null,
       "intent": {
         "isQuestion": false,
         "isMistake": false,
         "isGood": false,
         "shouldMemorize": true
       },
-      "cards": [],
+      "cards": [
+        {
+          "sourceKey": "ai:root:0",
+          "kind": "memory",
+          "front": "什么是摆线?其参数方程是什么?",
+          "back": "摆线是圆在直线上无滑动滚动时,圆周上一点所形成的轨迹。其参数方程为:x = a(t - sin t),y = a(1 - cos t)(a > 0)。其中t为参数,a为圆的半径。",
+          "status": "active"
+        }
+      ],
       "organizationStatus": "confirmed",
       "classificationSource": "ai",
       "flags": {
@@ -6944,7 +7255,14 @@
         "shouldMemorize": true,
         "needsReview": false
       },
-      "pendingAiOrganization": false
+      "pendingAiOrganization": false,
+      "questionType": null,
+      "reviewStatus": "auto_applied",
+      "decisionRevision": 0,
+      "proposalId": "proposal-46fc09370535cd1fd3c1",
+      "items": [],
+      "confidence": 0.95,
+      "enrichedAt": "2026-07-23T12:01:40.789Z"
     },
     "naming": {
       "status": "complete",
@@ -6964,7 +7282,56 @@
       "provider": "qwen",
       "scheduledAt": "every_72_hours"
     },
-    "updatedAt": "2026-07-22T09:34:52.711Z"
+    "updatedAt": "2026-07-22T09:34:52.711Z",
+    "questionType": null,
+    "tags": {
+      "manual": [],
+      "explicit": [],
+      "inferred": [
+        "背诵",
+        "曲线",
+        "参数方程",
+        "几何",
+        "高等数学"
+      ]
+    },
+    "items": [],
+    "classification": {
+      "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+      "subjectName": "高等数学",
+      "knowledgePointId": "kp_bc681d8e-7315-4360-9b2e-5afbbaccbc75",
+      "knowledgePointName": "曲线与参数方程"
+    },
+    "organizer": {
+      "version": 1,
+      "inputHash": "4b8cdcbc86514c9df33b6d312eb3af3915479844a0f84fec012714c44ce473a2",
+      "analyzerVersion": "note-ai-analyzer-v3",
+      "status": "organized",
+      "processedAt": "2026-07-23T12:01:40.789Z",
+      "confidence": 0.95,
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容清晰,明确展示摆线的几何图形和参数方程,属于高等数学中的曲线与参数方程知识点。备注“记 摆线 重要”表明用户有记忆意图,符合“背诵”标签要求。卡片设计聚焦于核心定义和公式,便于主动回忆。",
+      "summary": "该图展示了摆线(平摆线)的几何图形及其参数方程。摆线是圆在直线上无滑动滚动时,圆周上一点所形成的轨迹。图中给出了标准参数方程:x = a(t - sin t),y = a(1 - cos t)(a > 0),并标注了关键点A、Q以及相关角度t和半径a,体现了摆线的周期性、光滑性和特定几何性质。",
+      "questionType": null,
+      "wrongReason": null,
+      "memoryCard": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": true
+      },
+      "items": [],
+      "subjectPolicy": {
+        "requested": "高等数学",
+        "resolved": "高等数学",
+        "reason": "direct"
+      },
+      "proposed": null,
+      "learningSyncStatus": "synced",
+      "learningSyncedAt": "2026-07-23T12:01:40.815Z"
+    }
   },
   {
     "schemaVersion": 2,
@@ -7509,107 +7876,6 @@
   },
   {
     "schemaVersion": 2,
-    "noteUid": "fc93fcd4-fa1a-4a6a-87c0-15d50c8e38c0",
-    "id": "高等数学_零点定理证明与错题分析_20260723_164246",
-    "kind": "canvas",
-    "canvasProjectId": "document_1784789490727_9f57e840179a5",
-    "subject": "高等数学",
-    "requestedSubject": "默认文件夹",
-    "title": "零点定理证明与错题分析",
-    "remark": "错题 6.1 零点定理概念不熟",
-    "createdAt": "2026-07-23T08:42:46.216Z",
-    "captureDate": "2026-07-23",
-    "fileName": "高等数学_零点定理证明与错题分析_20260723_164246.png",
-    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_零点定理证明与错题分析_20260723_164246.png",
-    "mime": "image/png",
-    "extracted": {
-      "parserVersion": 1,
-      "pages": [],
-      "pageRefs": [],
-      "questions": [
-        "6.1"
-      ],
-      "questionRefs": [
-        {
-          "raw": "题 6.1",
-          "number": "6.1"
-        }
-      ],
-      "explicitTags": [],
-      "inferredTags": [
-        "错题"
-      ],
-      "flags": {
-        "isMistake": true,
-        "isClassic": false,
-        "shouldMemorize": false,
-        "needsReview": false
-      },
-      "wrongReasons": [],
-      "cautions": [],
-      "sources": []
-    },
-    "learning": {
-      "noteUid": "fc93fcd4-fa1a-4a6a-87c0-15d50c8e38c0",
-      "capturedDate": "2026-07-23",
-      "title": "零点定理证明与错题分析",
-      "subject": "高等数学",
-      "pageRefs": [
-        {
-          "raw": "题 6.1",
-          "question": "6.1"
-        }
-      ],
-      "questions": [
-        "6.1"
-      ],
-      "tags": [
-        "错题"
-      ],
-      "knowledgePath": [
-        "高等数学"
-      ],
-      "noteType": "mistake",
-      "wrongReason": "",
-      "intent": {
-        "isQuestion": true,
-        "isMistake": true,
-        "isGood": false,
-        "shouldMemorize": false
-      },
-      "cards": [],
-      "organizationStatus": "confirmed",
-      "classificationSource": "ai",
-      "flags": {
-        "isMistake": true,
-        "isClassic": false,
-        "shouldMemorize": false,
-        "needsReview": false
-      },
-      "pendingAiOrganization": false
-    },
-    "naming": {
-      "status": "complete",
-      "provider": "qwen",
-      "model": "qwen3-vl-plus",
-      "reason": "图片含例6.2题干（连续函数、f(1)>0、极限条件）、手写推导及红色批注‘零点定理概念不熟’，核心知识点为零点定理的应用与常见错误",
-      "error": null,
-      "requestedAt": "2026-07-23T08:42:46.216Z",
-      "ruleId": null,
-      "ruleName": null,
-      "ruleValue": null,
-      "ruleEvidence": null,
-      "completedAt": "2026-07-23T08:42:50.516Z"
-    },
-    "classifier": {
-      "status": "named",
-      "provider": "qwen",
-      "scheduledAt": "every_72_hours"
-    },
-    "updatedAt": "2026-07-23T08:42:50.516Z"
-  },
-  {
-    "schemaVersion": 2,
     "noteUid": "ba984465-f319-4aac-93db-3227ed9b07c9",
     "id": "高等数学_零点定理应用与误区_20260723_164309",
     "kind": "canvas",
@@ -7716,7 +7982,7 @@
     "kind": "single",
     "subject": "高等数学",
     "requestedSubject": "默认文件夹",
-    "title": "闭区间连续函数核心定理",
+    "title": "闭区间连续函数的核心定理",
     "remark": "记",
     "createdAt": "2026-07-23T08:54:58.631Z",
     "captureDate": "2026-07-23",
@@ -7746,25 +8012,45 @@
     "learning": {
       "noteUid": "76952f68-79ed-43f7-88c2-9729f472f798",
       "capturedDate": "2026-07-23",
-      "title": "闭区间连续函数核心定理",
+      "title": "闭区间连续函数的核心定理",
       "subject": "高等数学",
       "pageRefs": [],
       "questions": [],
       "tags": [
-        "背诵"
+        "背诵",
+        "闭区间",
+        "连续函数",
+        "定理集合",
+        "基础理论"
       ],
       "knowledgePath": [
-        "高等数学"
+        "高等数学",
+        "闭区间连续函数的核心定理"
       ],
       "noteType": "memory",
-      "wrongReason": "",
+      "wrongReason": null,
       "intent": {
         "isQuestion": false,
         "isMistake": false,
         "isGood": false,
         "shouldMemorize": true
       },
-      "cards": [],
+      "cards": [
+        {
+          "sourceKey": "ai:root:0",
+          "kind": "memory",
+          "front": "闭区间连续函数的有界性定理内容是什么?",
+          "back": "设 $f \\in C[a, b]$,则存在常数 $K > 0$,使得对所有 $x \\in [a, b]$,有 $|f(x)| \\leq K$。",
+          "status": "active"
+        },
+        {
+          "sourceKey": "ai:root:1",
+          "kind": "memory",
+          "front": "闭区间连续函数的最值定理内容是什么?",
+          "back": "设 $f \\in C[a, b]$,则存在 $x_1, x_2 \\in [a, b]$,使得 $f(x_1) = \\min_{x \\in [a,b]} f(x)$,$f(x_2) = \\max_{x \\in [a,b]} f(x)$。记 $m = \\min f(x)$,$M = \\max f(x)$,则对所有 $x \\in [a, b]$,有 $m \\leq f(x) \\leq M$。",
+          "status": "active"
+        }
+      ],
       "organizationStatus": "confirmed",
       "classificationSource": "ai",
       "flags": {
@@ -7773,7 +8059,14 @@
         "shouldMemorize": true,
         "needsReview": false
       },
-      "pendingAiOrganization": false
+      "pendingAiOrganization": false,
+      "questionType": null,
+      "reviewStatus": "auto_applied",
+      "decisionRevision": 0,
+      "proposalId": "proposal-39e291626af2e245b995",
+      "items": [],
+      "confidence": 0.95,
+      "enrichedAt": "2026-07-23T12:01:47.842Z"
     },
     "naming": {
       "status": "complete",
@@ -7793,7 +8086,56 @@
       "provider": "qwen",
       "scheduledAt": "every_72_hours"
     },
-    "updatedAt": "2026-07-23T08:55:02.570Z"
+    "updatedAt": "2026-07-23T08:55:02.570Z",
+    "questionType": null,
+    "tags": {
+      "manual": [],
+      "explicit": [],
+      "inferred": [
+        "背诵",
+        "闭区间",
+        "连续函数",
+        "定理集合",
+        "基础理论"
+      ]
+    },
+    "items": [],
+    "classification": {
+      "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+      "subjectName": "高等数学",
+      "knowledgePointId": "kp_af0302da-3f33-4eba-af56-b6bd5d7ffb71",
+      "knowledgePointName": "闭区间连续函数的核心定理"
+    },
+    "organizer": {
+      "version": 1,
+      "inputHash": "5cc58edfee6b7f9b2608697700c3148ffab44ab1da609d6931f7d0b99a1b9b34",
+      "analyzerVersion": "note-ai-analyzer-v3",
+      "status": "organized",
+      "processedAt": "2026-07-23T12:01:47.842Z",
+      "confidence": 0.95,
+      "provider": "qwen",
+      "model": "qwen-vl-plus",
+      "reason": "图片内容为高等数学中闭区间连续函数的核心定理,属于标准考研科目。备注“记”表明用户有记忆意图,且内容为重要定义和公式,符合“应背诵”的判断。卡片设计聚焦于定理的核心表述,便于主动回忆。",
+      "summary": "本笔记系统整理了闭区间上连续函数的六个核心定理:有界性定理(函数在闭区间上有界)、最值定理(存在最大值和最小值)、零点定理(变号函数必有零点)、零点定理的开区间推广、介值定理(函数取遍任意中间值)以及积分平均值定理(积分中值定理及其加权形式)。这些定理是分析学的基础,尤其在证明其他定理时具有关键作用。",
+      "questionType": null,
+      "wrongReason": null,
+      "memoryCard": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": true
+      },
+      "items": [],
+      "subjectPolicy": {
+        "requested": "高等数学",
+        "resolved": "高等数学",
+        "reason": "direct"
+      },
+      "proposed": null,
+      "learningSyncStatus": "synced",
+      "learningSyncedAt": "2026-07-23T12:01:47.868Z"
+    }
   },
   {
     "schemaVersion": 2,
@@ -7889,5 +8231,91 @@
       "status": "user_corrected",
       "proposed": null
     }
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "13cdc901-f109-49c7-8d7e-0cc500c5c898",
+    "id": "高等数学_导数零点定理证明_20260723_200146",
+    "kind": "single",
+    "subject": "高等数学",
+    "requestedSubject": "默认文件夹",
+    "title": "导数零点定理证明",
+    "remark": "背\n可以稍微记记 留个印象",
+    "createdAt": "2026-07-23T12:01:46.625Z",
+    "captureDate": "2026-07-23",
+    "fileName": "高等数学_导数零点定理证明_20260723_200146.png",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_导数零点定理证明_20260723_200146.png",
+    "mime": "image/png",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [
+        "背诵"
+      ],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": true,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "13cdc901-f109-49c7-8d7e-0cc500c5c898",
+      "capturedDate": "2026-07-23",
+      "title": "导数零点定理证明",
+      "subject": "高等数学",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [
+        "背诵"
+      ],
+      "knowledgePath": [
+        "高等数学"
+      ],
+      "noteType": "memory",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": true
+      },
+      "cards": [],
+      "organizationStatus": "confirmed",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": true,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen3-vl-plus",
+      "reason": "图片明确显示‘（导数零点定理）’及对应数学命题与公式，属于高等数学中微分中值定理相关内容",
+      "error": null,
+      "requestedAt": "2026-07-23T12:01:46.625Z",
+      "ruleId": null,
+      "ruleName": null,
+      "ruleValue": null,
+      "ruleEvidence": null,
+      "completedAt": "2026-07-23T12:01:50.133Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-23T12:01:50.133Z"
   }
 ]

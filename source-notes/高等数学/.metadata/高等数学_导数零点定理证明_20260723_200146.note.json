@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "13cdc901-f109-49c7-8d7e-0cc500c5c898",
+  "id": "高等数学_导数零点定理证明_20260723_200146",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "导数零点定理证明",
+  "remark": "背\n可以稍微记记 留个印象",
+  "createdAt": "2026-07-23T12:01:46.625Z",
+  "captureDate": "2026-07-23",
+  "fileName": "高等数学_导数零点定理证明_20260723_200146.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_导数零点定理证明_20260723_200146.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [
+      "背诵"
+    ],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": true,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "13cdc901-f109-49c7-8d7e-0cc500c5c898",
+    "capturedDate": "2026-07-23",
+    "title": "导数零点定理证明",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [
+      "背诵"
+    ],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "memory",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": true
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": true,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "图片明确显示‘（导数零点定理）’及对应数学命题与公式，属于高等数学中微分中值定理相关内容",
+    "error": null,
+    "requestedAt": "2026-07-23T12:01:46.625Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-23T12:01:50.133Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-23T12:01:50.133Z"
+}
