@@ -97,5 +97,13 @@
     "provider": "qwen",
     "scheduledAt": "every_72_hours"
   },
-  "updatedAt": "2026-07-21T09:24:35.221Z"
+  "updatedAt": "2026-07-21T09:24:35.221Z",
+  "organizer": {
+    "version": 1,
+    "inputHash": "d3fbd7573400093c4f5ecc679afc11536d99f97860bd333d459e83909db8b939",
+    "analyzerVersion": "note-ai-analyzer-v3",
+    "status": "failed",
+    "attemptedAt": "2026-07-23T12:20:48.177Z",
+    "error": "所有可用 AI 均调用失败（gemini/gemini-3.5-flash：AI 网络请求失败）"
+  }
 }

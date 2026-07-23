@@ -5,7 +5,7 @@
   "kind": "single",
   "subject": "高等数学",
   "requestedSubject": "默认文件夹",
-  "title": "y²=(1−x²)³图像绘制",
+  "title": "y2=(1−x2)3的图像绘制",
   "remark": "5.11 错题 被纸老虎吓到了 完全没思路\n先判断实数点的范围（尤其是无定义点和端点），再利用对称性、周期性、奇偶缩小分析区间；在第一象限内把它化成显函数，分析端点、截距、单调性、凹凸性和特殊点，最后利用对称性补全图像。",
   "createdAt": "2026-07-22T10:09:54.832Z",
   "captureDate": "2026-07-22",
@@ -35,20 +35,27 @@
   "learning": {
     "noteUid": "a7fc3d2a-dd33-4f59-b917-38288d059772",
     "capturedDate": "2026-07-22",
-    "title": "y²=(1−x²)³图像绘制",
+    "title": "y2=(1−x2)3的图像绘制",
     "subject": "高等数学",
     "pageRefs": [],
     "questions": [],
     "tags": [
-      "错题"
+      "错题",
+      "函数图像",
+      "定义域分析",
+      "对称性应用",
+      "显函数转换",
+      "题型:图形绘制",
+      "错因:完全没思路,被题目形式吓到,未能正确分析函数的定义域和利用对称性简化分析过"
     ],
     "knowledgePath": [
-      "高等数学"
+      "高等数学",
+      "函数图像与渐近线分析"
     ],
     "noteType": "mistake",
-    "wrongReason": "",
+    "wrongReason": "完全没思路,被题目形式吓到,未能正确分析函数的定义域和利用对称性简化分析过程。",
     "intent": {
-      "isQuestion": false,
+      "isQuestion": true,
       "isMistake": true,
       "isGood": false,
       "shouldMemorize": false
@@ -57,14 +64,21 @@
       {
         "sourceKey": "remark-mistake:0",
         "kind": "mistake",
-        "front": "重做：5.11_错题_被纸老虎吓到了_完全没思路_先判断实数点的范围（尤其是无定义点和端点",
-        "back": "5.11 错题 被纸老虎吓到了 完全没思路\n先判断实数点的范围（尤其是无定义点和端点），再利用对称性、周期性、奇偶缩小分析区间；在第一象限内把它化成显函数，分析端点、截距、单调性、凹凸性和特殊点，最后利用对称性补全图像。",
+        "front": "重做：y2=(1−x2)3的图像绘制",
+        "back": "完全没思路,被题目形式吓到,未能正确分析函数的定义域和利用对称性简化分析过程。",
         "status": "active",
         "knowledgePath": [
-          "数据结构"
+          "高等数学",
+          "函数图像与渐近线分析"
         ],
         "tags": [
-          "错题"
+          "错题",
+          "函数图像",
+          "定义域分析",
+          "对称性应用",
+          "显函数转换",
+          "题型:图形绘制",
+          "错因:完全没思路,被题目形式吓到,未能正确分析函数的定义域和利用对称性简化分析过"
         ],
         "pageRefs": []
       }
@@ -77,7 +91,50 @@
       "shouldMemorize": false,
       "needsReview": false
     },
-    "pendingAiOrganization": false
+    "pendingAiOrganization": false,
+    "questionType": "图形绘制",
+    "reviewStatus": "auto_applied",
+    "decisionRevision": 0,
+    "proposalId": "proposal-359bcb4ceec701166ab6",
+    "items": [
+      {
+        "title": "函数定义域分析",
+        "knowledgePoint": null,
+        "questionType": null,
+        "summary": "通过分析方程y2=(1−x2)3可知,当|x|>1时(1−x2)<0,导致y2<0无实数解,因此函数定义域为[-1,1]。",
+        "tags": [
+          "定义域",
+          "实数范围"
+        ],
+        "wrongReason": null,
+        "intent": {
+          "isQuestion": false,
+          "isMistake": false,
+          "isGood": false,
+          "shouldMemorize": false
+        }
+      },
+      {
+        "title": "第一象限显函数转换",
+        "knowledgePoint": null,
+        "questionType": null,
+        "summary": "在第一象限内,将原方程y2=(1−x2)3化为显函数y=(1−x2)^(3/2),便于分析其端点(x=0时y=1)、截距、单调性及凹凸性。",
+        "tags": [
+          "显函数",
+          "幂函数",
+          "单调性分析"
+        ],
+        "wrongReason": null,
+        "intent": {
+          "isQuestion": false,
+          "isMistake": false,
+          "isGood": false,
+          "shouldMemorize": false
+        }
+      }
+    ],
+    "confidence": 0.95,
+    "enrichedAt": "2026-07-23T12:21:13.441Z"
   },
   "naming": {
     "status": "complete",
@@ -97,5 +154,127 @@
     "provider": "qwen",
     "scheduledAt": "every_72_hours"
   },
-  "updatedAt": "2026-07-22T10:09:57.819Z"
+  "updatedAt": "2026-07-22T10:09:57.819Z",
+  "questionType": "图形绘制",
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "错题",
+      "函数图像",
+      "定义域分析",
+      "对称性应用",
+      "显函数转换",
+      "题型:图形绘制"
+    ]
+  },
+  "items": [
+    {
+      "title": "函数定义域分析",
+      "knowledgePoint": null,
+      "questionType": null,
+      "summary": "通过分析方程y2=(1−x2)3可知,当|x|>1时(1−x2)<0,导致y2<0无实数解,因此函数定义域为[-1,1]。",
+      "tags": [
+        "定义域",
+        "实数范围"
+      ],
+      "wrongReason": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      }
+    },
+    {
+      "title": "第一象限显函数转换",
+      "knowledgePoint": null,
+      "questionType": null,
+      "summary": "在第一象限内,将原方程y2=(1−x2)3化为显函数y=(1−x2)^(3/2),便于分析其端点(x=0时y=1)、截距、单调性及凹凸性。",
+      "tags": [
+        "显函数",
+        "幂函数",
+        "单调性分析"
+      ],
+      "wrongReason": null,
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      }
+    }
+  ],
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": "kp_34bba9b5-24f1-4e0e-ba42-9e1afeef9e7f",
+    "knowledgePointName": "函数图像与渐近线分析"
+  },
+  "organizer": {
+    "version": 1,
+    "inputHash": "e3f4450f2e488ba4c4fedaeda515f1ec28f52ee489339c952d7597df7e386bda",
+    "analyzerVersion": "note-ai-analyzer-v3",
+    "status": "organized",
+    "processedAt": "2026-07-23T12:21:13.441Z",
+    "confidence": 0.95,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容清晰,明确为高等数学中的函数图像绘制问题,与备注中'错题'标签一致,且能准确判断出题目涉及的知识点为'函数图像与渐近线分析'。",
+    "summary": "该题要求绘制函数y2=(1−x2)3的图像。首先确定定义域为[-1,1],因为当|x|>1时(1−x2)<0,导致y2<0无实数解。在第一象限内,将方程化为显函数y=(1−x2)^(3/2),分析其端点、截距、单调性、凹凸性和特殊点(如x=0时y=1),再利用偶函数性质(关于y轴对称)补全整个图像。",
+    "questionType": "图形绘制",
+    "wrongReason": "完全没思路,被题目形式吓到,未能正确分析函数的定义域和利用对称性简化分析过程。",
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": true,
+      "isMistake": true,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "items": [
+      {
+        "title": "函数定义域分析",
+        "knowledgePoint": null,
+        "questionType": null,
+        "summary": "通过分析方程y2=(1−x2)3可知,当|x|>1时(1−x2)<0,导致y2<0无实数解,因此函数定义域为[-1,1]。",
+        "tags": [
+          "定义域",
+          "实数范围"
+        ],
+        "wrongReason": null,
+        "intent": {
+          "isQuestion": false,
+          "isMistake": false,
+          "isGood": false,
+          "shouldMemorize": false
+        }
+      },
+      {
+        "title": "第一象限显函数转换",
+        "knowledgePoint": null,
+        "questionType": null,
+        "summary": "在第一象限内,将原方程y2=(1−x2)3化为显函数y=(1−x2)^(3/2),便于分析其端点(x=0时y=1)、截距、单调性及凹凸性。",
+        "tags": [
+          "显函数",
+          "幂函数",
+          "单调性分析"
+        ],
+        "wrongReason": null,
+        "intent": {
+          "isQuestion": false,
+          "isMistake": false,
+          "isGood": false,
+          "shouldMemorize": false
+        }
+      }
+    ],
+    "subjectPolicy": {
+      "requested": "高等数学",
+      "resolved": "高等数学",
+      "reason": "direct"
+    },
+    "proposed": null,
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-23T12:21:13.469Z"
+  }
 }

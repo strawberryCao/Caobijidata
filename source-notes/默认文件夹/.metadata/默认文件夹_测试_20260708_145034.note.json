@@ -1,0 +1,125 @@
+{
+  "id": "默认文件夹_测试_20260708_145034",
+  "kind": "canvas",
+  "subject": "默认文件夹",
+  "requestedSubject": "默认文件夹",
+  "title": "脂肪最怕的食物",
+  "remark": "测试",
+  "createdAt": "2026-07-08T06:50:34.841Z",
+  "fileName": "默认文件夹_测试_20260708_145034.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_测试_20260708_145034.png",
+  "mime": "image/png",
+  "naming": {
+    "provider": "qwen",
+    "model": null,
+    "reason": "fallback",
+    "error": "QWEN_API_KEY or DASHSCOPE_API_KEY is not set"
+  },
+  "classifier": {
+    "status": "fallback_named",
+    "provider": "qwen",
+    "scheduledAt": "24:00"
+  },
+  "noteUid": "legacy-bfe8f8e74b1210a9cbd63bde",
+  "captureDate": "2026-07-08",
+  "learning": {
+    "noteUid": "legacy-bfe8f8e74b1210a9cbd63bde",
+    "capturedDate": "2026-07-08",
+    "title": "脂肪最怕的食物",
+    "subject": "默认文件夹",
+    "pageRefs": [],
+    "tags": [
+      "健康",
+      "饮食",
+      "减肥"
+    ],
+    "knowledgePath": [
+      "默认文件夹"
+    ],
+    "noteType": "note",
+    "questionType": null,
+    "wrongReason": null,
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "items": [],
+    "cards": [],
+    "organizationStatus": "pending",
+    "classificationSource": "ai",
+    "pendingAiOrganization": false,
+    "confidence": 0.1,
+    "enrichedAt": "2026-07-20T11:01:14.470Z"
+  },
+  "schemaVersion": 2,
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "organizer": {
+    "version": 1,
+    "inputHash": "421955908cc7e477bae6233940d78a06970167867a138235a4bf75dfcd0c27f0",
+    "analyzerVersion": "note-ai-analyzer-v3",
+    "status": "needs_review",
+    "processedAt": "2026-07-20T11:01:14.470Z",
+    "confidence": 0.1,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容与408科目无关,属于健康或饮食相关知识,无法可靠归类到数据结构、计算机组成、操作系统或计算机网络。备注仅为‘测试’,无明确学习意图或记忆价值。",
+    "summary": "图片展示了一组玉米,并标注为‘脂肪最怕的食物’,备注中提到‘测试’。",
+    "questionType": null,
+    "wrongReason": null,
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "items": [],
+    "subjectPolicy": {
+      "requested": "默认文件夹",
+      "resolved": "默认文件夹",
+      "reason": "unknown"
+    },
+    "proposed": {
+      "subject": "默认文件夹",
+      "knowledgePoint": null
+    },
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-20T11:01:14.488Z"
+  },
+  "questionType": null,
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "健康",
+      "饮食",
+      "减肥"
+    ]
+  },
+  "items": [],
+  "classification": {
+    "subjectId": "subject_4fb7dd54-d7a8-430e-90b6-accca807f506",
+    "subjectName": "默认文件夹",
+    "knowledgePointId": null,
+    "knowledgePointName": null
+  }
+}

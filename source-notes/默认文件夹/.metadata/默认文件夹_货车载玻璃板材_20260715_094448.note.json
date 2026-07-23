@@ -1,0 +1,119 @@
+{
+  "id": "默认文件夹_货车载玻璃板材_20260715_094448",
+  "kind": "single",
+  "subject": "默认文件夹",
+  "requestedSubject": "默认文件夹",
+  "title": "货车载玻璃板材",
+  "remark": "",
+  "createdAt": "2026-07-15T01:44:48.240Z",
+  "fileName": "默认文件夹_货车载玻璃板材_20260715_094448.jpg",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_货车载玻璃板材_20260715_094448.jpg",
+  "mime": "image/jpeg",
+  "naming": {
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "baseUrl": "https://ws-wz2m9ithvttiwqm6.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "source": "file",
+    "reason": "图片主要内容为一辆货车装载玻璃板材停在住宅区街道旁，与考研科目无关。",
+    "error": null
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "24:00"
+  },
+  "noteUid": "legacy-4c9397ad70242b0785cb9126",
+  "captureDate": "2026-07-15",
+  "learning": {
+    "noteUid": "legacy-4c9397ad70242b0785cb9126",
+    "capturedDate": "2026-07-15",
+    "title": "货车载玻璃板材",
+    "subject": "默认文件夹",
+    "pageRefs": [],
+    "tags": [],
+    "knowledgePath": [
+      "默认文件夹"
+    ],
+    "noteType": "note",
+    "questionType": null,
+    "wrongReason": null,
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "items": [],
+    "cards": [],
+    "organizationStatus": "pending",
+    "classificationSource": "ai",
+    "pendingAiOrganization": false,
+    "confidence": 0.1,
+    "enrichedAt": "2026-07-20T11:01:24.066Z"
+  },
+  "schemaVersion": 2,
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [],
+    "flags": {
+      "isMistake": false,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "organizer": {
+    "version": 1,
+    "inputHash": "7b6bc61da344ac5497274da34bbdcaeaff9d428590d3faa53f6c944bf6601874",
+    "analyzerVersion": "note-ai-analyzer-v3",
+    "status": "needs_review",
+    "processedAt": "2026-07-20T11:01:24.066Z",
+    "confidence": 0.1,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容为一辆货车装载玻璃板材的场景,与408科目无关,属于日常记录,无学习内容或记忆价值。",
+    "summary": "一辆白色货车停在住宅区路边,车厢内装载着多块玻璃板材。",
+    "questionType": null,
+    "wrongReason": null,
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "items": [],
+    "subjectPolicy": {
+      "requested": "默认文件夹",
+      "resolved": "默认文件夹",
+      "reason": "unknown"
+    },
+    "proposed": {
+      "subject": "默认文件夹",
+      "knowledgePoint": null
+    },
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-20T11:01:24.083Z"
+  },
+  "questionType": null,
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": []
+  },
+  "items": [],
+  "classification": {
+    "subjectId": "subject_4fb7dd54-d7a8-430e-90b6-accca807f506",
+    "subjectName": "默认文件夹",
+    "knowledgePointId": null,
+    "knowledgePointName": null
+  }
+}

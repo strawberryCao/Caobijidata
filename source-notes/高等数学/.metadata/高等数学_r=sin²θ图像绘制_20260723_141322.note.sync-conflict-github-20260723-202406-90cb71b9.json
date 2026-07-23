@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "cb9dba35-2906-4ae0-83e3-c8bda1434c36",
+  "id": "高等数学_r=sin²θ图像绘制_20260723_141322",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "r=sin²θ图像绘制",
+  "remark": "5.14 错题 不会 \n没懂",
+  "createdAt": "2026-07-23T06:13:22.013Z",
+  "captureDate": "2026-07-23",
+  "fileName": "高等数学_r=sin²θ图像绘制_20260723_141322.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_r=sin²θ图像绘制_20260723_141322.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [
+      "错题"
+    ],
+    "flags": {
+      "isMistake": true,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "cb9dba35-2906-4ae0-83e3-c8bda1434c36",
+    "capturedDate": "2026-07-23",
+    "title": "r=sin²θ图像绘制",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [
+      "错题"
+    ],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "mistake",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": true,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "flags": {
+      "isMistake": true,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "图片明确展示极坐标方程r=sin²θ在直角与极坐标系下的图像及推导，属于高等数学中曲线的极坐标表示与作图知识点。",
+    "error": null,
+    "requestedAt": "2026-07-23T06:13:22.013Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-23T06:13:25.418Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-23T06:13:25.418Z"
+}
