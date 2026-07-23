@@ -5,7 +5,7 @@
   "kind": "single",
   "subject": "高等数学",
   "requestedSubject": "默认文件夹",
-  "title": "例4.14_求n阶导数",
+  "title": "例4.14 求y=sin x的n阶导数",
   "remark": "",
   "createdAt": "2026-07-20T12:40:16.441Z",
   "captureDate": "2026-07-20",
@@ -33,23 +33,38 @@
   "learning": {
     "noteUid": "58e4f6d3-88f9-4e55-bfd7-28ceeec25541",
     "capturedDate": "2026-07-20",
-    "title": "例4.14_求n阶导数",
+    "title": "例4.14 求y=sin x的n阶导数",
     "subject": "高等数学",
     "pageRefs": [],
     "questions": [],
-    "tags": [],
-    "knowledgePath": [
-      "高等数学"
+    "tags": [
+      "高阶导数",
+      "三角函数",
+      "归纳法",
+      "背诵",
+      "题型:高阶导数计算"
     ],
-    "noteType": "note",
-    "wrongReason": "",
+    "knowledgePath": [
+      "高等数学",
+      "导数与微分"
+    ],
+    "noteType": "memory",
+    "wrongReason": null,
     "intent": {
-      "isQuestion": false,
+      "isQuestion": true,
       "isMistake": false,
       "isGood": false,
-      "shouldMemorize": false
+      "shouldMemorize": true
     },
-    "cards": [],
+    "cards": [
+      {
+        "sourceKey": "ai:root:0",
+        "kind": "memory",
+        "front": "y=sin x 的 n 阶导数公式是什么?推导思路?",
+        "back": "y(n)=sin(x+nπ/2)。思路:每求一次导相当于相位加 π/2(cos x = sin(x+π/2)),归纳即得通项。",
+        "status": "active"
+      }
+    ],
     "organizationStatus": "confirmed",
     "classificationSource": "ai",
     "flags": {
@@ -58,7 +73,14 @@
       "shouldMemorize": false,
       "needsReview": false
     },
-    "pendingAiOrganization": false
+    "pendingAiOrganization": false,
+    "questionType": "高阶导数计算",
+    "reviewStatus": "auto_applied",
+    "decisionRevision": 0,
+    "proposalId": "proposal-b1de3f94bc76f4ea5961",
+    "items": [],
+    "confidence": 0.92,
+    "enrichedAt": "2026-07-23T12:12:12.118Z"
   },
   "naming": {
     "status": "complete",
@@ -74,5 +96,54 @@
     "provider": "qwen",
     "scheduledAt": "every_72_hours"
   },
-  "updatedAt": "2026-07-20T12:40:40.206Z"
+  "updatedAt": "2026-07-20T12:40:40.206Z",
+  "questionType": "高阶导数计算",
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "高阶导数",
+      "三角函数",
+      "归纳法",
+      "背诵",
+      "题型:高阶导数计算"
+    ]
+  },
+  "items": [],
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": "kp_13761336-6746-4f82-af9e-86a103aeb88d",
+    "knowledgePointName": "导数与微分"
+  },
+  "organizer": {
+    "version": 1,
+    "inputHash": "0e683ca8cb8a61bfcfda3556853a3000fda3195b7a3b529ac13714a3fa2aee18",
+    "analyzerVersion": "note-ai-analyzer-v3",
+    "status": "organized",
+    "processedAt": "2026-07-23T12:12:12.118Z",
+    "confidence": 0.92,
+    "provider": "kimi",
+    "model": "kimi-k3",
+    "reason": "图片清晰显示求 sin x 的 n 阶导数例题及手写归纳过程,属高等数学导数计算;结论 y(n)=sin(x+nπ/2) 是需记忆的标准公式,故判定有记忆意图;无错题或好题标记。",
+    "summary": "通过逐次求导归纳:y'=cos x=sin(x+π/2),y''=cos(x+π/2)=sin(x+2·π/2),依此类推得 y(n)=sin(x+nπ/2)。关键技巧是把每次求导写成相位加π/2的形式,便于归纳出通项公式。",
+    "questionType": "高阶导数计算",
+    "wrongReason": null,
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": true,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": true
+    },
+    "items": [],
+    "subjectPolicy": {
+      "requested": "高等数学",
+      "resolved": "高等数学",
+      "reason": "direct"
+    },
+    "proposed": null,
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-23T12:12:12.151Z"
+  }
 }

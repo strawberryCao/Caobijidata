@@ -55,20 +55,54 @@
       "6.1"
     ],
     "tags": [
-      "错题"
+      "错题",
+      "零点定理",
+      "闭区间连续函数",
+      "极限性质",
+      "证明题",
+      "题型:证明题",
+      "错因:对零点定理的理解存在误区,具体表现为:1. 忽略了开区间与闭区间的区别,错"
     ],
     "knowledgePath": [
-      "高等数学"
+      "高等数学",
+      "闭区间连续函数的核心定理"
     ],
     "noteType": "mistake",
-    "wrongReason": "",
+    "wrongReason": "对零点定理的理解存在误区,具体表现为:1. 忽略了开区间与闭区间的区别,错误地将区间写为(0,1)而非[0,1];2. 对局部保号性的应用不准确,未能正确推导出f(x)<0在(0,δ)内的结论。",
     "intent": {
       "isQuestion": true,
       "isMistake": true,
       "isGood": false,
       "shouldMemorize": false
     },
-    "cards": [],
+    "cards": [
+      {
+        "sourceKey": "remark-mistake:0",
+        "kind": "mistake",
+        "front": "重做：零点定理应用与误区",
+        "back": "对零点定理的理解存在误区,具体表现为:1. 忽略了开区间与闭区间的区别,错误地将区间写为(0,1)而非[0,1];2. 对局部保号性的应用不准确,未能正确推导出f(x)<0在(0,δ)内的结论。",
+        "status": "active",
+        "knowledgePath": [
+          "高等数学",
+          "闭区间连续函数的核心定理"
+        ],
+        "tags": [
+          "错题",
+          "零点定理",
+          "闭区间连续函数",
+          "极限性质",
+          "证明题",
+          "题型:证明题",
+          "错因:对零点定理的理解存在误区,具体表现为:1. 忽略了开区间与闭区间的区别,错"
+        ],
+        "pageRefs": [
+          {
+            "raw": "题 6.1",
+            "question": "6.1"
+          }
+        ]
+      }
+    ],
     "organizationStatus": "confirmed",
     "classificationSource": "ai",
     "flags": {
@@ -77,7 +111,34 @@
       "shouldMemorize": false,
       "needsReview": false
     },
-    "pendingAiOrganization": false
+    "pendingAiOrganization": false,
+    "questionType": "证明题",
+    "reviewStatus": "auto_applied",
+    "decisionRevision": 0,
+    "proposalId": "proposal-0d11683e213a10c64da8",
+    "items": [
+      {
+        "title": "例6.2 零点定理应用",
+        "knowledgePoint": "闭区间连续函数的核心定理",
+        "questionType": "证明题",
+        "summary": "设函数f(x)在[0,1]上连续,且f(1)>0,lim(x->0+) f(x)/x < 0。证明方程f(x)=0在(0,1)内至少有一个实根。解题过程利用局部保号性证明f(x)<0在(0,δ)内成立,结合f(1)>0和零点定理得出结论。",
+        "tags": [
+          "零点定理",
+          "闭区间连续函数",
+          "极限性质",
+          "证明题"
+        ],
+        "wrongReason": "对零点定理的应用存在两个主要错误:1. 区间表述错误,应为闭区间[0,1]而非开区间(0,1);2. 局部保号性的应用不准确,未能正确推导出f(x)<0在(0,δ)内的结论。",
+        "intent": {
+          "isQuestion": true,
+          "isMistake": true,
+          "isGood": false,
+          "shouldMemorize": false
+        }
+      }
+    ],
+    "confidence": 0.95,
+    "enrichedAt": "2026-07-23T12:13:23.007Z"
   },
   "naming": {
     "status": "complete",
@@ -97,5 +158,95 @@
     "provider": "qwen",
     "scheduledAt": "every_72_hours"
   },
-  "updatedAt": "2026-07-23T08:43:13.350Z"
+  "updatedAt": "2026-07-23T08:43:13.350Z",
+  "questionType": "证明题",
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "错题",
+      "零点定理",
+      "闭区间连续函数",
+      "极限性质",
+      "证明题",
+      "题型:证明题"
+    ]
+  },
+  "items": [
+    {
+      "title": "例6.2 零点定理应用",
+      "knowledgePoint": "闭区间连续函数的核心定理",
+      "questionType": "证明题",
+      "summary": "设函数f(x)在[0,1]上连续,且f(1)>0,lim(x->0+) f(x)/x < 0。证明方程f(x)=0在(0,1)内至少有一个实根。解题过程利用局部保号性证明f(x)<0在(0,δ)内成立,结合f(1)>0和零点定理得出结论。",
+      "tags": [
+        "零点定理",
+        "闭区间连续函数",
+        "极限性质",
+        "证明题"
+      ],
+      "wrongReason": "对零点定理的应用存在两个主要错误:1. 区间表述错误,应为闭区间[0,1]而非开区间(0,1);2. 局部保号性的应用不准确,未能正确推导出f(x)<0在(0,δ)内的结论。",
+      "intent": {
+        "isQuestion": true,
+        "isMistake": true,
+        "isGood": false,
+        "shouldMemorize": false
+      }
+    }
+  ],
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": "kp_af0302da-3f33-4eba-af56-b6bd5d7ffb71",
+    "knowledgePointName": "闭区间连续函数的核心定理"
+  },
+  "organizer": {
+    "version": 1,
+    "inputHash": "82202c1a322f2a7e3f81115373104570ac6ab4b20315a06d92a0fcf044f83c00",
+    "analyzerVersion": "note-ai-analyzer-v3",
+    "status": "organized",
+    "processedAt": "2026-07-23T12:13:23.007Z",
+    "confidence": 0.95,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "根据图片内容和备注信息,可以明确判断该题目属于高等数学中的闭区间连续函数核心定理(零点定理)相关知识。用户明确标注为错题,并指出对零点定理概念不熟悉,因此判定为错题。题目类型为证明题,知识点归类为'闭区间连续函数的核心定理'。整体判断可靠度较高。",
+    "summary": "本题考查闭区间上连续函数的零点定理。已知f(1)>0且lim(x->0+) f(x)/x < 0,需证明方程f(x)=0在(0,1)内至少有一个实根。解题关键在于理解零点定理的适用条件(闭区间、连续性、端点异号),并正确应用局部保号性分析函数在0附近的行为。",
+    "questionType": "证明题",
+    "wrongReason": "对零点定理的理解存在误区,具体表现为:1. 忽略了开区间与闭区间的区别,错误地将区间写为(0,1)而非[0,1];2. 对局部保号性的应用不准确,未能正确推导出f(x)<0在(0,δ)内的结论。",
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": true,
+      "isMistake": true,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "items": [
+      {
+        "title": "例6.2 零点定理应用",
+        "knowledgePoint": "闭区间连续函数的核心定理",
+        "questionType": "证明题",
+        "summary": "设函数f(x)在[0,1]上连续,且f(1)>0,lim(x->0+) f(x)/x < 0。证明方程f(x)=0在(0,1)内至少有一个实根。解题过程利用局部保号性证明f(x)<0在(0,δ)内成立,结合f(1)>0和零点定理得出结论。",
+        "tags": [
+          "零点定理",
+          "闭区间连续函数",
+          "极限性质",
+          "证明题"
+        ],
+        "wrongReason": "对零点定理的应用存在两个主要错误:1. 区间表述错误,应为闭区间[0,1]而非开区间(0,1);2. 局部保号性的应用不准确,未能正确推导出f(x)<0在(0,δ)内的结论。",
+        "intent": {
+          "isQuestion": true,
+          "isMistake": true,
+          "isGood": false,
+          "shouldMemorize": false
+        }
+      }
+    ],
+    "subjectPolicy": {
+      "requested": "高等数学",
+      "resolved": "高等数学",
+      "reason": "direct"
+    },
+    "proposed": null,
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-23T12:13:23.039Z"
+  }
 }
