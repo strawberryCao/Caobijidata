@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 12,
-  "updatedAt": "2026-07-23T13:20:55.744Z",
+  "revision": 13,
+  "updatedAt": "2026-07-23T13:23:29.914Z",
   "days": {
     "2026-07-21": {
       "manual": {
@@ -4369,44 +4369,6 @@
           "studyNotes": [],
           "confidence": null,
           "cardIds": []
-        },
-        {
-          "noteUid": "75f5b238-656b-4521-a378-cdf11ac46eea",
-          "capturedDate": "2026-07-23",
-          "title": "The image does not contain any question or problem statement. Therefore, I canno",
-          "subject": "默认文件夹",
-          "remark": "",
-          "createdAt": "2026-07-23T13:07:37.606Z",
-          "updatedAt": "2026-07-23T13:17:47.324Z",
-          "firstSyncedAt": "2026-07-23T13:07:37.606Z",
-          "filePath": "github://data/assets/75f5b238-656b-4521-a378-cdf11ac46eea.jpg",
-          "pageRefs": [],
-          "tags": [],
-          "knowledgePath": [
-            "默认文件夹"
-          ],
-          "noteType": "note",
-          "questionType": "",
-          "wrongReason": "",
-          "wrongReasonSource": "",
-          "wrongReasonConfidence": null,
-          "organizationStatus": "pending",
-          "classificationSource": "local",
-          "reviewStatus": "pending",
-          "decisionRevision": 0,
-          "lastReviewOperationId": "",
-          "lastReviewAction": "",
-          "proposalId": "",
-          "reviewedAt": "",
-          "manualCreated": false,
-          "userEditedFields": [
-            "title"
-          ],
-          "goodQuestion": null,
-          "items": [],
-          "studyNotes": [],
-          "confidence": null,
-          "cardIds": []
         }
       ]
     },
@@ -5579,6 +5541,48 @@
         "reviewedAt": "",
         "manualCreated": false,
         "userEditedFields": [],
+        "goodQuestion": null,
+        "items": [],
+        "studyNotes": [],
+        "confidence": null,
+        "cardIds": []
+      },
+      "cards": []
+    },
+    "75f5b238-656b-4521-a378-cdf11ac46eea": {
+      "deletedAt": "2026-07-23T13:23:29.914Z",
+      "note": {
+        "noteUid": "75f5b238-656b-4521-a378-cdf11ac46eea",
+        "capturedDate": "2026-07-23",
+        "title": "The image does not contain any question or problem statement. Therefore, I canno",
+        "subject": "默认文件夹",
+        "remark": "",
+        "createdAt": "2026-07-23T13:07:37.606Z",
+        "updatedAt": "2026-07-23T13:23:29.914Z",
+        "firstSyncedAt": "2026-07-23T13:07:37.606Z",
+        "filePath": "github://data/assets/75f5b238-656b-4521-a378-cdf11ac46eea.jpg",
+        "pageRefs": [],
+        "tags": [],
+        "knowledgePath": [
+          "默认文件夹"
+        ],
+        "noteType": "note",
+        "questionType": "",
+        "wrongReason": "",
+        "wrongReasonSource": "",
+        "wrongReasonConfidence": null,
+        "organizationStatus": "pending",
+        "classificationSource": "local",
+        "reviewStatus": "pending",
+        "decisionRevision": 0,
+        "lastReviewOperationId": "",
+        "lastReviewAction": "",
+        "proposalId": "",
+        "reviewedAt": "",
+        "manualCreated": false,
+        "userEditedFields": [
+          "title"
+        ],
         "goodQuestion": null,
         "items": [],
         "studyNotes": [],
