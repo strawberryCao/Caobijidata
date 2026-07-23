@@ -40,20 +40,32 @@
     "pageRefs": [],
     "questions": [],
     "tags": [
-      "背诵"
+      "背诵",
+      "导数",
+      "极值",
+      "证明题"
     ],
     "knowledgePath": [
-      "高等数学"
+      "高等数学",
+      "导数与极值"
     ],
     "noteType": "memory",
-    "wrongReason": "",
+    "wrongReason": null,
     "intent": {
-      "isQuestion": false,
+      "isQuestion": true,
       "isMistake": false,
       "isGood": false,
       "shouldMemorize": true
     },
-    "cards": [],
+    "cards": [
+      {
+        "sourceKey": "ai:root:0",
+        "kind": "memory",
+        "front": "导数零点定理的内容是什么?",
+        "back": "设f(x)在[a, b]上可导,当f'(a)·f'(b)<0时,在(a, b)内存在ξ使得f'(ξ)=0。",
+        "status": "active"
+      }
+    ],
     "organizationStatus": "confirmed",
     "classificationSource": "ai",
     "flags": {
@@ -62,7 +74,14 @@
       "shouldMemorize": true,
       "needsReview": false
     },
-    "pendingAiOrganization": false
+    "pendingAiOrganization": false,
+    "questionType": null,
+    "reviewStatus": "auto_applied",
+    "decisionRevision": 0,
+    "proposalId": "proposal-49ec2624d53721ffa293",
+    "items": [],
+    "confidence": 0.95,
+    "enrichedAt": "2026-07-23T23:54:06.300Z"
   },
   "naming": {
     "status": "complete",
@@ -82,5 +101,53 @@
     "provider": "qwen",
     "scheduledAt": "every_72_hours"
   },
-  "updatedAt": "2026-07-23T12:01:50.133Z"
+  "updatedAt": "2026-07-23T12:01:50.133Z",
+  "questionType": null,
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "背诵",
+      "导数",
+      "极值",
+      "证明题"
+    ]
+  },
+  "items": [],
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": "kp_866ba69c-e937-4b9b-af81-696e7ceaffe9",
+    "knowledgePointName": "导数与极值"
+  },
+  "organizer": {
+    "version": 1,
+    "inputHash": "0159115283eeca1ff34c106d36ff64f98bcfdcedd71bfd2f070cf0f71a14319f",
+    "analyzerVersion": "note-ai-analyzer-v3",
+    "status": "organized",
+    "processedAt": "2026-07-23T23:54:06.300Z",
+    "confidence": 0.95,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "根据图片内容和备注‘背’‘可以稍微记记 留个印象’,判断为需要记忆的核心定理。科目归类为‘高等数学’下的‘导数与极值’知识点,语义清晰,置信度高。",
+    "summary": "该定理指出,若函数f(x)在闭区间[a, b]上连续且可导,且其在a和b处的导数值符号相反(即f'(a)·f'(b)<0),则在开区间(a, b)内至少存在一点ξ,使得f'(ξ)=0。这是判断函数极值点的重要依据。",
+    "questionType": null,
+    "wrongReason": null,
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": true,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": true
+    },
+    "items": [],
+    "subjectPolicy": {
+      "requested": "高等数学",
+      "resolved": "高等数学",
+      "reason": "direct"
+    },
+    "proposed": null,
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-23T23:54:06.350Z"
+  }
 }

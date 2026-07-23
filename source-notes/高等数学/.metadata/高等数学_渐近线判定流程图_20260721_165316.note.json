@@ -37,19 +37,34 @@
     "subject": "高等数学",
     "pageRefs": [],
     "questions": [],
-    "tags": [],
-    "knowledgePath": [
-      "高等数学"
+    "tags": [
+      "渐近线",
+      "极限",
+      "函数图像",
+      "判定流程",
+      "背诵"
     ],
-    "noteType": "note",
-    "wrongReason": "",
+    "knowledgePath": [
+      "高等数学",
+      "函数图像与渐近线分析"
+    ],
+    "noteType": "memory",
+    "wrongReason": null,
     "intent": {
       "isQuestion": false,
       "isMistake": false,
       "isGood": false,
-      "shouldMemorize": false
+      "shouldMemorize": true
     },
-    "cards": [],
+    "cards": [
+      {
+        "sourceKey": "ai:root:0",
+        "kind": "memory",
+        "front": "如何判断函数在x→∞方向是否有渐近线?",
+        "back": "1. 水平渐近线:若lim(x→∞)f(x)=A(常数),则存在水平渐近线y=A; 2. 铅直渐近线:若lim(x→x0)f(x)=∞,则存在铅直渐近线x=x0; 3. 斜渐近线:若lim(x→∞)f(x)/x=a(非零常数),且b=lim(x→∞)[f(x)-ax]存在,则存在斜渐近线y=ax+b; 4. 无斜渐近线:若上述条件不满足,则无斜渐近线。",
+        "status": "active"
+      }
+    ],
     "organizationStatus": "confirmed",
     "classificationSource": "ai",
     "flags": {
@@ -58,7 +73,14 @@
       "shouldMemorize": false,
       "needsReview": false
     },
-    "pendingAiOrganization": false
+    "pendingAiOrganization": false,
+    "questionType": null,
+    "reviewStatus": "auto_applied",
+    "decisionRevision": 0,
+    "proposalId": "proposal-717c234de55ee3d626fa",
+    "items": [],
+    "confidence": 0.95,
+    "enrichedAt": "2026-07-23T23:54:48.684Z"
   },
   "naming": {
     "status": "complete",
@@ -83,8 +105,49 @@
     "version": 1,
     "inputHash": "9a400bf56b84f7ab961ad762e76071b7899be8f619227adf6e1adea40e6392b7",
     "analyzerVersion": "note-ai-analyzer-v3",
-    "status": "failed",
-    "attemptedAt": "2026-07-23T12:10:44.898Z",
-    "error": "所有可用 AI 均调用失败（gemini/gemini-3.5-flash：AI 网络请求失败）"
+    "status": "organized",
+    "processedAt": "2026-07-23T23:54:48.684Z",
+    "confidence": 0.95,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容为高等数学中关于渐近线判定的标准流程图,明确属于‘函数图像与渐近线分析’知识点。备注‘找渐进性的流程’进一步确认了其主题。流程图结构清晰,包含极限计算和参数求解,是需要记忆的核心知识,因此标记为值得记忆。",
+    "summary": "该流程图系统性地展示了判断函数y=f(x)在x→∞方向是否存在水平、铅直、斜渐近线的完整步骤,包括极限计算和参数求解,是高等数学中函数图像分析的重要工具。",
+    "questionType": null,
+    "wrongReason": null,
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": true
+    },
+    "items": [],
+    "subjectPolicy": {
+      "requested": "高等数学",
+      "resolved": "高等数学",
+      "reason": "direct"
+    },
+    "proposed": null,
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-23T23:54:48.726Z"
+  },
+  "questionType": null,
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "渐近线",
+      "极限",
+      "函数图像",
+      "判定流程",
+      "背诵"
+    ]
+  },
+  "items": [],
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": "kp_34bba9b5-24f1-4e0e-ba42-9e1afeef9e7f",
+    "knowledgePointName": "函数图像与渐近线分析"
   }
 }

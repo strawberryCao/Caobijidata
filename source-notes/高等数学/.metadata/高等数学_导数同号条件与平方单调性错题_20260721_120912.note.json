@@ -5,7 +5,7 @@
   "kind": "single",
   "subject": "高等数学",
   "requestedSubject": "默认文件夹",
-  "title": "导数同号条件与平方单调性错题",
+  "title": "导数同号条件与平方单调性",
   "remark": "p143 5.1 错题 不会  能力不足\n1.对条件的变化能力不足",
   "createdAt": "2026-07-21T04:09:12.060Z",
   "captureDate": "2026-07-21",
@@ -43,7 +43,7 @@
   "learning": {
     "noteUid": "5780ccbf-7260-49ea-b32f-95b190b63210",
     "capturedDate": "2026-07-21",
-    "title": "导数同号条件与平方单调性错题",
+    "title": "导数同号条件与平方单调性",
     "subject": "高等数学",
     "pageRefs": [
       {
@@ -53,20 +53,52 @@
     ],
     "questions": [],
     "tags": [
-      "错题"
+      "错题",
+      "导数",
+      "单调性",
+      "函数性质",
+      "题型:选择题",
+      "错因:对条件f(x)f'(x)>0的理解不足,未能准确推导出函数在区间上的单调性"
     ],
     "knowledgePath": [
-      "高等数学"
+      "高等数学",
+      "导数与单调性"
     ],
     "noteType": "mistake",
-    "wrongReason": "",
+    "wrongReason": "对条件f(x)f'(x)>0的理解不足,未能准确推导出函数在区间上的单调性变化规律。",
     "intent": {
-      "isQuestion": false,
+      "isQuestion": true,
       "isMistake": true,
       "isGood": false,
       "shouldMemorize": false
     },
-    "cards": [],
+    "cards": [
+      {
+        "sourceKey": "remark-mistake:0",
+        "kind": "mistake",
+        "front": "重做：导数同号条件与平方单调性",
+        "back": "对条件f(x)f'(x)>0的理解不足,未能准确推导出函数在区间上的单调性变化规律。",
+        "status": "active",
+        "knowledgePath": [
+          "高等数学",
+          "导数与单调性"
+        ],
+        "tags": [
+          "错题",
+          "导数",
+          "单调性",
+          "函数性质",
+          "题型:选择题",
+          "错因:对条件f(x)f'(x)>0的理解不足,未能准确推导出函数在区间上的单调性"
+        ],
+        "pageRefs": [
+          {
+            "raw": "p143",
+            "page": 143
+          }
+        ]
+      }
+    ],
     "organizationStatus": "confirmed",
     "classificationSource": "ai",
     "flags": {
@@ -75,7 +107,32 @@
       "shouldMemorize": false,
       "needsReview": false
     },
-    "pendingAiOrganization": false
+    "pendingAiOrganization": false,
+    "questionType": "选择题",
+    "reviewStatus": "auto_applied",
+    "decisionRevision": 0,
+    "proposalId": "proposal-503af9c328743448962d",
+    "items": [
+      {
+        "title": "导数同号条件分析",
+        "knowledgePoint": "导数与单调性",
+        "questionType": "选择题",
+        "summary": "题目给出f(x)f'(x)>0的条件,要求判断f(1)与f(-1)的大小关系。正确理解该条件是解题的关键。",
+        "tags": [
+          "导数符号",
+          "单调性判定"
+        ],
+        "wrongReason": "未能从条件f(x)f'(x)>0中推导出函数在区间[-1,1]上单调递增的结论。",
+        "intent": {
+          "isQuestion": true,
+          "isMistake": true,
+          "isGood": false,
+          "shouldMemorize": false
+        }
+      }
+    ],
+    "confidence": 0.95,
+    "enrichedAt": "2026-07-23T23:54:11.770Z"
   },
   "naming": {
     "status": "complete",
@@ -100,8 +157,85 @@
     "version": 1,
     "inputHash": "27e9c6a1261c5d7593b970cdf889f2bd6abcfa74ba25e6908c13589b943cb12b",
     "analyzerVersion": "note-ai-analyzer-v3",
-    "status": "failed",
-    "attemptedAt": "2026-07-23T12:04:09.382Z",
-    "error": "所有可用 AI 均调用失败（gemini/gemini-3.5-flash：AI 网络请求失败）"
+    "status": "organized",
+    "processedAt": "2026-07-23T23:54:11.770Z",
+    "confidence": 0.95,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容清晰,明确为高等数学中的导数与单调性问题,用户备注也确认为错题,符合分类规则。",
+    "summary": "本题考查导数符号与函数单调性的关系,特别是通过分析f(x)f'(x)>0的条件来判断函数值大小。解题关键在于理解导数的正负如何影响函数的增减性。",
+    "questionType": "选择题",
+    "wrongReason": "对条件f(x)f'(x)>0的理解不足,未能准确推导出函数在区间上的单调性变化规律。",
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": true,
+      "isMistake": true,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "items": [
+      {
+        "title": "导数同号条件分析",
+        "knowledgePoint": "导数与单调性",
+        "questionType": "选择题",
+        "summary": "题目给出f(x)f'(x)>0的条件,要求判断f(1)与f(-1)的大小关系。正确理解该条件是解题的关键。",
+        "tags": [
+          "导数符号",
+          "单调性判定"
+        ],
+        "wrongReason": "未能从条件f(x)f'(x)>0中推导出函数在区间[-1,1]上单调递增的结论。",
+        "intent": {
+          "isQuestion": true,
+          "isMistake": true,
+          "isGood": false,
+          "shouldMemorize": false
+        }
+      }
+    ],
+    "subjectPolicy": {
+      "requested": "高等数学",
+      "resolved": "高等数学",
+      "reason": "direct"
+    },
+    "proposed": null,
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-23T23:54:11.944Z"
+  },
+  "questionType": "选择题",
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "错题",
+      "导数",
+      "单调性",
+      "函数性质",
+      "题型:选择题"
+    ]
+  },
+  "items": [
+    {
+      "title": "导数同号条件分析",
+      "knowledgePoint": "导数与单调性",
+      "questionType": "选择题",
+      "summary": "题目给出f(x)f'(x)>0的条件,要求判断f(1)与f(-1)的大小关系。正确理解该条件是解题的关键。",
+      "tags": [
+        "导数符号",
+        "单调性判定"
+      ],
+      "wrongReason": "未能从条件f(x)f'(x)>0中推导出函数在区间[-1,1]上单调递增的结论。",
+      "intent": {
+        "isQuestion": true,
+        "isMistake": true,
+        "isGood": false,
+        "shouldMemorize": false
+      }
+    }
+  ],
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": "kp_885d0388-7aa6-4c5b-b507-8663c335e916",
+    "knowledgePointName": "导数与单调性"
   }
 }

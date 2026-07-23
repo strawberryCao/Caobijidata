@@ -55,20 +55,30 @@
       "5.10"
     ],
     "tags": [
-      "错题"
+      "错题",
+      "题型:证明题"
     ],
     "knowledgePath": [
       "高等数学"
     ],
     "noteType": "mistake",
-    "wrongReason": "",
+    "wrongReason": null,
     "intent": {
       "isQuestion": true,
       "isMistake": true,
       "isGood": false,
       "shouldMemorize": false
     },
-    "cards": [],
+    "cards": [
+      {
+        "sourceKey": "ai:0:0",
+        "kind": "mistake",
+        "front": "数列{√n}的最大项如何求解?",
+        "back": "由于数列{√n}是离散的,不能直接使用连续函数的方法(如求导)。正确的做法是:1. 比较相邻项a_n和a_{n+1}的大小;2. 利用数列的单调性分析;3. 确定最大项的位置。",
+        "status": "active",
+        "itemIndex": 0
+      }
+    ],
     "organizationStatus": "confirmed",
     "classificationSource": "manual",
     "flags": {
@@ -78,7 +88,30 @@
       "needsReview": false
     },
     "pendingAiOrganization": false,
-    "questionType": ""
+    "questionType": null,
+    "reviewStatus": "corrected",
+    "decisionRevision": 1,
+    "proposalId": "proposal-994ed2cc223886dd8d2d",
+    "items": [
+      {
+        "title": "数列{√n}最大项求解",
+        "knowledgePoint": "数列与极限",
+        "questionType": "证明题",
+        "summary": "题目要求求解数列{√n}的最大项。正确解法应基于数列的离散特性,通过比较相邻项或利用数列的单调性来确定最大项,而非使用连续函数的方法。",
+        "tags": [
+          "错题"
+        ],
+        "wrongReason": "错误地将数列问题转化为连续函数问题,试图通过求导或研究f(x)的最值来解决,忽略了数列的离散性质。",
+        "intent": {
+          "isQuestion": true,
+          "isMistake": true,
+          "isGood": false,
+          "shouldMemorize": false
+        }
+      }
+    ],
+    "confidence": 0.95,
+    "enrichedAt": "2026-07-23T23:58:17.710Z"
   },
   "naming": {
     "status": "complete",
@@ -108,12 +141,77 @@
     "correctedAt": "2026-07-21T13:50:27.858Z"
   },
   "organizer": {
-    "status": "failed",
-    "proposed": null,
     "version": 1,
     "inputHash": "cb733c4089d122fe051f01e2d776c6264ce62235b1334c373c4cca882e34c9ac",
     "analyzerVersion": "note-ai-analyzer-v3",
-    "attemptedAt": "2026-07-23T12:16:23.349Z",
-    "error": "所有可用 AI 均调用失败（gemini/gemini-3.5-flash：AI 网络请求失败）"
-  }
+    "status": "organized",
+    "processedAt": "2026-07-23T23:58:17.710Z",
+    "confidence": 0.95,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容明确为高等数学中的数列问题,用户备注和手写分析清晰表明这是一道错题,且错误原因在于方法选择不当。卡片设计聚焦于纠正错误方法并提供正确思路。",
+    "summary": "该题要求求解数列{√n}的最大项。原解法错误地尝试通过研究函数f(x)的最值或比较相邻两项来判断,但未正确应用数列极限的定义,导致过程无意义。",
+    "questionType": "证明题",
+    "wrongReason": "错误地使用了连续函数的方法(如求导、研究f(x)的最值)来处理离散数列问题,且未能正确理解数列极限的定义,导致解题过程缺乏依据。",
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": true,
+      "isMistake": true,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "items": [
+      {
+        "title": "数列{√n}最大项求解",
+        "knowledgePoint": "数列与极限",
+        "questionType": "证明题",
+        "summary": "题目要求求解数列{√n}的最大项。正确解法应基于数列的离散特性,通过比较相邻项或利用数列的单调性来确定最大项,而非使用连续函数的方法。",
+        "tags": [
+          "错题"
+        ],
+        "wrongReason": "错误地将数列问题转化为连续函数问题,试图通过求导或研究f(x)的最值来解决,忽略了数列的离散性质。",
+        "intent": {
+          "isQuestion": true,
+          "isMistake": true,
+          "isGood": false,
+          "shouldMemorize": false
+        }
+      }
+    ],
+    "subjectPolicy": {
+      "requested": "高等数学",
+      "resolved": "高等数学",
+      "reason": "corrected"
+    },
+    "proposed": null,
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-23T23:58:17.751Z"
+  },
+  "questionType": "证明题",
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "错题",
+      "题型:证明题"
+    ]
+  },
+  "items": [
+    {
+      "title": "数列{√n}最大项求解",
+      "knowledgePoint": "数列与极限",
+      "questionType": "证明题",
+      "summary": "题目要求求解数列{√n}的最大项。正确解法应基于数列的离散特性,通过比较相邻项或利用数列的单调性来确定最大项,而非使用连续函数的方法。",
+      "tags": [
+        "错题"
+      ],
+      "wrongReason": "错误地将数列问题转化为连续函数问题,试图通过求导或研究f(x)的最值来解决,忽略了数列的离散性质。",
+      "intent": {
+        "isQuestion": true,
+        "isMistake": true,
+        "isGood": false,
+        "shouldMemorize": false
+      }
+    }
+  ]
 }

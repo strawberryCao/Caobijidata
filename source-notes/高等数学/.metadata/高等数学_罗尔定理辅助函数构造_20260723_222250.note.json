@@ -40,20 +40,44 @@
     "pageRefs": [],
     "questions": [],
     "tags": [
-      "错题"
+      "错题",
+      "证明题",
+      "罗尔定理",
+      "辅助函数构造",
+      "背诵",
+      "题型:证明题",
+      "错因:无法正确构造辅助函数以应用罗尔定理,对中值定理的应用不熟练。"
     ],
     "knowledgePath": [
-      "高等数学"
+      "高等数学",
+      "中值定理辅助函数构造"
     ],
     "noteType": "mistake",
-    "wrongReason": "",
+    "wrongReason": "无法正确构造辅助函数以应用罗尔定理,对中值定理的应用不熟练。",
     "intent": {
-      "isQuestion": false,
+      "isQuestion": true,
       "isMistake": true,
       "isGood": false,
-      "shouldMemorize": false
+      "shouldMemorize": true
     },
-    "cards": [],
+    "cards": [
+      {
+        "sourceKey": "ai:0:0",
+        "kind": "mistake",
+        "front": "如何利用罗尔定理证明存在ξ∈(a,b)使得f(ξ)=((b-ξ)/a)f'(ξ)?",
+        "back": "构造辅助函数F(x)=(b-x)/a * f(x),验证F(x)满足罗尔定理条件:连续、可导且端点值相等,从而存在ξ∈(a,b)使得F'(ξ)=0,即原式成立。",
+        "status": "active",
+        "itemIndex": 0
+      },
+      {
+        "sourceKey": "ai:0:1",
+        "kind": "mistake",
+        "front": "中值定理辅助函数构造的关键步骤是什么?",
+        "back": "关键在于根据结论形式构造合适的辅助函数,使其导数与原问题相关,并满足罗尔定理或拉格朗日中值定理的条件。",
+        "status": "active",
+        "itemIndex": 0
+      }
+    ],
     "organizationStatus": "confirmed",
     "classificationSource": "ai",
     "flags": {
@@ -62,7 +86,33 @@
       "shouldMemorize": false,
       "needsReview": false
     },
-    "pendingAiOrganization": false
+    "pendingAiOrganization": false,
+    "questionType": "证明题",
+    "reviewStatus": "auto_applied",
+    "decisionRevision": 0,
+    "proposalId": "proposal-2a7fedfe072a1f5fcee5",
+    "items": [
+      {
+        "title": "罗尔定理辅助函数构造",
+        "knowledgePoint": "中值定理辅助函数构造",
+        "questionType": "证明题",
+        "summary": "设f(x)在[a,b]上连续,(a,b)内可导,f(a)=0,a>0。证明存在ξ∈(a,b),使得f(ξ)=((b-ξ)/a)f'(ξ)。",
+        "tags": [
+          "证明题",
+          "罗尔定理",
+          "辅助函数构造"
+        ],
+        "wrongReason": "无法正确构造辅助函数以应用罗尔定理,对中值定理的应用不熟练。",
+        "intent": {
+          "isQuestion": true,
+          "isMistake": true,
+          "isGood": false,
+          "shouldMemorize": true
+        }
+      }
+    ],
+    "confidence": 0.95,
+    "enrichedAt": "2026-07-23T23:55:27.697Z"
   },
   "naming": {
     "status": "complete",
@@ -82,5 +132,93 @@
     "provider": "qwen",
     "scheduledAt": "every_72_hours"
   },
-  "updatedAt": "2026-07-23T14:22:54.790Z"
+  "updatedAt": "2026-07-23T14:22:54.790Z",
+  "questionType": "证明题",
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "错题",
+      "证明题",
+      "罗尔定理",
+      "辅助函数构造",
+      "背诵",
+      "题型:证明题"
+    ]
+  },
+  "items": [
+    {
+      "title": "罗尔定理辅助函数构造",
+      "knowledgePoint": "中值定理辅助函数构造",
+      "questionType": "证明题",
+      "summary": "设f(x)在[a,b]上连续,(a,b)内可导,f(a)=0,a>0。证明存在ξ∈(a,b),使得f(ξ)=((b-ξ)/a)f'(ξ)。",
+      "tags": [
+        "证明题",
+        "罗尔定理",
+        "辅助函数构造"
+      ],
+      "wrongReason": "无法正确构造辅助函数以应用罗尔定理,对中值定理的应用不熟练。",
+      "intent": {
+        "isQuestion": true,
+        "isMistake": true,
+        "isGood": false,
+        "shouldMemorize": true
+      }
+    }
+  ],
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": "kp_b1c6b018-e9f2-4b85-bed0-30600cfa46d4",
+    "knowledgePointName": "中值定理辅助函数构造"
+  },
+  "organizer": {
+    "version": 1,
+    "inputHash": "de18215604854cc4a976e6aad630fe56b5ca07141176cc44c0fa2d5600c73d87",
+    "analyzerVersion": "note-ai-analyzer-v3",
+    "status": "organized",
+    "processedAt": "2026-07-23T23:55:27.697Z",
+    "confidence": 0.95,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容清晰,明确为高等数学中的证明题,与备注信息一致,科目判断可靠。题目类型、错因分析和记忆意图均能准确提取。",
+    "summary": "本题为高等数学中的证明题,要求利用罗尔定理证明存在ξ∈(a,b),使得f(ξ)=((b-ξ)/a)f'(ξ)。题目涉及连续性、可导性条件及辅助函数的构造技巧。",
+    "questionType": "证明题",
+    "wrongReason": "无法正确构造辅助函数以应用罗尔定理,对中值定理的应用不熟练。",
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": true,
+      "isMistake": true,
+      "isGood": false,
+      "shouldMemorize": true
+    },
+    "items": [
+      {
+        "title": "罗尔定理辅助函数构造",
+        "knowledgePoint": "中值定理辅助函数构造",
+        "questionType": "证明题",
+        "summary": "设f(x)在[a,b]上连续,(a,b)内可导,f(a)=0,a>0。证明存在ξ∈(a,b),使得f(ξ)=((b-ξ)/a)f'(ξ)。",
+        "tags": [
+          "证明题",
+          "罗尔定理",
+          "辅助函数构造"
+        ],
+        "wrongReason": "无法正确构造辅助函数以应用罗尔定理,对中值定理的应用不熟练。",
+        "intent": {
+          "isQuestion": true,
+          "isMistake": true,
+          "isGood": false,
+          "shouldMemorize": true
+        }
+      }
+    ],
+    "subjectPolicy": {
+      "requested": "高等数学",
+      "resolved": "高等数学",
+      "reason": "direct"
+    },
+    "proposed": null,
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-23T23:55:27.756Z"
+  }
 }
