@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "revision": 5,
-  "updatedAt": "2026-07-23T13:43:51.194Z",
+  "revision": 6,
+  "updatedAt": "2026-07-23T13:44:18.607Z",
   "projects": [
     {
       "id": "document_3f3f5ebe-cc4f-41bd-aebd-94ddebd86dc1",
       "title": "未命名画布",
       "createdAt": "2026-07-23T09:43:27.634Z",
-      "updatedAt": "2026-07-23T13:43:51.194Z",
+      "updatedAt": "2026-07-23T13:44:18.607Z",
       "imageCount": 0,
       "textCount": 0,
       "annotationCount": 0,
       "anchorCount": 0,
       "relationCount": 0,
-      "strokeCount": 3,
-      "syncRevision": 4
+      "strokeCount": 4,
+      "syncRevision": 5
     },
     {
       "id": "document_b556dd41-e388-45aa-80f2-db83c8fd5992",
