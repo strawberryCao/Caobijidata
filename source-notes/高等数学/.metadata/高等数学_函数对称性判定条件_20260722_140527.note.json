@@ -40,13 +40,17 @@
     "pageRefs": [],
     "questions": [],
     "tags": [
-      "背诵"
+      "背诵",
+      "对称性",
+      "函数性质",
+      "考研数学"
     ],
     "knowledgePath": [
-      "高等数学"
+      "高等数学",
+      "函数对称性"
     ],
     "noteType": "memory",
-    "wrongReason": "",
+    "wrongReason": null,
     "intent": {
       "isQuestion": false,
       "isMistake": false,
@@ -55,18 +59,18 @@
     },
     "cards": [
       {
-        "sourceKey": "remark-memory:0",
+        "sourceKey": "ai:root:0",
         "kind": "memory",
-        "front": "记_图像对称",
-        "back": "记 图像对称",
-        "status": "active",
-        "knowledgePath": [
-          "数据结构"
-        ],
-        "tags": [
-          "背诵"
-        ],
-        "pageRefs": []
+        "front": "函数f(x)关于y轴对称的条件是什么?",
+        "back": "若F(x, y) = F(-x, y),则y=f(x)关于y轴对称。",
+        "status": "active"
+      },
+      {
+        "sourceKey": "ai:root:1",
+        "kind": "memory",
+        "front": "函数f(x)关于x轴对称的条件是什么?",
+        "back": "若F(x, y) = F(x, -y),则y=f(x)关于x轴对称。",
+        "status": "active"
       }
     ],
     "organizationStatus": "confirmed",
@@ -77,7 +81,14 @@
       "shouldMemorize": true,
       "needsReview": false
     },
-    "pendingAiOrganization": false
+    "pendingAiOrganization": false,
+    "questionType": null,
+    "reviewStatus": "auto_applied",
+    "decisionRevision": 0,
+    "proposalId": "proposal-3ce227811362f79c577b",
+    "items": [],
+    "confidence": 0.95,
+    "enrichedAt": "2026-07-23T12:04:25.367Z"
   },
   "naming": {
     "status": "complete",
@@ -97,5 +108,53 @@
     "provider": "qwen",
     "scheduledAt": "every_72_hours"
   },
-  "updatedAt": "2026-07-22T06:05:30.853Z"
+  "updatedAt": "2026-07-22T06:05:30.853Z",
+  "questionType": null,
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "背诵",
+      "对称性",
+      "函数性质",
+      "考研数学"
+    ]
+  },
+  "items": [],
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": "kp_7d1def75-a039-43b0-9886-1307c8011660",
+    "knowledgePointName": "函数对称性"
+  },
+  "organizer": {
+    "version": 1,
+    "inputHash": "95c879f138954044317260758e0ee8a6b92c1e2690f454acc772836d603b9ca8",
+    "analyzerVersion": "note-ai-analyzer-v3",
+    "status": "organized",
+    "processedAt": "2026-07-23T12:04:25.367Z",
+    "confidence": 0.95,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "根据图片内容和备注'记 图像对称',明确为高等数学中函数对称性的知识点。备注中的'背诵'标签进一步确认了该内容需要记忆。图像清晰,主题单一,分类可靠。",
+    "summary": "本笔记总结了函数关于不同轴、点的对称性判定条件,包括y轴、x轴、原点及任意点对称的情况,通过函数表达式F(x,y)的形式判断。",
+    "questionType": null,
+    "wrongReason": null,
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": true
+    },
+    "items": [],
+    "subjectPolicy": {
+      "requested": "高等数学",
+      "resolved": "高等数学",
+      "reason": "direct"
+    },
+    "proposed": null,
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-23T12:04:25.392Z"
+  }
 }

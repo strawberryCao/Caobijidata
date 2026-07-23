@@ -5,7 +5,7 @@
   "kind": "single",
   "subject": "高等数学",
   "requestedSubject": "默认文件夹",
-  "title": "极值点与拐点判断",
+  "title": "函数极值点与拐点判断",
   "remark": "5.6 好题 帮助记忆极值点和拐点的判断\n比较综合",
   "createdAt": "2026-07-21T07:42:41.383Z",
   "captureDate": "2026-07-21",
@@ -35,21 +35,23 @@
   "learning": {
     "noteUid": "40d29f03-3440-4e89-bdc0-65630c05d072",
     "capturedDate": "2026-07-21",
-    "title": "极值点与拐点判断",
+    "title": "函数极值点与拐点判断",
     "subject": "高等数学",
     "pageRefs": [],
     "questions": [],
     "tags": [
       "经典",
-      "好题"
+      "考研真题",
+      "题型:选择题"
     ],
     "knowledgePath": [
-      "高等数学"
+      "高等数学",
+      "极值点与拐点"
     ],
-    "noteType": "note",
-    "wrongReason": "",
+    "noteType": "question",
+    "wrongReason": null,
     "intent": {
-      "isQuestion": false,
+      "isQuestion": true,
       "isMistake": false,
       "isGood": true,
       "shouldMemorize": false
@@ -63,7 +65,32 @@
       "shouldMemorize": false,
       "needsReview": false
     },
-    "pendingAiOrganization": false
+    "pendingAiOrganization": false,
+    "questionType": "选择题",
+    "reviewStatus": "auto_applied",
+    "decisionRevision": 0,
+    "proposalId": "proposal-279767a7fc6cbfa2a868",
+    "items": [
+      {
+        "title": "函数极值与拐点分析",
+        "knowledgePoint": "极值点与拐点",
+        "questionType": "选择题",
+        "summary": "设函数 y = xe^(-x),分析其在 x=0 处的极值性质(极大值点或极小值点)以及点 (0,0) 是否为曲线的拐点。",
+        "tags": [
+          "经典",
+          "考研真题"
+        ],
+        "wrongReason": null,
+        "intent": {
+          "isQuestion": true,
+          "isMistake": false,
+          "isGood": true,
+          "shouldMemorize": false
+        }
+      }
+    ],
+    "confidence": 0.95,
+    "enrichedAt": "2026-07-23T12:08:23.399Z"
   },
   "naming": {
     "status": "complete",
@@ -83,5 +110,88 @@
     "provider": "qwen",
     "scheduledAt": "every_72_hours"
   },
-  "updatedAt": "2026-07-21T07:42:44.337Z"
+  "updatedAt": "2026-07-21T07:42:44.337Z",
+  "questionType": "选择题",
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "经典",
+      "考研真题",
+      "题型:选择题"
+    ]
+  },
+  "items": [
+    {
+      "title": "函数极值与拐点分析",
+      "knowledgePoint": "极值点与拐点",
+      "questionType": "选择题",
+      "summary": "设函数 y = xe^(-x),分析其在 x=0 处的极值性质(极大值点或极小值点)以及点 (0,0) 是否为曲线的拐点。",
+      "tags": [
+        "经典",
+        "考研真题"
+      ],
+      "wrongReason": null,
+      "intent": {
+        "isQuestion": true,
+        "isMistake": false,
+        "isGood": true,
+        "shouldMemorize": false
+      }
+    }
+  ],
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": "kp_9f383317-bb4d-45fe-b2b3-ae46f85bd718",
+    "knowledgePointName": "极值点与拐点"
+  },
+  "organizer": {
+    "version": 1,
+    "inputHash": "b2db7de5ccde9719b038caaeb787470755a95d2d7a8674c385f6b4cde2df54d7",
+    "analyzerVersion": "note-ai-analyzer-v3",
+    "status": "organized",
+    "processedAt": "2026-07-23T12:08:23.399Z",
+    "confidence": 0.95,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "根据图片内容和备注信息,该题目属于高等数学中的极值点与拐点判断,是典型的考研真题。备注中明确标注为‘好题’,有助于记忆极值点和拐点的判断方法,因此归类为‘高等数学’科目下的‘极值点与拐点’知识点。",
+    "summary": "本题考查函数在某点的极值性质及曲线拐点的判定。通过分析函数 y = xe^(-x) 在 x=0 处的一阶导数和二阶导数符号,判断其是否为极大值点或极小值点,并进一步判断 (0,0) 是否为曲线的拐点。",
+    "questionType": "选择题",
+    "wrongReason": null,
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": true,
+      "isMistake": false,
+      "isGood": true,
+      "shouldMemorize": false
+    },
+    "items": [
+      {
+        "title": "函数极值与拐点分析",
+        "knowledgePoint": "极值点与拐点",
+        "questionType": "选择题",
+        "summary": "设函数 y = xe^(-x),分析其在 x=0 处的极值性质(极大值点或极小值点)以及点 (0,0) 是否为曲线的拐点。",
+        "tags": [
+          "经典",
+          "考研真题"
+        ],
+        "wrongReason": null,
+        "intent": {
+          "isQuestion": true,
+          "isMistake": false,
+          "isGood": true,
+          "shouldMemorize": false
+        }
+      }
+    ],
+    "subjectPolicy": {
+      "requested": "高等数学",
+      "resolved": "高等数学",
+      "reason": "direct"
+    },
+    "proposed": null,
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-23T12:08:23.423Z"
+  }
 }
