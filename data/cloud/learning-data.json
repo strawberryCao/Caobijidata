@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 5,
-  "updatedAt": "2026-07-23T12:15:04.728Z",
+  "revision": 6,
+  "updatedAt": "2026-07-23T12:24:23.404Z",
   "days": {
     "2026-07-21": {
       "manual": {
@@ -3673,6 +3673,48 @@
           "studyNotes": [],
           "confidence": 0.95,
           "cardIds": []
+        },
+        {
+          "noteUid": "legacy-bfe8f8e74b1210a9cbd63bde",
+          "capturedDate": "2026-07-08",
+          "title": "脂肪最怕的食物",
+          "subject": "默认文件夹",
+          "remark": "测试",
+          "createdAt": "2026-07-08T06:50:34.841Z",
+          "updatedAt": "2026-07-08T06:50:34.841Z",
+          "firstSyncedAt": "2026-07-23T12:24:23.401Z",
+          "filePath": "github://data/assets/legacy-bfe8f8e74b1210a9cbd63bde.png",
+          "pageRefs": [],
+          "tags": [
+            "健康",
+            "饮食",
+            "减肥"
+          ],
+          "knowledgePath": [
+            "默认文件夹"
+          ],
+          "noteType": "note",
+          "questionType": "",
+          "wrongReason": "",
+          "wrongReasonSource": "",
+          "wrongReasonConfidence": null,
+          "organizationStatus": "pending",
+          "classificationSource": "ai",
+          "reviewStatus": "pending",
+          "decisionRevision": 0,
+          "lastReviewOperationId": "",
+          "lastReviewAction": "",
+          "proposalId": "",
+          "reviewedAt": "",
+          "manualCreated": false,
+          "userEditedFields": [
+            "remark"
+          ],
+          "goodQuestion": false,
+          "items": [],
+          "studyNotes": [],
+          "confidence": 0.1,
+          "cardIds": []
         }
       ]
     },
@@ -4384,6 +4426,42 @@
             "生活记录",
             "订单信息"
           ],
+          "knowledgePath": [
+            "默认文件夹"
+          ],
+          "noteType": "note",
+          "questionType": "",
+          "wrongReason": "",
+          "wrongReasonSource": "",
+          "wrongReasonConfidence": null,
+          "organizationStatus": "pending",
+          "classificationSource": "ai",
+          "reviewStatus": "pending",
+          "decisionRevision": 0,
+          "lastReviewOperationId": "",
+          "lastReviewAction": "",
+          "proposalId": "",
+          "reviewedAt": "",
+          "manualCreated": false,
+          "userEditedFields": [],
+          "goodQuestion": false,
+          "items": [],
+          "studyNotes": [],
+          "confidence": 0.1,
+          "cardIds": []
+        },
+        {
+          "noteUid": "legacy-4c9397ad70242b0785cb9126",
+          "capturedDate": "2026-07-15",
+          "title": "货车载玻璃板材",
+          "subject": "默认文件夹",
+          "remark": "",
+          "createdAt": "2026-07-15T01:44:48.240Z",
+          "updatedAt": "2026-07-15T01:44:48.240Z",
+          "firstSyncedAt": "2026-07-23T12:24:23.403Z",
+          "filePath": "github://data/assets/legacy-4c9397ad70242b0785cb9126.jpg",
+          "pageRefs": [],
+          "tags": [],
           "knowledgePath": [
             "默认文件夹"
           ],
