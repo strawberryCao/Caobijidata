@@ -10831,5 +10831,173 @@
       "scheduledAt": "every_72_hours"
     },
     "updatedAt": "2026-07-23T12:01:50.133Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "3c0714f0-98b6-4b95-9408-56d69b0d54f6",
+    "id": "高等数学_推广的罗尔定理_20260723_205007",
+    "kind": "single",
+    "subject": "高等数学",
+    "requestedSubject": "默认文件夹",
+    "title": "推广的罗尔定理",
+    "remark": "记",
+    "createdAt": "2026-07-23T12:50:07.554Z",
+    "captureDate": "2026-07-23",
+    "fileName": "高等数学_推广的罗尔定理_20260723_205007.png",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_推广的罗尔定理_20260723_205007.png",
+    "mime": "image/png",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [
+        "背诵"
+      ],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": true,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "3c0714f0-98b6-4b95-9408-56d69b0d54f6",
+      "capturedDate": "2026-07-23",
+      "title": "推广的罗尔定理",
+      "subject": "高等数学",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [
+        "背诵"
+      ],
+      "knowledgePath": [
+        "高等数学"
+      ],
+      "noteType": "memory",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": true
+      },
+      "cards": [],
+      "organizationStatus": "confirmed",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": true,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen3-vl-plus",
+      "reason": "图片明确标注【注1】推广的罗尔定理，并给出其完整数学表述，属于高等数学中微分中值定理的核心内容。",
+      "error": null,
+      "requestedAt": "2026-07-23T12:50:07.554Z",
+      "ruleId": null,
+      "ruleName": null,
+      "ruleValue": null,
+      "ruleEvidence": null,
+      "completedAt": "2026-07-23T12:50:10.588Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-23T12:50:10.588Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "9909126c-93ed-4f31-bdb3-083128ef6466",
+    "id": "高等数学_罗尔定理逆运算与辅助函数构造_20260723_205353",
+    "kind": "single",
+    "subject": "高等数学",
+    "requestedSubject": "默认文件夹",
+    "title": "罗尔定理逆运算与辅助函数构造",
+    "remark": "逆运算 罗尔",
+    "createdAt": "2026-07-23T12:53:53.869Z",
+    "captureDate": "2026-07-23",
+    "fileName": "高等数学_罗尔定理逆运算与辅助函数构造_20260723_205353.png",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_罗尔定理逆运算与辅助函数构造_20260723_205353.png",
+    "mime": "image/png",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "9909126c-93ed-4f31-bdb3-083128ef6466",
+      "capturedDate": "2026-07-23",
+      "title": "罗尔定理逆运算与辅助函数构造",
+      "subject": "高等数学",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [],
+      "knowledgePath": [
+        "高等数学"
+      ],
+      "noteType": "note",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": false
+      },
+      "cards": [],
+      "organizationStatus": "confirmed",
+      "classificationSource": "ai",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": false,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen3-vl-plus",
+      "reason": "图片明确标注【注2】罗尔定理的使用需构造辅助函数，并给出简单/复杂情形下的构造方法，结合用户备注‘逆运算 罗尔’，核心知识点为罗尔定理相关逆向应用与辅助函数构造。",
+      "error": null,
+      "requestedAt": "2026-07-23T12:53:53.869Z",
+      "ruleId": null,
+      "ruleName": null,
+      "ruleValue": null,
+      "ruleEvidence": null,
+      "completedAt": "2026-07-23T12:53:57.780Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-23T12:53:57.780Z"
   }
 ]
