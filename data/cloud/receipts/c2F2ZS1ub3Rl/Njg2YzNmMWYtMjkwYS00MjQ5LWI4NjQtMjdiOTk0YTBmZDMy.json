@@ -1,0 +1,25 @@
+{
+  "scope": "save-note",
+  "operationId": "686c3f1f-290a-4249-b864-27b994a0fd32",
+  "entityId": "686c3f1f-290a-4249-b864-27b994a0fd32",
+  "requestHash": "fb9beb23635527699e674ad041e1552e1cc1747c30378de7805f3be4bbf973c5",
+  "result": {
+    "ok": true,
+    "noteUid": "686c3f1f-290a-4249-b864-27b994a0fd32",
+    "filePath": "github://data/assets/686c3f1f-290a-4249-b864-27b994a0fd32.jpg",
+    "fileName": "686c3f1f-290a-4249-b864-27b994a0fd32.jpg",
+    "metadata": {
+      "noteUid": "686c3f1f-290a-4249-b864-27b994a0fd32",
+      "learning": {
+        "tags": [],
+        "noteType": "note"
+      }
+    },
+    "learningSyncError": null,
+    "aiStatus": "unavailable",
+    "aiAvailable": false,
+    "provisional": false,
+    "idempotentReplay": false
+  },
+  "createdAt": "2026-07-23T13:05:38.674Z"
+}
