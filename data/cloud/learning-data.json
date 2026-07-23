@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 15,
-  "updatedAt": "2026-07-23T13:35:10.111Z",
+  "revision": 16,
+  "updatedAt": "2026-07-23T13:59:25.685Z",
   "days": {
     "2026-07-21": {
       "manual": {
@@ -4274,6 +4274,44 @@
             "高等数学"
           ],
           "noteType": "memory",
+          "questionType": "",
+          "wrongReason": "",
+          "wrongReasonSource": "",
+          "wrongReasonConfidence": null,
+          "organizationStatus": "confirmed",
+          "classificationSource": "ai",
+          "reviewStatus": "auto_applied",
+          "decisionRevision": 0,
+          "lastReviewOperationId": "",
+          "lastReviewAction": "",
+          "proposalId": "",
+          "reviewedAt": "",
+          "manualCreated": false,
+          "userEditedFields": [
+            "remark"
+          ],
+          "goodQuestion": false,
+          "items": [],
+          "studyNotes": [],
+          "confidence": null,
+          "cardIds": []
+        },
+        {
+          "noteUid": "14c1ac11-609c-4346-828b-9c17d7a75be0",
+          "capturedDate": "2026-07-23",
+          "title": "导数运算法则与积分逆运算",
+          "subject": "高等数学",
+          "remark": "逆运算",
+          "createdAt": "2026-07-23T13:57:12.643Z",
+          "updatedAt": "2026-07-23T13:57:17.710Z",
+          "firstSyncedAt": "2026-07-23T13:59:25.680Z",
+          "filePath": "github://data/assets/14c1ac11-609c-4346-828b-9c17d7a75be0.png",
+          "pageRefs": [],
+          "tags": [],
+          "knowledgePath": [
+            "高等数学"
+          ],
+          "noteType": "canvas",
           "questionType": "",
           "wrongReason": "",
           "wrongReasonSource": "",
