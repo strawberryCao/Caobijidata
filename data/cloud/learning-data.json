@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 16,
-  "updatedAt": "2026-07-23T13:59:25.685Z",
+  "revision": 17,
+  "updatedAt": "2026-07-23T14:24:25.886Z",
   "days": {
     "2026-07-21": {
       "manual": {
@@ -4319,6 +4319,84 @@
           "organizationStatus": "confirmed",
           "classificationSource": "ai",
           "reviewStatus": "auto_applied",
+          "decisionRevision": 0,
+          "lastReviewOperationId": "",
+          "lastReviewAction": "",
+          "proposalId": "",
+          "reviewedAt": "",
+          "manualCreated": false,
+          "userEditedFields": [
+            "remark"
+          ],
+          "goodQuestion": false,
+          "items": [],
+          "studyNotes": [],
+          "confidence": null,
+          "cardIds": []
+        },
+        {
+          "noteUid": "b93fbb51-cd45-47a2-bcf8-7e35c395b54d",
+          "capturedDate": "2026-07-23",
+          "title": "罗尔定理辅助函数构造",
+          "subject": "高等数学",
+          "remark": "错题 难 6.5 真的不会 \n辅助函数构造 罗尔定理",
+          "createdAt": "2026-07-23T14:22:50.112Z",
+          "updatedAt": "2026-07-23T14:22:54.790Z",
+          "firstSyncedAt": "2026-07-23T14:24:25.883Z",
+          "filePath": "github://data/assets/b93fbb51-cd45-47a2-bcf8-7e35c395b54d.png",
+          "pageRefs": [],
+          "tags": [
+            "错题"
+          ],
+          "knowledgePath": [
+            "高等数学"
+          ],
+          "noteType": "mistake",
+          "questionType": "",
+          "wrongReason": "",
+          "wrongReasonSource": "",
+          "wrongReasonConfidence": null,
+          "organizationStatus": "confirmed",
+          "classificationSource": "ai",
+          "reviewStatus": "auto_applied",
+          "decisionRevision": 0,
+          "lastReviewOperationId": "",
+          "lastReviewAction": "",
+          "proposalId": "",
+          "reviewedAt": "",
+          "manualCreated": false,
+          "userEditedFields": [
+            "remark"
+          ],
+          "goodQuestion": false,
+          "items": [],
+          "studyNotes": [],
+          "confidence": null,
+          "cardIds": []
+        },
+        {
+          "noteUid": "8938c556-7e86-47dc-91dc-4dc5be52b752",
+          "capturedDate": "2026-07-23",
+          "title": "罗尔定理_证明区间内存在二阶导为的思路",
+          "subject": "默认文件夹",
+          "remark": "罗尔定理 证明区间内存在二阶导为的思路",
+          "createdAt": "2026-07-23T14:24:07.119Z",
+          "updatedAt": "2026-07-23T14:24:07.119Z",
+          "firstSyncedAt": "2026-07-23T14:24:25.886Z",
+          "filePath": "github://data/assets/8938c556-7e86-47dc-91dc-4dc5be52b752.png",
+          "pageRefs": [],
+          "tags": [],
+          "knowledgePath": [
+            "默认文件夹"
+          ],
+          "noteType": "note",
+          "questionType": "",
+          "wrongReason": "",
+          "wrongReasonSource": "",
+          "wrongReasonConfidence": null,
+          "organizationStatus": "pending",
+          "classificationSource": "ai",
+          "reviewStatus": "pending",
           "decisionRevision": 0,
           "lastReviewOperationId": "",
           "lastReviewAction": "",
