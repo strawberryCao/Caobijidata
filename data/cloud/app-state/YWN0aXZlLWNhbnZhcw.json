@@ -2,11 +2,11 @@
   "key": "active-canvas",
   "value": {
     "type": "active",
-    "projectId": "document_3f3f5ebe-cc4f-41bd-aebd-94ddebd86dc1",
+    "projectId": "document_57a1ea83-416a-4a41-8918-514649fe9efd",
     "sourceClientId": "canvas-84ab94f8-c532-4803-a0f6-ea44cfcc3ee7",
-    "selectionRevision": 4,
-    "selectedAt": "2026-07-23T13:44:54.614Z"
+    "selectionRevision": 5,
+    "selectedAt": "2026-07-23T13:45:21.681Z"
   },
-  "revision": 4,
-  "updatedAt": "2026-07-23T13:44:54.614Z"
+  "revision": 5,
+  "updatedAt": "2026-07-23T13:45:21.681Z"
 }
