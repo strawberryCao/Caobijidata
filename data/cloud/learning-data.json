@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 2,
-  "updatedAt": "2026-07-23T11:54:59.178Z",
+  "revision": 3,
+  "updatedAt": "2026-07-23T12:04:27.524Z",
   "days": {
     "2026-07-21": {
       "manual": {
@@ -4114,6 +4114,46 @@
             "高等数学"
           ],
           "noteType": "mistake",
+          "questionType": "",
+          "wrongReason": "",
+          "wrongReasonSource": "",
+          "wrongReasonConfidence": null,
+          "organizationStatus": "confirmed",
+          "classificationSource": "ai",
+          "reviewStatus": "auto_applied",
+          "decisionRevision": 0,
+          "lastReviewOperationId": "",
+          "lastReviewAction": "",
+          "proposalId": "",
+          "reviewedAt": "",
+          "manualCreated": false,
+          "userEditedFields": [
+            "remark"
+          ],
+          "goodQuestion": false,
+          "items": [],
+          "studyNotes": [],
+          "confidence": null,
+          "cardIds": []
+        },
+        {
+          "noteUid": "13cdc901-f109-49c7-8d7e-0cc500c5c898",
+          "capturedDate": "2026-07-23",
+          "title": "导数零点定理证明",
+          "subject": "高等数学",
+          "remark": "背\n可以稍微记记 留个印象",
+          "createdAt": "2026-07-23T12:01:46.625Z",
+          "updatedAt": "2026-07-23T12:01:50.133Z",
+          "firstSyncedAt": "2026-07-23T12:04:27.519Z",
+          "filePath": "github://data/assets/13cdc901-f109-49c7-8d7e-0cc500c5c898.png",
+          "pageRefs": [],
+          "tags": [
+            "背诵"
+          ],
+          "knowledgePath": [
+            "高等数学"
+          ],
+          "noteType": "memory",
           "questionType": "",
           "wrongReason": "",
           "wrongReasonSource": "",
