@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 3,
-  "updatedAt": "2026-07-23T12:04:27.524Z",
+  "revision": 4,
+  "updatedAt": "2026-07-23T12:12:24.782Z",
   "days": {
     "2026-07-21": {
       "manual": {
@@ -4171,6 +4171,42 @@
             "remark"
           ],
           "goodQuestion": false,
+          "items": [],
+          "studyNotes": [],
+          "confidence": null,
+          "cardIds": []
+        },
+        {
+          "noteUid": "9ccc0118-e95a-4846-a567-eaeaa7e2ba69",
+          "capturedDate": "2026-07-23",
+          "title": "图片笔记",
+          "subject": "默认文件夹",
+          "remark": "",
+          "createdAt": "2026-07-23T12:12:23.038Z",
+          "updatedAt": "2026-07-23T12:12:23.038Z",
+          "firstSyncedAt": "2026-07-23T12:12:23.038Z",
+          "filePath": "github://data/assets/9ccc0118-e95a-4846-a567-eaeaa7e2ba69.png",
+          "pageRefs": [],
+          "tags": [],
+          "knowledgePath": [
+            "默认文件夹"
+          ],
+          "noteType": "note",
+          "questionType": "",
+          "wrongReason": "",
+          "wrongReasonSource": "",
+          "wrongReasonConfidence": null,
+          "organizationStatus": "pending",
+          "classificationSource": "local",
+          "reviewStatus": "pending",
+          "decisionRevision": 0,
+          "lastReviewOperationId": "",
+          "lastReviewAction": "",
+          "proposalId": "",
+          "reviewedAt": "",
+          "manualCreated": false,
+          "userEditedFields": [],
+          "goodQuestion": null,
           "items": [],
           "studyNotes": [],
           "confidence": null,
