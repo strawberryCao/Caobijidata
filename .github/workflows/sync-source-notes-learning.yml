@@ -1,0 +1,73 @@
+name: Sync source notes to learning center
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'source-notes/**'
+      - 'scripts/sync-source-notes-learning.mjs'
+      - '.github/workflows/sync-source-notes-learning.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: source-notes-learning-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out latest data
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Merge source notes into learning data
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          git reset --hard origin/main
+          node scripts/sync-source-notes-learning.mjs | tee "$RUNNER_TEMP/source-note-sync.json"
+
+      - name: Commit durable learning-center update
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- data/cloud/learning-data.json data/assets; then
+            echo 'No new source notes require learning-center changes.'
+            exit 0
+          fi
+          git config user.name 'Kaoyan Source Note Sync'
+          git config user.email 'source-note-sync@users.noreply.github.com'
+          git add data/cloud/learning-data.json data/assets
+          git commit -m 'data: merge source notes into learning center'
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            if (( attempt == 3 )); then
+              echo 'Unable to push learning-center update after 3 attempts.' >&2
+              exit 1
+            fi
+            sleep $((attempt * 3))
+            git fetch origin main
+            git reset --hard origin/main
+            node scripts/sync-source-notes-learning.mjs
+            if git diff --quiet -- data/cloud/learning-data.json data/assets; then
+              echo 'Another writer already applied the same source-note update.'
+              exit 0
+            fi
+            git add data/cloud/learning-data.json data/assets
+            git commit -m 'data: merge source notes into learning center'
+          done
