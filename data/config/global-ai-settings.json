@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": null,
+  "sourceDevice": null,
+  "tasks": {
+    "note_naming": {
+      "enabled": true,
+      "fallback": true,
+      "difficulty": "low",
+      "temperature": 0.15,
+      "timeoutMs": 45000,
+      "customInstructions": "标题必须准确概括考研题目的核心知识点或题型，以中文为主，不要输出英文句子、无意义占位词或解释。",
+      "namingRules": [],
+      "options": {
+        "titleStyle": "knowledge_point",
+        "titleMinLength": 8,
+        "titleMaxLength": 22,
+        "useRemark": true,
+        "preferSpecificSubject": true,
+        "rejectGenericTitle": true,
+        "maxTokens": 900
+      }
+    },
+    "question_splitting": {
+      "enabled": true,
+      "fallback": true,
+      "difficulty": "medium",
+      "temperature": 0.1,
+      "timeoutMs": 90000,
+      "customInstructions": "识别完整题目区域。每道题必须包含题号、完整题干、全部选项以及相关公式、表格和配图；不要把一道题拆成多个区域，也不要合并相邻的独立题目。",
+      "options": {
+        "maxQuestions": 24,
+        "includeQuestionNumber": true,
+        "includeOptions": true,
+        "includeDiagram": true,
+        "edgePaddingPercent": 1.2,
+        "minimumRegionPercent": 3.5,
+        "maxTokens": 1600
+      }
+    }
+  },
+  "routing": {
+    "timeoutMs": 90000,
+    "networkRetries": 1,
+    "jsonRepairRetries": 1,
+    "circuitThreshold": 3,
+    "circuitCooldownMs": 60000
+  }
+}
