@@ -40,20 +40,32 @@
     "pageRefs": [],
     "questions": [],
     "tags": [
-      "背诵"
+      "背诵",
+      "中值定理",
+      "导数应用",
+      "函数性质"
     ],
     "knowledgePath": [
-      "高等数学"
+      "高等数学",
+      "中值定理辅助函数构造"
     ],
     "noteType": "memory",
-    "wrongReason": "",
+    "wrongReason": null,
     "intent": {
       "isQuestion": false,
       "isMistake": false,
       "isGood": false,
       "shouldMemorize": true
     },
-    "cards": [],
+    "cards": [
+      {
+        "sourceKey": "ai:root:0",
+        "kind": "memory",
+        "front": "推广的罗尔定理内容是什么?",
+        "back": "设f(x)在(a, b)内可导,且lim(x→a+) f(x) = lim(x→b-) f(x) = A(有限),则在(a, b)内至少存在一点ξ,使f'(ξ)=0。",
+        "status": "active"
+      }
+    ],
     "organizationStatus": "confirmed",
     "classificationSource": "ai",
     "flags": {
@@ -62,7 +74,14 @@
       "shouldMemorize": true,
       "needsReview": false
     },
-    "pendingAiOrganization": false
+    "pendingAiOrganization": false,
+    "questionType": null,
+    "reviewStatus": "auto_applied",
+    "decisionRevision": 0,
+    "proposalId": "proposal-dcc748a50511732aa209",
+    "items": [],
+    "confidence": 0.95,
+    "enrichedAt": "2026-07-24T00:14:14.972Z"
   },
   "naming": {
     "status": "complete",
@@ -87,8 +106,48 @@
     "version": 1,
     "inputHash": "ed4b8507c2ded6ab11a1f8860c7f64e3de916d901cecb48e6fb11fd47e263d21",
     "analyzerVersion": "note-ai-analyzer-v3",
-    "status": "failed",
-    "attemptedAt": "2026-07-24T00:00:30.744Z",
-    "error": "所有可用 AI 均调用失败（gemini/gemini-3.5-flash：AI 网络请求失败）"
+    "status": "organized",
+    "processedAt": "2026-07-24T00:14:14.972Z",
+    "confidence": 0.95,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容为高等数学中的推广罗尔定理表述,属于中值定理范畴。备注中有明确的‘记’字,表明用户有记忆意图。定理表述清晰,无明显错误或歧义,判断可靠度高。",
+    "summary": "该定理描述了在区间(a, b)内可导函数f(x),若其在端点处的极限相等且为有限值A,则在开区间内至少存在一点ξ,使得f'(ξ)=0。这是微分学中关于导数零点存在的一个重要结论。",
+    "questionType": null,
+    "wrongReason": null,
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": false,
+      "isMistake": false,
+      "isGood": false,
+      "shouldMemorize": true
+    },
+    "items": [],
+    "subjectPolicy": {
+      "requested": "高等数学",
+      "resolved": "高等数学",
+      "reason": "direct"
+    },
+    "proposed": null,
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-24T00:14:15.008Z"
+  },
+  "questionType": null,
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "背诵",
+      "中值定理",
+      "导数应用",
+      "函数性质"
+    ]
+  },
+  "items": [],
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": "kp_b1c6b018-e9f2-4b85-bed0-30600cfa46d4",
+    "knowledgePointName": "中值定理辅助函数构造"
   }
 }

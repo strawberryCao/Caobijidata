@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "305e14bf-f12f-4288-aa48-9438f7a2003b",
+  "id": "高等数学_罗尔定理与二阶导零点存在性_20260724_081720",
+  "kind": "single",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "罗尔定理与二阶导零点存在性",
+  "remark": "6.6 错题 完全没想到构成fx-y1\n但是细想一下也是ok的 因为有3个交点 两个函数的交点的差值为0 那么就得到了3个都为0的点 那么就好做了",
+  "createdAt": "2026-07-24T00:17:20.379Z",
+  "captureDate": "2026-07-24",
+  "fileName": "高等数学_罗尔定理与二阶导零点存在性_20260724_081720.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_罗尔定理与二阶导零点存在性_20260724_081720.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [],
+    "questionRefs": [],
+    "explicitTags": [],
+    "inferredTags": [
+      "错题"
+    ],
+    "flags": {
+      "isMistake": true,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "305e14bf-f12f-4288-aa48-9438f7a2003b",
+    "capturedDate": "2026-07-24",
+    "title": "罗尔定理与二阶导零点存在性",
+    "subject": "高等数学",
+    "pageRefs": [],
+    "questions": [],
+    "tags": [
+      "错题"
+    ],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "mistake",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": false,
+      "isMistake": true,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "reviewStatus": "auto_applied",
+    "decisionRevision": 0,
+    "proposalId": "proposal-13d5e4a32dd56a299a62",
+    "flags": {
+      "isMistake": true,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "图片为例6.6，内容涉及函数在区间连续、内二阶可导，利用弦AB与曲线交点C构造辅助函数，证明存在ξ使f''(ξ)=0，属罗尔定理的高阶推广应用",
+    "error": null,
+    "requestedAt": "2026-07-24T00:17:20.379Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-24T00:17:24.442Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-24T00:17:24.442Z"
+}
