@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 2,
+  "strictMode": true,
+  "failClosed": true,
+  "allowBuiltInFallback": false,
+  "requireLocalWorkflow": true,
+  "source": {
+    "assistantRoot": "__LOCAL_PATH__",
+    "updatedAt": "2026-07-24T00:03:42.1732501Z",
+    "configurationHash": "9fb3e2d997f15ce27bd04b305797a9bf48122488dd588764545520fda25ad0df",
+    "workflowHash": "ff9a093537a4b93fe02854531aa0b66ada4fb1a7a01905be069d6ac60788b47d",
+    "workflowSources": [
+      { "path": "ai-router.cjs", "sha256": "61ba2e5439071e22352e0b50f71425f5b3956c2c" },
+      { "path": "note-ai-analyzer.cjs", "sha256": "e13de5554bd52cea8382d96f8d91390b6871b569" },
+      { "path": "note-server.cjs", "sha256": "a629f3c70dbd074d1ff4438985f2132bba83edc6" }
+    ]
+  },
+  "providers": {
+    "qwen": {
+      "id": "qwen",
+      "enabled": true,
+      "baseUrl": "https://ws-wz2m9ithvttiwqm6.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions",
+      "secretRef": "QWEN_API_KEY",
+      "cloudUsable": true,
+      "models": [
+        { "id": "qwen-vl-plus", "capabilities": ["text", "vision", "json"] },
+        { "id": "qwen3-vl-plus", "capabilities": ["text", "vision", "json"] }
+      ]
+    },
+    "gemini": {
+      "id": "gemini",
+      "enabled": true,
+      "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+      "secretRef": "GEMINI_API_KEY",
+      "cloudUsable": true,
+      "models": [
+        { "id": "gemini-3.5-flash", "capabilities": ["text", "vision", "json", "longContext"], "costTier": 2, "qualityTier": 2 }
+      ]
+    },
+    "kimi": {
+      "id": "kimi",
+      "enabled": true,
+      "baseUrl": "https://api.moonshot.cn/v1",
+      "secretRef": "KIMI_API_KEY",
+      "cloudUsable": true,
+      "models": [
+        { "id": "kimi-k3", "capabilities": ["text", "vision", "json", "longContext", "reasoning"], "costTier": 2, "qualityTier": 3 }
+      ]
+    }
+  },
+  "routing": {
+    "timeoutMs": 30000,
+    "networkRetries": 1,
+    "jsonRepairRetries": 1,
+    "circuitThreshold": 3,
+    "circuitCooldownMs": 60000
+  },
+  "tasks": {
+    "note_naming": {
+      "id": "note_naming",
+      "label": "笔记命名",
+      "description": "识别截图或画布内容，并生成科目与文件名。",
+      "active": true,
+      "profile": { "difficulty": "low", "capabilities": ["text", "vision", "json"] },
+      "parameterDefinitions": [],
+      "settings": {
+        "providerId": "qwen",
+        "modelId": "qwen3-vl-plus",
+        "options": { "titleMinLength": 8, "titleMaxLength": 20, "useRemark": true, "preferSpecificSubject": true, "rejectGenericTitle": true, "maxTokens": 900 },
+        "namingRules": []
+      }
+    },
+    "question_splitting": {
+      "id": "question_splitting",
+      "label": "多题识别与自动裁剪",
+      "description": "对预裁剪后的整页题目识别多个完整题目区域，并交给后台批量保存。",
+      "active": true,
+      "profile": { "difficulty": "medium", "capabilities": ["text", "vision", "json"] },
+      "parameterDefinitions": [],
+      "settings": {
+        "enabled": true,
+        "fallback": false,
+        "difficulty": "medium",
+        "temperature": 0.1,
+        "timeoutMs": 90000,
+        "customInstructions": "识别完整题目区域。每道题必须包含题号、完整题干、全部选项以及相关公式、表格和配图；不要把一道题拆成多个区域，也不要合并相邻的独立题目。",
+        "options": { "maxQuestions": 24, "includeQuestionNumber": true, "includeOptions": true, "includeDiagram": true, "edgePaddingPercent": 1.2, "minimumRegionPercent": 3.5, "maxTokens": 1600 }
+      }
+    },
+    "note_enrichment": {
+      "id": "note_enrichment",
+      "label": "笔记整理与分类",
+      "description": "提取知识点、错因、题目价值与复习卡片等结构化信息。",
+      "active": true,
+      "profile": { "difficulty": "medium", "capabilities": ["text", "vision", "json"] },
+      "parameterDefinitions": [],
+      "settings": { "options": { "maxItems": 5 } }
+    },
+    "note_image_understanding": {
+      "id": "note_image_understanding",
+      "label": "无备注图片理解",
+      "description": "笔记没有备注时，使用独立的高质量视觉模型理解题目、手写过程和错因。",
+      "active": true,
+      "profile": { "difficulty": "high", "capabilities": ["text", "vision", "json"] },
+      "parameterDefinitions": [],
+      "settings": {}
+    },
+    "widget_generation": {
+      "id": "widget_generation",
+      "label": "桌面组件生成",
+      "description": "按照需求生成安全、可运行的桌面小组件。",
+      "active": true,
+      "profile": { "difficulty": "high", "capabilities": ["text", "json"] },
+      "parameterDefinitions": [],
+      "settings": {}
+    },
+    "canvas_organization": {
+      "id": "canvas_organization",
+      "label": "AI 自动整理画布",
+      "description": "理解画布图片、文字、批注和关系后，在后台重新规划清晰布局。",
+      "active": true,
+      "profile": { "difficulty": "high", "capabilities": ["text", "vision", "json"] },
+      "parameterDefinitions": [],
+      "settings": {
+        "providerId": "kimi",
+        "modelId": "kimi-k3",
+        "fallback": false,
+        "timeoutMs": 300000,
+        "options": { "nodeSpacing": 40, "reasoningMode": "balanced", "maxTokens": 16000 }
+      }
+    },
+    "note_classification": {
+      "id": "note_classification",
+      "label": "独立笔记分类",
+      "description": "供独立分类流程使用。",
+      "active": false,
+      "profile": { "difficulty": "medium", "capabilities": ["text", "vision", "json"] },
+      "parameterDefinitions": [],
+      "settings": {}
+    },
+    "taxonomy": {
+      "id": "taxonomy",
+      "label": "知识目录整理",
+      "description": "供知识目录归并与层级调整任务使用。",
+      "active": false,
+      "profile": { "difficulty": "high", "capabilities": ["text", "json", "longContext"] },
+      "parameterDefinitions": [],
+      "settings": {}
+    },
+    "flashcard_generation": {
+      "id": "flashcard_generation",
+      "label": "独立卡片生成",
+      "description": "供独立卡片生成流程使用。",
+      "active": false,
+      "profile": { "difficulty": "medium", "capabilities": ["text", "json"] },
+      "parameterDefinitions": [],
+      "settings": {}
+    },
+    "weekly_review_pdf": {
+      "id": "weekly_review_pdf",
+      "label": "综合复习 PDF",
+      "description": "维护综合复习 PDF。",
+      "active": true,
+      "profile": { "difficulty": "high", "capabilities": ["text", "vision", "json"] },
+      "parameterDefinitions": [],
+      "settings": {
+        "enabled": false,
+        "options": { "localOutputDir": "__LOCAL_PATH__", "autoSync": false, "pushOnStartup": false, "pullOnStartup": false, "scheduleDay": "saturday", "mergeSameQuestion": false, "groupSimilarTopics": false, "includeOriginalImages": false }
+      }
+    },
+    "custom": {
+      "id": "custom",
+      "label": "其他 AI 任务",
+      "description": "未单独命名的通用 AI 请求。",
+      "active": false,
+      "profile": { "difficulty": "medium", "capabilities": ["text"] },
+      "parameterDefinitions": [],
+      "settings": {}
+    }
+  }
+}
