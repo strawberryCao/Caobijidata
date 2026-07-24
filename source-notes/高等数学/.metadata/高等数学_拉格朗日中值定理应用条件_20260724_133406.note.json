@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "4253b577-b928-423f-b382-38daa8023fec",
+  "id": "高等数学_拉格朗日中值定理应用条件_20260724_133406",
+  "kind": "canvas",
+  "canvasProjectId": "document_f7829719-ae81-4c3e-9187-6a1ff0f1f4fc",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "拉格朗日中值定理应用条件",
+  "remark": "6.8 错题\n1.端点无定义 连续性未知 不能直接用拉格朗日中值\n2.端点无定义 不能直接带入值 应当取区间内的点构造闭区间",
+  "createdAt": "2026-07-24T05:34:06.284Z",
+  "captureDate": "2026-07-24",
+  "fileName": "高等数学_拉格朗日中值定理应用条件_20260724_133406.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_拉格朗日中值定理应用条件_20260724_133406.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [
+      "1"
+    ],
+    "questionRefs": [
+      {
+        "raw": "题\n1",
+        "number": "1"
+      }
+    ],
+    "explicitTags": [],
+    "inferredTags": [
+      "错题"
+    ],
+    "flags": {
+      "isMistake": true,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "4253b577-b928-423f-b382-38daa8023fec",
+    "capturedDate": "2026-07-24",
+    "title": "拉格朗日中值定理应用条件",
+    "subject": "高等数学",
+    "pageRefs": [
+      {
+        "raw": "题\n1",
+        "question": "1"
+      }
+    ],
+    "questions": [
+      "1"
+    ],
+    "tags": [
+      "错题"
+    ],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "mistake",
+    "wrongReason": "",
+    "wrongReasonSource": "none",
+    "wrongReasonConfidence": null,
+    "userEditedFields": [],
+    "intent": {
+      "isQuestion": true,
+      "isMistake": true,
+      "isGood": false,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "reviewStatus": "auto_applied",
+    "decisionRevision": 0,
+    "proposalId": "proposal-d5f413d7e17307c5da67",
+    "flags": {
+      "isMistake": true,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "图片核心内容为拉格朗日中值定理的构造与端点无定义时的处理，手写批注强调‘端点无定义’‘不能直接用拉格朗日中值’，属高数典型考点",
+    "error": null,
+    "requestedAt": "2026-07-24T05:34:06.284Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-24T05:34:10.969Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-24T05:34:10.969Z"
+}

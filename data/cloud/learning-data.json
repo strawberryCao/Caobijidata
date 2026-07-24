@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 700,
-  "updatedAt": "2026-07-24T05:34:39.264Z",
+  "revision": 701,
+  "updatedAt": "2026-07-24T05:36:44.748Z",
   "days": {
     "2026-07-16": {
       "manual": {
@@ -4965,6 +4965,47 @@
       },
       "autoNotes": [
         {
+          "noteUid": "4253b577-b928-423f-b382-38daa8023fec",
+          "capturedDate": "2026-07-24",
+          "title": "拉格朗日中值定理应用条件",
+          "subject": "高等数学",
+          "remark": "6.8 错题\n1.端点无定义 连续性未知 不能直接用拉格朗日中值\n2.端点无定义 不能直接带入值 应当取区间内的点构造闭区间",
+          "createdAt": "2026-07-24T05:34:06.284Z",
+          "updatedAt": "2026-07-24T05:34:11.003Z",
+          "firstSyncedAt": "2026-07-24T05:34:06.327Z",
+          "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_拉格朗日中值定理应用条件_20260724_133406.png",
+          "pageRefs": [
+            {
+              "raw": "题\n1",
+              "question": "1"
+            }
+          ],
+          "tags": [
+            "错题"
+          ],
+          "knowledgePath": [
+            "高等数学"
+          ],
+          "noteType": "mistake",
+          "questionType": "",
+          "wrongReason": "",
+          "organizationStatus": "confirmed",
+          "classificationSource": "ai",
+          "reviewStatus": "auto_applied",
+          "decisionRevision": 0,
+          "lastReviewOperationId": "",
+          "lastReviewAction": "",
+          "proposalId": "proposal-d5f413d7e17307c5da67",
+          "reviewedAt": "",
+          "manualCreated": false,
+          "userEditedFields": [],
+          "goodQuestion": null,
+          "items": [],
+          "studyNotes": [],
+          "confidence": 0,
+          "cardIds": []
+        },
+        {
           "noteUid": "9569dc87-b13d-4e5d-884a-24098f5cf544",
           "capturedDate": "2026-07-24",
           "title": "拉格朗日中值定理应用条件",
@@ -5053,8 +5094,6 @@
           "noteType": "note",
           "questionType": "",
           "wrongReason": "",
-          "wrongReasonSource": "",
-          "wrongReasonConfidence": null,
           "organizationStatus": "pending",
           "classificationSource": "local",
           "reviewStatus": "pending",
@@ -5068,11 +5107,8 @@
           "goodQuestion": null,
           "items": [],
           "studyNotes": [],
-          "confidence": null,
-          "cardIds": [],
-          "sourceType": "single-capture",
-          "sourceBatchId": "",
-          "sourceSplitIndex": null
+          "confidence": 0,
+          "cardIds": []
         },
         {
           "noteUid": "305e14bf-f12f-4288-aa48-9438f7a2003b",
@@ -10909,7 +10945,7 @@
         "noteUid": "9ccc0118-e95a-4846-a567-eaeaa7e2ba69",
         "capturedDate": "2026-07-23",
         "title": "图片笔记",
-        "subject": "默认文件夹",
+        "subject": "assets",
         "remark": "",
         "createdAt": "2026-07-23T12:12:23.038Z",
         "updatedAt": "2026-07-23T13:20:55.744Z",
@@ -10918,16 +10954,14 @@
         "pageRefs": [],
         "tags": [],
         "knowledgePath": [
-          "默认文件夹"
+          "assets"
         ],
         "noteType": "note",
         "questionType": "",
         "wrongReason": "",
-        "wrongReasonSource": "",
-        "wrongReasonConfidence": null,
-        "organizationStatus": "pending",
+        "organizationStatus": "confirmed",
         "classificationSource": "local",
-        "reviewStatus": "pending",
+        "reviewStatus": "auto_applied",
         "decisionRevision": 0,
         "lastReviewOperationId": "",
         "lastReviewAction": "",
@@ -10938,7 +10972,7 @@
         "goodQuestion": null,
         "items": [],
         "studyNotes": [],
-        "confidence": null,
+        "confidence": 0,
         "cardIds": []
       },
       "cards": []
@@ -10949,7 +10983,7 @@
         "noteUid": "75f5b238-656b-4521-a378-cdf11ac46eea",
         "capturedDate": "2026-07-23",
         "title": "The image does not contain any question or problem statement. Therefore, I canno",
-        "subject": "默认文件夹",
+        "subject": "assets",
         "remark": "",
         "createdAt": "2026-07-23T13:07:37.606Z",
         "updatedAt": "2026-07-23T13:23:29.914Z",
@@ -10958,16 +10992,14 @@
         "pageRefs": [],
         "tags": [],
         "knowledgePath": [
-          "默认文件夹"
+          "assets"
         ],
         "noteType": "note",
         "questionType": "",
         "wrongReason": "",
-        "wrongReasonSource": "",
-        "wrongReasonConfidence": null,
-        "organizationStatus": "pending",
+        "organizationStatus": "confirmed",
         "classificationSource": "local",
-        "reviewStatus": "pending",
+        "reviewStatus": "auto_applied",
         "decisionRevision": 0,
         "lastReviewOperationId": "",
         "lastReviewAction": "",
@@ -10980,7 +11012,7 @@
         "goodQuestion": null,
         "items": [],
         "studyNotes": [],
-        "confidence": null,
+        "confidence": 0,
         "cardIds": []
       },
       "cards": []
@@ -11005,8 +11037,6 @@
         "noteType": "note",
         "questionType": "",
         "wrongReason": "",
-        "wrongReasonSource": "",
-        "wrongReasonConfidence": null,
         "organizationStatus": "pending",
         "classificationSource": "local",
         "reviewStatus": "pending",
@@ -11022,7 +11052,7 @@
         "goodQuestion": null,
         "items": [],
         "studyNotes": [],
-        "confidence": null,
+        "confidence": 0,
         "cardIds": []
       },
       "cards": []
@@ -11033,7 +11063,7 @@
         "noteUid": "e2188699-1e2f-4437-ab8f-98d61ede1414",
         "capturedDate": "2026-07-23",
         "title": "图片笔记",
-        "subject": "默认文件夹",
+        "subject": "assets",
         "remark": "",
         "createdAt": "2026-07-23T12:15:03.876Z",
         "updatedAt": "2026-07-23T13:35:10.111Z",
@@ -11042,16 +11072,14 @@
         "pageRefs": [],
         "tags": [],
         "knowledgePath": [
-          "默认文件夹"
+          "assets"
         ],
         "noteType": "note",
         "questionType": "",
         "wrongReason": "",
-        "wrongReasonSource": "",
-        "wrongReasonConfidence": null,
-        "organizationStatus": "pending",
+        "organizationStatus": "confirmed",
         "classificationSource": "local",
-        "reviewStatus": "pending",
+        "reviewStatus": "auto_applied",
         "decisionRevision": 0,
         "lastReviewOperationId": "",
         "lastReviewAction": "",
@@ -11062,7 +11090,7 @@
         "goodQuestion": null,
         "items": [],
         "studyNotes": [],
-        "confidence": null,
+        "confidence": 0,
         "cardIds": []
       },
       "cards": []
