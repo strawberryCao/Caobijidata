@@ -75,10 +75,12 @@
     },
     "question_splitting": {
       "difficulty": "high",
+      "modelId": "kimi-k2.6",
       "options": {
         "maxQuestions": 12,
         "maxTokens": 3200
-      }
+      },
+      "providerId": "kimi"
     },
     "weekly_review_pdf": {
       "enabled": false,

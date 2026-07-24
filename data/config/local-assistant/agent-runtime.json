@@ -94,9 +94,9 @@
   "schemaVersion": 2,
   "source": {
     "assistantRoot": "__LOCAL_PATH__",
-    "configurationHash": "34ac0074814d28150a62a3b050540279fa404299f5282b5c59157e3cedef4994",
+    "configurationHash": "42491696ee73af68ce0aff31c7032d0b617fa04641dc794b69e280d770c2b09c",
     "updatedAt": null,
-    "workflowHash": "44ada4547a9cbdb3999c7aed68216bc6f3ddbb52e827831fb01e93b4f4c37303",
+    "workflowHash": "743931b50cf69a706b4cbdf48745f562c3026104218590016fc5ad7fce2f1742",
     "workflowSources": [
       {
         "bytes": 67120,
@@ -897,6 +897,7 @@
       },
       "settings": {
         "difficulty": "high",
+        "modelId": "kimi-k2.6",
         "options": {
           "edgePaddingPercent": 1.2,
           "includeDiagram": true,
@@ -905,7 +906,8 @@
           "maxQuestions": 12,
           "maxTokens": 3200,
           "minimumRegionPercent": 3.5
-        }
+        },
+        "providerId": "kimi"
       }
     },
     "taxonomy": {
