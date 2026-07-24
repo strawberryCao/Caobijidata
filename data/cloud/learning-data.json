@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 701,
-  "updatedAt": "2026-07-24T05:36:44.748Z",
+  "revision": 702,
+  "updatedAt": "2026-07-24T06:00:58.250Z",
   "days": {
     "2026-07-16": {
       "manual": {
@@ -5238,6 +5238,50 @@
           ],
           "confidence": 0,
           "cardIds": []
+        },
+        {
+          "noteUid": "multi_failure_batch_2ac2ceb6-0f1a-4eba-8237-e89bad016f9b",
+          "capturedDate": "2026-07-24",
+          "title": "AI 自动裁剪失败，原图已保留到待确认。",
+          "subject": "默认文件夹",
+          "remark": "AI 自动裁剪失败，原图已保留到待确认。\n失败原因：Cloudflare 尚未配置 KIMI_API_KEY。\n请重新打开快速记图重试，或按单题模式手动裁剪后保存。",
+          "createdAt": "2026-07-24T06:00:56.763Z",
+          "updatedAt": "2026-07-24T06:00:56.763Z",
+          "firstSyncedAt": "2026-07-24T06:00:56.763Z",
+          "filePath": "github://data/assets/multi_failure_batch_2ac2ceb6-0f1a-4eba-8237-e89bad016f9b.jpg",
+          "pageRefs": [],
+          "tags": [
+            "AI自动裁剪失败",
+            "待确认"
+          ],
+          "knowledgePath": [
+            "默认文件夹"
+          ],
+          "noteType": "note",
+          "questionType": "",
+          "wrongReason": "",
+          "wrongReasonSource": "",
+          "wrongReasonConfidence": null,
+          "organizationStatus": "pending",
+          "classificationSource": "local",
+          "reviewStatus": "pending",
+          "decisionRevision": 0,
+          "lastReviewOperationId": "",
+          "lastReviewAction": "",
+          "proposalId": "",
+          "reviewedAt": "",
+          "manualCreated": false,
+          "userEditedFields": [
+            "remark"
+          ],
+          "goodQuestion": null,
+          "items": [],
+          "studyNotes": [],
+          "confidence": null,
+          "cardIds": [],
+          "sourceType": "ai-multi-question-failure",
+          "sourceBatchId": "batch_2ac2ceb6-0f1a-4eba-8237-e89bad016f9b",
+          "sourceSplitIndex": null
         }
       ]
     }
