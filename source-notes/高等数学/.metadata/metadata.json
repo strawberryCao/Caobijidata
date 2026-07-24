@@ -12377,5 +12377,94 @@
       "scheduledAt": "every_72_hours"
     },
     "updatedAt": "2026-07-24T00:51:58.302Z"
+  },
+  {
+    "schemaVersion": 2,
+    "noteUid": "4ad40ec0-ab0f-4040-aba6-8a06ca98ffa7",
+    "id": "高等数学_拉格朗日中值定理_20260724_085607",
+    "kind": "single",
+    "subject": "高等数学",
+    "requestedSubject": "默认文件夹",
+    "title": "拉格朗日中值定理",
+    "remark": "记",
+    "createdAt": "2026-07-24T00:56:07.364Z",
+    "captureDate": "2026-07-24",
+    "fileName": "高等数学_拉格朗日中值定理_20260724_085607.png",
+    "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_拉格朗日中值定理_20260724_085607.png",
+    "mime": "image/png",
+    "extracted": {
+      "parserVersion": 1,
+      "pages": [],
+      "pageRefs": [],
+      "questions": [],
+      "questionRefs": [],
+      "explicitTags": [],
+      "inferredTags": [
+        "背诵"
+      ],
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": true,
+        "needsReview": false
+      },
+      "wrongReasons": [],
+      "cautions": [],
+      "sources": []
+    },
+    "learning": {
+      "noteUid": "4ad40ec0-ab0f-4040-aba6-8a06ca98ffa7",
+      "capturedDate": "2026-07-24",
+      "title": "拉格朗日中值定理",
+      "subject": "高等数学",
+      "pageRefs": [],
+      "questions": [],
+      "tags": [
+        "背诵"
+      ],
+      "knowledgePath": [
+        "高等数学"
+      ],
+      "noteType": "memory",
+      "wrongReason": "",
+      "intent": {
+        "isQuestion": false,
+        "isMistake": false,
+        "isGood": false,
+        "shouldMemorize": true
+      },
+      "cards": [],
+      "organizationStatus": "confirmed",
+      "classificationSource": "ai",
+      "reviewStatus": "auto_applied",
+      "decisionRevision": 0,
+      "proposalId": "proposal-16e57584967085c80f21",
+      "flags": {
+        "isMistake": false,
+        "isClassic": false,
+        "shouldMemorize": true,
+        "needsReview": false
+      },
+      "pendingAiOrganization": false
+    },
+    "naming": {
+      "status": "complete",
+      "provider": "qwen",
+      "model": "qwen3-vl-plus",
+      "reason": "图片明确展示‘定理7（拉格朗日中值定理）’及其条件、公式与几何图示，属高等数学核心内容",
+      "error": null,
+      "requestedAt": "2026-07-24T00:56:07.364Z",
+      "ruleId": null,
+      "ruleName": null,
+      "ruleValue": null,
+      "ruleEvidence": null,
+      "completedAt": "2026-07-24T00:56:10.210Z"
+    },
+    "classifier": {
+      "status": "named",
+      "provider": "qwen",
+      "scheduledAt": "every_72_hours"
+    },
+    "updatedAt": "2026-07-24T00:56:10.210Z"
   }
 ]
