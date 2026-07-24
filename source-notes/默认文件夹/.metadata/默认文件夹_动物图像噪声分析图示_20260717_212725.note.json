@@ -43,7 +43,8 @@
       "图像处理",
       "噪声合成",
       "噪声分析",
-      "好题"
+      "好题",
+      "对抗样本"
     ],
     "knowledgePath": [
       "默认文件夹",
@@ -64,15 +65,18 @@
     "intent": {
       "isQuestion": false,
       "isMistake": false,
-      "isGood": true,
+      "isGood": false,
       "shouldMemorize": false
     },
     "items": [],
     "cards": [],
     "organizationStatus": "confirmed",
     "classificationSource": "manual",
-    "confidence": 0.95,
-    "enrichedAt": "2026-07-20T11:01:19.161Z"
+    "confidence": 0.8,
+    "enrichedAt": "2026-07-24T02:15:42.294Z",
+    "reviewStatus": "corrected",
+    "decisionRevision": 1,
+    "proposalId": "proposal-53269dc7fbe4aa6ef621"
   },
   "naming": {
     "provider": "qwen",
@@ -87,33 +91,33 @@
   },
   "organizer": {
     "version": 1,
-    "inputHash": "30f209010ac755028151ae82d51f988b8f5cf3fc4af24439450a470eaac08e23",
-    "analyzerVersion": "note-ai-analyzer-v3",
+    "inputHash": "c6e088fb439e3458e5b17c7db30affd70860ee516ad3140027f40bc06c05d4c4",
+    "analyzerVersion": "note-ai-analyzer-v4",
     "status": "organized",
-    "processedAt": "2026-07-20T11:01:19.161Z",
-    "confidence": 0.95,
-    "provider": "qwen",
-    "model": "qwen-vl-plus",
-    "reason": "图片内容为图像噪声分析,属于图像处理领域,归类于‘默认文件夹’下的‘图像噪声与合成’知识点。备注中无明确记忆或错题意图,但记录了典型图像噪声叠加过程,具有参考价值。",
-    "summary": "展示了一张未受噪声影响的动物图像(C-1),一张添加了噪声的图像(B-1),以及通过噪声叠加得到的最终图像(A-1)。解释指出B的噪声加上C得到A。",
+    "processedAt": "2026-07-24T02:15:42.293Z",
+    "confidence": 0.8,
+    "provider": "kimi",
+    "model": "kimi-k3",
+    "reason": "图片为图像噪声合成示意,非标准考研科目内容,归入默认文件夹下的图像噪声与合成知识点;备注仅为“测试”,无错题或记忆意图,故不生成卡片。",
+    "summary": "画布展示图像噪声合成过程:噪声图B叠加到原图C(狗照片)得到合成图A,A被标注为“ANIMAL: CAT / ANSWER: CAT”,演示噪声对图像内容或分类结果的影响。",
     "questionType": null,
     "wrongReason": null,
     "memoryCard": null,
     "intent": {
       "isQuestion": false,
       "isMistake": false,
-      "isGood": true,
+      "isGood": false,
       "shouldMemorize": false
     },
     "items": [],
     "subjectPolicy": {
       "requested": "默认文件夹",
       "resolved": "默认文件夹",
-      "reason": "manual"
+      "reason": "corrected"
     },
     "proposed": null,
     "learningSyncStatus": "synced",
-    "learningSyncedAt": "2026-07-20T11:01:19.176Z"
+    "learningSyncedAt": "2026-07-24T02:15:42.337Z"
   },
   "questionType": null,
   "tags": {
@@ -126,7 +130,8 @@
       "图像处理",
       "噪声合成",
       "噪声分析",
-      "好题"
+      "好题",
+      "对抗样本"
     ]
   },
   "items": [],

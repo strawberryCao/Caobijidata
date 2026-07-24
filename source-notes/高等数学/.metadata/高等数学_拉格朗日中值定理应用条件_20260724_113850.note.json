@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "9569dc87-b13d-4e5d-884a-24098f5cf544",
+  "id": "高等数学_拉格朗日中值定理应用条件_20260724_113850",
+  "kind": "canvas",
+  "canvasProjectId": "document_f7829719-ae81-4c3e-9187-6a1ff0f1f4fc",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "拉格朗日中值定理应用条件",
+  "remark": "6.8 错题\n1.端点无定义 连续性未知 不能直接用拉格朗日中值\n2.端点无定义 不能直接带入值 应当取区间内的点构造闭区间",
+  "createdAt": "2026-07-24T03:38:50.859Z",
+  "captureDate": "2026-07-24",
+  "fileName": "高等数学_拉格朗日中值定理应用条件_20260724_113850.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_拉格朗日中值定理应用条件_20260724_113850.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [
+      "1"
+    ],
+    "questionRefs": [
+      {
+        "raw": "题\n1",
+        "number": "1"
+      }
+    ],
+    "explicitTags": [],
+    "inferredTags": [
+      "错题"
+    ],
+    "flags": {
+      "isMistake": true,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "9569dc87-b13d-4e5d-884a-24098f5cf544",
+    "capturedDate": "2026-07-24",
+    "title": "拉格朗日中值定理应用条件",
+    "subject": "高等数学",
+    "pageRefs": [
+      {
+        "raw": "题\n1",
+        "question": "1"
+      }
+    ],
+    "questions": [
+      "1"
+    ],
+    "tags": [
+      "错题",
+      "中值定理",
+      "拉格朗日中值定理",
+      "区间端点",
+      "背诵",
+      "题型:证明题",
+      "错因:端点无定义,导致连续性未知,不能直接使用拉格朗日中值定理。"
+    ],
+    "knowledgePath": [
+      "高等数学",
+      "中值定理辅助函数构造"
+    ],
+    "noteType": "mistake",
+    "wrongReason": "端点无定义,导致连续性未知,不能直接使用拉格朗日中值定理。",
+    "wrongReasonSource": "none",
+    "wrongReasonConfidence": null,
+    "userEditedFields": [],
+    "intent": {
+      "isQuestion": true,
+      "isMistake": true,
+      "isGood": false,
+      "shouldMemorize": true
+    },
+    "cards": [
+      {
+        "sourceKey": "ai:0:0",
+        "kind": "mistake",
+        "front": "拉格朗日中值定理使用前提是什么?",
+        "back": "函数在闭区间上连续,在开区间内可导。",
+        "status": "active",
+        "itemIndex": 0
+      },
+      {
+        "sourceKey": "ai:0:1",
+        "kind": "mistake",
+        "front": "当区间端点无定义时,如何处理拉格朗日中值定理的应用?",
+        "back": "需构造闭区间或选取区间内点进行分析,避免直接使用定理。",
+        "status": "active",
+        "itemIndex": 0
+      }
+    ],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "reviewStatus": "auto_applied",
+    "decisionRevision": 0,
+    "proposalId": "proposal-08ad6ca66017a1939397",
+    "flags": {
+      "isMistake": true,
+      "isClassic": false,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false,
+    "questionType": "证明题",
+    "items": [
+      {
+        "title": "拉格朗日中值定理应用前提",
+        "knowledgePoint": "中值定理辅助函数构造",
+        "questionType": "证明题",
+        "summary": "证明若f(x)在(a,b)内可导且f'(x)有界,则f(x)在(a,b)内有界。关键错误在于忽略了端点无定义导致的连续性问题,正确的思路是通过构造闭区间或利用区间内点性质来证明。",
+        "tags": [
+          "错题",
+          "中值定理",
+          "拉格朗日中值定理",
+          "区间端点"
+        ],
+        "wrongReason": "端点无定义,导致连续性未知,不能直接使用拉格朗日中值定理。",
+        "intent": {
+          "isQuestion": true,
+          "isMistake": true,
+          "isGood": false,
+          "shouldMemorize": true
+        }
+      }
+    ],
+    "confidence": 0.95,
+    "enrichedAt": "2026-07-24T03:40:19.894Z"
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "图片核心内容为证明f(x)在开区间(a,b)内有界，关键步骤引用‘拉格朗日中值定理’并强调端点无定义时不能直接代入，属高等数学中值定理的典型错题辨析",
+    "error": null,
+    "requestedAt": "2026-07-24T03:38:50.859Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-24T03:38:57.374Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-24T03:38:57.374Z",
+  "questionType": "证明题",
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "错题",
+      "中值定理",
+      "拉格朗日中值定理",
+      "区间端点",
+      "背诵",
+      "题型:证明题"
+    ]
+  },
+  "items": [
+    {
+      "title": "拉格朗日中值定理应用前提",
+      "knowledgePoint": "中值定理辅助函数构造",
+      "questionType": "证明题",
+      "summary": "证明若f(x)在(a,b)内可导且f'(x)有界,则f(x)在(a,b)内有界。关键错误在于忽略了端点无定义导致的连续性问题,正确的思路是通过构造闭区间或利用区间内点性质来证明。",
+      "tags": [
+        "错题",
+        "中值定理",
+        "拉格朗日中值定理",
+        "区间端点"
+      ],
+      "wrongReason": "端点无定义,导致连续性未知,不能直接使用拉格朗日中值定理。",
+      "intent": {
+        "isQuestion": true,
+        "isMistake": true,
+        "isGood": false,
+        "shouldMemorize": true
+      }
+    }
+  ],
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": "kp_b1c6b018-e9f2-4b85-bed0-30600cfa46d4",
+    "knowledgePointName": "中值定理辅助函数构造"
+  },
+  "organizer": {
+    "version": 1,
+    "inputHash": "1ff27e81aaacd0e733bf496ae630cb05332373223079412391bdd38edd5e4c0f",
+    "analyzerVersion": "note-ai-analyzer-v4",
+    "status": "organized",
+    "processedAt": "2026-07-24T03:40:19.894Z",
+    "confidence": 0.95,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "科目判断为高等数学中的中值定理相关知识点,分类准确。错因明确标注在图片中,判断可靠。笔记内容为典型错题,用户有记忆意图,符合生成卡片的标准。",
+    "summary": "该题考察拉格朗日中值定理的应用前提。图片指出,当区间端点无定义时,函数在开区间(a,b)内虽可导且导数有界,但因端点无定义导致连续性未知,不能直接使用拉格朗日中值定理。正确做法是构造闭区间或取区间内点进行分析。",
+    "questionType": "证明题",
+    "wrongReason": "端点无定义,导致连续性未知,不能直接使用拉格朗日中值定理。",
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": true,
+      "isMistake": true,
+      "isGood": false,
+      "shouldMemorize": true
+    },
+    "items": [
+      {
+        "title": "拉格朗日中值定理应用前提",
+        "knowledgePoint": "中值定理辅助函数构造",
+        "questionType": "证明题",
+        "summary": "证明若f(x)在(a,b)内可导且f'(x)有界,则f(x)在(a,b)内有界。关键错误在于忽略了端点无定义导致的连续性问题,正确的思路是通过构造闭区间或利用区间内点性质来证明。",
+        "tags": [
+          "错题",
+          "中值定理",
+          "拉格朗日中值定理",
+          "区间端点"
+        ],
+        "wrongReason": "端点无定义,导致连续性未知,不能直接使用拉格朗日中值定理。",
+        "intent": {
+          "isQuestion": true,
+          "isMistake": true,
+          "isGood": false,
+          "shouldMemorize": true
+        }
+      }
+    ],
+    "subjectPolicy": {
+      "requested": "高等数学",
+      "resolved": "高等数学",
+      "reason": "direct"
+    },
+    "proposed": null,
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-24T03:40:19.946Z"
+  }
+}

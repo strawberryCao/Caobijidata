@@ -56,19 +56,24 @@
       "shouldMemorize": false,
       "needsReview": false
     },
-    "pendingAiOrganization": true
+    "pendingAiOrganization": false,
+    "reviewStatus": "pending",
+    "decisionRevision": 0,
+    "proposalId": "proposal-5d384318c8e95937dcd6"
   },
   "naming": {
-    "status": "pending",
+    "status": "failed",
     "provider": null,
     "model": null,
     "reason": "local_first",
-    "error": null,
-    "requestedAt": "2026-07-21T01:40:33.950Z"
+    "error": "ENOENT: no such file or directory, open 'C:\\Users\\ASUS\\Desktop\\笔记\\默认文件夹\\默认文件夹_图片笔记_20260721_094033.jpg'",
+    "requestedAt": "2026-07-21T01:40:33.950Z",
+    "completedAt": "2026-07-24T02:13:51.638Z"
   },
   "classifier": {
-    "status": "saved_pending_ai",
+    "status": "fallback_named",
     "provider": null,
     "scheduledAt": "every_72_hours"
-  }
+  },
+  "updatedAt": "2026-07-24T02:13:51.638Z"
 }

@@ -41,7 +41,8 @@
       "考研英语",
       "每日打卡",
       "背诵",
-      "好题"
+      "好题",
+      "核心词汇"
     ],
     "knowledgePath": [
       "英语",
@@ -62,35 +63,33 @@
     "intent": {
       "isQuestion": false,
       "isMistake": false,
-      "isGood": true,
+      "isGood": false,
       "shouldMemorize": true
     },
     "items": [],
     "cards": [
       {
-        "sourceKey": "remark-memory:0",
+        "sourceKey": "ai:root:0",
         "kind": "memory",
-        "front": "考研英语核心词汇每日打卡",
-        "back": "图片展示了考研英语核心词汇的每日打卡内容,包含多个单词的释义、词根词缀分析、例句及记忆技巧。主要目的是帮助考生系统记忆考研英语高频词汇。",
-        "status": "active",
-        "knowledgePath": [
-          "英语",
-          "核心词汇"
-        ],
-        "tags": [
-          "单词记忆",
-          "考研英语",
-          "每日打卡",
-          "背诵",
-          "好题"
-        ],
-        "pageRefs": []
+        "front": "binary [ˈbaɪnəri] adj. 非黑即白的,二元的",
+        "back": "词根词缀:bi-(二)+ -nary(形容词后缀) 例句:2019 TEXT1(英二)This revival is part of a larger recognition that emotions aren't binary.",
+        "status": "active"
+      },
+      {
+        "sourceKey": "ai:root:1",
+        "kind": "memory",
+        "front": "benign [bɪˈnaɪn] adj. 良性的,无害的",
+        "back": "词根词缀:beni-(好)+ -gn(产生) 例句:2011 TEXT4(英二)It is an ambitious attempt to blunt the sharpest edges of globalization...",
+        "status": "active"
       }
     ],
     "organizationStatus": "confirmed",
     "classificationSource": "manual",
     "confidence": 0.95,
-    "enrichedAt": "2026-07-20T11:08:55.936Z"
+    "enrichedAt": "2026-07-24T02:15:16.316Z",
+    "reviewStatus": "corrected",
+    "decisionRevision": 1,
+    "proposalId": "proposal-fe16c0f5b9a9244c7fe4"
   },
   "naming": {
     "provider": "qwen",
@@ -105,33 +104,33 @@
   },
   "organizer": {
     "version": 1,
-    "inputHash": "7bc2ce421823752e5a6fa4e060c6b65421872826b6d31588bb9ee24271bee6e3",
-    "analyzerVersion": "note-ai-analyzer-v3",
+    "inputHash": "83f8f04a36c7043191f5d3f6d295ac1030b32b3ad8b77970778b1bf3ac887a16",
+    "analyzerVersion": "note-ai-analyzer-v4",
     "status": "organized",
-    "processedAt": "2026-07-20T11:08:55.936Z",
+    "processedAt": "2026-07-24T02:15:16.315Z",
     "confidence": 0.95,
     "provider": "qwen",
     "model": "qwen-vl-plus",
-    "reason": "图片内容为考研英语核心词汇的每日打卡,属于英语科目下的核心词汇学习内容。用户记录此笔记的意图是记忆和掌握考研英语高频词汇,符合'memory'卡片的特征,因此判断为英语科目,并标记为需要记忆的核心词汇。",
-    "summary": "图片展示了考研英语核心词汇的每日打卡内容,包含多个单词的释义、词根词缀分析、例句及记忆技巧。主要目的是帮助考生系统记忆考研英语高频词汇。",
+    "reason": "根据图片内容和备注中‘记’字明确表达的记忆意图,判断为考研英语核心词汇的学习笔记,属于需要记忆的知识点。卡片设计符合主动回忆需求,分类准确可靠。",
+    "summary": "图片展示了考研英语核心词汇的每日学习卡片,包含多个单词的词根词缀、音标、释义、例句及记忆提示。用户通过标注“记”等明确意图,表明这些内容需要重点记忆。",
     "questionType": null,
     "wrongReason": null,
     "memoryCard": null,
     "intent": {
       "isQuestion": false,
       "isMistake": false,
-      "isGood": true,
+      "isGood": false,
       "shouldMemorize": true
     },
     "items": [],
     "subjectPolicy": {
-      "requested": "默认文件夹",
+      "requested": "英语",
       "resolved": "英语",
-      "reason": "manual"
+      "reason": "corrected"
     },
     "proposed": null,
     "learningSyncStatus": "synced",
-    "learningSyncedAt": "2026-07-20T11:08:55.954Z"
+    "learningSyncedAt": "2026-07-24T02:15:16.349Z"
   },
   "questionType": null,
   "tags": {
@@ -142,7 +141,8 @@
       "考研英语",
       "每日打卡",
       "背诵",
-      "好题"
+      "好题",
+      "核心词汇"
     ]
   },
   "items": [],
