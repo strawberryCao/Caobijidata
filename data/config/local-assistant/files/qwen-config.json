@@ -1,0 +1,7 @@
+{
+  "apiKey": "__SECRET_REF:LOCAL_APIKEY__",
+  "baseUrl": "https://ws-wz2m9ithvttiwqm6.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions",
+  "model": "qwen-vl-plus",
+  "rawBaseUrl": "https://ws-wz2m9ithvttiwqm6.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
+  "updatedAt": "2026-07-08T09:00:08.798Z"
+}

@@ -1,0 +1,318 @@
+{
+  "createdAt": "2026-07-17T11:55:31.062Z",
+  "revision": 18,
+  "schemaVersion": 1,
+  "subjects": [
+    {
+      "aliases": [
+        "高数",
+        "数学"
+      ],
+      "createdAt": "2026-07-17T11:55:31.062Z",
+      "createdBy": "user",
+      "id": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+      "knowledgePoints": [
+        {
+          "aliases": [],
+          "createdAt": "2026-07-18T12:40:59.287Z",
+          "createdBy": "user",
+          "id": "kp_b51e3074-daea-43ce-8970-d0c8b6cbcc80",
+          "name": "导数与切线",
+          "updatedAt": "2026-07-18T12:40:59.287Z"
+        },
+        {
+          "aliases": [
+            "极值判定",
+            "高阶导数应用"
+          ],
+          "createdAt": "2026-07-18T12:41:16.607Z",
+          "createdBy": "ai",
+          "id": "kp_866ba69c-e937-4b9b-af81-696e7ceaffe9",
+          "name": "导数与极值",
+          "updatedAt": "2026-07-18T12:41:16.607Z"
+        },
+        {
+          "aliases": [
+            "微分",
+            "可微",
+            "可导"
+          ],
+          "createdAt": "2026-07-18T12:41:24.169Z",
+          "createdBy": "ai",
+          "id": "kp_13761336-6746-4f82-af9e-86a103aeb88d",
+          "name": "导数与微分",
+          "updatedAt": "2026-07-18T12:41:24.169Z"
+        },
+        {
+          "aliases": [
+            "积分"
+          ],
+          "createdAt": "2026-07-18T12:42:05.177Z",
+          "createdBy": "ai",
+          "id": "kp_8abe1980-2ef3-4149-aa52-dfe2027699c8",
+          "name": "曲面积分",
+          "updatedAt": "2026-07-18T12:42:05.177Z"
+        },
+        {
+          "aliases": [
+            "导数定义",
+            "极限计算"
+          ],
+          "createdAt": "2026-07-19T01:02:19.104Z",
+          "createdBy": "ai",
+          "id": "kp_46704fff-430b-4d77-80e7-2661d656a121",
+          "name": "导数与极限",
+          "updatedAt": "2026-07-19T01:02:19.104Z"
+        },
+        {
+          "aliases": [
+            "凹凸性",
+            "Jensen不等式"
+          ],
+          "createdAt": "2026-07-23T12:01:30.419Z",
+          "createdBy": "ai",
+          "id": "kp_8651dd6c-7b94-4a68-bbff-8c3ca0dc53b0",
+          "name": "凹凸函数与Jensen不等式",
+          "updatedAt": "2026-07-23T12:01:30.419Z"
+        },
+        {
+          "aliases": [
+            "摆线",
+            "平摆线"
+          ],
+          "createdAt": "2026-07-23T12:01:40.789Z",
+          "createdBy": "ai",
+          "id": "kp_bc681d8e-7315-4360-9b2e-5afbbaccbc75",
+          "name": "曲线与参数方程",
+          "updatedAt": "2026-07-23T12:01:40.789Z"
+        },
+        {
+          "aliases": [
+            "闭区间连续函数定理"
+          ],
+          "createdAt": "2026-07-23T12:01:47.842Z",
+          "createdBy": "ai",
+          "id": "kp_af0302da-3f33-4eba-af56-b6bd5d7ffb71",
+          "name": "闭区间连续函数的核心定理",
+          "updatedAt": "2026-07-23T12:01:47.842Z"
+        },
+        {
+          "aliases": [],
+          "createdAt": "2026-07-23T12:04:25.367Z",
+          "createdBy": "ai",
+          "id": "kp_7d1def75-a039-43b0-9886-1307c8011660",
+          "name": "函数对称性",
+          "updatedAt": "2026-07-23T12:04:25.367Z"
+        },
+        {
+          "aliases": [],
+          "createdAt": "2026-07-23T12:08:18.090Z",
+          "createdBy": "ai",
+          "id": "kp_9f383317-bb4d-45fe-b2b3-ae46f85bd718",
+          "name": "极值点与拐点",
+          "updatedAt": "2026-07-23T12:08:18.090Z"
+        },
+        {
+          "aliases": [],
+          "createdAt": "2026-07-23T12:14:01.424Z",
+          "createdBy": "ai",
+          "id": "kp_ca86378c-1b4f-47bc-ab9b-fe08848d8342",
+          "name": "曲率与曲率半径",
+          "updatedAt": "2026-07-23T12:14:01.424Z"
+        },
+        {
+          "aliases": [],
+          "createdAt": "2026-07-23T12:19:26.889Z",
+          "createdBy": "ai",
+          "id": "kp_5074d7d4-aba2-46bf-a781-e586d06d3a4e",
+          "name": "极坐标与直角坐标的转换",
+          "updatedAt": "2026-07-23T12:19:26.889Z"
+        },
+        {
+          "aliases": [],
+          "createdAt": "2026-07-23T12:20:58.079Z",
+          "createdBy": "ai",
+          "id": "kp_34bba9b5-24f1-4e0e-ba42-9e1afeef9e7f",
+          "name": "函数图像与渐近线分析",
+          "updatedAt": "2026-07-23T12:20:58.079Z"
+        },
+        {
+          "aliases": [
+            "导数应用",
+            "函数单调性"
+          ],
+          "createdAt": "2026-07-23T23:54:11.770Z",
+          "createdBy": "ai",
+          "id": "kp_885d0388-7aa6-4c5b-b507-8663c335e916",
+          "name": "导数与单调性",
+          "updatedAt": "2026-07-23T23:54:11.770Z"
+        },
+        {
+          "aliases": [
+            "构造函数",
+            "积分逆运算"
+          ],
+          "createdAt": "2026-07-23T23:54:40.693Z",
+          "createdBy": "ai",
+          "id": "kp_b1c6b018-e9f2-4b85-bed0-30600cfa46d4",
+          "name": "中值定理辅助函数构造",
+          "updatedAt": "2026-07-23T23:54:40.693Z"
+        }
+      ],
+      "name": "高等数学",
+      "updatedAt": "2026-07-23T23:54:40.693Z"
+    },
+    {
+      "aliases": [
+        "线代"
+      ],
+      "createdAt": "2026-07-17T11:55:31.062Z",
+      "createdBy": "user",
+      "id": "subject_f67a35bb-cdbb-47a8-8128-6d768aa18e4f",
+      "knowledgePoints": [],
+      "name": "线性代数",
+      "updatedAt": "2026-07-17T11:55:31.062Z"
+    },
+    {
+      "aliases": [
+        "概率"
+      ],
+      "createdAt": "2026-07-17T11:55:31.062Z",
+      "createdBy": "user",
+      "id": "subject_b21641a7-51ef-4380-a443-2516ec2a8bde",
+      "knowledgePoints": [],
+      "name": "概率论",
+      "updatedAt": "2026-07-17T11:55:31.062Z"
+    },
+    {
+      "aliases": [],
+      "createdAt": "2026-07-17T11:55:31.062Z",
+      "createdBy": "user",
+      "id": "subject_e9e16517-498a-4a1a-b467-404e3615af66",
+      "knowledgePoints": [],
+      "name": "数据结构",
+      "updatedAt": "2026-07-17T11:55:31.062Z"
+    },
+    {
+      "aliases": [
+        "组成原理",
+        "计组"
+      ],
+      "createdAt": "2026-07-17T11:55:31.062Z",
+      "createdBy": "user",
+      "id": "subject_85ddbe4a-e26d-4438-b154-4f8d5ba0ac88",
+      "knowledgePoints": [
+        {
+          "aliases": [
+            "流水线",
+            "指令执行时间"
+          ],
+          "createdAt": "2026-07-19T01:05:34.771Z",
+          "createdBy": "ai",
+          "id": "kp_2c7d9be3-59aa-42d1-9aab-1035625cfa22",
+          "name": "流水线技术",
+          "updatedAt": "2026-07-19T01:05:34.771Z"
+        },
+        {
+          "aliases": [
+            "地址映射",
+            "直接映射"
+          ],
+          "createdAt": "2026-07-19T01:05:45.638Z",
+          "createdBy": "ai",
+          "id": "kp_2a6c774f-324c-482b-8626-05fd51750468",
+          "name": "Cache 地址映射",
+          "updatedAt": "2026-07-19T01:05:45.638Z"
+        }
+      ],
+      "name": "计算机组成",
+      "updatedAt": "2026-07-19T01:05:45.638Z"
+    },
+    {
+      "aliases": [
+        "OS"
+      ],
+      "createdAt": "2026-07-17T11:55:31.062Z",
+      "createdBy": "user",
+      "id": "subject_fad96936-6340-4e35-b31c-64bf130ac560",
+      "knowledgePoints": [
+        {
+          "aliases": [],
+          "createdAt": "2026-07-18T12:40:51.813Z",
+          "createdBy": "user",
+          "id": "kp_03b29d98-6056-4ce1-bc65-a487f24fbfcb",
+          "name": "页面置换算法",
+          "updatedAt": "2026-07-18T12:40:51.813Z"
+        }
+      ],
+      "name": "操作系统",
+      "updatedAt": "2026-07-18T12:40:51.813Z"
+    },
+    {
+      "aliases": [
+        "计网",
+        "网络"
+      ],
+      "createdAt": "2026-07-17T11:55:31.062Z",
+      "createdBy": "user",
+      "id": "subject_fe83a942-84a1-452b-b9dc-ac99c85d7495",
+      "knowledgePoints": [],
+      "name": "计算机网络",
+      "updatedAt": "2026-07-17T11:55:31.062Z"
+    },
+    {
+      "aliases": [],
+      "createdAt": "2026-07-17T11:55:31.062Z",
+      "createdBy": "user",
+      "id": "subject_65d39e64-fbda-4f6a-8544-6d6b13a914eb",
+      "knowledgePoints": [
+        {
+          "aliases": [
+            "单词记忆"
+          ],
+          "createdAt": "2026-07-19T01:07:41.445Z",
+          "createdBy": "ai",
+          "id": "kp_5831c56a-940e-43c8-a43e-287dd737b52f",
+          "name": "核心词汇",
+          "updatedAt": "2026-07-19T01:07:41.445Z"
+        }
+      ],
+      "name": "英语",
+      "updatedAt": "2026-07-19T01:07:41.445Z"
+    },
+    {
+      "aliases": [
+        "默认",
+        "未分类"
+      ],
+      "createdAt": "2026-07-17T11:55:31.062Z",
+      "createdBy": "user",
+      "id": "subject_4fb7dd54-d7a8-430e-90b6-accca807f506",
+      "knowledgePoints": [
+        {
+          "aliases": [],
+          "createdAt": "2026-07-19T07:24:54.156Z",
+          "createdBy": "user",
+          "id": "kp_41728adb-c3df-48de-b355-a8341553fec5",
+          "name": "图像噪声与合成",
+          "updatedAt": "2026-07-19T07:24:54.156Z"
+        }
+      ],
+      "name": "默认文件夹",
+      "updatedAt": "2026-07-19T07:24:54.156Z"
+    },
+    {
+      "aliases": [
+        "考研政治",
+        "思想政治理论"
+      ],
+      "createdAt": "2026-07-21T05:22:03.896Z",
+      "createdBy": "user",
+      "id": "subject_15bf115b-aa1f-46dc-b725-4bea3f5fccb1",
+      "knowledgePoints": [],
+      "name": "政治",
+      "updatedAt": "2026-07-21T05:22:03.896Z"
+    }
+  ],
+  "updatedAt": "2026-07-24T00:01:17.347Z"
+}

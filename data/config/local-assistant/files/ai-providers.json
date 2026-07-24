@@ -1,0 +1,90 @@
+{
+  "providers": {
+    "gemini": {
+      "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+      "cloudUsable": true,
+      "enabled": true,
+      "id": "gemini",
+      "models": [
+        {
+          "capabilities": [
+            "text",
+            "vision",
+            "json",
+            "longContext"
+          ],
+          "costTier": 2,
+          "id": "gemini-3.5-flash",
+          "qualityTier": 2
+        }
+      ],
+      "secretRef": "GEMINI_API_KEY"
+    },
+    "kimi": {
+      "baseUrl": "https://api.moonshot.cn/v1",
+      "cloudUsable": true,
+      "enabled": true,
+      "id": "kimi",
+      "models": [
+        {
+          "capabilities": [
+            "text",
+            "vision",
+            "json",
+            "longContext",
+            "reasoning"
+          ],
+          "costTier": 2,
+          "id": "kimi-k3",
+          "qualityTier": 3
+        }
+      ],
+      "secretRef": "KIMI_API_KEY"
+    }
+  },
+  "routing": {
+    "circuitCooldownMs": 60000,
+    "circuitThreshold": 3,
+    "jsonRepairRetries": 1,
+    "networkRetries": 1,
+    "timeoutMs": 30000
+  },
+  "tasks": {
+    "canvas_organization": {
+      "fallback": false,
+      "modelId": "kimi-k3",
+      "options": {
+        "maxTokens": 16000,
+        "nodeSpacing": 40,
+        "reasoningMode": "balanced"
+      },
+      "providerId": "kimi",
+      "timeoutMs": 300000
+    },
+    "note_enrichment": {
+      "options": {
+        "maxItems": 5
+      }
+    },
+    "note_naming": {
+      "modelId": "qwen3-vl-plus",
+      "options": {
+        "titleMaxLength": 20
+      },
+      "providerId": "qwen"
+    },
+    "weekly_review_pdf": {
+      "enabled": false,
+      "options": {
+        "autoSync": false,
+        "groupSimilarTopics": false,
+        "includeOriginalImages": false,
+        "localOutputDir": "__LOCAL_PATH__",
+        "mergeSameQuestion": false,
+        "pullOnStartup": false,
+        "pushOnStartup": false,
+        "scheduleDay": "saturday"
+      }
+    }
+  }
+}

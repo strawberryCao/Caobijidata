@@ -1,27 +1,46 @@
 {
+  "configurationHash": "29786f89945c67258ac2123920be048e9a7c2a239e026543d1a83aec741f27ff",
+  "excludedByRule": [
+    "backup",
+    "runtime-state",
+    "user-data",
+    "unclassified"
+  ],
+  "files": [
+    {
+      "bytes": 1975,
+      "category": "agent-config",
+      "path": "ai-providers.json",
+      "sha256": "872b9d35a56aa4f7c99e5f6d1cd70a5d8cdb53461fff5c3012cd81bc1128d460"
+    },
+    {
+      "bytes": 1440,
+      "category": "ui-setting",
+      "path": "desktop-layout.json",
+      "sha256": "d27011f28e1d056962b01a81eceee991823fb0f0a8b5327c512316f9cc15a55c"
+    },
+    {
+      "bytes": 9495,
+      "category": "agent-config",
+      "path": "note-taxonomy.json",
+      "sha256": "262d8b43c7faf5d7d993bafe478ebf12b25f87c9046c936677b69d92a34f4aa7"
+    },
+    {
+      "bytes": 320,
+      "category": "agent-config",
+      "path": "qwen-config.json",
+      "sha256": "ea953be608734bb1bbccc5e7136ffe13c093dd4bb3f2f000bcb6760dde3cfa12"
+    }
+  ],
+  "includedFiles": 4,
+  "redaction": {
+    "localPaths": 1,
+    "localUrls": 0,
+    "redactedFields": 7,
+    "redactedValues": 0
+  },
+  "runtimeHash": "dee6d0ac0cd4cb9287530d874eeea0593668defb840e15947bc68a7c554b6ff1",
   "schemaVersion": 2,
   "sourceRoot": "__LOCAL_PATH__",
-  "generatedFromJsonFiles": 214,
-  "includedFiles": 4,
-  "excludedFiles": 210,
-  "categories": {
-    "agent-config": 3,
-    "ui-setting": 1,
-    "user-data": 42,
-    "runtime-state": 112,
-    "backup": 56
-  },
-  "redaction": {
-    "redactedFields": 0,
-    "redactedValues": 0,
-    "localPaths": 1,
-    "localUrls": 0
-  },
-  "runtimeHash": "cf4a0b7ef7e31489e30541652a000370d1cec87889be0b31d8df6149573374c6",
-  "files": [
-    { "path": "ai-providers.json", "category": "agent-config", "included": true },
-    { "path": "qwen-config.json", "category": "agent-config", "included": true },
-    { "path": "note-taxonomy.json", "category": "agent-config", "included": true },
-    { "path": "desktop-layout.json", "category": "ui-setting", "included": true }
-  ]
+  "workflowHash": "394b97b1698d2bea958685d30b541af0eeeaba2cf67258e35336d8758ba2726e"
 }
