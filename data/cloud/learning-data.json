@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 703,
-  "updatedAt": "2026-07-24T06:01:29.810Z",
+  "revision": 704,
+  "updatedAt": "2026-07-24T06:01:44.362Z",
   "days": {
     "2026-07-16": {
       "manual": {
@@ -4965,45 +4965,48 @@
       },
       "autoNotes": [
         {
-          "noteUid": "4253b577-b928-423f-b382-38daa8023fec",
+          "noteUid": "multi_failure_batch_2ac2ceb6-0f1a-4eba-8237-e89bad016f9b",
           "capturedDate": "2026-07-24",
-          "title": "拉格朗日中值定理应用条件",
-          "subject": "高等数学",
-          "remark": "6.8 错题\n1.端点无定义 连续性未知 不能直接用拉格朗日中值\n2.端点无定义 不能直接带入值 应当取区间内的点构造闭区间",
-          "createdAt": "2026-07-24T05:34:06.284Z",
-          "updatedAt": "2026-07-24T05:34:11.003Z",
-          "firstSyncedAt": "2026-07-24T05:34:06.327Z",
-          "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_拉格朗日中值定理应用条件_20260724_133406.png",
-          "pageRefs": [
-            {
-              "raw": "题\n1",
-              "question": "1"
-            }
-          ],
+          "title": "AI 自动裁剪失败，原图已保留到待确认。",
+          "subject": "默认文件夹",
+          "remark": "AI 自动裁剪失败，原图已保留到待确认。\n失败原因：Cloudflare 尚未配置 KIMI_API_KEY。\n请重新打开快速记图重试，或按单题模式手动裁剪后保存。",
+          "createdAt": "2026-07-24T06:00:56.763Z",
+          "updatedAt": "2026-07-24T06:00:56.763Z",
+          "firstSyncedAt": "2026-07-24T06:00:56.763Z",
+          "filePath": "github://data/assets/multi_failure_batch_2ac2ceb6-0f1a-4eba-8237-e89bad016f9b.jpg",
+          "pageRefs": [],
           "tags": [
-            "错题"
+            "AI自动裁剪失败",
+            "待确认"
           ],
           "knowledgePath": [
-            "高等数学"
+            "默认文件夹"
           ],
-          "noteType": "mistake",
+          "noteType": "note",
           "questionType": "",
           "wrongReason": "",
-          "organizationStatus": "confirmed",
-          "classificationSource": "ai",
-          "reviewStatus": "auto_applied",
+          "wrongReasonSource": "",
+          "wrongReasonConfidence": null,
+          "organizationStatus": "pending",
+          "classificationSource": "local",
+          "reviewStatus": "pending",
           "decisionRevision": 0,
           "lastReviewOperationId": "",
           "lastReviewAction": "",
-          "proposalId": "proposal-d5f413d7e17307c5da67",
+          "proposalId": "",
           "reviewedAt": "",
           "manualCreated": false,
-          "userEditedFields": [],
+          "userEditedFields": [
+            "remark"
+          ],
           "goodQuestion": null,
           "items": [],
           "studyNotes": [],
-          "confidence": 0,
-          "cardIds": []
+          "confidence": null,
+          "cardIds": [],
+          "sourceType": "ai-multi-question-failure",
+          "sourceBatchId": "batch_2ac2ceb6-0f1a-4eba-8237-e89bad016f9b",
+          "sourceSplitIndex": null
         },
         {
           "noteUid": "9569dc87-b13d-4e5d-884a-24098f5cf544",
@@ -5012,7 +5015,7 @@
           "subject": "高等数学",
           "remark": "6.8 错题\n1.端点无定义 连续性未知 不能直接用拉格朗日中值\n2.端点无定义 不能直接带入值 应当取区间内的点构造闭区间",
           "createdAt": "2026-07-24T03:38:50.859Z",
-          "updatedAt": "2026-07-24T03:40:19.931Z",
+          "updatedAt": "2026-07-24T05:57:49.216Z",
           "firstSyncedAt": "2026-07-24T03:38:50.898Z",
           "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_拉格朗日中值定理应用条件_20260724_113850.png",
           "pageRefs": [
@@ -5069,12 +5072,60 @@
               }
             }
           ],
-          "studyNotes": [],
+          "studyNotes": [
+            {
+              "id": "thought-49b5e2ac-e5f5-4694-a864-3d6a4fdc8748",
+              "text": "这也是一条结论：导函数在开区间内有界 原函数在对应区间内也有界",
+              "createdAt": "2026-07-24T05:57:49.216Z",
+              "updatedAt": "2026-07-24T05:57:49.216Z"
+            }
+          ],
           "confidence": 0.95,
           "cardIds": [
             "card-7d60630ecda8f4396f7c",
             "card-6a928d24f8dad1a469e1"
           ]
+        },
+        {
+          "noteUid": "4253b577-b928-423f-b382-38daa8023fec",
+          "capturedDate": "2026-07-24",
+          "title": "拉格朗日中值定理应用条件",
+          "subject": "高等数学",
+          "remark": "6.8 错题\n1.端点无定义 连续性未知 不能直接用拉格朗日中值\n2.端点无定义 不能直接带入值 应当取区间内的点构造闭区间",
+          "createdAt": "2026-07-24T05:34:06.284Z",
+          "updatedAt": "2026-07-24T05:34:11.003Z",
+          "firstSyncedAt": "2026-07-24T05:34:06.327Z",
+          "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_拉格朗日中值定理应用条件_20260724_133406.png",
+          "pageRefs": [
+            {
+              "raw": "题\n1",
+              "question": "1"
+            }
+          ],
+          "tags": [
+            "错题"
+          ],
+          "knowledgePath": [
+            "高等数学"
+          ],
+          "noteType": "mistake",
+          "questionType": "",
+          "wrongReason": "",
+          "organizationStatus": "confirmed",
+          "classificationSource": "ai",
+          "reviewStatus": "auto_applied",
+          "decisionRevision": 0,
+          "lastReviewOperationId": "",
+          "lastReviewAction": "",
+          "proposalId": "proposal-d5f413d7e17307c5da67",
+          "reviewedAt": "",
+          "manualCreated": false,
+          "userEditedFields": [],
+          "goodQuestion": null,
+          "items": [],
+          "studyNotes": [],
+          "confidence": 0,
+          "cardIds": []
         },
         {
           "noteUid": "eaa1343e-6947-462e-b489-1335173aa28a",
@@ -5238,50 +5289,6 @@
           ],
           "confidence": 0,
           "cardIds": []
-        },
-        {
-          "noteUid": "multi_failure_batch_2ac2ceb6-0f1a-4eba-8237-e89bad016f9b",
-          "capturedDate": "2026-07-24",
-          "title": "AI 自动裁剪失败，原图已保留到待确认。",
-          "subject": "默认文件夹",
-          "remark": "AI 自动裁剪失败，原图已保留到待确认。\n失败原因：Cloudflare 尚未配置 KIMI_API_KEY。\n请重新打开快速记图重试，或按单题模式手动裁剪后保存。",
-          "createdAt": "2026-07-24T06:00:56.763Z",
-          "updatedAt": "2026-07-24T06:00:56.763Z",
-          "firstSyncedAt": "2026-07-24T06:00:56.763Z",
-          "filePath": "github://data/assets/multi_failure_batch_2ac2ceb6-0f1a-4eba-8237-e89bad016f9b.jpg",
-          "pageRefs": [],
-          "tags": [
-            "AI自动裁剪失败",
-            "待确认"
-          ],
-          "knowledgePath": [
-            "默认文件夹"
-          ],
-          "noteType": "note",
-          "questionType": "",
-          "wrongReason": "",
-          "wrongReasonSource": "",
-          "wrongReasonConfidence": null,
-          "organizationStatus": "pending",
-          "classificationSource": "local",
-          "reviewStatus": "pending",
-          "decisionRevision": 0,
-          "lastReviewOperationId": "",
-          "lastReviewAction": "",
-          "proposalId": "",
-          "reviewedAt": "",
-          "manualCreated": false,
-          "userEditedFields": [
-            "remark"
-          ],
-          "goodQuestion": null,
-          "items": [],
-          "studyNotes": [],
-          "confidence": null,
-          "cardIds": [],
-          "sourceType": "ai-multi-question-failure",
-          "sourceBatchId": "batch_2ac2ceb6-0f1a-4eba-8237-e89bad016f9b",
-          "sourceSplitIndex": null
         }
       ]
     }
