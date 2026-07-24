@@ -1,0 +1,32 @@
+{
+  "scope": "save-note",
+  "operationId": "multi_failure_batch_2ac2ceb6-0f1a-4eba-8237-e89bad016f9b",
+  "entityId": "multi_failure_batch_2ac2ceb6-0f1a-4eba-8237-e89bad016f9b",
+  "requestHash": "7839b9547f99ed3e4b7e7313739f9e756f7e4a94c05ae762de4244a28b5b5115",
+  "result": {
+    "ok": true,
+    "noteUid": "multi_failure_batch_2ac2ceb6-0f1a-4eba-8237-e89bad016f9b",
+    "filePath": "github://data/assets/multi_failure_batch_2ac2ceb6-0f1a-4eba-8237-e89bad016f9b.jpg",
+    "fileName": "multi_failure_batch_2ac2ceb6-0f1a-4eba-8237-e89bad016f9b.jpg",
+    "sourceMirrorPath": "source-notes/默认文件夹/multi_failure_batch_2ac2ceb6-0f1a-4eba-8237-e89bad016f9b.jpg",
+    "metadata": {
+      "noteUid": "multi_failure_batch_2ac2ceb6-0f1a-4eba-8237-e89bad016f9b",
+      "sourceType": "ai-multi-question-failure",
+      "sourceBatchId": "batch_2ac2ceb6-0f1a-4eba-8237-e89bad016f9b",
+      "sourceSplitIndex": null,
+      "learning": {
+        "tags": [
+          "AI自动裁剪失败",
+          "待确认"
+        ],
+        "noteType": "note"
+      }
+    },
+    "learningSyncError": null,
+    "aiStatus": "unavailable",
+    "aiAvailable": false,
+    "provisional": false,
+    "idempotentReplay": false
+  },
+  "createdAt": "2026-07-24T06:01:04.642Z"
+}
