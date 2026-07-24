@@ -1,0 +1,37 @@
+{
+    "schemaVersion":  2,
+    "id":  "eaa1343e-6947-462e-b489-1335173aa28a",
+    "noteUid":  "eaa1343e-6947-462e-b489-1335173aa28a",
+    "kind":  "single",
+    "subject":  "普通笔记",
+    "requestedSubject":  "普通笔记",
+    "title":  "图片笔记",
+    "remark":  "",
+    "fileName":  "图片笔记_eaa1343e.jpg",
+    "filePath":  "普通笔记/图片笔记_eaa1343e.jpg",
+    "createdAt":  "2026-07-24T02:07:08.5260000Z",
+    "updatedAt":  "2026-07-24T02:11:44.3056857Z",
+    "source":  {
+                   "type":  "single-capture",
+                   "batchId":  "",
+                   "splitIndex":  null,
+                   "origin":  "cloudflare"
+               },
+    "learning":  {
+                     "capturedDate":  "2026-07-24",
+                     "title":  "图片笔记",
+                     "subject":  "普通笔记",
+                     "remark":  "",
+                     "tags":  [
+
+                              ],
+                     "noteType":  "note",
+                     "sourceType":  "single-capture",
+                     "sourceBatchId":  "",
+                     "sourceSplitIndex":  null,
+                     "organizationStatus":  "confirmed",
+                     "classificationSource":  "local",
+                     "reviewStatus":  "auto_applied",
+                     "decisionRevision":  0
+                 }
+}
