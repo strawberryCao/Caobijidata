@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "noteUid": "44ce4e6a-710f-42bd-83aa-960ec9da92e5",
+  "id": "高等数学_罗尔定理与导数方程根_20260724_085152",
+  "kind": "canvas",
+  "canvasProjectId": "document_1784711741592_64ae463db20a58",
+  "subject": "高等数学",
+  "requestedSubject": "默认文件夹",
+  "title": "罗尔定理与导数方程根",
+  "remark": "错题 6.7 好题 喵喵喵",
+  "createdAt": "2026-07-24T00:51:52.664Z",
+  "captureDate": "2026-07-24",
+  "fileName": "高等数学_罗尔定理与导数方程根_20260724_085152.png",
+  "filePath": "C:\\Users\\ASUS\\Desktop\\笔记\\高等数学\\高等数学_罗尔定理与导数方程根_20260724_085152.png",
+  "mime": "image/png",
+  "extracted": {
+    "parserVersion": 1,
+    "pages": [],
+    "pageRefs": [],
+    "questions": [
+      "6.7"
+    ],
+    "questionRefs": [
+      {
+        "raw": "题 6.7",
+        "number": "6.7"
+      }
+    ],
+    "explicitTags": [],
+    "inferredTags": [
+      "错题",
+      "经典"
+    ],
+    "flags": {
+      "isMistake": true,
+      "isClassic": true,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "wrongReasons": [],
+    "cautions": [],
+    "sources": []
+  },
+  "learning": {
+    "noteUid": "44ce4e6a-710f-42bd-83aa-960ec9da92e5",
+    "capturedDate": "2026-07-24",
+    "title": "罗尔定理与导数方程根",
+    "subject": "高等数学",
+    "pageRefs": [
+      {
+        "raw": "题 6.7",
+        "question": "6.7"
+      }
+    ],
+    "questions": [
+      "6.7"
+    ],
+    "tags": [
+      "错题",
+      "经典",
+      "好题"
+    ],
+    "knowledgePath": [
+      "高等数学"
+    ],
+    "noteType": "mistake",
+    "wrongReason": "",
+    "intent": {
+      "isQuestion": true,
+      "isMistake": true,
+      "isGood": true,
+      "shouldMemorize": false
+    },
+    "cards": [],
+    "organizationStatus": "confirmed",
+    "classificationSource": "ai",
+    "reviewStatus": "auto_applied",
+    "decisionRevision": 0,
+    "proposalId": "proposal-ad1c74b935f79c3cce06",
+    "flags": {
+      "isMistake": true,
+      "isClassic": true,
+      "shouldMemorize": false,
+      "needsReview": false
+    },
+    "pendingAiOrganization": false
+  },
+  "naming": {
+    "status": "complete",
+    "provider": "qwen",
+    "model": "qwen3-vl-plus",
+    "reason": "图片核心为利用罗尔定理证明含f(x)f''(x)+[f'(x)]²=0的方程在(0,1)内至少有两个不同实根，属高等数学中微分中值定理典型应用",
+    "error": null,
+    "requestedAt": "2026-07-24T00:51:52.664Z",
+    "ruleId": null,
+    "ruleName": null,
+    "ruleValue": null,
+    "ruleEvidence": null,
+    "completedAt": "2026-07-24T00:51:58.302Z"
+  },
+  "classifier": {
+    "status": "named",
+    "provider": "qwen",
+    "scheduledAt": "every_72_hours"
+  },
+  "updatedAt": "2026-07-24T00:51:58.302Z"
+}
