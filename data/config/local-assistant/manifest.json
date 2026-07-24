@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "sourceRoot": "__LOCAL_PATH__",
+  "generatedFromJsonFiles": 214,
+  "includedFiles": 4,
+  "excludedFiles": 210,
+  "categories": {
+    "agent-config": 3,
+    "ui-setting": 1,
+    "user-data": 42,
+    "runtime-state": 112,
+    "backup": 56
+  },
+  "redaction": {
+    "redactedFields": 0,
+    "redactedValues": 0,
+    "localPaths": 1,
+    "localUrls": 0
+  },
+  "runtimeHash": "cf4a0b7ef7e31489e30541652a000370d1cec87889be0b31d8df6149573374c6",
+  "files": [
+    { "path": "ai-providers.json", "category": "agent-config", "included": true },
+    { "path": "qwen-config.json", "category": "agent-config", "included": true },
+    { "path": "note-taxonomy.json", "category": "agent-config", "included": true },
+    { "path": "desktop-layout.json", "category": "ui-setting", "included": true }
+  ]
+}
