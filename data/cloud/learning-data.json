@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 19,
-  "updatedAt": "2026-07-24T00:19:24.494Z",
+  "revision": 20,
+  "updatedAt": "2026-07-24T00:54:26.101Z",
   "days": {
     "2026-07-21": {
       "manual": {
@@ -4657,6 +4657,53 @@
             "remark"
           ],
           "goodQuestion": false,
+          "items": [],
+          "studyNotes": [],
+          "confidence": null,
+          "cardIds": []
+        },
+        {
+          "noteUid": "44ce4e6a-710f-42bd-83aa-960ec9da92e5",
+          "capturedDate": "2026-07-24",
+          "title": "罗尔定理与导数方程根",
+          "subject": "高等数学",
+          "remark": "错题 6.7 好题 喵喵喵",
+          "createdAt": "2026-07-24T00:51:52.664Z",
+          "updatedAt": "2026-07-24T00:51:58.302Z",
+          "firstSyncedAt": "2026-07-24T00:54:26.097Z",
+          "filePath": "github://data/assets/44ce4e6a-710f-42bd-83aa-960ec9da92e5.png",
+          "pageRefs": [
+            {
+              "raw": "题 6.7",
+              "question": "6.7"
+            }
+          ],
+          "tags": [
+            "错题",
+            "经典",
+            "好题"
+          ],
+          "knowledgePath": [
+            "高等数学"
+          ],
+          "noteType": "mistake",
+          "questionType": "",
+          "wrongReason": "",
+          "wrongReasonSource": "",
+          "wrongReasonConfidence": null,
+          "organizationStatus": "confirmed",
+          "classificationSource": "ai",
+          "reviewStatus": "auto_applied",
+          "decisionRevision": 0,
+          "lastReviewOperationId": "",
+          "lastReviewAction": "",
+          "proposalId": "",
+          "reviewedAt": "",
+          "manualCreated": false,
+          "userEditedFields": [
+            "remark"
+          ],
+          "goodQuestion": true,
           "items": [],
           "studyNotes": [],
           "confidence": null,
