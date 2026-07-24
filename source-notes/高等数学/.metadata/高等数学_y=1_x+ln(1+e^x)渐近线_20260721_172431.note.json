@@ -5,7 +5,7 @@
   "kind": "single",
   "subject": "高等数学",
   "requestedSubject": "默认文件夹",
-  "title": "y=1_x+ln(1+e^x)渐近线",
+  "title": "求曲线渐近线",
   "remark": "好题 5.9\n三种渐近线都有 然后还有一个不错的极限处理：不跳步求ln(1+e^x) x取正无穷 结果为正无穷",
   "createdAt": "2026-07-21T09:24:31.494Z",
   "captureDate": "2026-07-21",
@@ -42,7 +42,7 @@
   "learning": {
     "noteUid": "164a91ac-5ad5-4a7d-a4bd-6372b19428fa",
     "capturedDate": "2026-07-21",
-    "title": "y=1_x+ln(1+e^x)渐近线",
+    "title": "求曲线渐近线",
     "subject": "高等数学",
     "pageRefs": [
       {
@@ -55,13 +55,14 @@
     ],
     "tags": [
       "经典",
-      "好题"
+      "题型:计算题"
     ],
     "knowledgePath": [
-      "高等数学"
+      "高等数学",
+      "函数图像与渐近线分析"
     ],
     "noteType": "question",
-    "wrongReason": "",
+    "wrongReason": null,
     "intent": {
       "isQuestion": true,
       "isMistake": false,
@@ -77,7 +78,32 @@
       "shouldMemorize": false,
       "needsReview": false
     },
-    "pendingAiOrganization": false
+    "pendingAiOrganization": false,
+    "questionType": "计算题",
+    "reviewStatus": "auto_applied",
+    "decisionRevision": 0,
+    "proposalId": "proposal-18e5723fe1d1e221b763",
+    "items": [
+      {
+        "title": "求曲线渐近线",
+        "knowledgePoint": "函数图像与渐近线分析",
+        "questionType": "计算题",
+        "summary": "求解函数 $ y = \\frac{1}{x} + ext{ln}(1 + e^x) $ 的渐近线。需分别考察 $ x o 0 $、$ x o + ext{∞} $ 和 $ x o - ext{∞} $ 时的极限行为,判断是否存在垂直、水平或斜渐近线。",
+        "tags": [
+          "经典",
+          "好题"
+        ],
+        "wrongReason": null,
+        "intent": {
+          "isQuestion": true,
+          "isMistake": false,
+          "isGood": true,
+          "shouldMemorize": false
+        }
+      }
+    ],
+    "confidence": 0.95,
+    "enrichedAt": "2026-07-24T00:00:38.236Z"
   },
   "naming": {
     "status": "complete",
@@ -102,8 +128,82 @@
     "version": 1,
     "inputHash": "d3fbd7573400093c4f5ecc679afc11536d99f97860bd333d459e83909db8b939",
     "analyzerVersion": "note-ai-analyzer-v3",
-    "status": "failed",
-    "attemptedAt": "2026-07-23T12:20:48.177Z",
-    "error": "所有可用 AI 均调用失败（gemini/gemini-3.5-flash：AI 网络请求失败）"
+    "status": "organized",
+    "processedAt": "2026-07-24T00:00:38.235Z",
+    "confidence": 0.95,
+    "provider": "qwen",
+    "model": "qwen-vl-plus",
+    "reason": "图片内容为一道明确的高等数学渐近线计算题,备注中明确标注为“好题”,符合经典题特征,无需记忆卡片。科目判断准确,分类可靠。",
+    "summary": "本题要求计算函数 $ y = \\frac{1}{x} + ext{ln}(1 + e^x) $ 的所有渐近线,包括水平、垂直和斜渐近线。通过极限分析可得:当 $ x o 0 $ 时存在垂直渐近线;当 $ x o + ext{∞} $ 和 $ x o - ext{∞} $ 时分别存在斜渐近线。",
+    "questionType": "计算题",
+    "wrongReason": null,
+    "memoryCard": null,
+    "intent": {
+      "isQuestion": true,
+      "isMistake": false,
+      "isGood": true,
+      "shouldMemorize": false
+    },
+    "items": [
+      {
+        "title": "求曲线渐近线",
+        "knowledgePoint": "函数图像与渐近线分析",
+        "questionType": "计算题",
+        "summary": "求解函数 $ y = \\frac{1}{x} + ext{ln}(1 + e^x) $ 的渐近线。需分别考察 $ x o 0 $、$ x o + ext{∞} $ 和 $ x o - ext{∞} $ 时的极限行为,判断是否存在垂直、水平或斜渐近线。",
+        "tags": [
+          "经典",
+          "好题"
+        ],
+        "wrongReason": null,
+        "intent": {
+          "isQuestion": true,
+          "isMistake": false,
+          "isGood": true,
+          "shouldMemorize": false
+        }
+      }
+    ],
+    "subjectPolicy": {
+      "requested": "高等数学",
+      "resolved": "高等数学",
+      "reason": "direct"
+    },
+    "proposed": null,
+    "learningSyncStatus": "synced",
+    "learningSyncedAt": "2026-07-24T00:00:38.279Z"
+  },
+  "questionType": "计算题",
+  "tags": {
+    "manual": [],
+    "explicit": [],
+    "inferred": [
+      "经典",
+      "题型:计算题"
+    ]
+  },
+  "items": [
+    {
+      "title": "求曲线渐近线",
+      "knowledgePoint": "函数图像与渐近线分析",
+      "questionType": "计算题",
+      "summary": "求解函数 $ y = \\frac{1}{x} + ext{ln}(1 + e^x) $ 的渐近线。需分别考察 $ x o 0 $、$ x o + ext{∞} $ 和 $ x o - ext{∞} $ 时的极限行为,判断是否存在垂直、水平或斜渐近线。",
+      "tags": [
+        "经典",
+        "好题"
+      ],
+      "wrongReason": null,
+      "intent": {
+        "isQuestion": true,
+        "isMistake": false,
+        "isGood": true,
+        "shouldMemorize": false
+      }
+    }
+  ],
+  "classification": {
+    "subjectId": "subject_e39db340-a48f-428e-9e05-da9ddaf9543c",
+    "subjectName": "高等数学",
+    "knowledgePointId": "kp_34bba9b5-24f1-4e0e-ba42-9e1afeef9e7f",
+    "knowledgePointName": "函数图像与渐近线分析"
   }
 }
