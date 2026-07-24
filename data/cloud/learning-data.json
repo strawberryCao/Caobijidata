@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "revision": 18,
-  "updatedAt": "2026-07-23T15:01:28.535Z",
+  "revision": 19,
+  "updatedAt": "2026-07-24T00:19:24.494Z",
   "days": {
     "2026-07-21": {
       "manual": {
@@ -4610,6 +4610,56 @@
           "items": [],
           "studyNotes": [],
           "confidence": 0.1,
+          "cardIds": []
+        }
+      ]
+    },
+    "2026-07-24": {
+      "manual": {
+        "completedTaskIds": [],
+        "note": "",
+        "debt": "",
+        "mistakes": ""
+      },
+      "autoNotes": [
+        {
+          "noteUid": "305e14bf-f12f-4288-aa48-9438f7a2003b",
+          "capturedDate": "2026-07-24",
+          "title": "罗尔定理与二阶导零点存在性",
+          "subject": "高等数学",
+          "remark": "6.6 错题 完全没想到构成fx-y1\n但是细想一下也是ok的 因为有3个交点 两个函数的交点的差值为0 那么就得到了3个都为0的点 那么就好做了",
+          "createdAt": "2026-07-24T00:17:20.379Z",
+          "updatedAt": "2026-07-24T00:17:24.442Z",
+          "firstSyncedAt": "2026-07-24T00:19:24.490Z",
+          "filePath": "github://data/assets/305e14bf-f12f-4288-aa48-9438f7a2003b.png",
+          "pageRefs": [],
+          "tags": [
+            "错题"
+          ],
+          "knowledgePath": [
+            "高等数学"
+          ],
+          "noteType": "mistake",
+          "questionType": "",
+          "wrongReason": "",
+          "wrongReasonSource": "",
+          "wrongReasonConfidence": null,
+          "organizationStatus": "confirmed",
+          "classificationSource": "ai",
+          "reviewStatus": "auto_applied",
+          "decisionRevision": 0,
+          "lastReviewOperationId": "",
+          "lastReviewAction": "",
+          "proposalId": "",
+          "reviewedAt": "",
+          "manualCreated": false,
+          "userEditedFields": [
+            "remark"
+          ],
+          "goodQuestion": false,
+          "items": [],
+          "studyNotes": [],
+          "confidence": null,
           "cardIds": []
         }
       ]
