@@ -1,0 +1,29 @@
+{
+  "scope": "save-note",
+  "operationId": "eaa1343e-6947-462e-b489-1335173aa28a",
+  "entityId": "eaa1343e-6947-462e-b489-1335173aa28a",
+  "requestHash": "45406f95760f84cd7838a72b0489097abef8f05d363ea7f81ebd5e7bdaedaaa8",
+  "result": {
+    "ok": true,
+    "noteUid": "eaa1343e-6947-462e-b489-1335173aa28a",
+    "filePath": "github://data/assets/eaa1343e-6947-462e-b489-1335173aa28a.jpg",
+    "fileName": "eaa1343e-6947-462e-b489-1335173aa28a.jpg",
+    "sourceMirrorPath": "source-notes/普通笔记/eaa1343e-6947-462e-b489-1335173aa28a.jpg",
+    "metadata": {
+      "noteUid": "eaa1343e-6947-462e-b489-1335173aa28a",
+      "sourceType": "single-capture",
+      "sourceBatchId": "",
+      "sourceSplitIndex": null,
+      "learning": {
+        "tags": [],
+        "noteType": "note"
+      }
+    },
+    "learningSyncError": null,
+    "aiStatus": "unavailable",
+    "aiAvailable": false,
+    "provisional": false,
+    "idempotentReplay": false
+  },
+  "createdAt": "2026-07-24T02:07:26.082Z"
+}
