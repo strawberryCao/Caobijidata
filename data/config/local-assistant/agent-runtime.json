@@ -94,9 +94,9 @@
   "schemaVersion": 2,
   "source": {
     "assistantRoot": "__LOCAL_PATH__",
-    "configurationHash": "29786f89945c67258ac2123920be048e9a7c2a239e026543d1a83aec741f27ff",
+    "configurationHash": "34ac0074814d28150a62a3b050540279fa404299f5282b5c59157e3cedef4994",
     "updatedAt": null,
-    "workflowHash": "394b97b1698d2bea958685d30b541af0eeeaba2cf67258e35336d8758ba2726e",
+    "workflowHash": "44ada4547a9cbdb3999c7aed68216bc6f3ddbb52e827831fb01e93b4f4c37303",
     "workflowSources": [
       {
         "bytes": 67120,
@@ -896,13 +896,14 @@
         "difficulty": "medium"
       },
       "settings": {
+        "difficulty": "high",
         "options": {
           "edgePaddingPercent": 1.2,
           "includeDiagram": true,
           "includeOptions": true,
           "includeQuestionNumber": true,
-          "maxQuestions": 24,
-          "maxTokens": 1600,
+          "maxQuestions": 12,
+          "maxTokens": 3200,
           "minimumRegionPercent": 3.5
         }
       }

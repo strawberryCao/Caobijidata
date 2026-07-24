@@ -73,6 +73,13 @@
       },
       "providerId": "qwen"
     },
+    "question_splitting": {
+      "difficulty": "high",
+      "options": {
+        "maxQuestions": 12,
+        "maxTokens": 3200
+      }
+    },
     "weekly_review_pdf": {
       "enabled": false,
       "options": {

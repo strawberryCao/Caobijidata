@@ -1,5 +1,5 @@
 {
-  "configurationHash": "29786f89945c67258ac2123920be048e9a7c2a239e026543d1a83aec741f27ff",
+  "configurationHash": "34ac0074814d28150a62a3b050540279fa404299f5282b5c59157e3cedef4994",
   "excludedByRule": [
     "backup",
     "runtime-state",
@@ -8,10 +8,10 @@
   ],
   "files": [
     {
-      "bytes": 1975,
+      "bytes": 2119,
       "category": "agent-config",
       "path": "ai-providers.json",
-      "sha256": "872b9d35a56aa4f7c99e5f6d1cd70a5d8cdb53461fff5c3012cd81bc1128d460"
+      "sha256": "888e4526326cfff9226f19c6f1323f21b13895bda274b9f0dce54cc8dd93f2df"
     },
     {
       "bytes": 1440,
@@ -39,8 +39,8 @@
     "redactedFields": 7,
     "redactedValues": 0
   },
-  "runtimeHash": "dee6d0ac0cd4cb9287530d874eeea0593668defb840e15947bc68a7c554b6ff1",
+  "runtimeHash": "d331d6438b692f3b3dfd84acb7096f4b0c4e195698f11d13212faf06a731c879",
   "schemaVersion": 2,
   "sourceRoot": "__LOCAL_PATH__",
-  "workflowHash": "394b97b1698d2bea958685d30b541af0eeeaba2cf67258e35336d8758ba2726e"
+  "workflowHash": "44ada4547a9cbdb3999c7aed68216bc6f3ddbb52e827831fb01e93b4f4c37303"
 }
